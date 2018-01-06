@@ -41,6 +41,7 @@ Answer   (nshrivastava2-stat6250):Final exam has multiple question tentatively v
 Question (nshrivastava2-stat6250):How can one earn A in STAT 6250?
 Answer   (nshrivastava2-stat6250):BY achiving Reading for Breadth, Building General Knowledge,Team-based Problem-Solving Achievement,Initial Setup,Reading for Depth recipes without any slipage in submision byt attaining Level 5.
 
+
 **[Course Structure Quiz, Problem 7]**
 
 Question (nshrivastava2-stat6250):What can be Does and Don’t for the weekly submissions?
