@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-
+- Answer (ldeng11−stat6250): Typically, people abbreviate the word "repository" as "repo" when they use the version control system like Git 
 
 
 [Course Structure Quiz, Problem 2]
@@ -29,7 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-
+- Answer (ldeng11−stat6250): Both. It is set to earn the Reading for Depth Achievement by complete at least 8 of 10 weekly quizzes, to let the student could have time to deal with their stressful studies and schedules, and also to make sure the students who enroll late could catch up with the course.
 
 
 [Course Structure Quiz, Problem 4]
@@ -56,7 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-
+- Answer (ldeng11−stat6250): Both. People make mistakes, that is why ofen time we need the review process. The student can get extra credit by catching mistakes because it could demostrate that the student has read the materials carefully, and understand what are the class materials talking about.
 
 
 [Course Structure Quiz, Problem 9]
@@ -72,7 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-
+- Answer (ldeng11−stat6250): Yes, SAS could print the output into a file and save it to the hard drive.
 
 
 [fizz-buzz Week 1 SAS Recipe]
