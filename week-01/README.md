@@ -80,4 +80,52 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos−stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock. 
 
 
+Question [Course Structure 1](lceballos-stat6250): What is required to get the Initial Setup Achievement?
+Answer [Course Structure 1](lceballos-stat6250): Signing up for the course Slack team, signing up for GitHub, following the full instructions for the GitHub hello-world tutorial, posting the URL for your hello-world repo in the appropriate Slack channel, and posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel.
+
+Question [Course Structure 2](lceballos-stat6250): How many forum posts are scheduled?
+Answer [Course Structure 2](lceballos-stat6250): There will tentatively be 10 Weekly Forum Posts, with 8 of 10 posts needing to be completed to earn the Reading for Breadth Achievement in the course.
+
+Question [Course Structure 3](lceballos-stat6250): What is required to get the Reading for Depth Acheivement?
+Answer [Course Structure 3](lceballos-stat6250): Should successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates
+
+Question [Course Structure 4](lceballos-stat6250):In order to get the Team-based Problem Solving what is required?
+Answer [Course Structure 4](lceballos-stat6250): Time is to be invested daily! Collaboration with other students in completing Team Project 1 Instructions and Team Project 2 Instructions handouts. All steps in each project must be completed.
+
+Question [Course Structure 5](lceballos-stat6250): What does the final exam entail?
+Answer [Course Structure 5](lceballos-stat6250): The Final Exam will tentatively consist of 65 multiple-choice questions highly with a time limit of 110 minutes and 70% percent or higher required to earn the Building General Knowledge Achievement achievement in the course.
+
+Question [Course Structure 6](lceballos-stat6250): What is required to get an A in this course?
+Answer [Course Structure 6](lceballos-stat6250): ALL FIVE achievements must be earned: 	
+Reading for Breadth, Initial Setup, Team- based Problem Solving, Reading for Depth and Building General Knowledge achievements must be earned. 
+
+Question [Course Structure 7](lceballos-stat6250): Will late work be acceptable?
+Answer [Course Structure 7](lceballos-stat6250): Late submissions can't  be counted toward course grades, and  incomplete submissions can be eligible for resubmission at the instructor's discretion.
+
+Question [Course Structure 8](lceballos-stat6250): Are there any extra credit opportunities?
+Answer [Course Structure 8](lceballos-stat6250): The instructor gives extra credit for pointing out typos in course materials, substantive suggestions for improving clarity in course materials and contributions to the Course Questions Wiki after the Week 10 Quiz deadline.
+
+Question [Course Structure 9](lceballos-stat6250): What is the best way to contact the instructor?
+Answer [Course Structure 9](lceballos-stat6250): Slack
+
+Question [Course Structure 10](lceballos-stat6250): What technology is used in this course?
+Answer [Course Structure 10](lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
+
+Question [Recipe 1](lceballos-stat6250): What types are steps are used in SAS?
+Answer [Recipe 1](lceballos-stat6250): DATA step and a PROC step
+
+Question [Recipe 2](lceballos-stat6250): How do you do a for loop in SAS?
+Answer [Recipe 2](lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
+
+Question (ilankham-stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
+
+Question (ilankham-stat6250): What's a good way to learn the material?
+Answer (lceballos-stat6250): Adapt a hacker mindset, meaning, learn from mistakes and embrace challenges.
+
+
+
+
+
+
 
