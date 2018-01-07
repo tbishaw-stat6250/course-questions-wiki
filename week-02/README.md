@@ -1,4 +1,3 @@
-
 ## Week 2 Quiz Questions and Answers
 
 In order to prepare your Week 2 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -18,11 +17,13 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-
+- *Question* (ldai4-stat6250): What is a SAS data set?
+- *Answer* (ldai4-stat6250): A SAS data set is a data file that is formatted in a way that SAS can understand.
 
 
 [Course Textbook Chapter 1, Problem 2]
-
+- *Question* (ldai4-stat6250): what two steps can be in most SAS programs?
+- *Answer*  (ldai4-stat6250): A SAS program can consist of a DATA step or a PROC step or any combination of DATA and PROC step>
 
 
 [Course Textbook Chapter 1, Problem 3]
