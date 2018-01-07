@@ -33,7 +33,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Structure Quiz, Problem 4]
-- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
+- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 
 
