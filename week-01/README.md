@@ -1,62 +1,96 @@
 ## Week 1 Quiz Questions and Answers
 
+In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
+
+All edits should conform to GitHub Markdown specifications (https://guides.github.com/features/mastering-markdown/) and should be committed to a branch named "week-1" in your fork of this repo. Then, after all edits have been made/committed, your Week 1 Quiz should be submitted by initiating a pull request using
+
+- the master branch of the stat6250/course_questions_wiki repo as the base fork and
+
+- the week-1 branch of your version of the repo as the head fork.
+
+The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
+
+
+
+********************************************************************************
+
+
+
 [Course Structure Quiz, Problem 1]
+- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - *Question* (cli19−stat6250): What are the benefits of using Slack over other messaging/communication applications?
 
 
 
 [Course Structure Quiz, Problem 2]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 - *Question* (cli19−stat6250): How will posting weekly forums add to our professional and academic success?
 - *Answer* (cli19−stat6250): Posting weekly forums on news and applied concepts will urge students to get into the habit of staying current with developments and enhancements to programming tools and methodologies. It will also help foster students' ability to think critically.
 
 
 
 [Course Structure Quiz, Problem 3]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - *Question* (cli19−stat6250): What is the main goal for accomplishing weekly quizzes?
 
 
 
 [Course Structure Quiz, Problem 4]
+- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
+- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 - *Question* (cli19−stat6250): How will collaboration for team-based projects work? Will each person be responsible for one discrete step?
 
 
 
 [Course Structure Quiz, Problem 5]
+- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
+- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - *Question* (cli19−stat6250): What is the best method of preparation for the final exam?
 - *Answer* (cli19−stat6250): The best way to prepare for the final exam is to review the course textbook, review weekly quizzes and be able to provide explanations for answers, and reference GitHub to review concepts used.
 
 
+
 [Course Structure Quiz, Problem 6]
+- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - *Question* (cli19−stat6250): If there is a particular achievement we struggle with, are there opportunities to hone this skill and to improve our grade?
 
 
 
 [Course Structure Quiz, Problem 7]
+- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - *Question* (cli19−stat6250): What additional sources or references can we use to ensure our assignment submissions are sufficient?
 
 
 
 [Course Structure Quiz, Problem 8]
+- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - *Question* (cli19−stat6250): Why are contributions to the Course Questions Wiki after Week 10 merit extra credit?
 
 
 
 [Course Structure Quiz, Problem 9]
+- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
+- Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 - *Question* (cli19−stat6250): How long does it generally take to receive a reply after sending a direct message through Slack in the evening?
 
 
 
 [Course Structure Quiz, Problem 10]
+- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 - *Question* (cli19−stat6250): In the case where it is not possible to check each tool on a daily basis, is there a way to get brief notifications for any updates we should be aware?
 
 
 
 [hello-world Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 - *Question* (cli19−stat6250): Are there other methods of printing notes/messages to the log? Or can put only reside in a data step?
 - *Answer* (cli19−stat6250): Yes. Another statement that is useful for debugging code is %put to write text string and what macro variable resolve to.
 
 
+
 [fizz-buzz Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - *Question* (cli19−stat6250): Is there a way in SAS to view all/other the built-in functions available for us to use?
 
 
