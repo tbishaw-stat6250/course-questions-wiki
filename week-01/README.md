@@ -18,18 +18,19 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-
+- Question (mresendiz3-stat6250): Isn't it more common to abbreviate the word "repossess" as "repo"?
 
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+- Question (mresendiz3-stat6250): Will any partial credit be applied to the students who finished the assignment a fraction of the way through?
 
 
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-
+- Answer (mresendiz3-stat6250): Both; students should take the initiative to complete all assignments in order to practice skills needed throughout the class and beyond. 
 
 
 [Course Structure Quiz, Problem 4]
@@ -51,17 +52,19 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
-
+- Answer (mresendiz3-stat6250): Yes; encouraging resubmission of incomplete assignments allows students to focus on the goals set within the course. 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- Answer (mresendiz3-stat6250): The instructor gives extra credit for catching mistakes to reassure students that everyone makes mistakes and to help him proofread materials for his course. 
 
 
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
+- Answer (mresendiz3-stat6250): The "passenger" pigeons have been extinct in the US since 1914.
 
 
 
