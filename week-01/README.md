@@ -80,14 +80,20 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos−stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock. 
 
 
-Question [Course Structure 1](lceballos-stat6250): What is required to get the Initial Setup Achievement?
-Answer [Course Structure 1](lceballos-stat6250): Signing up for the course Slack team, signing up for GitHub, following the full instructions for the GitHub hello-world tutorial, posting the URL for your hello-world repo in the appropriate Slack channel, and posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel.
+Question [Course Structure 1]
+(lceballos-stat6250): What is required to get the Initial Setup Achievement?
+Answer [Course Structure 1]
+(lceballos-stat6250): Signing up for the course Slack team, signing up for GitHub, following the full instructions for the GitHub hello-world tutorial, posting the URL for your hello-world repo in the appropriate Slack channel, and posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel.
 
-Question [Course Structure 2](lceballos-stat6250): How many forum posts are scheduled?
-Answer [Course Structure 2](lceballos-stat6250): There will tentatively be 10 Weekly Forum Posts, with 8 of 10 posts needing to be completed to earn the Reading for Breadth Achievement in the course.
+Question [Course Structure 2]
+(lceballos-stat6250): How many forum posts are scheduled?
+Answer [Course Structure 2]
+(lceballos-stat6250): There will tentatively be 10 Weekly Forum Posts, with 8 of 10 posts needing to be completed to earn the Reading for Breadth Achievement in the course.
 
-Question [Course Structure 3](lceballos-stat6250): What is required to get the Reading for Depth Acheivement?
-Answer [Course Structure 3](lceballos-stat6250): Should successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates
+Question [Course Structure 3]
+(lceballos-stat6250): What is required to get the Reading for Depth Acheivement?
+Answer [Course Structure 3]
+(lceballos-stat6250): Should successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates
 
 Question [Course Structure 4](lceballos-stat6250):In order to get the Team-based Problem Solving what is required?
 Answer [Course Structure 4](lceballos-stat6250): Time is to be invested daily! Collaboration with other students in completing Team Project 1 Instructions and Team Project 2 Instructions handouts. All steps in each project must be completed.
