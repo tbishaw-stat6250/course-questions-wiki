@@ -69,7 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 
--*Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
+- *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
 
 
 
