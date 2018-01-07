@@ -120,13 +120,9 @@ Reading for Breadth, Initial Setup, Team- based Problem Solving, Reading for Dep
 - Question (lceballos-stat6250): What is the best way to contact the instructor?
 - Answer (lceballos-stat6250): Slack.
 
-[Course Structure Quiz, Problem 9]
-- Question (lceballos-stat6250): What technology is used in this course?
-- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site.
-
 [Course Structure Quiz, Problem 10]
 - Question (lceballos-stat6250): What technology is used in this course?
-- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
+- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site.
 
 [hello-world Week 1 SAS Recipe]
 - Question (lceballos-stat6250): What types are steps are used in SAS?
