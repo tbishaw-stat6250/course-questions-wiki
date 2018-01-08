@@ -1,4 +1,4 @@
-## Week 1 Quiz Questions and Answers
+ ## Week 1 Quiz Questions and Answers
 
 In order to prepare your Week 1 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
 
@@ -47,7 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
--Question (aamiri2-stat6250): What is the format of the final exam? What is the best method to prepare for it aside from the textbook?
+- Question (aamiri2-stat6250): What is the format of the final exam? What is the best method to prepare for it aside from the textbook?
 
 
 
