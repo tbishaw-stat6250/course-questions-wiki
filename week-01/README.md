@@ -38,8 +38,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 
-- Question (tchan49−stat6250): What are some of the ways for students to prepare the final exam?
-- Answer (tchan49−stat6250): The most important preparation is to read the textbook thoroghly and understand the fundemental thoeries. The book is to help you build a solid knowledge on the topics you are learing throughout the course so you need to make sure you read all the assigned chapters. Also, make suer to review your or your classemates' quiz questions and try to answer them. This is a very good way to test if you keep up with the pace of the class and ask questions immediately. 
+- Question (tchan49−stat6250): Should I view all the videos that are posted on Blackboard?
+- Answer (tchan49-stat6250): Since this is an online class which means we don't meet at a classroom, it is very important to watch all the videos whether it is a recipe video or instruction video. Missing video means missing class. 
+
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -55,7 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 
-- Question (tchan−stat6250): How many points do you need to get in order to receive an A in this class? 
+- Question (tchan−stat6250): How many "points" do you need to get in order to receive an A in this class?
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
@@ -77,8 +78,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-- Question (tchan49−stat6250): What are the two steps invloved in code organization in SAS?
 
+- Question (tchan49−stat6250): What are the two steps invloved in code organization in SAS?
 - Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps are the prepakaged of manipulating data. The Null data step helps keep step the data from outputting a new dataset. 
 
 [fizz-buzz Week 1 SAS Recipe]
