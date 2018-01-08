@@ -18,7 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- Question (aamiri2-stat6250): Will we receive any feedback on our week 1 setup so we know if we are on a good start or not?
+- Question (aamiri2-stat6250): Is any feedback given on our week 1 setup so we know if we are on a good start or not?
 
 
 
@@ -47,7 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
--Question (aamiri2-stat6250): Will we be given a final exam sample question so we can better understand the type of questions being asked?
+-Question (aamiri2-stat6250): What is the format of the final exam? What is the best method to prepare for it aside from the textbook?
 
 
 
@@ -78,7 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-- Question (aamiri2-stat6250): Will we see course announcement via Slack or Github daily?
+- Question (aamiri2-stat6250): Are course announcement made via Slack or Github daily?
 
 
 
