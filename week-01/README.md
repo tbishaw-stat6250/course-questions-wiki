@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville−stat6250): The question on the quiz mentions five items that must be completed, but the instructions for the initial setup have two separate lists of tasks to complete, the first being "Preparing Week 1 Setup Components" with six items, and the second being "Submitting Week 1 Setup Components" with four items. Would it be more accurate to say that ten components must be completed rather than five? 
 - *Question* (cnguyen77-stat6250): How many components of the Week 1 Setup Instructions does a student need to complete in order to earn an Initial Setup Achievement?
 - Question (ldeng11−stat6250): What is the GitHub flow, and how it works?
+− *Question* (ljiang11-stat6250): What is the function of a repo?
+− *Answer* (ljiang11-stat6250): A repo is where data is stored and matained.
 
 
 
@@ -32,6 +34,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How many scheduled forum posts do students need to complete in order to earn a Reading for Breadth Achievement toward their course grade?
 - *Answer* (cnguyen77-stat6250): Students should successfully complete at least 8 of the 10 scheduled forum posts by their assigned due dates.
 - Question (ldeng11−stat6250): What is the purpose of the weekly forum post?
+− *Question* (ljiang11-stat6250): Is there extra credit for completing all 10 forum posts?
 
 
 
@@ -42,6 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): If students successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, what achievement will they get?
 - *Answer* (cnguyen77-stat6250): They will earn Reading for Depth Achievement toward their course grade.
 - Question (ldeng11−stat6250): Why the weekly quizzes ask the students to develop their own questions and answers related to the text book contents?
+− *Question* (ljiang11-stat6250): Is there extra credit for completing all 10 quizzes on time?
 
 
 
@@ -51,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): At the moment it appears that instructions about only the first step of the first project are available in Blackboard; when will the information about the next steps in each phase of the projects be made available to students?
 - *Question* (cnguyen77-stat6250): How many team-based projects are required to complete in this course?
 - Question (ldeng11−stat6250): What are the descriptions about the step 1, 2, and 3?
+− *Question* (ljiang11-stat6250): Is there any other way meeting with the instructor other than Google Hangouts?
 
 
 
@@ -60,6 +65,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Based upon past offerings of this course, what percentage of students who have taken this exam have achieved a score of 70% or higher?
 - *Question* (cnguyen77-stat6250): How many multiple-choice questions does the Final Exam consist?
 - Question (ldeng11−stat6250): Is the final exam highly related to the SAS base certification exam?
+− *Question* (ljiang11-stat6250): Will there be sample exams from past years provided?
 
 
 
@@ -68,6 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Based upon past offerings of this course, which, if any, of these achievements are students most likely to fail to earn?
 - *Question* (cnguyen77-stat6250): To earn an A in STAT 6250 this quarter, what achievement/achievements does a student should earn?
 - Question (ldeng11−stat6250): What you should do to earn an A in this course?
+− *Question* (ljiang11-stat6250): How good is the instructor?
+− *Answer* (ljiang11-stat6250): The instructor was graduated from UC Davis, he must be good.
 
 
 
@@ -76,6 +84,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
 - *Question* (cnguyen77-stat6250): Can late submission be counted toward course grades?
 - Question (ldeng11−stat6250): Why late submissions are not allowed? Can late submissions be graded in loosing points?
+− *Question* (ljiang11-stat6250): Will resubmitted work lose points?
 
 
 
@@ -86,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jbettonville-stat6250): I assume the instructor can provide a precise answer, but it seems to me that extra credit to be given for catching errors or seeking clarification would tie into the Reading for Depth Achievement, since it involves thoroughly reviewing written content. I would also think that contributions to the Course Questions Wiki beyond the Week 10 quiz may also relate to the Building General Knowledge and Team-based Problem Solving achievements; in any case I would like to know more about this for sure.
 - *Question* (cnguyen77-stat6250): In what ways does the instructor give extra credit for students in this course?
 - Question (ldeng11−stat6250): How to contribute to the course questions wiki after the week 10 quiz deadline?
+− *Question* (ljiang11-stat6250): How much extra credit can one make in one quarter? Is there a limit?
 
 
 
@@ -97,6 +107,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the best way to contact the instructor with questions/comments?
 - *Answer* (cnguyen77-stat6250): Make a direct messages sent through the course Slack team.
 - Question (ldeng11−stat6250): The professor are checking email and slack regulally everyday, but why he is still prefer using slack?  
+− *Question* (ljiang11-stat6250): I cannot see other students' quiz, how can I answer others' questions?
+− *Answer* (ljiang11-stat6250): I can either answer my own questions or the instructor's unanswered questions.
 
 
 
@@ -106,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jbettonville-stat6250): Blackboard has the "Announcements" page visible upon login that includes any new documents and pages that have been added. The Slack desktop app shows badges on the icon when new posts are available. The Horizon email system can be set up and checked by a mail client regularly. GitHub appears to track activity for each user, but at this time it is unclear if it will also track new updates to repos that have been forked. Any other suggestions for workflow management are appreciated!
 - *Question* (cnguyen77-stat6250): Why should students check their CSUEB-provided Horizon Email Accounts daily?
 - Question (ldeng11−stat6250): Why the professor introduce the new technology like Github, Slack in this course?
+− *Question* (ljiang11-stat6250): Will I be proficient in GitHub after finishing this course?
 
 
 
@@ -115,6 +128,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): How similar is the syntax and grammar of SAS to other commonly used programming languages? What are some of the major differences between SAS and other languages commonly used for statistical analysis?
 - *Question* (cnguyen77-stat6250):What is the best way to learn programming?
 - Question (ldeng11−stat6250): what are the purpose of using "put" statement here?
+− *Question* (ljiang11-stat6250): What is the odd for me to get SAS base certificate if I received an A in this class?
 
 
 
@@ -123,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Can you recommend any other simple programming exercises for aspiring programmers to practice in multiple languages?
 - *Question* (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
 - Question (ldeng11−stat6250): How many ways to do the loop in SAS?
-
+− *Question* (ljiang11-stat6250): What is the pros and cons for R and SAS, which program do you prefer?
+− *Answer* (ljiang11-stat6250): Right now, I prefer R because I am more comfortable with it. Hopefully, after this quarter, I will like SAS as much as R.
 
 
