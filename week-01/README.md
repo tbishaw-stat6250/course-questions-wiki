@@ -68,8 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 
-
-
+- Question (tchan−stat6250): What is the percentage you need to get on final exam in order to meet the Building General Knowledge Achievement?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
