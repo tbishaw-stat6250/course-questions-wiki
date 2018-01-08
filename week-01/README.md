@@ -73,7 +73,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 
-
+- Question (tchan-stat6250): To receive extra credit, what extra work do you need to contribute to the class?
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
