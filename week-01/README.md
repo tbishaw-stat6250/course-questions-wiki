@@ -25,6 +25,7 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (ljiang11-stat6250): What is the function of a repo?
 − *Answer* (ljiang11-stat6250): A repo is where data is stored and matained.
 - Question (ttruong59-stat6250): How many components of Week 1 Setup Instructions does a student need to compelete to earn the Initial Setup Achievement for the course?
+- Question (tchan49−stat6250): How should you contact your professor when you have quetions during the course? 
 
 
 
@@ -37,6 +38,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is the purpose of the weekly forum post?
 − *Question* (ljiang11-stat6250): Is there extra credit for completing all 10 forum posts?
 - Question (ttruong59-stat6250): How many weekly forum posts does a student need to complete in order to earn the Reading for Breath achievement for the course? 
+- Question (tchan49−stat6250): What is the purpose for students to create their own quiz problems instead of answering a set of qestions created by the professor?
+- Answer (tchan49−stat6250): This is new way of testing yourself whether you understand the course materials or not. We are all used to the old way of examination where we sit there and take the exam provided by the professor. However, creating our own questions is an effective way to discover what questions you should know so that you can fully understand the information you are reading.
 
 
 
@@ -49,6 +52,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): Why the weekly quizzes ask the students to develop their own questions and answers related to the text book contents?
 − *Question* (ljiang11-stat6250): Is there extra credit for completing all 10 quizzes on time?
 - Question (ttruong59-stat6250): How many weekly quizzes does a student need to complete in order to earn the Reading for Depth achievement for the course?
+- Question (tchan49−stat6250): Where should you find the dataset for your team project assignments?
 
 
 
@@ -60,6 +64,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What are the descriptions about the step 1, 2, and 3?
 − *Question* (ljiang11-stat6250): Is there any other way meeting with the instructor other than Google Hangouts?
 - Question (ttruong59-stat6250): How many team-based projects does a student need to complete in order to earn the Team-based Problem Solving achievement for the course?
+- Question (tchan49−stat6250): Should I view all the videos that are posted on Blackboard?
+- Answer (tchan49-stat6250): Since this is an online class which means we don't meet at a classroom, it is very important to watch all the videos whether it is a recipe video or instruction video. Missing video means missing class. 
 
 
 
@@ -71,6 +77,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): Is the final exam highly related to the SAS base certification exam?
 − *Question* (ljiang11-stat6250): Will there be sample exams from past years provided?
 - Question (ttruong59-stat6250): How many multiple-choice questions are there in the Final Exam? And to earn the Building General Knowledge achievement for the course, how many percentages does a student need to accomplish?
+- Question (tchan49−stat6250): Are the teams assigned by the professor or the students' own choice? And when will the teams be formed?
 
 
 
@@ -82,6 +89,7 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (ljiang11-stat6250): How good is the instructor?
 − *Answer* (ljiang11-stat6250): The instructor was graduated from UC Davis, he must be good.
 - Question (ttruong59-stat6250): In order to earn an A in STAT6250 this quarter, which achievements should be earned?
+- Question (tchan49−stat6250): Where can you find resources for blog post in order to complete the Reading for Breadth Achievement? 
 
 
 
@@ -92,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): Why late submissions are not allowed? Can late submissions be graded in loosing points?
 − *Question* (ljiang11-stat6250): Will resubmitted work lose points?
 - Question (ttruong59-stat6250): Can late submissions be counted toward course grades? Also can incomplete submissions be eligible for resubmission? If so, under what circumstances might the resubmission of an incomplete assignment be accepted?
+- Question (tchan−stat6250): How many "points" do you need to get in order to receive an A in this class?
 
 
 
@@ -104,6 +113,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How to contribute to the course questions wiki after the week 10 quiz deadline?
 − *Question* (ljiang11-stat6250): How much extra credit can one make in one quarter? Is there a limit?
 - Question (ttruong59-stat6250): Will instruction give extra credit? If so, what are they?
+- Question (tchan−stat6250): How to be a professional programmer?
+- Answer (tchan49−stat6250):Professional programmers need to have a can-do spirit where they are able to support teammates when they need help and do work together. Also, professional programmers are capable of paying attention to details and identifing problems quickly. They look at the problem at big picture and small picture as well. They should not be afraid of making mistakes but instead, they can point out the mistake quickly and solve it before it becomes unredeemable.
 
 
 
@@ -118,6 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (ljiang11-stat6250): I cannot see other students' quiz, how can I answer others' questions?
 − *Answer* (ljiang11-stat6250): I can either answer my own questions or the instructor's unanswered questions.
 - Question (ttruong59-stat6250): What is the best way/channel to reach out to the instruction with questions?
+- Question (tchan−stat6250): What is the percentage you need to get on final exam in order to meet the Building General Knowledge Achievement?
 
 
 
@@ -130,6 +142,7 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (ljiang11-stat6250): Will I be proficient in GitHub after finishing this course?
 - Question (ttruong59-stat6250): Besides of Github, should a student need to check their school email daily? 
 - Answer (ttruong59-stat6250): Yes, the student should need to check their CSUEB Horizon email since Github and Slack's notification are linked to their school email. 
+- Question (tchan-stat6250): To receive extra credit, what extra work do you need to contribute to the class?
 
 
 
@@ -142,6 +155,8 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (ljiang11-stat6250): What is the odd for me to get SAS base certificate if I received an A in this class?
 - Question (ttruong59-stat6250): What is the difference between SAS and other statistical analysis language like R for example?
 - Answer (ttruong59-stat6250): From my understanding, R is open-source meaning users can download and access the software at no cost while SAS is a paid-software developed by SAS Institute for advanced analytics. In order words, users need to purchase SAS license to use SAS but SAS provides a great technical support in case users has any questions/concerns.
+- Question (tchan49−stat6250): What are the two steps invloved in code organization in SAS?
+- Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps are the prepakaged of manipulating data. The Null data step helps keep step the data from outputting a new dataset. 
 
 
 
@@ -154,5 +169,7 @@ The instructor will then review the pull request and make comments should furthe
 − *Answer* (ljiang11-stat6250): Right now, I prefer R because I am more comfortable with it. Hopefully, after this quarter, I will like SAS as much as R.
 - Question (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
 - Answer (cnguyen77-stat6250): 15,30,45,60,75,90.
+- Question (tchan−stat6250): What is the function MOD exactly? 
+- Answer (tchan49−stat6250): The MOD function returns the remainder of the division of elements of the first argument by elements of the second argument.
 
 
