@@ -34,9 +34,6 @@ The instructor will then review the pull request and make comments should furthe
 
 - Question (tchan49−stat6250): Where should you find the dataset for your team project assignments?
 
-
-
-
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
@@ -44,18 +41,15 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49−stat6250): What are some of the ways for students to prepare the final exam?
 - Answer (tchan49−stat6250): The most important preparation is to read the textbook thoroghly and understand the fundemental thoeries. The book is to help you build a solid knowledge on the topics you are learing throughout the course so you need to make sure you read all the assigned chapters. Also, make suer to review your or your classemates' quiz questions and try to answer them. This is a very good way to test if you keep up with the pace of the class and ask questions immediately. 
 
-
-
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (tchan49−stat6250): Are the teams assigned by the professor or the students' own choice? And when will the teams be formed?
 
 
-
-
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+
 - Question (tchan49−stat6250): Where can you find resources for blog post in order to complete the Reading for Breadth Achievement? 
 
 [Course Structure Quiz, Problem 7]
