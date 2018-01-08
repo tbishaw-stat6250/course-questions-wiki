@@ -63,11 +63,10 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (jbettonville-stat6250): Based upon past offerings of this course, what percentage of students who have taken this exam have achieved a score of 70% or higher?
 - *Question* (cnguyen77-stat6250): How many multiple-choice questions does the Final Exam consist?
-- Question (lceballos-stat6250): What is the minimum score to pass the final exam?
-- Answer (lceballos-stat6250): 70%.
 - Question (ldeng11−stat6250): Is the final exam highly related to the SAS base certification exam?
 − *Question* (ljiang11-stat6250): Will there be sample exams from past years provided?
-
+- Question (lceballos-stat6250): What is the minimum score to pass the final exam?
+- Answer (lceballos-stat6250): 70%.
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
