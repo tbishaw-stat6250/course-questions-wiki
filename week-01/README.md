@@ -20,7 +20,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Question (jbettonville−stat6250): The question on the quiz mentions five items that must be completed, but the instructions for the initial setup have two separate lists of tasks to complete, the first being "Preparing Week 1 Setup Components" with six items, and the second being "Submitting Week 1 Setup Components" with four items. Would it be more accurate to say that ten components must be completed rather than five? 
 - *Question* (cnguyen77-stat6250): How many components of the Week 1 Setup Instructions does a student need to complete in order to earn an Initial Setup Achievement?
-
+- Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
 
 
 [Course Structure Quiz, Problem 2]
@@ -29,7 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville−stat6250): Based upon past offerings of this course, how frequently do students engage with each other's forum posts?
 - *Question* (cnguyen77-stat6250): How many scheduled forum posts do students need to complete in order to earn a Reading for Breadth Achievement toward their course grade?
 - *Answer* (cnguyen77-stat6250): Students should successfully complete at least 8 of the 10 scheduled forum posts by their assigned due dates.
-
+- Question (lceballos-stat6250): Can we use articles that are about Python or R instead of SAS?
 
 
 [Course Structure Quiz, Problem 3]
@@ -37,7 +37,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Do all quizzes have roughly the same number of questions or will the length vary widely? (i.e. Can we expect to spend roughly the same amount of time on quizzes each week, or will some require signficantly more time than others?)
 - *Question* (cnguyen77-stat6250): If students successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, what achievement will they get?
 - *Answer* (cnguyen77-stat6250): They will earn Reading for Depth Achievement toward their course grade.
-
+- Question (lceballos-stat6250): If multiple students submit the same questions on github, who gets credit?
 
 
 [Course Structure Quiz, Problem 4]
@@ -45,7 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
 - Question (jbettonville-stat6250): At the moment it appears that instructions about only the first step of the first project are available in Blackboard; when will the information about the next steps in each phase of the projects be made available to students?
 - *Question* (cnguyen77-stat6250): How many team-based projects are required to complete in this course?
-
+- Question (lceballos-stat6250): Are we assigned to teams or are teams self-selected?
 
 
 [Course Structure Quiz, Problem 5]
@@ -53,21 +53,22 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 - Question (jbettonville-stat6250): Based upon past offerings of this course, what percentage of students who have taken this exam have achieved a score of 70% or higher?
 - *Question* (cnguyen77-stat6250): How many multiple-choice questions does the Final Exam consist?
-
+- Question (lceballos-stat6250): What is the minimum score to pass the final exam?
+- Answer (lceballos-stat6250): 70%.
 
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (jbettonville-stat6250): Based upon past offerings of this course, which, if any, of these achievements are students most likely to fail to earn?
 - *Question* (cnguyen77-stat6250): To earn an A in STAT 6250 this quarter, what achievement/achievements does a student should earn?
-
+- Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
 - *Question* (cnguyen77-stat6250): Can late submission be counted toward course grades?
-
+- Question (lceballos-stat6250): How many questions do we have to complete to receive credit in the weekly quizes?
 
 
 [Course Structure Quiz, Problem 8]
@@ -75,7 +76,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): What is the mechanism by which extra credit is applied? (i.e. which achievements does it impact, and may it impact different achievements depending upon the circumstance under which it is awarded)
 - Answer (jbettonville-stat6250): I assume the instructor can provide a precise answer, but it seems to me that extra credit to be given for catching errors or seeking clarification would tie into the Reading for Depth Achievement, since it involves thoroughly reviewing written content. I would also think that contributions to the Course Questions Wiki beyond the Week 10 quiz may also relate to the Building General Knowledge and Team-based Problem Solving achievements; in any case I would like to know more about this for sure.
 - *Question* (cnguyen77-stat6250): In what ways does the instructor give extra credit for students in this course?
-
+- Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
 
 
 [Course Structure Quiz, Problem 9]
@@ -85,7 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jbettonville-stat6250): One possible reason is that Slack allows for communication and collaboration to happen quickly among a large group. Email is not necessarily pushed to all devices instantaneously (especially with current limitations on push email through Gmail for iPhones), so messages sent via Slack can be reviewed and responded to with less of a delay, and communications can be centralized for all members of the group.
 - *Question* (cnguyen77-stat6250): What is the best way to contact the instructor with questions/comments?
 - *Answer* (cnguyen77-stat6250): Make a direct messages sent through the course Slack team.
-
+- Question (lceballos-stat6250): Is it possible to schedule a face-to-face appointment with the professor?
 
 
 [Course Structure Quiz, Problem 10]
@@ -93,14 +94,16 @@ The instructor will then review the pull request and make comments should furthe
 - Question (jbettonville-stat6250): Can you recommend any methods of tracking changes to each platform regularly?
 - Answer (jbettonville-stat6250): Blackboard has the "Announcements" page visible upon login that includes any new documents and pages that have been added. The Slack desktop app shows badges on the icon when new posts are available. The Horizon email system can be set up and checked by a mail client regularly. GitHub appears to track activity for each user, but at this time it is unclear if it will also track new updates to repos that have been forked. Any other suggestions for workflow management are appreciated!
 - *Question* (cnguyen77-stat6250): Why should students check their CSUEB-provided Horizon Email Accounts daily?
-
+- Question (lceballos-stat6250): What technology is used in this course?
+- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
 - Question (jbettonville-stat6250): How similar is the syntax and grammar of SAS to other commonly used programming languages? What are some of the major differences between SAS and other languages commonly used for statistical analysis?
 - *Question* (cnguyen77-stat6250):What is the best way to learn programming?
-
+- Question (lceballos-stat6250): What types are steps are used in SAS?
+- Answer (lceballos-stat6250): DATA step and a PROC step
 
 
 [fizz-buzz Week 1 SAS Recipe]
@@ -108,82 +111,5 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
 - Question (jbettonville-stat6250): Can you recommend any other simple programming exercises for aspiring programmers to practice in multiple languages?
 - *Question* (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
-
-
-
-[Course Structure Quiz, Problem 1]
-- Question (lceballos-stat6250): What is required to get the Initial Setup Achievement?
-- Answer (lceballos-stat6250): Signing up for the course Slack team, signing up for GitHub, following the full instructions for the GitHub hello-world tutorial, posting the URL for your hello-world repo in the appropriate Slack channel, and posting a screenshot of the SAS hello-world recipe in the appropriate Slack channel.
-
-
-
-[Course Structure Quiz, Problem 2]
-- Question (lceballos-stat6250): How many forum posts are scheduled?
-- Answer (lceballos-stat6250): There will tentatively be 10 Weekly Forum Posts, with 8 of 10 posts needing to be completed to earn the Reading for Breadth Achievement in the course.
-
-
-
-[Course Structure Quiz, Problem 3]
-- Question (lceballos-stat6250): What is required to get the Reading for Depth Acheivement?
-- Answer (lceballos-stat6250): Should successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates.
-
-
-
-[Course Structure Quiz, Problem 4]
-- Question (lceballos-stat6250):In order to get the Team-based Problem Solving what is required?
-- Answer (lceballos-stat6250): Time is to be invested daily! Collaboration with other students in completing Team Project 1 Instructions and Team Project 2 Instructions handouts. All steps in each project must be completed.
-
-
-
-[Course Structure Quiz, Problem 5]
-- Question (lceballos-stat6250): What does the final exam entail?
-- Answer (lceballos-stat6250): The Final Exam will tentatively consist of 65 multiple-choice questions highly with a time limit of 110 minutes and 70% percent or higher required to earn the Building General Knowledge Achievement achievement in the course.
-
-
-
-[Course Structure Quiz, Problem 6]
-- Question (lceballos-stat6250): What is required to get an A in this course?
-- Answer (lceballos-stat6250): ALL FIVE achievements must be earned: 	
-Reading for Breadth, Initial Setup, Team- based Problem Solving, Reading for Depth and Building General Knowledge achievements must be earned. 
-
-
-
-[Course Structure Quiz, Problem 6]
-- Question (lceballos-stat6250): What's a good way to learn the material?
-- Answer (lceballos-stat6250): Adapt a hacker mindset, meaning, learn from mistakes and embrace challenges.
-
-
-
-[Course Structure Quiz, Problem 7]
-- Question (lceballos-stat6250): Will late work be acceptable?
-- Answer (lceballos-stat6250): Late submissions can't  be counted toward course grades, and  incomplete submissions can be eligible for resubmission at the instructor's discretion.
-
-
-
-[Course Structure Quiz, Problem 8]
-- Question (lceballos-stat6250): Are there any extra credit opportunities?
-- Answer (lceballos-stat6250): The instructor gives extra credit for pointing out typos in course materials, substantive suggestions for improving clarity in course materials and contributions to the Course Questions Wiki after the Week 10 Quiz deadline.
-
-
-
-[Course Structure Quiz, Problem 9]
-- Question (lceballos-stat6250): What is the best way to contact the instructor?
-- Answer (lceballos-stat6250): Slack.
-
-
-
-[Course Structure Quiz, Problem 10]
-- Question (lceballos-stat6250): What technology is used in this course?
-- Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site.
-
-
-
-[hello-world Week 1 SAS Recipe]
-- Question (lceballos-stat6250): What types are steps are used in SAS?
-- Answer (lceballos-stat6250): DATA step and a PROC step.
-
-
-
-[fizz-buzz Week 1 SAS Recipe]
 - Question (lceballos-stat6250): How do you do a for loop in SAS?
 - Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
