@@ -127,7 +127,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (jbettonville-stat6250): Blackboard has the "Announcements" page visible upon login that includes any new documents and pages that have been added. The Slack desktop app shows badges on the icon when new posts are available. The Horizon email system can be set up and checked by a mail client regularly. GitHub appears to track activity for each user, but at this time it is unclear if it will also track new updates to repos that have been forked. Any other suggestions for workflow management are appreciated!
 - *Question* (cnguyen77-stat6250): Why should students check their CSUEB-provided Horizon Email Accounts daily?
 - Question (ldeng11−stat6250): Why the professor introduce the new technology like Github, Slack in this course?
-− *Question* (ljiang11-stat6250): Will I be proficient in GitHub after finishing this course?- Question (ttruong59-stat6250): Besides of Github, should a student need to check their school email daily? 
+− *Question* (ljiang11-stat6250): Will I be proficient in GitHub after finishing this course?
+- Question (ttruong59-stat6250): Besides of Github, should a student need to check their school email daily? 
 - Answer (ttruong59-stat6250): Yes, the student should need to check their CSUEB Horizon email since Github and Slack's notification are linked to their school email. 
 
 
