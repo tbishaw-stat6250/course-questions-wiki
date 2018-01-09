@@ -18,11 +18,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
--*Question** (akrishnamurthy-stat6250):What is an observation in SAS? Can a row with missing values be considered as an observation?
+- *Question* (akrishnamurthy-stat6250):What is an observation in SAS? Can a row with missing values be considered as an observation?
 
 
 [Course Textbook Chapter 1, Problem 2]
-- *Question** (akrishnamurthy-stat6250):When will SAS execute a DATA, PROC or RUN statement?
+- *Question* (akrishnamurthy-stat6250):When will SAS execute a DATA, PROC or RUN statement?
 - *Answer* (akrishnamurthy-stat6250):SAS executes the previous steps in the program when it encounters a DATA,PROC or RUN statements. RUN statements are not always required to specify execution step but using RUN statements makes the program and log more readable.
 
 
