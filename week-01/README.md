@@ -43,6 +43,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (Di Fei−stat6250): SAS 9.4,and Excel.
 
 
+
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
@@ -56,15 +57,18 @@ The instructor will then review the pull request and make comments should furthe
 - Question (Di Fei−stat6250): What's the advantage of SAS programming in all programming languages?
 
 
+
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (Di Fei−stat6250): What's the history and development of SAS programming?
 - Answer (Di Fei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
 
 
+
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Question (Di Fei−stat6250): Does the professor give students extra credits in the class?
+
 
 
 [Course Structure Quiz, Problem 9]
@@ -90,4 +94,5 @@ The instructor will then review the pull request and make comments should furthe
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Question (Di Fei−stat6250): What does branching logic mean and how it works?
+
 
