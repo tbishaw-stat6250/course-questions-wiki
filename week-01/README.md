@@ -13,6 +13,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 ********************************************************************************
+
+
+
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Question (shatcher4−stat6250): Does the five professional practices to promote a growth mindset work for all types of learners?
@@ -141,6 +144,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
 
 
+
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (shatcher4−stat6250): What is a "unique id" in a dataset for the projects?
@@ -260,6 +264,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250):What kind of the question could I use mod function in SAS?
 - Question (who7-stat6250): Is there an online platform like CodeAcademy that allow students to practice SAS on?
 - Question (xyin6-stat6250): if we want to output 1 to 100 with incremented by 2, how should we set the increment amount in the command? 
-
 
 
