@@ -31,7 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (mresendiz3−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
-
+ 
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
