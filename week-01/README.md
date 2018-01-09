@@ -108,6 +108,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): If there is a particular achievement we struggle with, are there opportunities to hone this skill and to improve our grade?
 
 
+
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
