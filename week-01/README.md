@@ -13,62 +13,61 @@ The instructor will then review the pull request and make comments should furthe
 
 
 ********************************************************************************
-**[Course Structure Quiz, Problem 1]**
+[Course Structure Quiz, Problem 1]
+- Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- Question (nshrivastava2-stat6250):Since, we are using GitHub web interface as well Github desktop. What is the benefit of using GitHub desktop over GitHub web.
 
-Question (nshrivastava2-stat6250):What is the essence of Initial setup achievement challenges?
-Answer   (nshrivastava2-stat6250):Initial set up is to geared up for the week 2 and ahead to achieve Reading for Breath, Reading for Depth, Team problem solving, General Knowledge achievement.
+[Course Structure Quiz, Problem 2]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+- Question (nshrivastava2-stat6250):What is the purpose of  reading an articles and posting one of those in Discussion Form on Blackboard?
+- Answer   (nshrivastava2-stat6250):It will enhance the student's learning experience and this way they will a great opportunity to read multiple articles and process learn about the subject and make decision problem.
 
-**[Course Structure Quiz, Problem 2]**
+[Course Structure Quiz, Problem 3]
+- Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Question (nshrivastava2-stat6250):Why we have the course structured having weekly quizzes ?
+- Answer   (nshrivastava2-stat6250):Since this is an online course and  in order to develop substantive questions whose answers would better help you understand the concepts in course textbook problems.
 
-Question (nshrivastava2-stat6250):What is the essence of Reading for Breath?
-Answer   (nshrivastava2-stat6250):Purpose of weekly reading and posting as article on BB, to get chance to read multiple articles and process learn about the subject and make decision problem.
+[Course Structure Quiz, Problem 4]
+- Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involved comments on code in GitHub, meetings with the instructor, or both?
+- Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+- Question (nshrivastava2-stat6250):Is the project consist of individual based or team based. If project is team based then how many students are in one team? 
 
-**[Course Structure Quiz, Problem 3]**
+[Course Structure Quiz, Problem 5]
+- Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
+- Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
 
-Question (nshrivastava2-stat6250):Why weekly quizzes are called “Reading for Depth”?
+[Course Structure Quiz, Problem 6]
+- Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+- Question (nshrivastava2-stat6250):Syllabus, will tell us about the grading . What is the difference in all possible achievements and additional achievements to earn grades?
 
-**[Course Structure Quiz, Problem 4]**
+[Course Structure Quiz, Problem 7]
+- Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- Question (nshrivastava2-stat6250):Likewise WeekQuiz1, is the instructor will allow student to review on his comments and resubmit on web GitHub for all weee quizes.
 
-Question (nshrivastava2-stat6250):How Team Project will help student?
+[Course Structure Quiz, Problem 8]
+- Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- Question (nshrivastava2-stat6250): What is the maximum limit of earning extra credit?
 
-**[Course Structure Quiz, Problem 5]**
+[Course Structure Quiz, Problem 9]
+- Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
+- Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
+- Question (nshrivastava2-stat6250):How many times students can have one on one online meeting with instructor in case they  need to discuss on any issue by sharing desktop ?
+- Answer   (nshrivastava2-stat6250):Students can always use horizonmail, prefer direct message to slack  but in case of savior issue for which student need help from instructor, can be setup one to one online meeting for not more than 3 times in the duration of the course.
 
-Question (nshrivastava2-stat6250):How to prepare for the Final exam?
-Answer   (nshrivastava2-stat6250):Final exam has multiple question tentatively very similar to the SAS certification within the time limit of 110 min. Students need to achieve 70% to pass the exam.
+[Course Structure Quiz, Problem 10]
+- Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+- Question (nshrivastava2-stat6250):What could be the challenges of using CSUEB-Horizon email technology?
+- Answer   (nshrivastava2-stat6250):Since CSUEB-Horizon is Google based, while making an online appointment with instructor, if student  logged in with Google account other than horizon account, he/she will not able to sync the calendar with an instructor.
 
-**[Course Structure Quiz, Problem 6]**
+[hello-world Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- Question (nshrivastava2-stat6250): What is the rules while creating datasets name or variables name?
+- Answer   (nshrivastava2-stat6250): 1) It should start with either with any letter or underscore,2)                             Should NOT use any number at the very first place,3) Should NOT use special character except _(underscore) and 4)             Should 32 character long.
 
-Question (nshrivastava2-stat6250):How can one earn A in STAT 6250?
-Answer   (nshrivastava2-stat6250):BY achiving Reading for Breadth, Building General Knowledge,Team-based Problem-Solving Achievement,Initial Setup,Reading for Depth recipes without any slipage in submision byt attaining Level 5.
-
-
-**[Course Structure Quiz, Problem 7]**
-
-Question (nshrivastava2-stat6250):What can be Does and Don’t for the weekly submissions?
-Answer   (nshrivastava2-stat6250):Student can’t do the late submission but incomplete submission can be resubmitted at the instruction’s discretion.
-
-**[Course Structure Quiz, Problem 8]**
-
-Question (nshrivastava2-stat6250):How to earn extra credits?
-
-
-**[Course Structure Quiz, Problem 9]**
-
-Question (nshrivastava2-stat6250):How we can approach Instructor for any queries wit regard to STST 6250?
-Answer   (nshrivastava2-stat6250):By emailing through horizon however, Instructor prefers to send the direct message through Slack.
-
-**[Course Structure Quiz, Problem 10]**
-
-Question (nshrivastava2-stat6250):How can one avoid any slippage on submission or following Instructor’s message?
-Answer   (nshrivastava2-stat6250):Student must check daily and keep on eye on CUSEB, GitHubs, Slack, Blackboard.
-
-**[hello-world Week 1 SAS Recipe]**
-
-Question (nshrivastava2-stat6250): What is the rules while creating datasets name or variables name
-Answer   (nshrivastava2-stat6250): It should start with either with any letter or underscore.
-                                   Should NOT use any number at the very first place
-                                   Should NOT use special character except _(underscore)
-                                   Should 32 character long
+[fizz-buzz Week 1 SAS Recipe]
+- Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
+- Question (nshrivastava2-stat6250): Is the SAS programing works similar to SAP programing, how they are different?
 
 
 
