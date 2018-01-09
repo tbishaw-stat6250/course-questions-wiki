@@ -18,8 +18,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- Question (mresendiz3-stat6250): How many people abbreviate the word "repository" as "repo?"
-- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.)
+- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.) In terms of Git, your project folder, which is having all the files required for your project is known as Repository or in short Repo. Everything that you do with regard to your project stays in the repo. When you make changes and save the files, along with saving the file, you also commit them in Git (via its shell program). Committing changes assure that the changes are preserved with regard to the time and day you committed them
 
 
 [Course Structure Quiz, Problem 2]
@@ -65,13 +64,12 @@ Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
-- Answer (mresendiz3-stat6250): The "passenger" pigeons have been extinct in the US since 1914.
 - Question (mresendiz3-stat6250): Do all kings have to know this information about swallows?
 
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-- Question (mresendiz3-stat6250): What is so hard to understand or do when someone asks to check something daily? Have we stopped exploring what needs to be done? Is exploring considered a waste of time?
+- Question (mresendiz3-stat6250): How much time should be alloted to checking all the interfaces including GitHub, Slack, and BB?
 
 
 [hello-world Week 1 SAS Recipe]
