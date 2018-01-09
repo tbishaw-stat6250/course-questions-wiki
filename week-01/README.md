@@ -165,8 +165,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan−stat6250): What is the percentage you need to get on final exam in order to meet the Building General Knowledge Achievement?
 - Question (aamiri2-stat6250): How quickly does the professor respond to DM’s via Slack?
 - *Question* (cli19−stat6250): How long does it generally take to receive a reply after sending a direct message through Slack in the evening?
-- Answer (ilankham−stat6250): An African swallow maybe, but not a European
-swallow.
 - Question (pcheng14−stat6250): What is meaning of unladen swallow?
 
 
@@ -219,7 +217,6 @@ swallow.
 - Answer (tchan49−stat6250): The MOD function returns the remainder of the division of elements of the first argument by elements of the second argument.
 - Question (aamiri2-stat6250): Is there a particular reason why Computer Science graduates from universities cannot answer the basic programming interview questions? 
 - *Question* (cli19−stat6250): Is there a way in SAS to view all/other the built-in functions available for us to use?
-- Question (ilankham−stat6250):Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Question (pcheng14−stat6250):What kind of the question could I use mod function in SAS?
 
 
