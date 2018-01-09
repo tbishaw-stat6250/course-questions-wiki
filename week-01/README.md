@@ -59,6 +59,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Question (Di Fei−stat6250): What's the history and development of SAS programming?
+- Answer (Di Fei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
 
 
 [Course Structure Quiz, Problem 8]
