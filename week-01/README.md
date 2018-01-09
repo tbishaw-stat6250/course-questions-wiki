@@ -78,7 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250): Yes, practice makes perfect. 
 - Question (who7-stat6250): Would comments and review still be made even if submission of weekly quizzes are late?
 - Answer (who7-stat6250): Although i cannot be sure, the final decision would rest on Professor Lankham.  Late submission would most likely not be consider into the final grade as the professor already provided a leeway for the quiz submission.
-- Answer (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
+- Question (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
 
 
 
