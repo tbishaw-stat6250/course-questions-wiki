@@ -32,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250): A directory or storage space where your projectors can live. Something GiftHub users shorten this to "repo." It can be local a folder on your computer, or it can be a storage space on GiuHub or another online host. You cn keep code files, text files, image files, you name it, inside a repository.
 - Question (who7-stat6250): What are other online resources that help you understand more of SAS?
 - Answer (who7-stat6250): There are many resources online to read about SAS.  From blogpost to videos hosted by professors from different universities.
+- Question (xyin6-stat6250): How many possible achievenments in total can we accomplish towarding final grades? 
+- Answer (xyin6-stat6250): There are five achievements in total: Reading for Depth; Team-based Problem Solving; Reading for Breadth; Building General Knowledge; Initial Setup.
 
 
 
@@ -53,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): May I completer more than 10 forum posts even if the requirement is 8 ?
 - Answer (pcheng14−stat6250):Yes, people can complete more than 10 forum posts.
 - Question (who7-stat6250): Would there be extra credit if student complete all 10 forum post?
+- Question (xyin6-stat6250): What are the essential components to be clearly labeled when we submitting the weekly forum post?
+- Answer (xyin6-stat6250): There are four components in each weekly forum post we submit: Title, Complete URL of the post, Synopsis/brief summary, and Explanation of article choice.
 
 
 
@@ -60,6 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ldeng11−stat6250): Both. It is set to earn the Reading for Depth Achievement by complete at least 8 of 10 weekly quizzes, to let the student could have time to deal with their stressful studies and schedules, and also to make sure the students who enroll late could catch up with the course.
 - Question (jbettonville-stat6250): Do all quizzes have roughly the same number of questions or will the length vary widely? (i.e. Can we expect to spend roughly the same amount of time on quizzes each week, or will some require signficantly more time than others?)
+- Answer (xyin6-stat6250): There should be the same amount of questions (10 structure questions plus recipe questions), but the difficulty level will vary as the course move on. We suppose to spend more time on some tough topics and less time in some easy understanding chapters.
 - *Question* (cnguyen77-stat6250): If students successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, what achievement will they get?
 - *Answer* (cnguyen77-stat6250): They will earn Reading for Depth Achievement toward their course grade.
 - Question (ldeng11−stat6250): Why the weekly quizzes ask the students to develop their own questions and answers related to the text book contents?
@@ -73,6 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250): Yes, practice makes perfect. 
 - Question (who7-stat6250): Would comments and review still be made even if submission of weekly quizzes are late?
 - Answer (who7-stat6250): Although i cannot be sure, the final decision would rest on Professor Lankham.  Late submission would most likely not be consider into the final grade as the professor already provided a leeway for the quiz submission.
+- Question (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
 
 
 
@@ -91,6 +97,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): Is code reviews the useful way to double check whether my work is on right way or not?
 - Answer (pcheng14−stat6250):Yes, it my first time to do like this way but I think it is so useful.
 - Question (who7-stat6250): What are some of the most common mistake during SAS code writing?
+- Question (xyin6-stat6250): Do we work on our own for team based projects or we have to form actual teams?
 
 
 
@@ -109,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): Besides exam or quiz, what sort of the project do students work with to demonstrate their skills?
 - Answer (pcheng14−stat6250): For example, government data on poverty or stock market data tend to involve sophisticated analysis on big data
 - Question (who7-stat6250): Would there be any practice exam that mirror the final exam for us to practice on?
+- Question (xyin6-stat6250): Does 70% or more final grade means we got the Building General Knowledge Achievement? Or are there other contents in this achievement besides final?
 
 
 
@@ -125,6 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): If there is a particular achievement we struggle with, are there opportunities to hone this skill and to improve our grade?
 - Question (pcheng14−stat6250): What should I do to earn five total achievements at all for everytime?
 - Question (who7-stat6250): Based on your past experience, what is the average grade for students of this class?
+- Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
 
 
 
@@ -140,6 +149,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): What additional sources or references can we use to ensure our assignment submissions are sufficient?
 - Question (pcheng14−stat6250): Will resubmission of incomplete assignments impact the grades?
 - Question (who7-stat6250): Is there any circumstances where late submission would be accepted?
+- Question (xyin6-stat6250): Will reviesed submission of the quiz/project affect the final outcome of achievements?
 
 
 
@@ -158,6 +168,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Why are contributions to the Course Questions Wiki after Week 10 merit extra credit?
 - Question (pcheng14−stat6250): How many possible points for each extra credit?
 - Question (who7-stat6250): Besides catching mistakes in learning materials, what other ways are there to earn extra credits?
+- Question (xyin6-stat6250): Most of the tasks are graded by Met/revised towards final achievements, so in what format are the extra credit given, in points or ?
 
 
 
@@ -177,6 +188,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): How long does it generally take to receive a reply after sending a direct message through Slack in the evening?
 - Question (pcheng14−stat6250): What is meaning of unladen swallow?
 - Question (who7-stat6250): Why was Slack used as one more the communication methods instead of other messenger apps?
+- Answer (xyin6-stat6250): It depends. However, in most cases, the profesoor responds pretty fast!
+- Question (xyin6-stat6250): Is the 15 mins office hour held on Slack or Google Hangout?
 
 
 
@@ -195,6 +208,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): Where is Forking a Repo in GitHub coming from?
 - Question (who7-stat6250): Besides github website, what other resources to help students better understand the github platform?
 - Answer (who7-stat6250): There are many resources online to further understand github.  Besides the many blogs and the help section from github, there are also free online class to help people navigate github such as Udacity.
+- Question (xyin6-stat6250): Is there a way to open notifications from github? 
 
 
 
@@ -215,6 +229,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): Yes. Another statement that is useful for debugging code is %put to write text string and what macro variable resolve to.
 - Question (pcheng14−stat6250): How many ways of creating output in SAS and what is the best way to create it?
 - Question (who7-stat6250): What would you say SAS programming language is most similar to?
+- Question (xyin6-stat6250): Is data _null_ always the start line of a new commend? What does word null represent?
 
 
 
@@ -233,5 +248,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Is there a way in SAS to view all/other the built-in functions available for us to use?
 - Question (pcheng14−stat6250):What kind of the question could I use mod function in SAS?
 - Question (who7-stat6250): Is there an online platform like CodeAcademy that allow students to practice SAS on?
+- Question (xyin6-stat6250): if we want to output 1 to 100 with incremented by 2, how should we set the increment amount in the command? 
 
 
