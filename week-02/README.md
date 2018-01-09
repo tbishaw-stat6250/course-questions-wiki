@@ -48,8 +48,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer*  (ldai4-stat6250): The vale of the YEARCUTOFF=system option affects only two-digit year values. A date value that contains a four-digit year value will be interpreted correctly even if it does not fall within the 100-year span set by the YEARCUTOFF=system option.
 
 
-
-
 [Course Textbook Chapter 2, Problem 7]
 - *Question* (ldai4-stat6250): How can we reference SAS file in SAS libraries?
 
@@ -67,9 +65,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-
+- *Question* (ldai4-stat6250): Which operating systems are used to load data from remote excel file?
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-
+- *Question* (ldai4-stat6250): Can the raw data be seen in SAS? 
 
