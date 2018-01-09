@@ -18,36 +18,38 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- Question (mresendiz3-stat6250): Isn't it more common to abbreviate the word "repossess" as "repo"?
+- Question (mresendiz3-stat6250): How many people abbreviate the word "repository" as "repo?"
+- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.)
 
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
-- Question (mresendiz3-stat6250): Will any partial credit be applied to the students who finished the assignment a fraction of the way through?
+- Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
 
 
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
-- Answer (mresendiz3-stat6250): Both; students should take the initiative to complete all assignments in order to practice skills needed throughout the class and beyond. 
+- Answer (mresendiz3−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
-
+- Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
 
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+- Question (mresendiz3-stat6250): Will a large amount of the final exam be debugging exercises? What's the scope and expectations of what should be learned by the end of the course? What's the goal?
 
 
 
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
-
+- Question (mresendiz3-stat6250): Although performance level should be a quantifiable amount should the range of levels be larger? If not, why not?
 
 
 [Course Structure Quiz, Problem 7]
@@ -57,28 +59,27 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
-- Answer (mresendiz3-stat6250): The instructor gives extra credit for catching mistakes to reassure students that everyone makes mistakes and to help him proofread materials for his course. 
-
-
+- Answer (mresendiz3-stat6250): To encourage the complete learning from a task. The continuous addition on living projects that require updating and long-term care is analogous to work found in a work-sample portfolio.
+Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 - Answer (mresendiz3-stat6250): The "passenger" pigeons have been extinct in the US since 1914.
-
+- Question (mresendiz3-stat6250): Do all kings have to know this information about swallows?
 
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
-
+- Question (mresendiz3-stat6250): What is so hard to understand or do when someone asks to check something daily? Have we stopped exploring what needs to be done? Is exploring considered a waste of time?
 
 
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
-
+- Question (mresendiz3-stat6250): Why would someone need to have SAS print to a different ouput destination other than the log?
 
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
-
+- Question (mresendiz3-stat6250): What is the mod function useful for other than finding the remainder of a division problem?
 
