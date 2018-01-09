@@ -27,7 +27,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How many components of Week 1 Setup Instructions does a student need to compelete to earn the Initial Setup Achievement for the course?
 - Question (tchan49−stat6250): How should you contact your professor when you have quetions during the course? 
 - Question (aamiri2-stat6250): Is any feedback given on our week 1 setup so we know if we are on a good start or not?
-
+- Question (xyin6-stat6250): How many possible achievenments in total can we accomplish towarding final grades? 
+- Answer (xyin6-stat6250): There are five achievements in total: Reading for Depth; Team-based Problem Solving; Reading for Breadth; Building General Knowledge; Initial Setup.
 
 
 [Course Structure Quiz, Problem 2]
@@ -43,13 +44,15 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49−stat6250): This is new way of testing yourself whether you understand the course materials or not. We are all used to the old way of examination where we sit there and take the exam provided by the professor. However, creating our own questions is an effective way to discover what questions you should know so that you can fully understand the information you are reading.
 - Question (aamiri2-stat6250): Since it’s required to complete 8 of the 10 weekly forum posts, if we complete all of them do we get extra credit?
 - Answer (aamiri2-stat6250): No, even though it is only required to complete 8 of 10, students are encouraged to complete 10 of 10 weekly forum posts. This is meant for students that may start the course late and allows the flexibility. Not to mention this is a great way of helping your grade in case a student forgets a post or is unable to complete one.
-
+- Question (xyin6-stat6250): What are the essential components to be clearly labeled when we submitting the weekly forum post?
+- Answer (xyin6-stat6250): There are four components in each weekly forum post we submit: Title, Complete URL of the post, Synopsis/brief summary, and Explanation of article choice.
 
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ldeng11−stat6250): Both. It is set to earn the Reading for Depth Achievement by complete at least 8 of 10 weekly quizzes, to let the student could have time to deal with their stressful studies and schedules, and also to make sure the students who enroll late could catch up with the course.
 - Question (jbettonville-stat6250): Do all quizzes have roughly the same number of questions or will the length vary widely? (i.e. Can we expect to spend roughly the same amount of time on quizzes each week, or will some require signficantly more time than others?)
+- Answer (xyin6-stat6250): There should be the same amount of questions (10 structure questions plus recipe questions), but the difficulty level will vary as the course move on. We suppose to spend more time on some tough topics and less time in some easy understanding chapters.
 - *Question* (cnguyen77-stat6250): If students successfully complete at least 8 of the 10 scheduled quizzes by their assigned due dates, what achievement will they get?
 - *Answer* (cnguyen77-stat6250): They will earn Reading for Depth Achievement toward their course grade.
 - Question (ldeng11−stat6250): Why the weekly quizzes ask the students to develop their own questions and answers related to the text book contents?
@@ -58,8 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49−stat6250): Where should you find the dataset for your team project assignments?
 - Question (aamiri2-stat6250): What are the benefits of creating and answering weekly quizzes?
 - Answer (aamiri2-stat6250): Creating your own questions and answering them enables deeper understanding. The goal is to internalize new concepts and really pushes student to read daily.
-
-
+- Answer (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
@@ -72,8 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49−stat6250): Should I view all the videos that are posted on Blackboard?
 - Answer (tchan49-stat6250): Since this is an online class which means we don't meet at a classroom, it is very important to watch all the videos whether it is a recipe video or instruction video. Missing video means missing class. 
 - Question (aamiri2-stat6250): Since we have a few  team projects, will we be given a group of students to work with throughout the quarter?
-
-
+- Question (xyin6-stat6250): Do we work on our own for team based projects or we have to form actual teams?
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
@@ -85,7 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How many multiple-choice questions are there in the Final Exam? And to earn the Building General Knowledge achievement for the course, how many percentages does a student need to accomplish?
 - Question (tchan49−stat6250): Are the teams assigned by the professor or the students' own choice? And when will the teams be formed?
 - Question (aamiri2-stat6250): What is the format of the final exam? What is the best method to prepare for it aside from the textbook?
-
+- Question (xyin6-stat6250): Does 70% or more final grade means we got the Building General Knowledge Achievement? Or are there other contents in this achievement besides final?
 
 
 [Course Structure Quiz, Problem 6]
@@ -98,7 +99,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): In order to earn an A in STAT6250 this quarter, which achievements should be earned?
 - Question (tchan49−stat6250): Where can you find resources for blog post in order to complete the Reading for Breadth Achievement? 
 - Question (aamiri2-stat6250): What percentage of students receive an A with full effort of completing the requirements?
-
+- Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
 
 
 [Course Structure Quiz, Problem 7]
@@ -110,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Can late submissions be counted toward course grades? Also can incomplete submissions be eligible for resubmission? If so, under what circumstances might the resubmission of an incomplete assignment be accepted?
 - Question (tchan−stat6250): How many "points" do you need to get in order to receive an A in this class?
 - Question (aamiri2-stat6250):  If an assignment is submitted late, does it result in a dock of points?
+- Question (xyin6-stat6250): Will reviesed submission of the quiz/project affect the final outcome of achievements?
 
 
 
@@ -125,7 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan−stat6250): How to be a professional programmer?
 - Answer (tchan49−stat6250):Professional programmers need to have a can-do spirit where they are able to support teammates when they need help and do work together. Also, professional programmers are capable of paying attention to details and identifing problems quickly. They look at the problem at big picture and small picture as well. They should not be afraid of making mistakes but instead, they can point out the mistake quickly and solve it before it becomes unredeemable.
 - Question (aamiri2-stat6250): Can we receive extra credit for proposing a suggestion on the course flow?
-
+- Question (xyin6-stat6250): Most of the tasks are graded by Met/revised towards final achievements, so in what format are the extra credit given, in points or ?
 
 
 [Course Structure Quiz, Problem 9]
@@ -141,7 +143,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is the best way/channel to reach out to the instruction with questions?
 - Question (tchan−stat6250): What is the percentage you need to get on final exam in order to meet the Building General Knowledge Achievement?
 - Question (aamiri2-stat6250): How quickly does the professor respond to DM’s via Slack?
-
+- Answer (xyin6-stat6250): It depends. However, in most cases, the profesoor responds pretty fast!
+- Question (xyin6-stat6250): Is the 15 mins office hour held on Slack or Google Hangout?
 
 
 [Course Structure Quiz, Problem 10]
@@ -155,7 +158,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes, the student should need to check their CSUEB Horizon email since Github and Slack's notification are linked to their school email. 
 - Question (tchan-stat6250): To receive extra credit, what extra work do you need to contribute to the class?
 - Question (aamiri2-stat6250): Are course announcement made via Slack or Github daily?
-
+- Question (xyin6-stat6250): Is there a way to open notifications from github? 
 
 
 [hello-world Week 1 SAS Recipe]
@@ -171,6 +174,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49−stat6250): Data and Proc steps. Procedure  (Proc) steps are the prepakaged of manipulating data. The Null data step helps keep step the data from outputting a new dataset. 
 - Question (aamiri2-stat6250): What is CPU time? Which is better CPU time or Real Time?
 - Answer (aamiri2-stat6250): CPU time is the amount of time it takes to utilize CPU resources. CPU time is generally less time than Real Time meaning it is faster than Real Time. Time is just a measurement so CPU generates faster in most cases.
+- Question (xyin6-stat6250): Is data _null_ always the start line of a new commend? What does word null represent?
 
 
 
@@ -186,5 +190,5 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan−stat6250): What is the function MOD exactly? 
 - Answer (tchan49−stat6250): The MOD function returns the remainder of the division of elements of the first argument by elements of the second argument.
 - Question (aamiri2-stat6250): Is there a particular reason why Computer Science graduates from universities cannot answer the basic programming interview questions? 
-
+- Question (xyin6-stat6250): if we want to output 1 to 100 with incremented by 2, how should we set the increment amount in the command? 
 
