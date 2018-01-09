@@ -127,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aamiri2-stat6250): Can we receive extra credit for proposing a suggestion on the course flow?
 
 
+
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
