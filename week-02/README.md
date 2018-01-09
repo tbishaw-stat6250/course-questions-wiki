@@ -18,49 +18,51 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
-
+- Question (ldeng11−stat6250): What are the observation and variable meaning in SAS?
+- Answer (ldeng11−stat6250): In SAS data set, rows(observations) are the collections of data values typically relate to a single object. Columns(variables) are the collections of values describe a particular characteristics. 
 
 
 [Course Textbook Chapter 1, Problem 2]
-
+- Question (ldeng11−stat6250): What is DATA step? What is PROC step?
 
 
 [Course Textbook Chapter 1, Problem 3]
-
-
+- Question (ldeng11−stat6250): What are the types of variable?
+- Answer (ldeng11−stat6250): There are two types of variable, numeric, and charactor
 
 [Course Textbook Chapter 1, Problem 4]
-
+- Question (ldeng11−stat6250): How a variable will display if it is a missing value> 
 
 
 [Course Textbook Chapter 1, Problem 5]
-
+- Question (ldeng11−stat6250): What is the naming rule for the variable in SAS?
 
 
 [Course Textbook Chapter 1, Problem 8]
-
+- Question (ldeng11−stat6250): What is the defaul length for the numeric variable?
 
 
 [Course Textbook Chapter 2, Problem 3]
-
+- Question (ldeng11−stat6250): How the SAS save date values?
 
 
 [Course Textbook Chapter 2, Problem 7]
-
+- Question (ldeng11−stat6250): How many ways you can reference a SAS data set?
 
 
 [Course Textbook Chapter 2, Problem 8]
-
+- Question (ldeng11−stat6250): What is the YEARCUTOFF option using to?
 
 
 [Course Textbook Chapter 2, Problem 9]
-
-
+- Question (ldeng11−stat6250): What happen to the SAS library if you delete a libref in your SAS code?
+- Answer (ldeng11−stat6250): You will lost the access to the files in the library, but the contents of the library are still exist in your operation sysetm.
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-
+- Question (ldeng11−stat6250): Can the recipe code read the excel sheet from other sheets other than sheet 1 (the left most sheet)?
+- Answer (ldeng11−stat6250): Yes, you need to add the sheet statement option.
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-
+- Question (ldeng11−stat6250): How to revise the code to support other data formats?
 
