@@ -28,6 +28,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49−stat6250): How should you contact your professor when you have quetions during the course? 
 - Question (aamiri2-stat6250): Is any feedback given on our week 1 setup so we know if we are on a good start or not?
 - *Question* (cli19−stat6250): What are the benefits of using Slack over other messaging/communication applications?
+- Question (pcheng14−stat6250): What is "repository" and how is it working?
+- Answer (pcheng14−stat6250): A directory or storage space where your projectors can live. Something GiftHub users shorten this to "repo." It can be local a folder on your computer, or it can be a storage space on GiuHub or another online host. You cn keep code files, text files, image files, you name it, inside a repository.
 
 
 
@@ -46,6 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aamiri2-stat6250): No, even though it is only required to complete 8 of 10, students are encouraged to complete 10 of 10 weekly forum posts. This is meant for students that may start the course late and allows the flexibility. Not to mention this is a great way of helping your grade in case a student forgets a post or is unable to complete one.
 - *Question* (cli19−stat6250): How will posting weekly forums add to our professional and academic success?
 - *Answer* (cli19−stat6250): Posting weekly forums on news and applied concepts will urge students to get into the habit of staying current with developments and enhancements to programming tools and methodologies. It will also help foster students' ability to think critically.
+- Question (pcheng14−stat6250): May I completer more than 10 forum posts even if the requirement is 8 ?
+- Answer (pcheng14−stat6250):Yes, people can complete more than 10 forum posts.
 
 
 
@@ -62,6 +66,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aamiri2-stat6250): What are the benefits of creating and answering weekly quizzes?
 - Answer (aamiri2-stat6250): Creating your own questions and answering them enables deeper understanding. The goal is to internalize new concepts and really pushes student to read daily.
 - *Question* (cli19−stat6250): What is the main goal for accomplishing weekly quizzes?
+- Question (pcheng14−stat6250): Besides the book, may I do the complete where sources from others books or google?
+- Answer (pcheng14−stat6250): Yes, practice makes perfect. 
 
 
 
@@ -77,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250): Since this is an online class which means we don't meet at a classroom, it is very important to watch all the videos whether it is a recipe video or instruction video. Missing video means missing class. 
 - Question (aamiri2-stat6250): Since we have a few  team projects, will we be given a group of students to work with throughout the quarter?
 - *Question* (cli19−stat6250): How will collaboration for team-based projects work? Will each person be responsible for one discrete step?
+- Question (pcheng14−stat6250): Is code reviews the useful way to double check whether my work is on right way or not?
+- Answer (pcheng14−stat6250):Yes, it my first time to do like this way but I think it is so useful.
 
 
 
@@ -92,6 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aamiri2-stat6250): What is the format of the final exam? What is the best method to prepare for it aside from the textbook?
 - *Question* (cli19−stat6250): What is the best method of preparation for the final exam?
 - *Answer* (cli19−stat6250): The best way to prepare for the final exam is to review the course textbook, review weekly quizzes and be able to provide explanations for answers, and reference GitHub to review concepts used.
+- Question (pcheng14−stat6250): Besides exam or quiz, what sort of the project do students work with to demonstrate their skills?
+- Answer (pcheng14−stat6250): For example, government data on poverty or stock market data tend to involve sophisticated analysis on big data
 
 
 
@@ -106,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49−stat6250): Where can you find resources for blog post in order to complete the Reading for Breadth Achievement? 
 - Question (aamiri2-stat6250): What percentage of students receive an A with full effort of completing the requirements?
 - *Question* (cli19−stat6250): If there is a particular achievement we struggle with, are there opportunities to hone this skill and to improve our grade?
+- Question (pcheng14−stat6250): What should I do to earn five total achievements at all for everytime?
 
 
 
@@ -119,6 +130,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan−stat6250): How many "points" do you need to get in order to receive an A in this class?
 - Question (aamiri2-stat6250):  If an assignment is submitted late, does it result in a dock of points?
 - *Question* (cli19−stat6250): What additional sources or references can we use to ensure our assignment submissions are sufficient?
+- Question (pcheng14−stat6250): Will resubmission of incomplete assignments impact the grades?
 
 
 
@@ -135,6 +147,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49−stat6250):Professional programmers need to have a can-do spirit where they are able to support teammates when they need help and do work together. Also, professional programmers are capable of paying attention to details and identifing problems quickly. They look at the problem at big picture and small picture as well. They should not be afraid of making mistakes but instead, they can point out the mistake quickly and solve it before it becomes unredeemable.
 - Question (aamiri2-stat6250): Can we receive extra credit for proposing a suggestion on the course flow?
 - *Question* (cli19−stat6250): Why are contributions to the Course Questions Wiki after Week 10 merit extra credit?
+- Question (pcheng14−stat6250): How many possible points for each extra credit?
 
 
 
@@ -152,6 +165,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan−stat6250): What is the percentage you need to get on final exam in order to meet the Building General Knowledge Achievement?
 - Question (aamiri2-stat6250): How quickly does the professor respond to DM’s via Slack?
 - *Question* (cli19−stat6250): How long does it generally take to receive a reply after sending a direct message through Slack in the evening?
+- Question (pcheng14−stat6250): What is meaning of unladen swallow?
 
 
 
@@ -167,6 +181,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan-stat6250): To receive extra credit, what extra work do you need to contribute to the class?
 - Question (aamiri2-stat6250): Are course announcement made via Slack or Github daily?
 - *Question* (cli19−stat6250): In the case where it is not possible to check each tool on a daily basis, is there a way to get brief notifications for any updates we should be aware?
+- Question (pcheng14−stat6250): Where is Forking a Repo in GitHub coming from?
 
 
 
@@ -185,6 +200,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aamiri2-stat6250): CPU time is the amount of time it takes to utilize CPU resources. CPU time is generally less time than Real Time meaning it is faster than Real Time. Time is just a measurement so CPU generates faster in most cases.
 - *Question* (cli19−stat6250): Are there other methods of printing notes/messages to the log? Or can put only reside in a data step?
 - *Answer* (cli19−stat6250): Yes. Another statement that is useful for debugging code is %put to write text string and what macro variable resolve to.
+- Question (pcheng14−stat6250): How many ways of creating output in SAS and what is the best way to create it?
 
 
 
@@ -201,5 +217,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49−stat6250): The MOD function returns the remainder of the division of elements of the first argument by elements of the second argument.
 - Question (aamiri2-stat6250): Is there a particular reason why Computer Science graduates from universities cannot answer the basic programming interview questions? 
 - *Question* (cli19−stat6250): Is there a way in SAS to view all/other the built-in functions available for us to use?
+- Question (pcheng14−stat6250):What kind of the question could I use mod function in SAS?
 
 
