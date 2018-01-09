@@ -56,7 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 2, Problem 8]
 - *Question* (ldai4-stat6250): what difference are two-digit year and four-digit year?
-- *Answer*  (ldai4-stat6250): 
+
 
 
 [Course Textbook Chapter 2, Problem 9]
@@ -65,9 +65,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-- *Question* (ldai4-stat6250): Which operating systems are used to load data from remote excel file?
+- *Question* (ldai4-stat6250): Can the raw data's format be displayed in SAS library?
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-- *Question* (ldai4-stat6250): Can the raw data be seen in SAS? 
+- *Question* (ldai4-stat6250): For a specific SAS data set, can I use PROC DATASETS to display it? 
 
