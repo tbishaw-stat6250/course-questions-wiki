@@ -18,49 +18,64 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+- *Question* (cli19−stat6250): How can we view a summary or overview of a dataset that includes the number of observations or the number of variables? 
+- *Answer* (cli19−stat6250): The PROC CONTENTS procedure in SAS can allow us a general overview of what we can expect to see in our dataset specified.
 
 
 
 [Course Textbook Chapter 1, Problem 2]
+- *Question* (cli19−stat6250): Can procedures be combined to decrease the number of steps to be processed?
 
 
 
 [Course Textbook Chapter 1, Problem 3]
+- *Question* (cli19−stat6250): What happens when a variable that contains a mix of character/numeric observations is formatted as numeric?
+- *Answer* (cli19−stat6250): The variable assumes null values for observations that are not completely numeric.
 
 
 
 [Course Textbook Chapter 1, Problem 4]
+- *Question* (cli19−stat6250): Why are missing values different for character (' ') and numeric (.) variables?
 
 
 
 [Course Textbook Chapter 1, Problem 5]
+- *Question* (cli19−stat6250): Are variable names case-sensitive?
+- *Answer* (cli19−stat6250): No, SAS is not a case-sensitive program (e.g. variable Policy, POLICY, PolIcY, etc. are the same).
 
 
 
 [Course Textbook Chapter 1, Problem 8]
+- *Question* (cli19−stat6250): When is it appropriate to change variable length? Does SAS automatically adjust for where observations in a dataset have length greater than 8 bytes?
 
 
 
 [Course Textbook Chapter 2, Problem 3]
+- *Question* (cli19−stat6250): What are the benefits to specifying YEARCUTOFF?
 
 
 
 [Course Textbook Chapter 2, Problem 7]
+- *Question* (cli19−stat6250): Is it possible to reference multiple SAS data sets in a single data step? If so, how?
 
 
 
 [Course Textbook Chapter 2, Problem 8]
+- *Question* (cli19−stat6250): Does the YEARCUTOFF option have additional options to incease the time span to over 100 years?
 
 
 
 [Course Textbook Chapter 2, Problem 9]
+- *Question* (cli19−stat6250): How can we view the working directory or file path we would like our librefs to point to?
 
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+- *Question* (cli19−stat6250): How does SAS know how to format data imported from external files?
 
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+- *Question* (cli19−stat6250): Why do only some macro functions in SAS require a "%" to invoke a function? And when do built-in SAS functions need to be invoked with %sysfunc()?
 
 
