@@ -18,26 +18,32 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+- Question (who7-stat6250): Would it be considered a variable if not data is stored in any of the variables? 
 
 
 
 [Course Textbook Chapter 1, Problem 2]
+- Question (who7-stat6250): Would the command "run;" be counted as a program step?
 
 
 
 [Course Textbook Chapter 1, Problem 3]
+- Question (who7-stat6250): Why would we use a numeric variable is char variable covers both numeric and characters?
 
 
 
 [Course Textbook Chapter 1, Problem 4]
+- Question (who7-stat6250): What are the other types of data in SAS?
 
 
 
 [Course Textbook Chapter 1, Problem 5]
+- Question (who7-stat6250): Why is underscore the only special character that can be used as a part of a variable name?
 
 
 
 [Course Textbook Chapter 1, Problem 8]
+- Question (who7-stat6250): What are the maximum length in a numeric variable?
 
 
 
