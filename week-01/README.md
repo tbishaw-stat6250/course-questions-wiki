@@ -124,7 +124,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Will instruction give extra credit? If so, what are they?
 - Question (tchan−stat6250): How to be a professional programmer?
 - Answer (tchan49−stat6250):Professional programmers need to have a can-do spirit where they are able to support teammates when they need help and do work together. Also, professional programmers are capable of paying attention to details and identifing problems quickly. They look at the problem at big picture and small picture as well. They should not be afraid of making mistakes but instead, they can point out the mistake quickly and solve it before it becomes unredeemable.
-
+- Question (aamiri2-stat6250): Can we receive extra credit for proposing a suggestion on the course flow?
 
 
 [Course Structure Quiz, Problem 9]
