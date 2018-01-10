@@ -19,11 +19,11 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 1]
 - Question (xyin6-stat6250): How many observations and variables can a data set contain? How to count observations/variables?
-
+- Answer (xyin6-stat6250): As many as you can. Typically, rows are observations and colomns are variables.
 
 [Course Textbook Chapter 1, Problem 2]
 - Question (xyin6-stat6250): How to find the point of program steps being executed in the program?
-
+- Answer (xyin6-stat6250): "Run" and "Quit" statement mark step boundaries, at the step boundary, SAS executes any statements that have not previously being executed.
 
 [Course Textbook Chapter 1, Problem 3]
 - Question (xyin6-stat6250): How long can character variable be? Can character variables contain numbers?
@@ -31,7 +31,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 4]
 - Question (xyin6-stat6250): How to represent missing value in character and numeric variable type?
-
+- Answer (xyin6-stat6250): A blank represents missing value in character variable, and a period represents missing value in numeric variable.
 
 [Course Textbook Chapter 1, Problem 5]
 - Question (xyin6-stat6250): What are the constrains to make a valid variable name?
