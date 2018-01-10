@@ -24,6 +24,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 2]
 - Question (who7-stat6250): Would the command "run;" be counted as a program step?
+- Answer (who7-stat6250): It would be counted as a program step as it is executing a line of code.
 
 
 
@@ -39,34 +40,41 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 5]
 - Question (who7-stat6250): Why is underscore the only special character that can be used as a part of a variable name?
+- Answer (who7-stat6250): Cannot be 100% sure of all special character, but coding don't usually start with a special character because most speial character usually refers to a specific function/syntax within the code. As a result, to avoid confusion, they made it a rule to not make variable name with special character.
 
 
 
 [Course Textbook Chapter 1, Problem 8]
 - Question (who7-stat6250): What are the maximum length in a numeric variable?
+- Answer (who7-stat6250): The usual length of a numeric variables is 3-8.
 
 
 
 [Course Textbook Chapter 2, Problem 3]
+- Question (who7-stat6250): Instead of a cutoff date, can it be a range?
 
 
 
 [Course Textbook Chapter 2, Problem 7]
+- Question (who7-stat6250): Can we change the name of data set in the code?
 
 
 
 [Course Textbook Chapter 2, Problem 8]
+- Question (who7-stat6250): Is there a way to expand the range of time period for more than 100 years?
 
 
 
 [Course Textbook Chapter 2, Problem 9]
+- Question (who7-stat6250): Is there any restriction to LIBNAME like variable names?
 
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+- Question (who7-stat6250): When loading data from remote excel file, can we manually assign and rename the library folder that the file will be stored at?
 
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-
+- Question (who7-stat6250): Can we consider the macro command similar to a function in Python?
 
