@@ -77,4 +77,3 @@ The instructor will then review the pull request and make comments should furthe
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 - Question (who7-stat6250): Can we consider the macro command similar to a function in Python?
-
