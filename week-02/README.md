@@ -18,6 +18,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+- Question (ljiang11−stat6250): 
+- Answer (ljiang11−stat6250): 
 
 
 
