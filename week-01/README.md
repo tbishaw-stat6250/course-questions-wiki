@@ -18,6 +18,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
+- Answer (lsun20-stat6250): For me, it's not very common to abbreviate the "repository" as "repo". I usually thought "repo" like "report" or "repost", because I didn't use github before. After I search online, I found that the programmer allways make the "repository" as "repo" in daily work.
+- Question (shatcher4−stat6250): Does the five professional practices to promote a growth mindset work for all types of learners?
 - Answer (ldeng11−stat6250): Typically, people abbreviate the word "repository" as "repo" when they use the version control system like Git 
 - Question (jbettonville−stat6250): The question on the quiz mentions five items that must be completed, but the instructions for the initial setup have two separate lists of tasks to complete, the first being "Preparing Week 1 Setup Components" with six items, and the second being "Submitting Week 1 Setup Components" with four items. Would it be more accurate to say that ten components must be completed rather than five? 
 - *Question* (cnguyen77-stat6250): How many components of the Week 1 Setup Instructions does a student need to complete in order to earn an Initial Setup Achievement?
@@ -34,13 +36,16 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): There are many resources online to read about SAS.  From blogpost to videos hosted by professors from different universities.
 - Question (xyin6-stat6250): How many possible achievenments in total can we accomplish towarding final grades? 
 - Answer (xyin6-stat6250): There are five achievements in total: Reading for Depth; Team-based Problem Solving; Reading for Breadth; Building General Knowledge; Initial Setup.
-
+- Question (lsun20-stat6250): Is same to use the GitHub Desktop App instead of the Github website? How to use it?
 - Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
+
+
 
 
 [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
+- Question (shatcher4−stat6250): What is the benefit of the achievement grading system versus an average grading system?
 - Question (jbettonville−stat6250): Based upon past offerings of this course, how frequently do students engage with each other's forum posts?
 - *Question* (cnguyen77-stat6250): How many scheduled forum posts do students need to complete in order to earn a Reading for Breadth Achievement toward their course grade?
 - *Answer* (cnguyen77-stat6250): Students should successfully complete at least 8 of the 10 scheduled forum posts by their assigned due dates.
@@ -58,11 +63,17 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Would there be extra credit if student complete all 10 forum post?
 - Question (xyin6-stat6250): What are the essential components to be clearly labeled when we submitting the weekly forum post?
 - Answer (xyin6-stat6250): There are four components in each weekly forum post we submit: Title, Complete URL of the post, Synopsis/brief summary, and Explanation of article choice.
-
+- Question (lsun20-stat6250): What I can do if I understand a specific problem without any question in the weekly question and answer? 
 - Question (lceballos-stat6250): Can we use articles that are about Python or R instead of SAS?
+
+
+
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (lsun20-stat6250): It won't be "slack off" for student at the end of the quarter, because the final exam which include all assignment is important, if we want the grade A. Also, weekly quizzes may make the student feel tedious. For me, I always take the test seriously, not matter it is quize or exam. 
+- Question (shatcher4−stat6250): What happens when components are submitted of insufficient quality before the due date?
+- Answer (shatcher4−stat6250): The components of the insufficient quality made be resubmitted at the instructor's discretion.
 - Answer (ldeng11−stat6250): Both. It is set to earn the Reading for Depth Achievement by complete at least 8 of 10 weekly quizzes, to let the student could have time to deal with their stressful studies and schedules, and also to make sure the students who enroll late could catch up with the course.
 - Question (jbettonville-stat6250): Do all quizzes have roughly the same number of questions or will the length vary widely? (i.e. Can we expect to spend roughly the same amount of time on quizzes each week, or will some require signficantly more time than others?)
 - Answer (xyin6-stat6250): There should be the same amount of questions (10 structure questions plus recipe questions), but the difficulty level will vary as the course move on. We suppose to spend more time on some tough topics and less time in some easy understanding chapters.
@@ -80,14 +91,18 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Would comments and review still be made even if submission of weekly quizzes are late?
 - Answer (who7-stat6250): Although i cannot be sure, the final decision would rest on Professor Lankham.  Late submission would most likely not be consider into the final grade as the professor already provided a leeway for the quiz submission.
 - Question (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
-
-
+- Question (lsun20-stat6250): What's the criterion of the weekly quizes? Does is means all the assignment should be above 80%? Also, how to judge the the weekly forum posts?
 - Question (lceballos-stat6250): If multiple students submit the same questions on github, who gets credit?
+
+
+
+
 
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
+- Question (shatcher4−stat6250): What is the purpose of demonstrating each student's development setup during an office hour appointment?
 - Question (jbettonville-stat6250): At the moment it appears that instructions about only the first step of the first project are available in Blackboard; when will the information about the next steps in each phase of the projects be made available to students?
 - *Question* (cnguyen77-stat6250): How many team-based projects are required to complete in this course?
 - Question (ldeng11−stat6250): What are the descriptions about the step 1, 2, and 3?
@@ -101,12 +116,17 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250):Yes, it my first time to do like this way but I think it is so useful.
 - Question (who7-stat6250): What are some of the most common mistake during SAS code writing?
 - Question (xyin6-stat6250): Do we work on our own for team based projects or we have to form actual teams?
-
+- Question (lsun20-stat6250): Can we make the meetting appointment online? I mean meeting onlion by zoom or anther apps?
 - Question (lceballos-stat6250): Are we assigned to teams or are teams self-selected?
+
+
+
 
 [Course Structure Quiz, Problem 5]
 - Question (ilankham−stat6250): How similar to Weekly Quiz problems will final exam problems be? In other words, if I want to best prepare for the final exam throughout the course, should I primarily focus on thoroughly understanding weekly quiz problems?
 - Answer (ilankham−stat6250): The best way to prepare for the Final Exam is to work through every assigned Weekly Quiz Problem and to develop an understanding of all concepts involved to the point that the problems can be thoroughly answered without consulting reference materials.
+- Question (shatcher4−stat6250): The articles for the weekly forum posts should discuss what concepts?
+- Answer (shatcher4−stat6250): SAS programming, statistical programming concepts involving Python, R or SAS
 - Question (jbettonville-stat6250): Based upon past offerings of this course, what percentage of students who have taken this exam have achieved a score of 70% or higher?
 - *Question* (cnguyen77-stat6250): How many multiple-choice questions does the Final Exam consist?
 - Question (ldeng11−stat6250): Is the final exam highly related to the SAS base certification exam?
@@ -120,12 +140,18 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250): For example, government data on poverty or stock market data tend to involve sophisticated analysis on big data
 - Question (who7-stat6250): Would there be any practice exam that mirror the final exam for us to practice on?
 - Question (xyin6-stat6250): Does 70% or more final grade means we got the Building General Knowledge Achievement? Or are there other contents in this achievement besides final?
-
-
+- Question (lsun20-stat6250): How useful we do the quiz or forum post weekly?
 - Question (lceballos-stat6250): What is the minimum score to pass the final exam?
 - Answer (lceballos-stat6250): 70%.
+
+
+
+
+
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
+- Answer (lsun20-stat6250): No. Like the Initial Setup achievement, it only one option, yes or no.
+- Question (shatcher4−stat6250): What is the benefit of using a "Met/Revise" grading scale?
 - Question (jbettonville-stat6250): Based upon past offerings of this course, which, if any, of these achievements are students most likely to fail to earn?
 - *Question* (cnguyen77-stat6250): To earn an A in STAT 6250 this quarter, what achievement/achievements does a student should earn?
 - Question (ldeng11−stat6250): What you should do to earn an A in this course?
@@ -138,13 +164,18 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What should I do to earn five total achievements at all for everytime?
 - Question (who7-stat6250): Based on your past experience, what is the average grade for students of this class?
 - Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
-
-
+- Question (lsun20-stat6250): Is there any extre credit that we can earn to improving our grades?
 - Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
+
+
+
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
+- Answer (lsun20-stat6250): Because it's important to know how to get the outcome, the duration may more important than outcome sometimes.
+- Question (shatcher4−stat6250): What is a "unique id" in a dataset for the projects?
+- Answer (shatcher4−stat6250): A single column, primary key, with values that uniquely identify experimental units or a combination of columns, composite key, with combined values that uniquely identify experimental units.
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
 - *Question* (cnguyen77-stat6250): Can late submission be counted toward course grades?
 - Question (ldeng11−stat6250): Why late submissions are not allowed? Can late submissions be graded in loosing points?
@@ -156,13 +187,18 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): Will resubmission of incomplete assignments impact the grades?
 - Question (who7-stat6250): Is there any circumstances where late submission would be accepted?
 - Question (xyin6-stat6250): Will reviesed submission of the quiz/project affect the final outcome of achievements?
-
-
+- Question (lsun20-stat6250): How to use the google Hangouts to meeting with professor or class?
 - Question (lceballos-stat6250): How many questions do we have to complete to receive credit in the weekly quizes?
+
+
+
+
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- Question (shatcher4−stat6250): For Project 1 Step 1, why does a SAS dataset need to contain at least 200 rows and 20 columns?
 - Answer (ldeng11−stat6250): Both. People make mistakes, that is why ofen time we need the review process. The student can get extra credit by catching mistakes because it could demostrate that the student has read the materials carefully, and understand what are the class materials talking about.
+- Answer (lsun20-stat6250): Both. It doesn't matter to make mistake, everyone will makes mistakes, the important things is fix it after you make it.
 - Question (jbettonville-stat6250): What is the mechanism by which extra credit is applied? (i.e. which achievements does it impact, and may it impact different achievements depending upon the circumstance under which it is awarded)
 - Answer (jbettonville-stat6250): I assume the instructor can provide a precise answer, but it seems to me that extra credit to be given for catching errors or seeking clarification would tie into the Reading for Depth Achievement, since it involves thoroughly reviewing written content. I would also think that contributions to the Course Questions Wiki beyond the Week 10 quiz may also relate to the Building General Knowledge and Team-based Problem Solving achievements; in any case I would like to know more about this for sure.
 - *Question* (cnguyen77-stat6250): In what ways does the instructor give extra credit for students in this course?
@@ -176,14 +212,17 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): How many possible points for each extra credit?
 - Question (who7-stat6250): Besides catching mistakes in learning materials, what other ways are there to earn extra credits?
 - Question (xyin6-stat6250): Most of the tasks are graded by Met/revised towards final achievements, so in what format are the extra credit given, in points or ?
-
-
+- Question (lsun20-stat6250): How to get a great grade after the class? what the most important things we need to do?
 - Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
+
+
+
 
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
+- Question (shatcher4−stat6250): How is the SAS Certified Base Programmer for SAS 9 Credential beneficial?
 - Question (jbettonville-stat6250): What is the reason for requesting contact via Slack instead of via email or Hangouts?
 - Answer (jbettonville-stat6250): One possible reason is that Slack allows for communication and collaboration to happen quickly among a large group. Email is not necessarily pushed to all devices instantaneously (especially with current limitations on push email through Gmail for iPhones), so messages sent via Slack can be reviewed and responded to with less of a delay, and communications can be centralized for all members of the group.
 - *Question* (cnguyen77-stat6250): What is the best way to contact the instructor with questions/comments?
@@ -199,15 +238,18 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Why was Slack used as one more the communication methods instead of other messenger apps?
 - Answer (xyin6-stat6250): It depends. However, in most cases, the profesoor responds pretty fast!
 - Question (xyin6-stat6250): Is the 15 mins office hour held on Slack or Google Hangout?
-
-
+- Question (lsun20-stat6250): How to get an achievement? Do I need to get all assignment with "Met" grade in this achievement?
 - Question (lceballos-stat6250): Is it possible to schedule a face-to-face appointment with the professor?
+
+
 
 
 
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
+- Answer (lsun20-stat6250): Professor will give the feedback on the GitHub. Checking it daily can help student get the feedback on time.
+- Question (shatcher4−stat6250): What would be an example of components of insufficient quality on the final exam?
 - Question (jbettonville-stat6250): Can you recommend any methods of tracking changes to each platform regularly?
 - Answer (jbettonville-stat6250): Blackboard has the "Announcements" page visible upon login that includes any new documents and pages that have been added. The Slack desktop app shows badges on the icon when new posts are available. The Horizon email system can be set up and checked by a mail client regularly. GitHub appears to track activity for each user, but at this time it is unclear if it will also track new updates to repos that have been forked. Any other suggestions for workflow management are appreciated!
 - *Question* (cnguyen77-stat6250): Why should students check their CSUEB-provided Horizon Email Accounts daily?
@@ -222,15 +264,19 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Besides github website, what other resources to help students better understand the github platform?
 - Answer (who7-stat6250): There are many resources online to further understand github.  Besides the many blogs and the help section from github, there are also free online class to help people navigate github such as Udacity.
 - Question (xyin6-stat6250): Is there a way to open notifications from github? 
-
-
+- Question (lsun20-stat6250): What the most effective way to connect with professor? and how to chat with my team about the team project?
 - Question (lceballos-stat6250): What technology is used in this course?
 - Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
 
 
+
+
+
 [hello-world Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is there a way of having SAS print to a different output destination than the log?
+- Question (shatcher4−stat6250): What is a SAS recipe?
 - Answer (ldeng11−stat6250): Yes, SAS could print the output into a file and save it to the hard drive.
+- Answer (lsun20-stat6250): It also have an OUTPUT destination, but we don't need it right now.
 - Question (jbettonville-stat6250): How similar is the syntax and grammar of SAS to other commonly used programming languages? What are some of the major differences between SAS and other languages commonly used for statistical analysis?
 - *Question* (cnguyen77-stat6250):What is the best way to learn programming?
 - Question (ldeng11−stat6250): what are the purpose of using "put" statement here?
@@ -246,13 +292,17 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): How many ways of creating output in SAS and what is the best way to create it?
 - Question (who7-stat6250): What would you say SAS programming language is most similar to?
 - Question (xyin6-stat6250): Is data _null_ always the start line of a new commend? What does word null represent?
-
+- Question (lsun20-stat6250): Is there any situation that we can't use doulbe-quotes to delimit SAS string literals
 - Question (lceballos-stat6250): What types are steps are used in SAS?
 - Answer (lceballos-stat6250): DATA step and a PROC step
+
+
+
 
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
+- Question (shatcher4−stat6250): Why is a data step code in SAS organized in two steps?
 - Question (jbettonville-stat6250): Can you recommend any other simple programming exercises for aspiring programmers to practice in multiple languages?
 - *Question* (cnguyen77-stat6250): What is the print out of numbers that are multiples of both three and five?
 - Question (ldeng11−stat6250): How many ways to do the loop in SAS?
@@ -267,8 +317,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250):What kind of the question could I use mod function in SAS?
 - Question (who7-stat6250): Is there an online platform like CodeAcademy that allow students to practice SAS on?
 - Question (xyin6-stat6250): if we want to output 1 to 100 with incremented by 2, how should we set the increment amount in the command? 
-
-
-
+- Question (lsun20-stat6250): Where we can find the entire function in SAS?
 - Question (lceballos-stat6250): How do you do a for loop in SAS?
 - Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
+
+
