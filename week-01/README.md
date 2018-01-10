@@ -310,10 +310,13 @@ The instructor will then review the pull request and make comments should furthe
 Data Step: A portion of the SAS program that begins with a DATA statement and ends with another DATA statement, RUN statement or PROC statement. Generally, in SAS Data steps are used to manage data like input data, modify data etc.
  
 ![sascode](https://user-images.githubusercontent.com/35093776/34646199-cfe2294a-f316-11e7-9df0-80a3f1af4709.png)
+
 In this case, everything between the “data Grade” and the first “run” statement constitutes the Data Step. The output of this step is given below:
 ![sas_datastep_outputimage](https://user-images.githubusercontent.com/35093776/34646202-db97c3f8-f316-11e7-8d7e-b9c50e298454.png)
+
 Proc Step: A portion of the SAS program that begins with a PROC statement and ends with another PROC statement, RUN statement or DATA statement. Generally, in SAS Data steps are used to analyze data like doing descriptive statistics, generate graphs and charts and generate reports etc.
 In this case, everything between the “proc print” and the second “run” statement constitutes the Proc Step. The result as seen in the Result Viewer.
+
 ![sas_procstep_outputimage](https://user-images.githubusercontent.com/35093776/34646206-e4741350-f316-11e7-98d7-29e72ad79d79.png)
 
 
