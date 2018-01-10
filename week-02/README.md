@@ -23,16 +23,16 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 2]
 - Question(tchan49-stat6250):Is run statement required before you start a new step?
-- Answer(tchan49-stat6250):
+
 
 [Course Textbook Chapter 1, Problem 3]
 - Question(tchan49-stat6250):What is the type of data that contains letters and numbers?
-- Answer(tchan49-stat6250):
+
 
 
 [Course Textbook Chapter 1, Problem 4]
 - Question(tchan49-stat6250):Can numeric variable be character variable?
-- Answer(tchan49-stat6250):
+
 
 
 [Course Textbook Chapter 1, Problem 5]
@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 8]
 - Question(tchan49-stat6250):What is the default length for numeric values? 
-- Answer(tchan49-stat6250):
+
 
 [Course Textbook Chapter 2, Problem 3]
 - Question(tchan49-stat6250): Do you have to specify YEARCUTOFF= option for 4-digit years of the date values? 
@@ -57,18 +57,17 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 2, Problem 8]
 
 - Question(tchan49-stat6250):When you set up a YEARCUTOFF= and count a time span(100years), does the year you intend to start count as the first year of the span? 
-- Answer(tchan49-stat6250):
+
 
 [Course Textbook Chapter 2, Problem 9]
 
 - Question(tchan49-stat6250):When does librefs stop remaining effect in the current SAS session? 
-- Answer(tchan49-stat6250):
+
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 - Question(tchan49-stat6250):What is the purpose of the REPLACE option? Do you have to have that statment when you import dataset? 
-- Answer(tchan49-stat6250):
+
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
-- Question(tchan49-stat6250):
-- Answer(tchan49-stat6250):
+- Question(tchan49-stat6250):What is the symbol macro? What is the purpose to create a macro?
 
