@@ -38,7 +38,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (xyin6-stat6250): There are five achievements in total: Reading for Depth; Team-based Problem Solving; Reading for Breadth; Building General Knowledge; Initial Setup.
 - Question (lsun20-stat6250): Is same to use the GitHub Desktop App instead of the Github website? How to use it?
 - Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
-
+- Question (dfei−stat6250): What's the main difference between SAS programming and R programming?
 
 
 
@@ -65,7 +65,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (xyin6-stat6250): There are four components in each weekly forum post we submit: Title, Complete URL of the post, Synopsis/brief summary, and Explanation of article choice.
 - Question (lsun20-stat6250): What I can do if I understand a specific problem without any question in the weekly question and answer? 
 - Question (lceballos-stat6250): Can we use articles that are about Python or R instead of SAS?
-
+- Question (dfei−stat6250): How mang additional achevements are earned if students want to get an A in the final grade?
+- Answer (dfei−stat6250): Students can get an A if 4 possible achevements are earned.
 
 
 
@@ -93,9 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Are the recipe questions supplemental to the weekly structure quiz questions or are they equally important?
 - Question (lsun20-stat6250): What's the criterion of the weekly quizes? Does is means all the assignment should be above 80%? Also, how to judge the the weekly forum posts?
 - Question (lceballos-stat6250): If multiple students submit the same questions on github, who gets credit?
-
-
-
+- Question (dfei−stat6250): How many companies use SAS programming as usual in the world?
 
 
 
@@ -118,7 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Do we work on our own for team based projects or we have to form actual teams?
 - Question (lsun20-stat6250): Can we make the meetting appointment online? I mean meeting onlion by zoom or anther apps?
 - Question (lceballos-stat6250): Are we assigned to teams or are teams self-selected?
-
+- Question (dfei−stat6250): Which softwares are required in the course?
+- Answer (dfei−stat6250): SAS 9.4,and Excel.
 
 
 
@@ -143,8 +143,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): How useful we do the quiz or forum post weekly?
 - Question (lceballos-stat6250): What is the minimum score to pass the final exam?
 - Answer (lceballos-stat6250): 70%.
-
-
+- Question (dfei−stat6250): What date does final exam take place?
+- Answer (dfei−stat6250): March 17 2018 due by 11:59pm
 
 
 
@@ -166,8 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): If a student earns A in this course, does he have the ability to pass the base SAS certification exam?
 - Question (lsun20-stat6250): Is there any extre credit that we can earn to improving our grades?
 - Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
-
-
+- Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
 
 
 
@@ -189,8 +188,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Will reviesed submission of the quiz/project affect the final outcome of achievements?
 - Question (lsun20-stat6250): How to use the google Hangouts to meeting with professor or class?
 - Question (lceballos-stat6250): How many questions do we have to complete to receive credit in the weekly quizes?
-
-
+- Question (dfei−stat6250): What's the history and development of SAS programming?
+- Answer (dfei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
 
 
 
@@ -214,8 +213,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Most of the tasks are graded by Met/revised towards final achievements, so in what format are the extra credit given, in points or ?
 - Question (lsun20-stat6250): How to get a great grade after the class? what the most important things we need to do?
 - Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
-
-
+- Question (dfei−stat6250): Does the professor give students extra credits in the class?
 
 
 
@@ -240,9 +238,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Is the 15 mins office hour held on Slack or Google Hangout?
 - Question (lsun20-stat6250): How to get an achievement? Do I need to get all assignment with "Met" grade in this achievement?
 - Question (lceballos-stat6250): Is it possible to schedule a face-to-face appointment with the professor?
-
-
-
+- Question (dfei−stat6250): What's the text book required in the class?
+- Answer (dfei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
 
 
 
@@ -267,8 +264,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What the most effective way to connect with professor? and how to chat with my team about the team project?
 - Question (lceballos-stat6250): What technology is used in this course?
 - Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
-
-
+- Question (dfei−stat6250): What data is the due date for students to make appointments online with professor?
 
 
 
@@ -295,7 +291,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Is there any situation that we can't use doulbe-quotes to delimit SAS string literals
 - Question (lceballos-stat6250): What types are steps are used in SAS?
 - Answer (lceballos-stat6250): DATA step and a PROC step
-
+- Question (dfei−stat6250): How many types of steps is SAS programming organized and what are they?
 
 
 
@@ -320,5 +316,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Where we can find the entire function in SAS?
 - Question (lceballos-stat6250): How do you do a for loop in SAS?
 - Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
+- Question (dfei−stat6250): What does branching logic mean and how it works?
 
 
