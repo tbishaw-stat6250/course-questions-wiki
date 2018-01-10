@@ -39,6 +39,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Is same to use the GitHub Desktop App instead of the Github website? How to use it?
 - Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
 - Question (dfei−stat6250): What's the main difference between SAS programming and R programming?
+- *Question* (aacharya4−stat6250): In order to earn Initial Setup achievement, what are the components of Week1 Setup does a student need to complete?
 
 
 
@@ -67,6 +68,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can we use articles that are about Python or R instead of SAS?
 - Question (dfei−stat6250): How mang additional achevements are earned if students want to get an A in the final grade?
 - Answer (dfei−stat6250): Students can get an A if 4 possible achevements are earned.
+- *Question* (aacharya4−stat6250): How “Reading for Breadth” achievement can help students in learning analytics and SAS ? How many weekly forum posts students need to complete to earn this achievement?
+- *Answer* (aacharya4−stat6250): We need to complete at least 8 out of the 10 Weekly discussion posts to earn Reading for Breadth achievement. This helps the students to read about various topics in the world of analytics which is just not limited to SAS. Also, there are informative posts about using SAS more effectively aside from what is taught as part of the course objectives. Reading the discussion posts would improve the student’s breadth of knowledge in analytics about diverse topics.
 
 
 
@@ -95,6 +98,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What's the criterion of the weekly quizes? Does is means all the assignment should be above 80%? Also, how to judge the the weekly forum posts?
 - Question (lceballos-stat6250): If multiple students submit the same questions on github, who gets credit?
 - Question (dfei−stat6250): How many companies use SAS programming as usual in the world?
+- *Question* (aacharya4−stat6250): What achievement does student earn when they complete 8 out of 10 Weekly Quizzes? How does taking Weekly Quizzes help the student in this course?
+- *Answer* (aacharya4−stat6250): Students need to complete at least 8 out of the 10 Weekly Quizzes to earn Reading for Depth achievement. The weekly quizzes are based on the course reading materials and the recipe videos posted. Taking the quizzes would help the students to check their understanding on the concepts that they have read in the course materials, thus helping to gauge their in-depth knowledge of topics.
 
 
 
@@ -119,6 +124,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Are we assigned to teams or are teams self-selected?
 - Question (dfei−stat6250): Which softwares are required in the course?
 - Answer (dfei−stat6250): SAS 9.4,and Excel.
+- *Question* (aacharya4−stat6250): What type of feedback is expected from instructor during code review? If there are any changes, will there be "revise" grade from instructor so that student can make required corrections and resubmit code?
 
 
 
@@ -145,6 +151,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): 70%.
 - Question (dfei−stat6250): What date does final exam take place?
 - Answer (dfei−stat6250): March 17 2018 due by 11:59pm
+- *Question* (aacharya4−stat6250): What is the number of questions and the duration of the final exam?
+- *Answer* (aacharya4−stat6250): The final exam would comprise of 65 questions to be completed in one go in a duration of 110 minutes.
 
 
 
@@ -167,6 +175,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Is there any extre credit that we can earn to improving our grades?
 - Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
 - Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
+- *Question* (aacharya4−stat6250): If a student earns all 5 levels of achievement in this course, how would the students’ knowledge of SAS be evaluated as per industry standards?
 
 
 
@@ -190,6 +199,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How many questions do we have to complete to receive credit in the weekly quizes?
 - Question (dfei−stat6250): What's the history and development of SAS programming?
 - Answer (dfei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
+- *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
 
 
 
@@ -214,6 +224,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): How to get a great grade after the class? what the most important things we need to do?
 - Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
 - Question (dfei−stat6250): Does the professor give students extra credits in the class?
+- *Question* (aacharya4−stat6250): How does the instructor evaluate extra credit for this course? What is the grading criteria/achievement for the extra credits?
 
 
 
@@ -240,6 +251,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Is it possible to schedule a face-to-face appointment with the professor?
 - Question (dfei−stat6250): What's the text book required in the class?
 - Answer (dfei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
+- *Question* (aacharya4−stat6250): Why does the instructor prefer slack for communication instead of email?
 
 
 
@@ -265,6 +277,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What technology is used in this course?
 - Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
 - Question (dfei−stat6250): What data is the due date for students to make appointments online with professor?
+- *Question* (aacharya4−stat6250): In the past years, did students earn extra credits for contributing to projects of other students in GitHub?
 
 
 
@@ -292,6 +305,19 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What types are steps are used in SAS?
 - Answer (lceballos-stat6250): DATA step and a PROC step
 - Question (dfei−stat6250): How many types of steps is SAS programming organized and what are they?
+- *Question* (aacharya4−stat6250): What is the difference between Data Step and Proc Step in SAS?
+- *Answer* (aacharya4−stat6250): 
+Data Step: A portion of the SAS program that begins with a DATA statement and ends with another DATA statement, RUN statement or PROC statement. Generally, in SAS Data steps are used to manage data like input data, modify data etc.
+ 
+![sascode](https://user-images.githubusercontent.com/35093776/34646199-cfe2294a-f316-11e7-9df0-80a3f1af4709.png)
+
+In this case, everything between the “data Grade” and the first “run” statement constitutes the Data Step. The output of this step is given below:
+![sas_datastep_outputimage](https://user-images.githubusercontent.com/35093776/34646202-db97c3f8-f316-11e7-8d7e-b9c50e298454.png)
+
+Proc Step: A portion of the SAS program that begins with a PROC statement and ends with another PROC statement, RUN statement or DATA statement. Generally, in SAS Data steps are used to analyze data like doing descriptive statistics, generate graphs and charts and generate reports etc.
+In this case, everything between the “proc print” and the second “run” statement constitutes the Proc Step. The result as seen in the Result Viewer.
+
+![sas_procstep_outputimage](https://user-images.githubusercontent.com/35093776/34646206-e4741350-f316-11e7-98d7-29e72ad79d79.png)
 
 
 
@@ -317,5 +343,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How do you do a for loop in SAS?
 - Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
 - Question (dfei−stat6250): What does branching logic mean and how it works?
+- *Question* (aacharya4−stat6250): On fizz-buzz, one of the issues mentioned with respect to software programmers is that most of them cannot write basic program code. What are the basic programming skills expected from a graduate level software programmer?
 
 
