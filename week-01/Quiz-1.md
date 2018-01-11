@@ -18,20 +18,20 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
-- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.) In terms of Git, your project folder, which is having all the files required for your project is known as Repository or in short Repo. Everything that you do with regard to your project stays in the repo. When you make changes and save the files, along with saving the file, you also commit them in Git (via its shell program). Committing changes assure that the changes are preserved with regard to the time and day you committed them
+- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.) "In terms of Git, your project folder, which is having all the files required for your project is known as Repository or in short Repo. Everything that you do with regard to your project stays in the repo. When you make changes and save the files, along with saving the file, you also commit them in Git (via its shell program). Committing changes assure that the changes are preserved with regard to the time and day you committed them."
+- Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
 
- 
  [Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 - Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
 
 
-
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (mresendiz3−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
- 
+- Question (mresendiz3-stat6250): Do students ever discuss how grateful they are that this rule is in place? What usually are the prospects for the students who have trouble at the start of the course? What data has been analyzed to show evidence of success considering the first two quiz submissions?
+
 
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
@@ -45,7 +45,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Will a large amount of the final exam be debugging exercises? What's the scope and expectations of what should be learned by the end of the course? What's the goal?
 
 
-
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Question (mresendiz3-stat6250): Although performance level should be a quantifiable amount should the range of levels be larger? If not, why not?
@@ -54,18 +53,20 @@ The instructor will then review the pull request and make comments should furthe
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Answer (mresendiz3-stat6250): Yes; encouraging resubmission of incomplete assignments allows students to focus on the goals set within the course. 
+- Question (mresendiz3-stat6250): What percentage of students on average resubmit incomplete assignments? Does the percentage increase or decrease as the class moves forward?
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Answer (mresendiz3-stat6250): To encourage the complete learning from a task. The continuous addition on living projects that require updating and long-term care is analogous to work found in a work-sample portfolio.
-Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
+- Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
+
 
 [Course Structure Quiz, Problem 9]
 - Question (ilankham−stat6250): Instead of a carrier pigeon, what about an unladen swallow?
 - Answer (ilankham−stat6250): An African swallow maybe, but not a European swallow.
 - Question (mresendiz3-stat6250): Do all kings have to know this information about swallows?
-
+- Question (mresendiz3-stat6250): In addition to the above question: What percentage of computer science literate individuals are familiar with Monty Python?
 
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
