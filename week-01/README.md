@@ -16,6 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Answer (lsun20-stat6250): For me, it's not very common to abbreviate the "repository" as "repo". I usually thought "repo" like "report" or "repost", because I didn't use github before. After I search online, I found that the programmer allways make the "repository" as "repo" in daily work.
@@ -40,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can we use Slack in the browser instead of installing it?
 - Question (dfei−stat6250): What's the main difference between SAS programming and R programming?
 - *Question* (aacharya4−stat6250): In order to earn Initial Setup achievement, what are the components of Week1 Setup does a student need to complete?
+- *Question* (jcanfield3-stat6250): What other requirements are there to complete the Week 1 Setup?
+- *Answer* (jcanfield3-stat6250): Post your greeting in the #classwide-discussion channel, and schedule a 15-minute office hour appoinment to be held by 11:59 PM on Jan 13th.
 
 
 
@@ -70,6 +73,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): Students can get an A if 4 possible achevements are earned.
 - *Question* (aacharya4−stat6250): How “Reading for Breadth” achievement can help students in learning analytics and SAS ? How many weekly forum posts students need to complete to earn this achievement?
 - *Answer* (aacharya4−stat6250): We need to complete at least 8 out of the 10 Weekly discussion posts to earn Reading for Breadth achievement. This helps the students to read about various topics in the world of analytics which is just not limited to SAS. Also, there are informative posts about using SAS more effectively aside from what is taught as part of the course objectives. Reading the discussion posts would improve the student’s breadth of knowledge in analytics about diverse topics.
+- *Question* (jcanfield3-stat6250): Do our chosen blogs have to include SAS code, or do articles that just refer to code ok to use?
 
 
 
@@ -100,6 +104,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): How many companies use SAS programming as usual in the world?
 - *Question* (aacharya4−stat6250): What achievement does student earn when they complete 8 out of 10 Weekly Quizzes? How does taking Weekly Quizzes help the student in this course?
 - *Answer* (aacharya4−stat6250): Students need to complete at least 8 out of the 10 Weekly Quizzes to earn Reading for Depth achievement. The weekly quizzes are based on the course reading materials and the recipe videos posted. Taking the quizzes would help the students to check their understanding on the concepts that they have read in the course materials, thus helping to gauge their in-depth knowledge of topics.
+- *Question* (jcanfield3-stat6250): How long does it take to feel comfortable using GitHub?
+- *Answer* (jcanfield3-stat6250): It depends on the amount of effort put into learning it.
 
 
 
@@ -125,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): Which softwares are required in the course?
 - Answer (dfei−stat6250): SAS 9.4,and Excel.
 - *Question* (aacharya4−stat6250): What type of feedback is expected from instructor during code review? If there are any changes, will there be "revise" grade from instructor so that student can make required corrections and resubmit code?
+- *Question* (jcanfield3-stat6250): Why do we only have access to one step of a project at a time?
 
 
 
@@ -153,6 +160,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): March 17 2018 due by 11:59pm
 - *Question* (aacharya4−stat6250): What is the number of questions and the duration of the final exam?
 - *Answer* (aacharya4−stat6250): The final exam would comprise of 65 questions to be completed in one go in a duration of 110 minutes.
+- *Question* (jcanfield3-stat6250): The final exam instructions state that the 65 questions are based on the SAS Certified Base Programmer exam, yet the Course Structure quiz gives the answer of the weekly quizzes.  Does this mean that the weekly quizzes are also based on the exam?
 
 
 
@@ -176,6 +184,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What is the hardest achievement to earn based on prevous times this class has been taught?
 - Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
 - *Question* (aacharya4−stat6250): If a student earns all 5 levels of achievement in this course, how would the students’ knowledge of SAS be evaluated as per industry standards?
+- *Question* (jcanfield3-stat6250): Is this achievement scale really parallel actual job/internship environments?
 
 
 
@@ -200,6 +209,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): What's the history and development of SAS programming?
 - Answer (dfei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
 - *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
+- *Question* (jcanfield3-stat6250): What is considered an incomplete submission, a non-finished or incorrect one?
 
 
 
@@ -225,6 +235,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Since we are graded on how many achievements that we get, how does extra-credit incorporated?
 - Question (dfei−stat6250): Does the professor give students extra credits in the class?
 - *Question* (aacharya4−stat6250): How does the instructor evaluate extra credit for this course? What is the grading criteria/achievement for the extra credits?
+- *Question* (jcanfield3-stat6250): What makes extra credit useful, if everything is graded on a Met/Revise scale?
 
 
 
@@ -252,6 +263,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): What's the text book required in the class?
 - Answer (dfei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
 - *Question* (aacharya4−stat6250): Why does the instructor prefer slack for communication instead of email?
+- *Question* (jcanfield3-stat6250): Why is the Slack interface we use called a Slack team?
 
 
 
@@ -278,6 +290,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250):CSUEB-provided email account/address, Slack, GitHub, and Blackboard site
 - Question (dfei−stat6250): What data is the due date for students to make appointments online with professor?
 - *Question* (aacharya4−stat6250): In the past years, did students earn extra credits for contributing to projects of other students in GitHub?
+- *Question* (jcanfield3-stat6250): What as in an additional and highly useful technology for this course?
+- *Answer* (jcanfield3-stat6250): SAS 9.4
 
 
 
@@ -318,6 +332,7 @@ Proc Step: A portion of the SAS program that begins with a PROC statement and en
 In this case, everything between the “proc print” and the second “run” statement constitutes the Proc Step. The result as seen in the Result Viewer.
 
 ![sas_procstep_outputimage](https://user-images.githubusercontent.com/35093776/34646206-e4741350-f316-11e7-98d7-29e72ad79d79.png)
+- *Question* (jcanfield3-stat6250): What is the difference between real time and cpu time in the log outputs?
 
 
 
@@ -344,5 +359,6 @@ In this case, everything between the “proc print” and the second “run” s
 - Answer (lceballos-stat6250): With the "do" command. Ie DO UNTIL, DO WHILE, DO i=1 to 100.
 - Question (dfei−stat6250): What does branching logic mean and how it works?
 - *Question* (aacharya4−stat6250): On fizz-buzz, one of the issues mentioned with respect to software programmers is that most of them cannot write basic program code. What are the basic programming skills expected from a graduate level software programmer?
+- *Question* (jcanfield3-stat6250): Does putting an equal sign after a variable automatically print its value?
 
 
