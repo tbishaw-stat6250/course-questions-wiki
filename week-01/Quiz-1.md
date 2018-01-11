@@ -21,7 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.) "In terms of Git, your project folder, which is having all the files required for your project is known as Repository or in short Repo. Everything that you do with regard to your project stays in the repo. When you make changes and save the files, along with saving the file, you also commit them in Git (via its shell program). Committing changes assure that the changes are preserved with regard to the time and day you committed them."
 - Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
 
- [Course Structure Quiz, Problem 2]
+[Course Structure Quiz, Problem 2]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 forum posts to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
 - Answer (ilankham−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 - Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
