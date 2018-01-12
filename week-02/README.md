@@ -35,20 +35,24 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 1, Problem 5]
 -Question (lsun20-stat6250): Is there any specific rule in SAS about making name?
+
 -Answer (lsun20-stat6250):yes, there are some rule which is show in the website (https://v8doc.sas.com/sashtml/lgref/z1031056.htm) in making name in SAS.
 
 [Course Textbook Chapter 1, Problem 8]
 -Question (lsun20-stat6250): Does the numeric variable which are stored in 8 bytes have a range? if yes, what is it?
+
 -Answer (lsun20-stat6250): It depends on different variable type. (e.g. the range of the Long integer is -2,147,483,647 to 2,147,483,647)
 
 
 [Course Textbook Chapter 2, Problem 3]
 -Question (lsun20-stat6250): How the "YEARCUTOFF=option" works in SAS?
+
 -Answer (lsun20-stat6250): The YEARCUTOFF= option specifies which 100-year span is used to interpret two-digit year values.
 
 
 [Course Textbook Chapter 2, Problem 7]
 -Question (lsun20-stat6250): Do we need to coding the SAS library which we need in the program at the first line in the program?
+
 -Answer (lsun20-stat6250): It's better to put the library code at the first of the entire program. Actually, this code just need to be code before you use it.
 
 
