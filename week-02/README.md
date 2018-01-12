@@ -18,24 +18,30 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 1, Problem 1]
+
 Question (dfei−stat6250): What does observation mean in programming?
 
 
 
 [Course Textbook Chapter 1, Problem 2]
+
 Question (dfei−stat6250): How to count program steps in SAS?
 
 
 [Course Textbook Chapter 1, Problem 3]
+
 Question (dfei−stat6250): How many types of variable in the data set?
 
 
+
 [Course Textbook Chapter 1, Problem 4]
+
 Question (dfei−stat6250): what does numberic character mean?
 Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup construct used in SGML and SGML-derived markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represents a single character.
 
 
 [Course Textbook Chapter 1, Problem 5]
+
 Question (dfei−stat6250): what are the variable name rules?
 Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names can be up to 32 characters in length. The first character must begin with an English letter or an underscore. Subsequent characters can be English letters, numeric digits, or underscores.
   
@@ -43,30 +49,37 @@ Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names
 
 
 [Course Textbook Chapter 1, Problem 8]
+
 Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
 Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
 
 
 [Course Textbook Chapter 2, Problem 3]
+
 Question (dfei−stat6250): How to setup data value appropriately?
 
 
 [Course Textbook Chapter 2, Problem 7]
+
 Question (dfei−stat6250): How to store dataset into SAS libraries?
 
 
 [Course Textbook Chapter 2, Problem 8]
+
 Question (dfei−stat6250): How to interpret two-digit year values?
 
 
 [Course Textbook Chapter 2, Problem 9]
+
 Question (dfei−stat6250): Can librefs last from more than one SAS session to another?
 
 
 [basic_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+
 Question (dfei−stat6250): What will happen if I forget to clear tempfile? Will it disappear after I restart my computer?
 
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
+
 Question (dfei−stat6250): There are two characters,"ampersand","percent" signs introducing in the video, anyother common characters should I know in SAS?
 
