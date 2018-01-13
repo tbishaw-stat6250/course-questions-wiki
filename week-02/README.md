@@ -41,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The descriptor portion contains information about the attributes of each variable in the data set.The attribute information includes the variable's name, type, length, format, informat, and label
 - *Question* (shatcher4-stat6250): How many observations can a SAS data set store?
 - *Answer* (shatcher4-stat6250): Any number of observations.
+- *Question* (akrishnamurthy-stat6250):What is an observation in SAS? Can a row with missing values be considered as an observation?
 
 
 
@@ -69,6 +70,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250): How the program steps form in SAS?
 - Answer(nshrivastava2-stat6250): A SAS program can consist of a DATA step, a PROC step, or any combination of DATA and PROC steps.DATA steps typically create or modify SAS data sets, but they can also be used to produce custom-designed reports. PROC steps are pre- written routines that enable you to analyze and process the data in a SAS data set and to present the data in the form of a report. PROC steps sometimes create new SAS data sets that contain the results of the procedure.
 - *Question* (shatcher4-stat6250): What are the different statements that can be used in SAS?
+- *Question* (akrishnamurthy-stat6250):When will SAS execute a DATA, PROC or RUN statement?
+- *Answer* (akrishnamurthy-stat6250):SAS executes the previous steps in the program when it encounters a DATA,PROC or RUN statements. RUN statements are not always required to specify execution step but using RUN statements makes the program and log more readable.
 
 
 
@@ -95,6 +98,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250): If the Value is missing from the dataset, How it interprets for character variables.
 - Answer(nshrivastava2-stat6250): For character variables, a blank represents a missing value.
 - *Question* (shatcher4-stat6250): What purpose does a variable type serve?
+- *Question* (akrishnamurthy-stat6250):Can special characters be assigned to numeric variables ?
 
 
 
@@ -119,6 +123,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (ttruong59-stat6250): Assuming a missing value is indicated by a blank rather than a period, is the variable still considered as a numberic variable?
 - Question (nshrivastava2-stat6250): What type of Varaible which is right justifies?
 - *Question* (shatcher4-stat6250): Why is a blank representative of a missing value for character variables, while a period is representative of a missing value for numeric variables?
+- *Question* (akrishnamurthy-stat6250):how are the missing values specified for character and numeric variables ?
+- *Answer* (akrishnamurthy-stat6250):Missing values for character variables are assigned with spaces and numeric variables are assigned with period
 
 
 
@@ -147,6 +153,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250): What is the naming convention for varibale name?
 - *Question* (shatcher4-stat6250):What is the difference between a character and numeric variable type?
 - *Answer* (shatcher4-stat6250): A character variable can contain any value, while a numeric variable can contain only numeric values.
+- *Question* (akrishnamurthy-stat6250):How should SAS variable name be defined?
 
 
 
@@ -174,6 +181,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250):What is the storage bytes in character variables?
 - Answer(nshrivastava2-stat6250): A variable's length (the number of bytes used to store it) is related to its type. Character variables can be up to 32,767 bytes long. In the example below, Name has a length of 20 characters and uses 20 bytes of storage.  
 - *Question* (shatcher4-stat6250): Why are numeric values stored as floating-point numbers?
+- *Question* (akrishnamurthy-stat6250):What is the length of a numeric variable with 10 digits?
+- *Answer* (akrishnamurthy-stat6250):Irrespective of number of digits, numeric variables are always stored as floating point numbers in 8 bytes of storage unless a different length is specified.
 
 
 
@@ -199,6 +208,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (nshrivastava2-stat6250):How SAS Files Are Stored ?
 - Answer(nshrivastava2-stat6250): Every SAS file is stored in a SAS library, which is a collection of SAS files. A SAS data library is the highest level of organization for information within SAS.
 - *Question* (shatcher4-stat6250): Why is the default value of YEARCUTOFF= 1920?
+- *Question* (akrishnamurthy-stat6250):How to read from and write to files of different formats in SAS ?
 
 
 
@@ -225,6 +235,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - Question (nshrivastava2-stat6250): How the Leap years works in all SAS version?
 - Answer(nshrivastava2-stat6250): Leap years, century, and fourth-century adjustments are made automatically.Leap seconds are ignored, and SAS does not adjust for daylight saving time.
 - *Question* (shatcher4-stat6250): How would you go about referencing a permanent SAS file?
+- *Question* (akrishnamurthy-stat6250):What is the function of YEARCUTOFF proc option?
 
 
 
@@ -245,6 +256,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - Question (ttruong59-stat6250): Why is the default value of YEARCUTOFF= 1920? Is there any benefit of using 1920, instead of using different year as a default value? If so, what is it?
 - Question (nshrivastava2-stat6250): What is the general format of  LIBNAME statement ?
 - *Question* (shatcher4-stat6250): Why are two-digit year values treated differently than a four-digit year value in the YEARCUTOFF option?
+- *Question* (akrishnamurthy-stat6250):How to access files stored in SAS library ? Can the files be accessed across SAS sessions?
 
 
 
@@ -267,6 +279,7 @@ command to delete the libref.
 - Question (nshrivastava2-stat6250): What is the naming convesntion of Library Name?
 - *Question* (shatcher4-stat6250): What is the purpose of the LIBNAME statement?
 - *Answer* (shatcher4-stat6250): LIBNAME is a global statement that is used to define libraries with any SAS program.
+- *Question* (akrishnamurthy-stat6250):What is the syntax of libname statement ? Should the engine and library be specified for all files to be accessed?
 
 
 
@@ -287,6 +300,7 @@ command to delete the libref.
 - Question (nshrivastava2-stat6250): How to import file from FTP or FTPs ? Does SAS has an ability to do that?
 - Answer(nshrivastava2-stat6250): Yes, SAS has an ability to do the same. We need specify the link to the FTP with directory, user, Host, Passwd in order to link to the FTP. 
 - *Question* (shatcher4-stat6250): What are the benefits of loading Excel data sets to a web server, such as GitHub, first? 
+- *Question* (akrishnamurthy-stat6250):How to access a file from a remote server in SAS ? How to import raw data as a excel file in SAS ?
 
 
 
@@ -309,5 +323,6 @@ command to delete the libref.
 - Question (nshrivastava2-stat6250):Why we use SAS Macro? How Macro is differ from the standard SAS code.
 - Answer(nshrivastava2-stat6250):Though macro code takes longer to write and debug than standard SAS code but if write similar code over and over again, then macros may make your job easier. This piece of solution I found from the web. PFD file of "SAS Macro Programming for Beginners".
 - *Question* (shatcher4-stat6250): What is the purpose of a macro variable?
+- *Question* (akrishnamurthy-stat6250):How to define macros in SAS ? Should the macros be called with the same set of parameters defined in macro definition?
 
 
