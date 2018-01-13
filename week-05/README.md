@@ -58,4 +58,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
+
+
+
+[adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
+
+
