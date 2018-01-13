@@ -30,6 +30,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): How many observations and variables can a data set contain? How to count observations/variables?
 - Answer (xyin6-stat6250): As many as you can. Typically, rows are observations and colomns are variables.
 - *Question* (jcanfield3-stat6250): Why does a period represent a blank numeric value?
+- *Question* (aamiri2-stat6250): What are the differences between a variable and an observation?
+- *Answer* (aamiri2-stat6250):  An observation are the rows in the data set that usually relates to a single object. A variable are the columns in the data set that describe a certain characteristic.
 
 
 
@@ -50,6 +52,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Answer (xyin6-stat6250): "Run" and "Quit" statement mark step boundaries, at the step boundary, SAS executes any statements that have not previously being executed.
 - *Question* (jcanfield3-stat6250): What does the infile command do?
 - *Answer* (jcanfield3-stat6250): The infile command points to the location of the file to be used.
+- *Question* (aamiri2-stat6250): In some SAS codes there are often words that are separated by a period also known as two-level names, what is the reason for doing this and is there an alternative method?
 
 
 
@@ -68,6 +71,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cnguyen77-stat6250): What are the types of a variable in SAS?
 - Question (xyin6-stat6250): How long can character variable be? Can character variables contain numbers?
 - *Question* (jcanfield3-stat6250): Can a character value consisting of numbers be transformed into a numeric value?
+- *Question* (aamiri2-stat6250): How common are missing data in a dataset? Does this affect the analysis, if so what can we do to improve our dataset?
 
 
 
@@ -85,6 +89,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (xyin6-stat6250): How to represent missing value in character and numeric variable type?
 - Answer (xyin6-stat6250): A blank represents missing value in character variable, and a period represents missing value in numeric variable.
 - *Question* (jcanfield3-stat6250): Are blank values just ignored in analysis, or do they contribute some value?
+- *Question* (aamiri2-stat6250): What is the importance of understanding the attributes of the variables you use in your data?
+- *Answer* (aamiri2-stat6250): It is very important to understand your data type for many reasons. One of the main reasons are converging data sets that contain the same-named variables in which the variable type must be the same. For example, you cannot combine a character and number variable because they are different.
 
 
 
@@ -102,6 +108,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cnguyen77-stat6250): What are the rules to set a variable name?
 - Question (xyin6-stat6250): What are the constrains to make a valid variable name?
 - *Question* (jcanfield3-stat6250): Out of all the symbols, why is only the underscore allowed in a variable name?
+- *Question* (aamiri2-stat6250): What are some of the data rules associated with SAS variable names?
+- *Answer* (aamiri2-stat6250): A few of the rules for SAS variable names are that is can only be 1 to 32 characters long. It must begin with a letter between A-Z or an underscore and can continue afterwards with any combination of letters, numbers, or underscores.
 
 
 
@@ -120,6 +128,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cnguyen77-stat6250): What is the default length of numeric variables in SAS programs?
 - Question (xyin6-stat6250): What is the default length for the numeric variable?
 - *Question* (jcanfield3-stat6250): Do character variables have a default length?
+- *Question* (aamiri2-stat6250): How can you format the maximum width of a number to have a width of 3 including 2 decimals places for the variable Balance?
 
 
 
@@ -137,6 +146,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Answer (xyin6-stat6250): No, YEARCUTOFF= option works only on 2-digits year values. As long as you specify an informat with the correct field width for reading the entire date value, the YEARCUTOFF= option doesn't affect date values that have four-digit years.
 - *Question* (jcanfield3-stat6250): Is the YEARCUTOFF= option necessary, if your year has four digits?
 - *Answer* (jcanfield3-stat6250): No it is not, as it only applies to situations where the year has 2 digits, and thus used to identify which 100 year range the data is coming from.
+- *Question* (aamiri2-stat6250): What is the correct method of using the YEARCUTOFF= option with the date of 02march1955? What would be it’s time span given that date?
 
 
 
@@ -155,6 +165,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - Question (xyin6-stat6250): What are the specification for the LIBNAME statement for files in other formats?
 - Answer (xyin6-stat6250): libref is 1 to 8 characters long, begins with a letter or underscore, and contains only letters, numbers. or underscores.
 - *Question* (jcanfield3-stat6250): Can a file be referenced within a proc statement?
+- *Question* (aamiri2-stat6250): What is the purpose of referencing a SAS file if it is already in the library?
 
 
 
@@ -168,6 +179,8 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (cnguyen77-stat6250): What is the default value of YEARCUTOFF= Option?
 - Question (xyin6-stat6250): What is the default value of YEARCUTOFF= option and what's its range?
 - *Question* (jcanfield3-stat6250): Why is 1582 A.D. the earliest that the YEARCUTOFF= option can take?
+- *Question* (aamiri2-stat6250): What is the reason for using YEARCUTOFF= option and what are the benefits?
+- *Answer* (aamiri2-stat6250): This option helps specify which 100-year span is used to interpret two-digit year values. This usually needs to be specified such as YEARCUTOFF=1940 so the 100 year span dates would be 1940 – 2039
 
 
 
@@ -183,6 +196,7 @@ command to delete the libref.
 - *Question* (cnguyen77-stat6250): Can librefs last from one SAS session to another?
 - Question (xyin6-stat6250): Is LIBNAME statement required each time for every SAS session?
 - *Question* (jcanfield3-stat6250): Why do librefs get deleted at the end of a SAS session? 
+- *Question* (aamiri2-stat6250): The textbook explains that once you end your SAS session then SAS no longer has access to the assigned libref files in the library. Is there any other way of accessing the contents of the libref file again?
 
 
 
@@ -196,6 +210,7 @@ command to delete the libref.
 - *Question* (cnguyen77-stat6250): What is the syntax to create a file name in SAS?
 - Question (xyin6-stat6250): Is there a size limit for loading data from remote Excel file in a temporary location? (As many of the Excel files are very large)
 - *Question* (jcanfield3-stat6250): Why can't the dataset be directly transformed into a SAS dataset within the proc http step?
+- *Question* (aamiri2-stat6250): How can we transform an Excel file into a URL using Github? How long does this process take?
 
 
 
@@ -211,5 +226,6 @@ command to delete the libref.
 - Question (xyin6-stat6250): Why we have to put "%" percent sign before the if/then/else statement? 
 - *Question* (jcanfield3-stat6250): What are macros useful for?
 - *Answer* (jcanfield3-stat6250): Macros are useful to simplify code, condensing repeated lines into the one macro execution.
+- *Question* (aamiri2-stat6250):  Which character is used for the Macro command? How many different Macro commands are there?
 
 
