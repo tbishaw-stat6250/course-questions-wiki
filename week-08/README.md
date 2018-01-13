@@ -46,4 +46,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[recipe_for_isolating_all_duplicates Week 8 Recipe]
+
+
+
+[recipe_for_drop_and_swap Week 8 Recipe]
+
+
