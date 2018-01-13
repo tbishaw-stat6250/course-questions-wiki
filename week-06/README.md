@@ -42,4 +42,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[basic_recipe_for_combining_data_horizontally Week 6 Recipe]
+
+
+
+[adv_recipe_for_combining_data_horizontally Week 6 Recipe]
+
+
