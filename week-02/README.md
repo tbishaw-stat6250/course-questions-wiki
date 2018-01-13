@@ -44,6 +44,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250):What is an observation in SAS? Can a row with missing values be considered as an observation?
 - *Question* (ldai4-stat6250): What is observations and variables in the data set?
 - *Answer* (ldai4-stat6250): In the data set, rows are called observations, and columns are called variables.
+- Question (ldeng11−stat6250): What are the observation and variable meaning in SAS?
+- Answer (ldeng11−stat6250): In SAS data set, rows(observations) are the collections of data values typically relate to a single object. Columns(variables) are the collections of values describe a particular characteristics. 
 
 
 
@@ -76,6 +78,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (akrishnamurthy-stat6250):SAS executes the previous steps in the program when it encounters a DATA,PROC or RUN statements. RUN statements are not always required to specify execution step but using RUN statements makes the program and log more readable.
 - *Question* (ldai4-stat6250): what two steps can be in most SAS programs?
 - *Answer*  (ldai4-stat6250): A SAS program can consist of a DATA step or a PROC step or any combination of DATA and PROC steps.
+- Question (ldeng11−stat6250): What is DATA step? What is PROC step?
 
 
 
@@ -104,6 +107,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (shatcher4-stat6250): What purpose does a variable type serve?
 - *Question* (akrishnamurthy-stat6250):Can special characters be assigned to numeric variables ?
 - *Question* (ldai4-stat6250): Can a variable be either character or numeric? 
+- Question (ldeng11−stat6250): What are the types of variable?
+- Answer (ldeng11−stat6250): There are two types of variable, numeric, and charactor
 
 
 
@@ -132,6 +137,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (akrishnamurthy-stat6250):Missing values for character variables are assigned with spaces and numeric variables are assigned with period
 - *Question* (ldai4-stat6250): what is variable’s type?
 - *Answer*  (ldai4-stat6250): A variable’s type is either character or numeric. Character variable can contain any values; and numeric variables can contain only numeric values (the numerals 0-9,+,-., and E for scientific notation). A variable’s type also determines how missing values for a variable are displayed. For character variables,  a blank represents a missing value; and for numeric variables, a period represents a missing value.
+- Question (ldeng11−stat6250): How a variable will display if it is a missing value> 
 
 
 
@@ -163,6 +169,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (akrishnamurthy-stat6250):How should SAS variable name be defined?
 - *Question* (ldai4-stat6250): What is the rules of variable name in SAS?
 - *Answer*  (ldai4-stat6250): Variable names follow the same rules, which can be 1 to 32 characters long, must begins with a letter(A-Z, either uppercase or lowercase) or an underscore, and can continue with any combination of numerals, letters, or underscores.
+- Question (ldeng11−stat6250): What is the naming rule for the variable in SAS?
 
 
 
@@ -194,6 +201,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (akrishnamurthy-stat6250):Irrespective of number of digits, numeric variables are always stored as floating point numbers in 8 bytes of storage unless a different length is specified.
 - *Question* (ldai4-stat6250): What is the default length for the numeric variable?
 - *Answer*  (ldai4-stat6250): The numeric variables have a default length of 8. Numeric values( no matter how many digits they contain) are stored in 8 bytes of storage unless you specify a different length.
+- Question (ldeng11−stat6250): What is the defaul length for the numeric variable?
 
 
 
@@ -222,6 +230,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (akrishnamurthy-stat6250):How to read from and write to files of different formats in SAS ?
 - *Question* (ldai4-stat6250): How four-digit years are handled?
 - *Answer*  (ldai4-stat6250): The vale of the YEARCUTOFF=system option affects only two-digit year values. A date value that contains a four-digit year value will be interpreted correctly even if it does not fall within the 100-year span set by the YEARCUTOFF=system option.
+- Question (ldeng11−stat6250): How the SAS save date values?
 
 
 
@@ -250,6 +259,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (shatcher4-stat6250): How would you go about referencing a permanent SAS file?
 - *Question* (akrishnamurthy-stat6250):What is the function of YEARCUTOFF proc option?
 - *Question* (ldai4-stat6250): How can we reference SAS file in SAS libraries?
+- Question (ldeng11−stat6250): How many ways you can reference a SAS data set?
 
 
 
@@ -273,6 +283,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (shatcher4-stat6250): Why are two-digit year values treated differently than a four-digit year value in the YEARCUTOFF option?
 - *Question* (akrishnamurthy-stat6250):How to access files stored in SAS library ? Can the files be accessed across SAS sessions?
 - *Question* (ldai4-stat6250): what difference are two-digit year and four-digit year?
+- Question (ldeng11−stat6250): What is the YEARCUTOFF option using to?
 
 
 
@@ -298,6 +309,8 @@ command to delete the libref.
 - *Question* (akrishnamurthy-stat6250):What is the syntax of libname statement ? Should the engine and library be specified for all files to be accessed?
 - *Question* (ldai4-stat6250): what is LIBNAME statement?
 - *Answer*  (ldai4-stat6250): The LIBNAME statement is global, which associates or disassociates a SAS library with a libref (a shortcut name), clears one or all librefs, lists the characteristics of a SAS library, concatenates SAS libraries, or concatenates SAS catalogs. 
+- Question (ldeng11−stat6250): What happen to the SAS library if you delete a libref in your SAS code?
+- Answer (ldeng11−stat6250): You will lost the access to the files in the library, but the contents of the library are still exist in your operation sysetm.
 
 
 
@@ -320,6 +333,8 @@ command to delete the libref.
 - *Question* (shatcher4-stat6250): What are the benefits of loading Excel data sets to a web server, such as GitHub, first? 
 - *Question* (akrishnamurthy-stat6250):How to access a file from a remote server in SAS ? How to import raw data as a excel file in SAS ?
 - *Question* (ldai4-stat6250): Can the raw data's format be displayed in SAS library?
+- Question (ldeng11−stat6250): Can the recipe code read the excel sheet from other sheets other than sheet 1 (the left most sheet)?
+- Answer (ldeng11−stat6250): Yes, you need to add the sheet statement option.
 
 
 
@@ -344,5 +359,9 @@ command to delete the libref.
 - *Question* (shatcher4-stat6250): What is the purpose of a macro variable?
 - *Question* (akrishnamurthy-stat6250):How to define macros in SAS ? Should the macros be called with the same set of parameters defined in macro definition?
 - *Question* (ldai4-stat6250): For a specific SAS data set, can I use PROC DATASETS to display it? 
+- Question (ldeng11−stat6250): How to revise the code to support other data formats?
+
+
+
 
 
