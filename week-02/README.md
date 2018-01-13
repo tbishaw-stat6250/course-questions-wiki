@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What are the variables meaning?
 - Answer (pcheng14−stat6250): There are the properties information includes the variable's name, type, length, format, informat, and label.
 - Question (lsun20-stat6250): Does evey rows can only have one data in each variables?
+- *Question* (aacharya4−stat6250): In SAS dataset, what does the rows and columns represent?
+- *Answer* (aacharya4−stat6250): In SAS dataset, the number of rows represent the number of observations and the columns represent the variables.
 
 
 
@@ -30,6 +32,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What is the lowest program steps are executed in the program when program is processed?
 - Answer:one
 - Question (lsun20-stat6250): Is there any other statements can make the SAS stop reading statement and executes the step in the program? 
+- *Question* (aacharya4−stat6250): In SAS, what is meant by a program step?
+- *Answer* (aacharya4−stat6250): In SAS, a program step is defined as the part that starts with SAS keyword DATA or PROC and ends with a ";". 
+The step that starts with keyword DATA is called DATA step while the one beginning with keyword PROC is called PROC step.
 
 
 
@@ -39,6 +44,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What is the meaning of numberic for the type of variable?
 - Answer (pcheng14−stat6250): It shows the number type as the variable.
 - Question (lsun20-stat6250): How many type of variables in the SAS? and what are them?
+- *Question* (aacharya4−stat6250): In SAS, what are the properties of character variable?
+- *Answer* (aacharya4−stat6250): The properties of character variable in SAS are :
+1. Character variables can be upto 32,767 bytes(the number of bytes used to store character variable)long.
+2. Character variable can contain any value.
+3. A blank (-) represents a missing value in character variable.
 
 
 
@@ -47,6 +57,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What is the meaning of character for the type of the variable?
 - Answer (pcheng14−stat6250): It shows the word type as the variable.
 - Question (lsun20-stat6250): If the missing value is showing like a blank, does the answer still be numeric?
+- *Question* (aacharya4−stat6250): In SAS, how is missing value represented by numeric variable?
+- *Answer* (aacharya4−stat6250): In SAS, a dot (.) represents a missing value in numeric variable.
 
 
 
@@ -56,6 +68,10 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (pcheng14−stat6250) : Yes, the variable is invaild.
 - Question (lsun20-stat6250): Is there any specific rule in SAS about making name?
 - Answer (lsun20-stat6250):yes, there are some rule which is show in the website (https://v8doc.sas.com/sashtml/lgref/z1031056.htm) in making name in SAS.
+- *Question* (aacharya4−stat6250): If SAS, what is the criteria for a valid variable name?
+- *Answer* (aacharya4−stat6250): In SAS, for a variable name to valid, the following rules should be followed:
+1. The length of the variable name should not exceed 32 characters.
+2. Variable name has to start with A-Z(both upper and lower cases permitted) or an Underscore followed by any combination of letters, numbers or Underscore.
 
 
 
@@ -64,6 +80,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What is the meaning of the the numeric variable Balance?
 - Question (lsun20-stat6250): Does the numeric variable which are stored in 8 bytes have a range? if yes, what is it?
 - Answer (lsun20-stat6250): It depends on different variable type. (e.g. the range of the Long integer is -2,147,483,647 to 2,147,483,647)
+- *Question* (aacharya4−stat6250): In SAS, what are the properties of numeric variable?
+- *Answer* (aacharya4−stat6250): The properties of numeric variable in SAS are :
+1. Numeric variables can be upto 8 bytes(the number of bytes used to store character variable)long.
+2. Numeric variable can contain only numeric value (0 to 9,+,-,., E for scientific notation).
+3. A dot (.) represents a missing value in numeric variable.
 
 
 
@@ -72,6 +93,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): When shoud I use data values in SAS programming?
 - Question (lsun20-stat6250): How the "YEARCUTOFF=option" works in SAS?
 - Answer (lsun20-stat6250): The YEARCUTOFF= option specifies which 100-year span is used to interpret two-digit year values.
+- *Question* (aacharya4−stat6250): What is the default value of YEARCUTOFF option in SAS?
+- *Answer* (aacharya4−stat6250): In SAS, the default value of YEARCUTOFF option is 1920.
 
 
 
@@ -80,6 +103,11 @@ The instructor will then review the pull request and make comments should furthe
 - Question (pcheng14−stat6250): What is the most common SAS data set shoud I use for?
 - Question (lsun20-stat6250): Do we need to coding the SAS library which we need in the program at the first line in the program?
 - Answer (lsun20-stat6250): It's better to put the library code at the first of the entire program. Actually, this code just need to be code before you use it.
+- *Question* (aacharya4−stat6250): What is the explanation of the SAS code given below :
+![code_2](https://user-images.githubusercontent.com/35093776/34758544-cc757cb8-f58b-11e7-8c0f-dcd0b9d8a643.png)
+- *Answer* (aacharya4−stat6250): The first line of the code creates a new permanent SAS library called "sales". 
+The LIBNAME statement defines libref sales and gives SAS the physical location of the SAS library "sales".
+The second line of the code creates a new dataset called "totalsales". This dataset is permanently stored in the SAS library "sales".
 
 
 
@@ -87,6 +115,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): Can SAS use a date range that is more than 100 years old if you're using YEARCUTOFF?
 - uestion (pcheng14−stat6250): What is the meaning of YEARCUTOFF?
 - Question (lsun20-stat6250): Is there any other code have the same effect as the "YEARCUTOFF"?
+- *Question* (aacharya4−stat6250): What is the purpose of YEARCUTOFF option in programming statements in SAS?
+- *Answer* (aacharya4−stat6250): In SAS programming, when we use two-digit year values, the YEARCUTOFF option gives the 100 year span for interpreting the two-digit year values.
 
 
 
@@ -94,6 +124,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): If your SAS or computer crashes, is there a way to recover a LIBNAME?
 - Question (pcheng14−stat6250): When should I use special SAS windows?
 - Question (lsun20-stat6250): Is it possible to direct the Library to WORK Data library, using LIBNAME statement (e.g. Libname save SAS.WORK;)?
+- *Question* (aacharya4−stat6250): What happens after deletion of a libref of a library in SAS?
+- *Answer* (aacharya4−stat6250): Afrer deletion of a libref of a library, SAS will not be able to access the contents of the library, although the contents of the library are permanently stored in the operating system.
 
 
 
@@ -102,6 +134,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): No, the program will run without it. Clearing up the tempfile allots more space.
 - Question (pcheng14−stat6250): May I edit the Excel file which import form the remote Excel file?
 - Question (lsun20-stat6250): Can SAS load data from other sotfware except EXCEL? If can, is there any different in coding to do it?
+- *Question* (aacharya4−stat6250): What is the code to adjust the size of editor window in SAS?
 
 
 
@@ -110,5 +143,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): The names in the parenthesis will define the variables that will be uses later when you call the macro. You input what they are when you use the macro.
 - Question (pcheng14−stat6250): Except I get the http or http// address can import and remote the Excel file, any way I can load the data from remote Excel file?
 - Question (lsun20-stat6250): what are the disadvantages of using a macro?
+- *Question* (aacharya4−stat6250): What does the following " %<variable_name>." mean in SAS?
+- *Answer* (aacharya4−stat6250): In SAS, we reference a variable in this way. It starts with the delimiter (%) and ends with the delimiter (.). variable_name signifies the name of the variable that is referenced.
 
 
