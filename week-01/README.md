@@ -16,7 +16,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Answer (lsun20-stat6250): For me, it's not very common to abbreviate the "repository" as "repo". I usually thought "repo" like "report" or "repost", because I didn't use github before. After I search online, I found that the programmer allways make the "repository" as "repo" in daily work.
@@ -46,6 +45,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): Post your greeting in the #classwide-discussion channel, and schedule a 15-minute office hour appoinment to be held by 11:59 PM on Jan 13th.
 - Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
 - *Question* (akrishnamurthy−stat6250): what are the components to be completed to earn an Initial Setup achievement award? 
+
 
 
 [Course Structure Quiz, Problem 2]
@@ -79,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
 - *Question* (akrishnamurthy−stat6250): Why are weekly forums posts ncessary ? Of the total weekly forum posts, how many posts needs to be completed to earn the Reading for breadth achievement award?
 - *Answer* (akrishnamurthy-stat6250): Forums are a great knowledge sharing platform for professional programmers to be aware of current trends in specific field as well as real world applications. Investing time weekly in forums participation is a good practice for successfull programmers and hence this course will help the students to cultivate this habit and earn Reading for Breadth Acheivement award towards the course grade.Totally 10 weekly forums posts are required in this course and 8 of these 10 forums posts should be completed successfully to earn Reading for Breadth Achievement Award.  
+
 
 
 [Course Structure Quiz, Problem 3]
@@ -115,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What is the requirement to earn Reading for depth Achievement award? 
 
 
+
 [Course Structure Quiz, Problem 4]
 - Question (ilankham−stat6250): How will code reviews for projects be conducted? Will they involve comments on code in GitHub, meetings with the instructor, or both?
 - Answer (ilankham−stat6250): Both; Code Reviews will involve 1:1 meetings with the instructor held through Google Hangouts, during which project code will discussed and commented.
@@ -140,6 +142,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Why do we only have access to one step of a project at a time?
 - Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
 - *Question* (akrishnamurthy−stat6250): What are the steps in a team project and what is the professional practice award issued on completion of all steps of the two projects? 
+
 
 
 [Course Structure Quiz, Problem 5]
@@ -173,6 +176,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): Final exam wil include 65 multiple choice questions with a time limit of 110 minutes. Review the SAS Certified base programmer process and example problems in <http://www.sas.com> website with additional emphasis on chapters 1-8,10-17, and 19-20 in course textbook. In particular, pay more attention to all the weekly quizes and review them thoroughly as the finals will mostly be similar to the weekly quizes.  
 
 
+
 [Course Structure Quiz, Problem 6]
 - Question (ilankham−stat6250): Is the ability to earn five total achievements at all related to the common employee rating scale of 0-5, with 5 being the highest possible level of performance?
 - Answer (lsun20-stat6250): No. Like the Initial Setup achievement, it only one option, yes or no.
@@ -197,6 +201,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Although performance level should be a quantifiable amount should the range of levels be larger? If not, why not?
 - *Question* (akrishnamurthy−stat6250): What acheivement awards are necessary to earn grade A in this course?  
 - *Answer* (akrishnamurthy-stat6250): As per course grading criteria, Team-based problem solving achievement award is mandatory. The other additional course achivement awards earned determine the grade. To earn grade A, student should earn all possible achievement awards which includes the Initial setup award, Reading for Depth award, Reading for Breadth award, Building General Knowledge award in addition to the Team-based problem solving award.  
+
 
 
 [Course Structure Quiz, Problem 7]
@@ -226,6 +231,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): How are late and incomplete submissions handled ? Why incomplete submissions are given a chance for follow-up evaluation with instructor's permission? 
 
 
+
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
 - Answer (mresendiz3-stat6250): To encourage the complete learning from a task. The continuous addition on living projects that require updating and long-term care is analogous to work found in a work-sample portfolio.
@@ -252,6 +258,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What makes extra credit useful, if everything is graded on a Met/Revise scale?
 - Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
 - *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz? 
+
 
 
 [Course Structure Quiz, Problem 9]
@@ -283,6 +290,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): How do i contact the instructor for an immediate response? 
 
 
+
 [Course Structure Quiz, Problem 10]
 - Question (ilankham−stat6250): What does it mean to check GitHub daily? Does this mean accessing the class GitHub organization daily to check in on the status of the repos I might be asked to contribute to?
 - Answer (lsun20-stat6250): Professor will give the feedback on the GitHub. Checking it daily can help student get the feedback on time.
@@ -310,6 +318,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): SAS 9.4
 - Question (mresendiz3-stat6250): How much time should be alloted to checking all the interfaces including GitHub, Slack, and BB?
 - *Question* (akrishnamurthy−stat6250): What technologies are essential for this course and why should these be checked daily? 
+
 
 
 [hello-world Week 1 SAS Recipe]
@@ -354,6 +363,7 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ? 
 
 
+
 [fizz-buzz Week 1 SAS Recipe]
 - Question (ilankham−stat6250): Is the mod function at all related to how clocks work, with hours counting from 1 to 12, and then starting back at 1 again?
 - Answer (lceballos-stat6250): The mod mod function is related to how a clock works in that there are only a fixed number of values that it could hold. There are about 8760 hours in a year so a clock works very similar to a mod function; mod(hour,12) would be the function of the clock. The 5000th hour of the year would show as 8 on the clock.
@@ -380,4 +390,5 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (jcanfield3-stat6250): Does putting an equal sign after a variable automatically print its value?
 - Question (mresendiz3-stat6250): What is the mod function useful for other than finding the remainder of a division problem?
 - *Question* (akrishnamurthy−stat6250): Why is a null data step used? 
+
 
