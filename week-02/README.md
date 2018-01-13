@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): In SAS dataset, what does the rows and columns represent?
 - *Answer* (aacharya4−stat6250): In SAS dataset, the number of rows represent the number of observations and the columns represent the variables.
 - Question (ljiang11−stat6250): Why the values of Sex and Age are in the middle? Isn't character type data align to the left, and numeric data align to the right?
+- *Question* (cnguyen77-stat6250): How to identify observations and variables in SAS data set?
+- *Answer* (cnguyen77-stat6250): Observations in the data set correspond to rows or data lines. Variables in the data set correspond to columns. If a data value is unknown for a particular observation, a missing value is recorded in the SAS data set.
 
 
 
@@ -39,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 The step that starts with keyword DATA is called DATA step while the one beginning with keyword PROC is called PROC step.
 - Question (ljiang11−stat6250): How many steps are in this program?
 - Answer (ljiang11−stat6250): There are 3 steps, 1 data step and 2 proc steps.
+- *Question* (cnguyen77-stat6250): What types of steps forms in SAS Programs?
+- *Answer* (cnguyen77-stat6250): SAS programs consist of two types of steps: DATA steps and PROC (procedure) steps. These two steps, alone or combined, form most SAS programs.
 
 
 
@@ -54,6 +58,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 2. Character variable can contain any value.
 3. A blank (-) represents a missing value in character variable.
 - Question (ljiang11−stat6250): Can digits also be character type of data?
+- *Question* (cnguyen77-stat6250): What are the types of a variable in SAS?
 
 
 
@@ -66,6 +71,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (aacharya4−stat6250): In SAS, a dot (.) represents a missing value in numeric variable.
 - Question (ljiang11−stat6250): How to omit the dot when there is missing data?
 - Answer (ljiang11−stat6250): One can set data option to display "missing".
+- *Question* (cnguyen77-stat6250): How missing values for numeric variable are displayed by SAS?
+- *Answer* (cnguyen77-stat6250): For numeric variables, a period represents a missing value.
 
 
 
@@ -80,6 +87,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 1. The length of the variable name should not exceed 32 characters.
 2. Variable name has to start with A-Z(both upper and lower cases permitted) or an Underscore followed by any combination of letters, numbers or Underscore.
 - Question (ljiang11−stat6250): What are the rules of naming a variable?
+- *Question* (cnguyen77-stat6250): What are the rules to set a variable name?
 
 
 
@@ -95,6 +103,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 3. A dot (.) represents a missing value in numeric variable.
 - Question (ljiang11−stat6250): How many digits can numeric variable display?
 - Answer (ljiang11−stat6250): 16 to 17 digits.
+- *Question* (cnguyen77-stat6250): What is the default length of numeric variables in SAS programs?
 
 
 
@@ -106,6 +115,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (aacharya4−stat6250): What is the default value of YEARCUTOFF option in SAS?
 - *Answer* (aacharya4−stat6250): In SAS, the default value of YEARCUTOFF option is 1920.
 - Question (ljiang11−stat6250): Why is YEARCUTOFF= option necessary?
+- *Question* (cnguyen77-stat6250): How does the YEARCUTOFF= Option Work?
+- *Answer* (cnguyen77-stat6250): When a two-digit year value is read, SAS interprets it based on a 100-year span which starts with the YEARCUTOFF= value. The default value of YEARCUTOFF= is 1920. However, you can override the default and change the value of YEARCUTOFF= to the first year of another 100-year span.
 
 
 
@@ -120,6 +131,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 The LIBNAME statement defines libref sales and gives SAS the physical location of the SAS library "sales".
 The second line of the code creates a new dataset called "totalsales". This dataset is permanently stored in the SAS library "sales".
 - Question (ljiang11−stat6250): What is aproc in choice C? Is that a typo?
+- *Question* (cnguyen77-stat6250): What are the attributes of assigning a libref name?
 
 
 
@@ -130,6 +142,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (aacharya4−stat6250): What is the purpose of YEARCUTOFF option in programming statements in SAS?
 - *Answer* (aacharya4−stat6250): In SAS programming, when we use two-digit year values, the YEARCUTOFF option gives the 100 year span for interpreting the two-digit year values.
 - Question (ljiang11−stat6250): Is YEARCUTOFF= in global environment?
+- *Question* (cnguyen77-stat6250): What is the default value of YEARCUTOFF= Option?
 
 
 
@@ -142,6 +155,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - Question (ljiang11−stat6250): How to delete/change a libref?
 - Answer (ljiang11−stat6250): One can assign a different path to the same libref to change it. And can use libref clear
 command to delete the libref.
+- *Question* (cnguyen77-stat6250): Can librefs last from one SAS session to another?
 
 
 
@@ -152,6 +166,7 @@ command to delete the libref.
 - Question (lsun20-stat6250): Can SAS load data from other sotfware except EXCEL? If can, is there any different in coding to do it?
 - *Question* (aacharya4−stat6250): What is the code to adjust the size of editor window in SAS?
 - Question (ljiang11−stat6250): How to set the 80-character banner with SAS studio? And how to set code tab and log tab side by side?
+- *Question* (cnguyen77-stat6250): What is the syntax to create a file name in SAS?
 
 
 
@@ -163,5 +178,6 @@ command to delete the libref.
 - *Question* (aacharya4−stat6250): What does the following " %<variable_name>." mean in SAS?
 - *Answer* (aacharya4−stat6250): In SAS, we reference a variable in this way. It starts with the delimiter (%) and ends with the delimiter (.). variable_name signifies the name of the variable that is referenced.
 - Question (ljiang11−stat6250): Are we supposed to learn Macro in this class? It looks intimidating at the beginning since I don't have too much background of SAS.
+- *Question* (cnguyen77-stat6250): What does SAS interpret character “&” and “%”?
 
 
