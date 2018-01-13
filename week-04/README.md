@@ -62,4 +62,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[recipe_for_summarizing_quantitative_values Week 4 Recipe]
+
+
+
+[recipe_for_summarizing_qualitative_values Week 4 Recipe]
+
+
+
+[recipe_for_temporarily_binning_values Week 4 Recipe]
