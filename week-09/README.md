@@ -90,4 +90,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Recipes TBA]
+[recipe_to_create_unique_record_id Week 9 Recipe]
+
+
+
+[recipe_to_disaggregate_counts_data Week 9 Recipe]
+
+
