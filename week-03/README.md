@@ -85,5 +85,5 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_printing_values Week 3 Recipe]
-- Question(dfei-stat6250): What is the most convenient way to print values in SAS?
+- Question(dfei-stat6250): What is the most convenient way to print values in SAS? 
 
