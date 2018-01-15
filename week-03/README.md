@@ -1,4 +1,5 @@
 
+
 ## Week 3 Quiz Questions and Answers
 
 In order to prepare your Week 3 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -17,7 +18,8 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 1]
 
-- *Question* (ldai4-stat6250): Why it is a good idea to begin DATA and PROC step in column?- *Answer* (ldai4-stat6250): Because a consistent layout enhances readability and enables you to understand the program’s purpose.
+- *Question* (ldai4-stat6250): Why it is a good idea to begin DATA and PROC step in column?
+- *Answer* (ldai4-stat6250): Because a consistent layout enhances readability and enables you to understand the program’s purpose.
 
 [Course Textbook Chapter 3, Problem 2]
 
