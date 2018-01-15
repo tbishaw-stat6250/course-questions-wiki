@@ -17,8 +17,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 1]
 
-- *Question* (ldai4-stat6250): Why it is a good idea to begin DATA and PROC step in column?
-- *Answer* (ldai4-stat6250): Because a consistent layout enhances readability and enables you to understand the program’s purpose.
+- *Question* (ldai4-stat6250): Why it is a good idea to begin DATA and PROC step in column?- *Answer* (ldai4-stat6250): Because a consistent layout enhances readability and enables you to understand the program’s purpose.
 
 [Course Textbook Chapter 3, Problem 2]
 
@@ -74,16 +73,18 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 4, Problem 10]
 
 - *Question* (ldai4-stat6250): What would happen if you submit a DATA step without a RUN statement?
-- *Answer* (ldai4-stat6250): The active window displays the message “ DATA step running” for a long time.
+- *Answer* (ldai4-stat6250): The active window displays the message “DATA step running” for a long time.
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
 
-
+- *Question* (ldai4-stat6250): How can we remove the duplicate variables from SAS data set?
 
 [recipe_for_sorting_data Week 3 Recipe]
 
-
+- *Question* (ldai4-stat6250): Does the new data set created by using PROC SORT replace original data? Does the original data disappear from SAS library?
 
 [recipe_for_printing_values Week 3 Recipe]
 
+- *Question* (ldai4-stat6250): How the report can be shown the title and footnote?
+- *Answer* (ldai4-stat6250): Use TITLE and FOOTNOTE statement.
 
