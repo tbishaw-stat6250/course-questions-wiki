@@ -16,7 +16,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Answer (lsun20-stat6250): For me, it's not very common to abbreviate the "repository" as "repo". I usually thought "repo" like "report" or "repost", because I didn't use github before. After I search online, I found that the programmer allways make the "repository" as "repo" in daily work.
@@ -45,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What other requirements are there to complete the Week 1 Setup?
 - *Answer* (jcanfield3-stat6250): Post your greeting in the #classwide-discussion channel, and schedule a 15-minute office hour appoinment to be held by 11:59 PM on Jan 13th.
 - Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
+- *Question* (akrishnamurthy−stat6250): what are the components to be completed to earn an Initial Setup achievement award? 
 
 
 
@@ -77,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): We need to complete at least 8 out of the 10 Weekly discussion posts to earn Reading for Breadth achievement. This helps the students to read about various topics in the world of analytics which is just not limited to SAS. Also, there are informative posts about using SAS more effectively aside from what is taught as part of the course objectives. Reading the discussion posts would improve the student’s breadth of knowledge in analytics about diverse topics.
 - *Question* (jcanfield3-stat6250): Do our chosen blogs have to include SAS code, or do articles that just refer to code ok to use?
 - Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
+- *Question* (akrishnamurthy−stat6250): Why are weekly forums posts ncessary ? Of the total weekly forum posts, how many posts needs to be completed to earn the Reading for breadth achievement award?
+- *Answer* (akrishnamurthy-stat6250): Forums are a great knowledge sharing platform for professional programmers to be aware of current trends in specific field as well as real world applications. Investing time weekly in forums participation is a good practice for successfull programmers and hence this course will help the students to cultivate this habit and earn Reading for Breadth Acheivement award towards the course grade.Totally 10 weekly forums posts are required in this course and 8 of these 10 forums posts should be completed successfully to earn Reading for Breadth Achievement Award.  
 
 
 
@@ -111,6 +113,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): How long does it take to feel comfortable using GitHub?
 - *Answer* (jcanfield3-stat6250): It depends on the amount of effort put into learning it.
 - Question (mresendiz3-stat6250): Do students ever discuss how grateful they are that this rule is in place? What usually are the prospects for the students who have trouble at the start of the course? What data has been analyzed to show evidence of success considering the first two quiz submissions?
+- *Question* (akrishnamurthy−stat6250): What is the requirement to earn Reading for depth Achievement award? 
 
 
 
@@ -138,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What type of feedback is expected from instructor during code review? If there are any changes, will there be "revise" grade from instructor so that student can make required corrections and resubmit code?
 - *Question* (jcanfield3-stat6250): Why do we only have access to one step of a project at a time?
 - Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
+- *Question* (akrishnamurthy−stat6250): What are the steps in a team project and what is the professional practice award issued on completion of all steps of the two projects? 
 
 
 
@@ -168,6 +172,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The final exam would comprise of 65 questions to be completed in one go in a duration of 110 minutes.
 - *Question* (jcanfield3-stat6250): The final exam instructions state that the 65 questions are based on the SAS Certified Base Programmer exam, yet the Course Structure quiz gives the answer of the weekly quizzes.  Does this mean that the weekly quizzes are also based on the exam?
 - Question (mresendiz3-stat6250): Will a large amount of the final exam be debugging exercises? What's the scope and expectations of what should be learned by the end of the course? What's the goal?
+- *Question* (akrishnamurthy−stat6250): What is the pattern and duration of final exam? How to prepare for the finals and what professional practice is accomplished on completion of finals ? 
+- *Answer* (akrishnamurthy-stat6250): Final exam wil include 65 multiple choice questions with a time limit of 110 minutes. Review the SAS Certified base programmer process and example problems in <http://www.sas.com> website with additional emphasis on chapters 1-8,10-17, and 19-20 in course textbook. In particular, pay more attention to all the weekly quizes and review them thoroughly as the finals will mostly be similar to the weekly quizes.  
 
 
 
@@ -193,6 +199,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): If a student earns all 5 levels of achievement in this course, how would the students’ knowledge of SAS be evaluated as per industry standards?
 - *Question* (jcanfield3-stat6250): Is this achievement scale really parallel actual job/internship environments?
 - Question (mresendiz3-stat6250): Although performance level should be a quantifiable amount should the range of levels be larger? If not, why not?
+- *Question* (akrishnamurthy−stat6250): What acheivement awards are necessary to earn grade A in this course?  
+- *Answer* (akrishnamurthy-stat6250): As per course grading criteria, Team-based problem solving achievement award is mandatory. The other additional course achivement awards earned determine the grade. To earn grade A, student should earn all possible achievement awards which includes the Initial setup award, Reading for Depth award, Reading for Breadth award, Building General Knowledge award in addition to the Team-based problem solving award.  
 
 
 
@@ -220,6 +228,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
 - *Question* (jcanfield3-stat6250): What is considered an incomplete submission, a non-finished or incorrect one?
 - Question (mresendiz3-stat6250): What percentage of students on average resubmit incomplete assignments? Does the percentage increase or decrease as the class moves forward?
+- *Question* (akrishnamurthy−stat6250): How are late and incomplete submissions handled ? Why incomplete submissions are given a chance for follow-up evaluation with instructor's permission? 
 
 
 
@@ -248,6 +257,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How does the instructor evaluate extra credit for this course? What is the grading criteria/achievement for the extra credits?
 - *Question* (jcanfield3-stat6250): What makes extra credit useful, if everything is graded on a Met/Revise scale?
 - Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
+- *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz? 
 
 
 
@@ -277,6 +287,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Why does the instructor prefer slack for communication instead of email?
 - *Question* (jcanfield3-stat6250): Why is the Slack interface we use called a Slack team?
 - Question (mresendiz3-stat6250): Do all kings have to know this information about swallows? What percentage of computer science literate individuals are familiar with Monty Python?
+- *Question* (akrishnamurthy−stat6250): How do i contact the instructor for an immediate response? 
 
 
 
@@ -306,6 +317,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What as in an additional and highly useful technology for this course?
 - *Answer* (jcanfield3-stat6250): SAS 9.4
 - Question (mresendiz3-stat6250): How much time should be alloted to checking all the interfaces including GitHub, Slack, and BB?
+- *Question* (akrishnamurthy−stat6250): What technologies are essential for this course and why should these be checked daily? 
 
 
 
@@ -348,6 +360,7 @@ In this case, everything between the “proc print” and the second “run” s
 ![sas_procstep_outputimage](https://user-images.githubusercontent.com/35093776/34646206-e4741350-f316-11e7-98d7-29e72ad79d79.png)
 - *Question* (jcanfield3-stat6250): What is the difference between real time and cpu time in the log outputs?
 - Question (mresendiz3-stat6250): Why would someone need to have SAS print to a different ouput destination other than the log?
+- *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ? 
 
 
 
@@ -376,5 +389,6 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (aacharya4−stat6250): On fizz-buzz, one of the issues mentioned with respect to software programmers is that most of them cannot write basic program code. What are the basic programming skills expected from a graduate level software programmer?
 - *Question* (jcanfield3-stat6250): Does putting an equal sign after a variable automatically print its value?
 - Question (mresendiz3-stat6250): What is the mod function useful for other than finding the remainder of a division problem?
+- *Question* (akrishnamurthy−stat6250): Why is a null data step used? 
 
 
