@@ -67,5 +67,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [bonus_advanced_recipe_for_loading_data_from_remote_Excel_file Week 2 Recipe]
 - Question (kamirneni-stat6250): Is there any other way apart from FTP to load data from excel file?
-- Answer (kamirneni-stat6250): Using macros code,it is possible to do so.
+- Answer (kamirneni-stat6250): Using macros code,it is possible to do so
 
