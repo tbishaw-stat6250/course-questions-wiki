@@ -69,6 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 4, Problem 4]
 - *Question* (jbettonville-stat6250): When sorting by a variable, how do we specify the direction (ascending or descending) of the sort order?
+- *Answer* (jbettonville-stat6250): By default, variables are sorted in ascending order. The option DESCENDING can be applied following BY but immediately before a variable if that variable should instead be sorted in descending order.
 
 
 
@@ -89,14 +90,15 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
-- *Question* (jbettonville-stat6250):
+- *Question* (jbettonville-stat6250): In the context of this recipe, what is the difference between OUT and DUPOUT?
+- *Answer* (jbettonville-stat6250): OUT specifies the data set to which the sorted version of the original data set with the duplicates removed; DUPOUT specifies the data set that stores all the duplicate records that were removed.
 
 
 
 [recipe_for_sorting_data Week 3 Recipe]
-- *Question* (jbettonville-stat6250):
+- *Question* (jbettonville-stat6250): How sensitive is SAS to memory usage, and under what circumstances might we be concerned about creating a sorted duplicate of a large data set?
 
 
 
 [recipe_for_printing_values Week 3 Recipe]
-- *Question* (jbettonville-stat6250):
+- *Question* (jbettonville-stat6250): What advanced techniques can be applied to further format the HTML output? Can we apply different colors, typefaces, sizes, borders, etc.?
