@@ -16,69 +16,84 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 1]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 2]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 3]
+- *Question* (jbettonville-stat6250):
 
 
- 
+
 [Course Textbook Chapter 3, Problem 4]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 5]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 6]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 7]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 3, Problem 10]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 1]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 3]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 4]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 7]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 9]
+- *Question* (jbettonville-stat6250):
 
 
 
 [Course Textbook Chapter 4, Problem 10]
+- *Question* (jbettonville-stat6250):
 
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
+- *Question* (jbettonville-stat6250):
 
 
 
 [recipe_for_sorting_data Week 3 Recipe]
+- *Question* (jbettonville-stat6250):
 
 
 
 [recipe_for_printing_values Week 3 Recipe]
-
-
+- *Question* (jbettonville-stat6250):
