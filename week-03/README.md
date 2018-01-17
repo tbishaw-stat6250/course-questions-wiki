@@ -32,7 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Which errors except Syntax error also will cause SAS to stop processing the step in which the error occurred?
 
 
-[Course Textbook Chapter 3, Problem 5] 
+[Course Textbook Chapter 3, Problem 5]
 - Question (lsun20-stat6250): How many tpye of error the SAS program has? Could you give at least 5 example?
 
 
