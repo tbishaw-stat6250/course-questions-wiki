@@ -32,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250):The few advantages of using Enhanced Editor are, automatic indents of the next line when pressing ENTER, multiple views of a file, creating and formatting your own keywords, and much more!
 - Question (nshrivastava2-stat6250): How SAS editor behaves with different elements of SAS program ? 
 - Answer(nshrivastava2-stat6250): In SAS editors, all the different elements of a SAS program (e.g. keywords, comments, quoted strings, constants and variables) show up in a different color as you type them. This can be extremely valuable in catching missing semicolons (and also un-matched quotes) as you type your program, because the program will most likely not be colored properly if you have a missing semicolon.
+- *Question* (cli19−stat6250): What is the downfall to writing SAS statements in inconsistent format?
+- *Answer* (cli19−stat6250): Maintaining a consistent format when writing SAS statements makes your code more readable. This is especially important when sharing code with others or revisiting old code.
 
 
 
@@ -52,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): How many types of error messages are there in SAS program? Are the messages shown differently as compared to an OS, UNIX, or Windows operating system?
 - Question (nshrivastava2-stat6250): What are the different colors log has, to show errors/ warnings/ Notes? 
 - Answer(nshrivastava2-stat6250): Log has ERROR with Red, WARNING with Green, Notes with Blue.
+- *Question* (cli19−stat6250): Why is it useful to clear the Log window prior to resubmitting a corrected program?
 
 
 
@@ -70,8 +73,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250):A RUN statement usually indicates the end of the step. If RUN is omitted, then there will be a message at the top of the windows screen.  To correct this error you must submit a RUN statement to complete the PROC step.
 - Question (nshrivastava2-stat6250): How many messages SAS logs contain? 
 - Answer(nshrivastava2-stat6250): SAS Logs contain 3 types of messages: errors, warnings, and notes.
+- *Question* (cli19−stat6250): What are some ways to avoid unbalanced quotation marks?
+- *Answer* (cli19−stat6250): Paying attention to the color-coding of the text when programming in SAS is helpful. Text in quotation marks usually appear purple.
  
-
 
 
 [Course Textbook Chapter 3, Problem 4]
@@ -87,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Does SAS produce "warnings" instead of errors when a statement runs but produces a result that may not be what the author of the statement intended?
 - *Question* (aamiri2-stat6250): What are some examples of syntax errors and what type of message will appear if it has been detected?
 - Question (nshrivastava2-stat6250):How the missing RUN Statement interpret in SAS program?
+- *Question* (cli19−stat6250): How can you determine the precise location of where the syntax error occurred?
 
 
 
@@ -103,6 +108,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): After correcting a syntax error, why is it important to clear the old messages from the Log window when resubmitting?
 - Question (nshrivastava2-stat6250):How can SAS program interpret Error Messages ? 
 - Answer(nshrivastava2-stat6250):SAS can detect several types of errors. The most common are 1) Syntax errors that occur when program statements do not conform to the rules of the SAS language. 2) Data errors that occur when some data values are not appropriate for the SAS statements that are specified in a program. 
+- *Question* (cli19−stat6250): If it is not evident where errors were committed, how can you diagnose the problem?
+- *Answer* (cli19−stat6250): The "Help" menu offers additional links and resources for online help.
 
 
 
@@ -120,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): How can you resolve a problem with invalid option errors?
 - Question (nshrivastava2-stat6250): What are the specification and classification of bugs discussed in SAS programing?
 - Answer(nshrivastava2-stat6250): Bugs can be classified as 1) Syntax Error: missing semicolon, uninitialized variable and variable not found. 2) Data Error: Missing values were generated, numeric to character conversion, invalid data, character field is truncated.3)Logic Error:DATA step produces wrong results but no error message. 
+- *Question* (cli19−stat6250): Why do some programming errors result in ERRORS while others in WARNINGS?
 
 
 
@@ -136,6 +144,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): In the answer to this question it mentions that this is a common and interpretable error; does this mean that DAT will be interpreted as DATA in a SAS statement and run correctly?
 - *Question* (aamiri2-stat6250): How common are syntax errors and what precautions can be taken to avoid such errors while using SAS program?
 - Question (nshrivastava2-stat6250): What is the thumb rule for debugging? Why is so important to LISTEN TO THE SAS LOG? 
+- *Question* (cli19−stat6250): What are other common syntax errors that SAS can successfully interpret and return warnings rather than erros?
 
 
 
@@ -152,6 +161,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What is the purpose of DATA and RUN statements? What happens if a statement is missing one?
 - Question (nshrivastava2-stat6250): How the "Unbalanced Quotation Marks" works in SAS programing? 
 - Answer(nshrivastava2-stat6250):  When program has one for more unbalanced quotation marks, SAS is often unable to detect the end of the statement in which the error occurs. If unbalanced quotation marks appear in a program that contains TITLE or FOOTNOTE statements, there is sometimes a warning in the SAS log which indicates that a text string enclosed in quotation marks has become too long.
+- *Question* (cli19−stat6250): How can you gauge program processing time?
 
 
 
@@ -169,6 +179,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What are some errors that can happen with a PROC PRINT statement?
 - Question (nshrivastava2-stat6250): Where and how and can one produce column totals for numeric variables within your report?
 - Answer(nshrivastava2-stat6250): Programmers have to program in PROC statement by using keyword "SUM" to column total for numeric variables. 
+- *Question* (cli19−stat6250): Is there a limit to the restrictions you can add to the "where" clause?
 
 
 
@@ -185,6 +196,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Is there a way of specifying case insensitive values in a WHERE statement?
 - *Question* (aamiri2-stat6250): What is the difference between CONTAINS and WHERE statements? In what situations would you apply these to?
 - Question (nshrivastava2-stat6250): How one can remove the default Obs column that displays observation numbers?
+- *Question* (cli19−stat6250): Is it necessary to include commas to delimit items listed in the "in" operator?
+- *Answer* (cli19−stat6250): No, SAS can process this if the list is delimited by spaces.
 
 
 
@@ -203,6 +216,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jbettonville-stat6250): By default, variables are sorted in ascending order. The option DESCENDING can be applied following BY but immediately before a variable if that variable should instead be sorted in descending order.
 - *Question* (aamiri2-stat6250): What are the steps in sorting you data permanently and temporarily? 
 - Question (nshrivastava2-stat6250): What is the default sorting options?Can we specify more than one variables with different sort options?
+- *Question* (cli19−stat6250): What is the default sort order? 
+- *Answer* (cli19−stat6250): Unless specified, SAS sorts data in ascending order by the variable(s) called.
 
 
 
@@ -219,6 +234,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Assuming that the BY statement is included in PROC SORT, if an OUT option is not specified, does PROC SORT sort the data in place? (i.e. is the data altered if an OUT option is not specified?)
 - *Question* (aamiri2-stat6250): If the wrong value is accidentally typed on column totals, how can this be corrected?
 - Question (nshrivastava2-stat6250): If there are special character for instance German three letter-diacritic combinations (Ä/ä, Ö/ö, Ü/ü). Will the SORT function will take care of those and if yes,how?
+- *Question* (cli19−stat6250): Why does SAS continue to run a program even after if has encountered an error?
 
 
 
@@ -236,6 +252,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250): You must enclose the value in quotation marks and write the value with lowercase, uppercase, or mixed case letters exactly as it appears in the dataset.
 - Question (nshrivastava2-stat6250): By default, a PROC PRINT step lists all the observations in a data set. How can programmer can control observations to get printed ? 
 - Answer(nshrivastava2-stat6250): Programmer can control observations to be printed by adding a WHERE statement to your PROC PRINT step.There can be only one WHERE statement in a step.
+- *Question* (cli19−stat6250): What is the most efficient way to add a lengthy list of character values into a conditional statement?
 
 
 
@@ -253,6 +270,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): Why is it important to use PROC SORT first then PROC PRINT when creating reports?
 - Question (nshrivastava2-stat6250): What technique is particularly useful when observations are too long to print on one line. 
 - Answer(nshrivastava2-stat6250): One can say so by using the ID statement where ID variable(s), where variable(s) specifies one or more variables to print instead of the observation number at the beginning of each row of the report.
+- *Question* (cli19−stat6250): Is there a limit to report size in SAS?
 
 
 
@@ -269,6 +287,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jbettonville-stat6250): OUT specifies the data set to which the sorted version of the original data set with the duplicates removed; DUPOUT specifies the data set that stores all the duplicate records that were removed.
 - *Question* (aamiri2-stat6250): How can we minimize our chances of having duplicate files in a dataset so we can avoid running additional steps to remove it?
 - Question (nshrivastava2-stat6250): What is the reason of duplicates? Is because of the variable supposed to be unique? How will the duplicate records remove?
+- *Question* (cli19−stat6250): If you are expecting multiple rows per unique identifier, how can you remove duplicate rows from a data set? 
 
 
 
@@ -285,6 +304,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What would be our results if we sort before removing duplicate files?
 - Question (nshrivastava2-stat6250): Can we define SORT procedure and WHERE statement in one single PROC statement? If yes,Why/ if no, Whynot?
 - Answer(nshrivastava2-stat6250): Yes, we can do that. This may improve the efficiency of SAS programs because SAS is not required to read all observations from the input data set. There are many different options that are available to the SORT procedure to use them to enhance the programs and improve efficiency. 
+- *Question* (cli19−stat6250): To sort a data set in descending order by all variables listed, can we simply put paratheses around the specified variables?
 
 
 
@@ -300,5 +320,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): Can you make any changes to files while using EXPLORE?
 - Question (nshrivastava2-stat6250): How many TITLE and FOOTNOTE Statements specify in a program?
 - Answer(nshrivastava2-stat6250):  To make the report more meaningful and self-explanatory, one can specify up to 10 titles with procedure output by using TITLE statements before the PROC step. Likewise, specify up to 10 footnotes by using FOOTNOTE statements before the PROC step. Be sure to match quotation marks that enclose the title or footnote text. 
+- *Question* (cli19−stat6250): Rather than viewing data sets in SAS, is it possible to export them to Excel or other tools?
 
 
