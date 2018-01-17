@@ -30,6 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 3, Problem 3]
 
+
 - Question (lceballos-stat6250): If a string contains quotation marks, how can we search for it in SAS with out without running into a syntax error?
  
 [Course Textbook Chapter 3, Problem 4]
