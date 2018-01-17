@@ -16,10 +16,10 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Structure Quiz, Problem 1]
 - Question (ilankham−stat6250): How common it is to abbreviate the word "repository" as "repo"?
 - Answer (lsun20-stat6250): For me, it's not very common to abbreviate the "repository" as "repo". I usually thought "repo" like "report" or "repost", because I didn't use github before. After I search online, I found that the programmer allways make the "repository" as "repo" in daily work.
+- Answer (mresendiz3-stat6250): It's more common to abbreviate "repossess" as "repo" instead of "repository." However it's important to note that the frequency of the abbreviation "repo" would have to depend on the scope and nature of the conversation (whether discussing computer science or financial trouble.) "In terms of Git, your project folder, which is having all the files required for your project is known as Repository or in short Repo. Everything that you do with regard to your project stays in the repo. When you make changes and save the files, along with saving the file, you also commit them in Git (via its shell program). Committing changes assure that the changes are preserved with regard to the time and day you committed them."
 - Question (shatcher4−stat6250): Does the five professional practices to promote a growth mindset work for all types of learners?
 - Answer (ldeng11−stat6250): Typically, people abbreviate the word "repository" as "repo" when they use the version control system like Git 
 - Question (jbettonville−stat6250): The question on the quiz mentions five items that must be completed, but the instructions for the initial setup have two separate lists of tasks to complete, the first being "Preparing Week 1 Setup Components" with six items, and the second being "Submitting Week 1 Setup Components" with four items. Would it be more accurate to say that ten components must be completed rather than five? 
@@ -43,6 +43,9 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): In order to earn Initial Setup achievement, what are the components of Week1 Setup does a student need to complete?
 - *Question* (jcanfield3-stat6250): What other requirements are there to complete the Week 1 Setup?
 - *Answer* (jcanfield3-stat6250): Post your greeting in the #classwide-discussion channel, and schedule a 15-minute office hour appoinment to be held by 11:59 PM on Jan 13th.
+- Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
+- *Question* (akrishnamurthy−stat6250): what are the components to be completed to earn an Initial Setup achievement award? 
+- Question (nshrivastava2-stat6250):Since, we are using GitHub web interface as well Github desktop. What is the benefit of using GitHub desktop over GitHub web?
 
 
 
@@ -74,11 +77,17 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How “Reading for Breadth” achievement can help students in learning analytics and SAS ? How many weekly forum posts students need to complete to earn this achievement?
 - *Answer* (aacharya4−stat6250): We need to complete at least 8 out of the 10 Weekly discussion posts to earn Reading for Breadth achievement. This helps the students to read about various topics in the world of analytics which is just not limited to SAS. Also, there are informative posts about using SAS more effectively aside from what is taught as part of the course objectives. Reading the discussion posts would improve the student’s breadth of knowledge in analytics about diverse topics.
 - *Question* (jcanfield3-stat6250): Do our chosen blogs have to include SAS code, or do articles that just refer to code ok to use?
+- Question (mresendiz3-stat6250): How long did it take for you to decide to implement this rule?
+- *Question* (akrishnamurthy−stat6250): Why are weekly forums posts ncessary ? Of the total weekly forum posts, how many posts needs to be completed to earn the Reading for breadth achievement award?
+- *Answer* (akrishnamurthy-stat6250): Forums are a great knowledge sharing platform for professional programmers to be aware of current trends in specific field as well as real world applications. Investing time weekly in forums participation is a good practice for successfull programmers and hence this course will help the students to cultivate this habit and earn Reading for Breadth Acheivement award towards the course grade.Totally 10 weekly forums posts are required in this course and 8 of these 10 forums posts should be completed successfully to earn Reading for Breadth Achievement Award.  
+- Question (nshrivastava2-stat6250):What is the purpose of  reading an articles and posting one of those in Discussion Form on Blackboard?
+- Answer   (nshrivastava2-stat6250):It will enhance the student's learning experience and this way they will a great opportunity to read multiple articles and process learn about the subject and make decision problem.
 
 
 
 [Course Structure Quiz, Problem 3]
 - Question (ilankham−stat6250): Is the requirement to complete 8 of 10 weekly quizzes to allow people to "slack off" at the end of the quarter, or is it to accommodate students enrolling in the course late, or both?
+- Answer (mresendiz3−stat6250): Both; however, students are encouraged to complete all assignments as written, even if they have no impact on their course grade.
 - Answer (lsun20-stat6250): It won't be "slack off" for student at the end of the quarter, because the final exam which include all assignment is important, if we want the grade A. Also, weekly quizzes may make the student feel tedious. For me, I always take the test seriously, not matter it is quize or exam. 
 - Question (shatcher4−stat6250): What happens when components are submitted of insufficient quality before the due date?
 - Answer (shatcher4−stat6250): The components of the insufficient quality made be resubmitted at the instructor's discretion.
@@ -106,6 +115,10 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Students need to complete at least 8 out of the 10 Weekly Quizzes to earn Reading for Depth achievement. The weekly quizzes are based on the course reading materials and the recipe videos posted. Taking the quizzes would help the students to check their understanding on the concepts that they have read in the course materials, thus helping to gauge their in-depth knowledge of topics.
 - *Question* (jcanfield3-stat6250): How long does it take to feel comfortable using GitHub?
 - *Answer* (jcanfield3-stat6250): It depends on the amount of effort put into learning it.
+- Question (mresendiz3-stat6250): Do students ever discuss how grateful they are that this rule is in place? What usually are the prospects for the students who have trouble at the start of the course? What data has been analyzed to show evidence of success considering the first two quiz submissions?
+- *Question* (akrishnamurthy−stat6250): What is the requirement to earn Reading for depth Achievement award? 
+- Question (nshrivastava2-stat6250):Why we have the course structured having weekly quizzes ?
+- Answer   (nshrivastava2-stat6250):Since this is an online course and  in order to develop substantive questions whose answers would better help you understand the concepts in course textbook problems.
 
 
 
@@ -132,6 +145,9 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): SAS 9.4,and Excel.
 - *Question* (aacharya4−stat6250): What type of feedback is expected from instructor during code review? If there are any changes, will there be "revise" grade from instructor so that student can make required corrections and resubmit code?
 - *Question* (jcanfield3-stat6250): Why do we only have access to one step of a project at a time?
+- Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
+- *Question* (akrishnamurthy−stat6250): What are the steps in a team project and what is the professional practice award issued on completion of all steps of the two projects? 
+- Question (nshrivastava2-stat6250):Is the project consist of individual based or team based? If project is team based then how many students are in one team? 
 
 
 
@@ -161,6 +177,10 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the number of questions and the duration of the final exam?
 - *Answer* (aacharya4−stat6250): The final exam would comprise of 65 questions to be completed in one go in a duration of 110 minutes.
 - *Question* (jcanfield3-stat6250): The final exam instructions state that the 65 questions are based on the SAS Certified Base Programmer exam, yet the Course Structure quiz gives the answer of the weekly quizzes.  Does this mean that the weekly quizzes are also based on the exam?
+- Question (mresendiz3-stat6250): Will a large amount of the final exam be debugging exercises? What's the scope and expectations of what should be learned by the end of the course? What's the goal?
+- *Question* (akrishnamurthy−stat6250): What is the pattern and duration of final exam? How to prepare for the finals and what professional practice is accomplished on completion of finals ? 
+- *Answer* (akrishnamurthy-stat6250): Final exam wil include 65 multiple choice questions with a time limit of 110 minutes. Review the SAS Certified base programmer process and example problems in <http://www.sas.com> website with additional emphasis on chapters 1-8,10-17, and 19-20 in course textbook. In particular, pay more attention to all the weekly quizes and review them thoroughly as the finals will mostly be similar to the weekly quizes.  
+- Question (nshrivastava2-stat6250):Is the final exam is from all the chapters of text book or cumulative? 
 
 
 
@@ -185,12 +205,17 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): What's the advantage of SAS programming in all programming languages?
 - *Question* (aacharya4−stat6250): If a student earns all 5 levels of achievement in this course, how would the students’ knowledge of SAS be evaluated as per industry standards?
 - *Question* (jcanfield3-stat6250): Is this achievement scale really parallel actual job/internship environments?
+- Question (mresendiz3-stat6250): Although performance level should be a quantifiable amount should the range of levels be larger? If not, why not?
+- *Question* (akrishnamurthy−stat6250): What acheivement awards are necessary to earn grade A in this course?  
+- *Answer* (akrishnamurthy-stat6250): As per course grading criteria, Team-based problem solving achievement award is mandatory. The other additional course achivement awards earned determine the grade. To earn grade A, student should earn all possible achievement awards which includes the Initial setup award, Reading for Depth award, Reading for Breadth award, Building General Knowledge award in addition to the Team-based problem solving award.  
+- Question (nshrivastava2-stat6250):What is the difference in all possible achievements and additional achievements to earn grades?
 
 
 
 [Course Structure Quiz, Problem 7]
 - Question (ilankham−stat6250): What's the intention of encouraging resubmission of incomplete assignments? Is it to encourage students to focus on iteratively creating projects that can be added to work-sample portfolios?
 - Answer (lsun20-stat6250): Because it's important to know how to get the outcome, the duration may more important than outcome sometimes.
+- Answer (mresendiz3-stat6250): Yes; encouraging resubmission of incomplete assignments allows students to focus on the goals set within the course. 
 - Question (shatcher4−stat6250): What is a "unique id" in a dataset for the projects?
 - Answer (shatcher4−stat6250): A single column, primary key, with values that uniquely identify experimental units or a combination of columns, composite key, with combined values that uniquely identify experimental units.
 - Question (jbettonville-stat6250): Under what circumstances might the resubmission of an incomplete assignment be accepted?
@@ -210,11 +235,15 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further developed in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. 
 - *Question* (aacharya4−stat6250): How much time would be the instructor provide the student to correct his/her assignments and resubmit the same?
 - *Question* (jcanfield3-stat6250): What is considered an incomplete submission, a non-finished or incorrect one?
+- Question (mresendiz3-stat6250): What percentage of students on average resubmit incomplete assignments? Does the percentage increase or decrease as the class moves forward?
+- *Question* (akrishnamurthy−stat6250): How are late and incomplete submissions handled ? Why incomplete submissions are given a chance for follow-up evaluation with instructor's permission? 
+- Question (nshrivastava2-stat6250):Likewise WeekQuiz1, is the instructor will allow student to review on his comments and resubmit on web GitHub for all weekly quizes?
 
 
 
 [Course Structure Quiz, Problem 8]
 - Question (ilankham−stat6250): Why does the instructor give extra credit for catching mistakes he's made? Is it to reassure students that everyone makes mistakes, or help him proofread his course materials, or both?
+- Answer (mresendiz3-stat6250): To encourage the complete learning from a task. The continuous addition on living projects that require updating and long-term care is analogous to work found in a work-sample portfolio.
 - Question (shatcher4−stat6250): For Project 1 Step 1, why does a SAS dataset need to contain at least 200 rows and 20 columns?
 - Answer (ldeng11−stat6250): Both. People make mistakes, that is why ofen time we need the review process. The student can get extra credit by catching mistakes because it could demostrate that the student has read the materials carefully, and understand what are the class materials talking about.
 - Answer (lsun20-stat6250): Both. It doesn't matter to make mistake, everyone will makes mistakes, the important things is fix it after you make it.
@@ -236,6 +265,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): Does the professor give students extra credits in the class?
 - *Question* (aacharya4−stat6250): How does the instructor evaluate extra credit for this course? What is the grading criteria/achievement for the extra credits?
 - *Question* (jcanfield3-stat6250): What makes extra credit useful, if everything is graded on a Met/Revise scale?
+- Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
+- *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz? 
+- Question (nshrivastava2-stat6250): What is the maximum limit of earning extra credit?
 
 
 
@@ -264,6 +296,10 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei−stat6250): SAS Certification Prep Guide:Base Programming for SAS 9, 3rd Edition
 - *Question* (aacharya4−stat6250): Why does the instructor prefer slack for communication instead of email?
 - *Question* (jcanfield3-stat6250): Why is the Slack interface we use called a Slack team?
+- Question (mresendiz3-stat6250): Do all kings have to know this information about swallows? What percentage of computer science literate individuals are familiar with Monty Python?
+- *Question* (akrishnamurthy−stat6250): How do i contact the instructor for an immediate response? 
+- Question (nshrivastava2-stat6250):How many times students can have one on one online meeting with instructor in case they  need to discuss on any issue by sharing desktop ?
+- Answer   (nshrivastava2-stat6250):Students can always use horizonmail, prefer direct message to slack  but in case of savior issue for which student need help from instructor, can be setup one to one online meeting for not more than 3 times in the duration of the course.
 
 
 
@@ -292,6 +328,10 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): In the past years, did students earn extra credits for contributing to projects of other students in GitHub?
 - *Question* (jcanfield3-stat6250): What as in an additional and highly useful technology for this course?
 - *Answer* (jcanfield3-stat6250): SAS 9.4
+- Question (mresendiz3-stat6250): How much time should be alloted to checking all the interfaces including GitHub, Slack, and BB?
+- *Question* (akrishnamurthy−stat6250): What technologies are essential for this course and why should these be checked daily? 
+- Question (nshrivastava2-stat6250):What could be the challenges of using CSUEB-Horizon email technology?
+- Answer   (nshrivastava2-stat6250):Since CSUEB-Horizon is Google based, while making an online appointment with instructor, if student  logged in with Google account other than horizon account, he/she will not able to sync the calendar with an instructor.
 
 
 
@@ -333,6 +373,10 @@ In this case, everything between the “proc print” and the second “run” s
 
 ![sas_procstep_outputimage](https://user-images.githubusercontent.com/35093776/34646206-e4741350-f316-11e7-98d7-29e72ad79d79.png)
 - *Question* (jcanfield3-stat6250): What is the difference between real time and cpu time in the log outputs?
+- Question (mresendiz3-stat6250): Why would someone need to have SAS print to a different ouput destination other than the log?
+- *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ? 
+- Question (nshrivastava2-stat6250): What is the rules while creating datasets name or variables name?
+- Answer   (nshrivastava2-stat6250): 1) It should start with either with any letter or underscore,2)                             Should NOT use any number at the very first place,3) Should NOT use special character except _(underscore) and 4)             Should 32 character long.
 
 
 
@@ -360,5 +404,8 @@ In this case, everything between the “proc print” and the second “run” s
 - Question (dfei−stat6250): What does branching logic mean and how it works?
 - *Question* (aacharya4−stat6250): On fizz-buzz, one of the issues mentioned with respect to software programmers is that most of them cannot write basic program code. What are the basic programming skills expected from a graduate level software programmer?
 - *Question* (jcanfield3-stat6250): Does putting an equal sign after a variable automatically print its value?
+- Question (mresendiz3-stat6250): What is the mod function useful for other than finding the remainder of a division problem?
+- *Question* (akrishnamurthy−stat6250): Why is a null data step used? 
+- Question (nshrivastava2-stat6250): Is the SAS programing works similar to SAP programing, how they are different?
 
 
