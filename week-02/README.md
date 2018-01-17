@@ -52,6 +52,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei−stat6250): What does observation mean in programming?
 - *Question* (tbishaw-stat6250): Is the result of processing programs in SAS the same across all SAS programs?
 - *Answer* (tbishaw-stat6250): The result of processing might vary across different SAS programs. For example, some SAS programs open interactive window so you can directly modify data, such as the REPORT window. 
+- Question (kamirneni-stat6250): Does the number of observations still count as valid even if some values are missing?
+- Answer (kamirneni-stat6250): Yes, missing values does not affect the number of observations.
 
 
 
@@ -90,6 +92,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (dfei−stat6250): How to count program steps in SAS?
 - *Question* (tbishaw-stat6250): Are there specific rules we need to follow in the file name poertion of a SAS data set name?
 - *Answer* (tbishaw-stat6250): There are specific rules that apply in a SAS data set names and variable names. These rules include: can be between 1 to 32 characters long, it must begin with a letter (uppercase or lowercase) or an underscore(_) sign, and the following sequence can continue with any combination of numbers, letters, or underscores.  
+- Question (kamirneni-stat6250):How are the program steps formed in SAS programming?
+- Answer (kamirneni-stat6250):Data and Proc steps are set to be executed while Run statement is automatic, so it is not considered as a step, so Data and Proc steps are executed before Run statement.
 
 
 
@@ -125,6 +129,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Answer* (cli19−stat6250): The variable assumes null values for observations that are not completely numeric.
 - Question (dfei−stat6250): How many types of variable in the data set?
 - *Question* (tbishaw-stat6250): How does a format (variable attributes) affect the way data values are written? And do SAS software’s offer variety of formats? If so what are those formats?
+- Question (kamirneni-stat6250): What kind of error will be thrown if a data set in numeric variable is left blank instead of putting a period? 
 
 
 
@@ -160,6 +165,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Answer (dfei−stat6250): A numeric character reference (NCR) is a common markup construct used in SGML and SGML-derived markup languages such as HTML and XML. It consists of a short sequence of characters that, in turn, represents a single character.
 - *Question* (tbishaw-stat6250): How are steps executed in SAS tracked and logged? And is the result of processing the same across different SAS programs?
 - *Answer* (tbishaw-stat6250): Each time a step is executed, SAS generates a log to keep track of the processing activities and the result of the processing. And the result of processing varies across different SAS programs. While some SAS programs open an interactive window that creates output in the form of report other programs perform tasks such as sorting, which have no visible results other than messages in the log. 
+- Question (kamirneni-stat6250): What is the set of naming rules one should follow while saving SAS files? 
 
 
 
@@ -199,7 +205,8 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (dfei−stat6250): what are the variable name rules?
 - Answer (dfei−stat6250): Variable name rules are as follows: SAS variable names can be up to 32 characters in length. The first character must begin with an English letter or an underscore. Subsequent characters can be English letters, numeric digits, or underscores.
 - *Question* (tbishaw-stat6250): What is a major difference between referencing a temporary SAS file versus referencing a permanent SAS file?
-  
+- Question (kamirneni-stat6250): Is inheritance possible in SAS programming?
+
 
 
 [Course Textbook Chapter 1, Problem 8]
@@ -237,6 +244,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
 - Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
 - *Question* (tbishaw-stat6250): When you end your SAS session or delete a libref, will you have another way of accessing the files in the library?
+- Question (kamirneni-stat6250): Can one import multiple temporary data sets in SAS using one DATA statment? If not, how can one combine them to perform operations? 
 
 
 
@@ -270,6 +278,7 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - *Question* (cli19−stat6250): What are the benefits to specifying YEARCUTOFF?
 - Question (dfei−stat6250): How to setup data value appropriately?
 - *Question* (tbishaw-stat6250): When setting up a SAS session, what is the first step in the process? Are there other ways to assign library names?
+- Question (kamirneni-stat6250): What do the other types of ouptuts include?
 
 
 
@@ -304,6 +313,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - Question (dfei−stat6250): How to store dataset into SAS libraries?
 - *Question* (tbishaw-stat6250): If you are using other operating systems other than windows do you expect the platform-specific names and locations to be the same?
 - *Answer* (tbishaw-stat6250): If you are running SAS within other operating systems other than windows the platform-specific names and locations will look different. Otherwise, SAS programming code will be the same across operating systems and environments. 
+- Question (kamirneni-stat6250):Is there any predefined interface coding between SAS and DBMS such that no engine is required to import data set from a DBMS file? 
 
 
 [Course Textbook Chapter 2, Problem 8]
@@ -330,6 +340,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (cli19−stat6250): Does the YEARCUTOFF option have additional options to incease the time span to over 100 years?
 - Question (dfei−stat6250): How to interpret two-digit year values?
 - *Question* (tbishaw-stat6250): What is the difference between the two parts a SAS data set, a descriptor portion and the data portion?
+- Question (kamirneni-stat6250):If one were to import files from another Operating System, would the physical address specified in SAS were to be modified accordingly or would it remain the same?
 
 
 
@@ -361,6 +372,8 @@ command to delete the libref.
 - *Question* (cli19−stat6250): How can we view the working directory or file path we would like our librefs to point to?
 - Question (dfei−stat6250): Can librefs last from more than one SAS session to another?
 - *Question* (tbishaw-stat6250): What are the capabilities of a PROC DATASETS in terms of what tasks it allows users to perform?
+- Question (kamirneni-stat6250): Do libriefs work for multiple sessions with mentioning again in SAS code and SAS windows?
+- Answer (kamirneni-stat6250):No, they don't work for SAS code if not mentioned in each and every session. It works for SAS windows
 
 
 
@@ -390,6 +403,8 @@ command to delete the libref.
 - *Question* (cli19−stat6250): How does SAS know how to format data imported from external files?
 - Question (dfei−stat6250): What will happen if I forget to clear tempfile? Will it disappear after I restart my computer?
 - *Question* (tbishaw-stat6250): Is the recipe code capable of reading through the data across all the excel sheets or do we need to specify which ones to look at?
+- Question (kamirneni-stat6250):How to import data from excel file using FTP?
+- Answer (kamirneni-stat6250):Just mention the link to the FTP with user, directory, host, password. 
 
 
 
@@ -419,5 +434,7 @@ command to delete the libref.
 - *Question* (cli19−stat6250): Why do only some macro functions in SAS require a "%" to invoke a function? And when do built-in SAS functions need to be invoked with %sysfunc()?
 - Question (dfei−stat6250): There are two characters,"ampersand","percent" signs introducing in the video, anyother common characters should I know in SAS?
 - *Question* (tbishaw-stat6250): How is a macro variable used? And is there a limit to how many time we can refer to a macro variable in a SAS program?
+- Question (kamirneni-stat6250): Is there any other way apart from FTP to load data from excel file?
+- Answer (kamirneni-stat6250): Using macros code,it is possible to do so
 
 
