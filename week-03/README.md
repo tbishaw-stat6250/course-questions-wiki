@@ -16,69 +16,72 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 1]
-
+- Question (lsun20-stat6250): Why the RUN statements can in the column one? Is there any example?
 
 
 [Course Textbook Chapter 3, Problem 2]
+- Question (lsun20-stat6250): which window will show your error specifically?
 
-
+- Answer (lsun20-stat6250): the log window will display the messages about the error.
 
 [Course Textbook Chapter 3, Problem 3]
-
+- Question (lsun20-stat6250): what is the maxmum length of a quoted string?
 
  
 [Course Textbook Chapter 3, Problem 4]
+- Question (lsun20-stat6250): Which errors except Syntax error also will cause SAS to stop processing the step in which the error occurred?
 
 
-
-[Course Textbook Chapter 3, Problem 5]
-
+[Course Textbook Chapter 3, Problem 5] 
+- Question (lsun20-stat6250): How many tpye of error the SAS program has? Could you give at least 5 example?
 
 
 [Course Textbook Chapter 3, Problem 6]
-
+- Question (lsun20-stat6250): What is the reason may cause an invalid option in a SAS program?
 
 
 [Course Textbook Chapter 3, Problem 7]
-
+- Question (lsun20-stat6250): When the SAS produces only a warning message, not an error, will it influence the program running?
 
 
 [Course Textbook Chapter 3, Problem 10]
-
+- Question (lsun20-stat6250): If you create a Endless Loop and run it, what will happen in SAS program?
 
 
 [Course Textbook Chapter 4, Problem 1]
+- Question (lsun20-stat6250): What is the ID statement means?
 
-
+- Answer (lsun20-stat6250): the ID statement replaces the Obs column with the specified variable.
 
 [Course Textbook Chapter 4, Problem 3]
-
+- Question (lsun20-stat6250): Can we use double quotation marks in this situation?
 
 
 [Course Textbook Chapter 4, Problem 4]
+- Question (lsun20-stat6250): What will happen if we code without By statement in this case?
 
-
+- Answer (lsun20-stat6250): The BY statement is required in PROC SORT, without it, the PROC SORT step fails.
 
 [Course Textbook Chapter 4, Problem 7]
-
+- Question (lsun20-stat6250): Why the PROC PRINT step will still runs successfully?
 
 
 [Course Textbook Chapter 4, Problem 9]
-
+- Question (lsun20-stat6250): Can we seprate the one statement to two statements which have the same effect?
 
 
 [Course Textbook Chapter 4, Problem 10]
-
+- Question (lsun20-stat6250): What the common usage of the PROC PRINT statement?
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
-
+- Question (lsun20-stat6250): What will be the influence if we use a dataset with some duplicated records?
 
 
 [recipe_for_sorting_data Week 3 Recipe]
-
+- Question (lsun20-stat6250): Can we make the dataset to sort by the first colum in ascending order and the remaining other columns in descending order?
 
 
 [recipe_for_printing_values Week 3 Recipe]
-
+- Question (lsun20-stat6250): What will happen in the example if the PORC PRINT statement without the "(obs=20)"?
 
