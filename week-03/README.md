@@ -12,6 +12,7 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
+
 [Course Textbook Chapter 3, Problem 1]
 - *Question* (cnguyen77-stat6250): What is the good format to write SAS statements when writing and editing SAS programs?
 - *Answer* (cnguyen77-stat6250): Although you can write SAS statements in almost any format, a consistent layout enhances readability and enables you to understand the program's purpose. It's a good idea to begin DATA and PROC steps in column one, to indent statements within a step, to begin RUN statements in column one, and to include a RUN statement after every DATA step or PROC step.
@@ -54,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): “PROC PRINT DATA=SAS-data-set;” where SAS-data-set is the name of the SAS data set to be printed.
 
 
+
 [Course Textbook Chapter 4, Problem 3]
 - *Question* (cnguyen77-stat6250): If you want to select observations based on several values, what kind of SAS statement you can use?
 - *Answer* (cnguyen77-stat6250): In the WHERE statement, the IN operator enables you to select observations based on several values. You specify values in parentheses and separated by spaces or commas. Character values must be enclosed in quotation marks and must be in the same case as in the data set.
@@ -62,6 +64,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 4, Problem 4]
 - *Question* (cnguyen77-stat6250): Do you need to specify the data set in a PROC SORT step?
 - *Answer* (cnguyen77-stat6250): In a PROC SORT step, you specify the DATA= option to specify the data set to sort. The OUT= option specifies an output data set. The required BY statement specifies the variable(s) to use in sorting the data.
+
 
 [Course Textbook Chapter 4, Problem 7]
 - *Question* (cnguyen77-stat6250): Is the BY statement required in PROC SORT step?
@@ -76,76 +79,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
+- *Question* (cnguyen77-stat6250): What is the approach to remove duplicate records in a SAS dataset?
 
 
 [recipe_for_sorting_data Week 3 Recipe]
+- *Question* (cnguyen77-stat6250): Do you need to specify the out=option when sorting data in SAS?
 
 
 [recipe_for_printing_values Week 3 Recipe]
-
-
-[Course Textbook Chapter 3, Problem 1]
-
-
-
-[Course Textbook Chapter 3, Problem 2]
-
-
-
-[Course Textbook Chapter 3, Problem 3]
-
-
-
-[Course Textbook Chapter 3, Problem 4]
-
-
-
-[Course Textbook Chapter 3, Problem 5]
-
-
-
-[Course Textbook Chapter 3, Problem 6]
-
-
-
-[Course Textbook Chapter 3, Problem 7]
-
-
-
-[Course Textbook Chapter 3, Problem 10]
-
-
-
-[Course Textbook Chapter 4, Problem 1]
-
-
-
-[Course Textbook Chapter 4, Problem 3]
-
-
-
-[Course Textbook Chapter 4, Problem 4]
-
-
-
-[Course Textbook Chapter 4, Problem 7]
-
-
-
-[Course Textbook Chapter 4, Problem 9]
-
-
-
-[Course Textbook Chapter 4, Problem 10]
-
-
-
-[recipe_to_check_for_duplicates Week 3 Recipe]
-
-
-
-[recipe_for_sorting_data Week 3 Recipe]
-
-
-
-[recipe_for_printing_values Week 3 Recipe]
+- *Question* (cnguyen77-stat6250): What will happen if the id statement are left out when printing data in SAS?
