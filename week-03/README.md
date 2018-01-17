@@ -78,11 +78,11 @@ The instructor will then review the pull request and make comments should furthe
 -Question(tchan49-stat6250): What is the difference between AND and OR operator? How are they used differently when testing variables from the same attribute or different attributes? 
 
 
-
-
-
 [Course Textbook Chapter 4, Problem 10]
 -Question(tchan49-stat6250): To avoid printing out columns that you do not want, what statement do you need to use?
+
+
+
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
