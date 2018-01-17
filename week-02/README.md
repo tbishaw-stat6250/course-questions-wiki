@@ -237,7 +237,6 @@ The step that starts with keyword DATA is called DATA step while the one beginni
 - Question (dfei−stat6250): In SAS, what is the default length of a numeric variable?
 - Answer (dfei−stat6250): In SAS, the default length of a numeric variable is 8 bytes.
 - *Question* (tbishaw-stat6250): When you end your SAS session or delete a libref, will you have another way of accessing the files in the library?
-- *Question* (tbishaw-stat6250): What is the difference between the two parts a SAS data set, a descriptor portion and the data portion?
 
 
 
@@ -330,6 +329,7 @@ The second line of the code creates a new dataset called "totalsales". This data
 - *Question* (jbettonville-stat6250): As we approach the year 2020, has there been any discussion within the SAS community about when it would be appropriate to update the default YEARCUTOFF= option from 1920 to another year?
 - *Question* (cli19−stat6250): Does the YEARCUTOFF option have additional options to incease the time span to over 100 years?
 - Question (dfei−stat6250): How to interpret two-digit year values?
+- *Question* (tbishaw-stat6250): What is the difference between the two parts a SAS data set, a descriptor portion and the data portion?
 
 
 
