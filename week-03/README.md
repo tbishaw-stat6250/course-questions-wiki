@@ -156,7 +156,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How many types of invalid options in a SAS program?
 - Question(pcheng14-stat6250): What is “DATA step running” meaning?
 - Answer(pcheng14-stat6250): It same as “PROC running”.
-[Course Textbook Chapter 3, Problem 6] 
 - *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
 
 
