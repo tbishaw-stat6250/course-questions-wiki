@@ -25,8 +25,10 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Why clear the log window?
 
 
+
 [Course Textbook Chapter 3, Problem 3]
 - Question (ljiang11−stat6250): Why it shows "PROC PRINT running"?
+
 
  
 [Course Textbook Chapter 3, Problem 4]
@@ -34,25 +36,31 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): SAS will continue processing, and displays a warning in log window.
 
 
+
 [Course Textbook Chapter 3, Problem 5]
 - Question (ljiang11−stat6250): What are the rules of SAS usage?
+
 
 
 [Course Textbook Chapter 3, Problem 6]
 - Question (ljiang11−stat6250): In what situation a "PROC running" message would occur?
 
 
+
 [Course Textbook Chapter 3, Problem 7]
 - Question (ljiang11−stat6250): What does set keyword do?
+
 
 
 [Course Textbook Chapter 3, Problem 10]
 - Question (ljiang11−stat6250): Will there be any message in log window?
 
 
+
 [Course Textbook Chapter 4, Problem 1]
 - Question (ljiang11−stat6250): How many varaibles will be genereated from the code of choice d?
 - Answer (ljiang11−stat6250): 5, first two cloumns are identical, both are date.
+
 
 
 [Course Textbook Chapter 4, Problem 3]
@@ -66,12 +74,15 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): No.
 
 
+
 [Course Textbook Chapter 4, Problem 7]
 - Question (ljiang11−stat6250): Is it a syntax error that by statement is missing in PROC SORT step?
 
 
+
 [Course Textbook Chapter 4, Problem 9]
 - Question (ljiang11−stat6250): In what situation, a parenthesis is necessary?
+
 
 
 [Course Textbook Chapter 4, Problem 10]
@@ -79,14 +90,19 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): By adding option noobs;
 
 
+
 [recipe_to_check_for_duplicates Week 3 Recipe]
 - Question (ljiang11−stat6250): what is the mechanism of keyword "nodupkey"?
+
 
 
 [recipe_for_sorting_data Week 3 Recipe]
 - Question (ljiang11−stat6250): Why the out= is necessary?
 - Answer (ljiang11−stat6250): Because otherwise the original data will be overwritten.
 
+
+
 [recipe_for_printing_values Week 3 Recipe]
 - Question (ljiang11−stat6250): How to show the last 20 observations?
+
 
