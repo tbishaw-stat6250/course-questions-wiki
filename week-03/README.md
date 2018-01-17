@@ -16,69 +16,95 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 1]
+- *Question* (sbagdi-stat6250): Which of the following is true for SAS statements?
+a) All SAS statements start and end with semi-colon.
+b) SAS statements cannot be combined in one line.
+c) SAS statements cannot continue over several lines.
+d) Usually begins with a SAS keyword and always end with a semi-colon.
+- *Answer* (sbagdi-stat6250): The correct answer is- Choice d.
 
 
 
 [Course Textbook Chapter 3, Problem 2]
-
+- *Question* (sbagdi-stat6250): What is the non-compulsory, but an essential good practice before resubmitting a revised SAS program?
 
 
 [Course Textbook Chapter 3, Problem 3]
-
+- *Question* (sbagdi-stat6250): After creating the abbreviations, what steps are to be performed to finally display the full length of the abbreviated text?
+- *Answer* (sbagdi-stat6250): Steps to display the full length abbreviated text-
+a) Type the abbreviation.
+b) if that abbreviation is recognized, a tooltip displays the expanded text; Press Tab Key or Enter to accept the abbreviation. 
 
  
 [Course Textbook Chapter 3, Problem 4]
-
+- *Question* (sbagdi-stat6250): What are the different types of syntax errors?
 
 
 [Course Textbook Chapter 3, Problem 5]
-
+- *Question* (sbagdi-stat6250): How to locate a statement that lacks a semi-colon in an error message?
 
 
 [Course Textbook Chapter 3, Problem 6]
-
+- *Question* (sbagdi-stat6250): Why doesn’t simply adding a quotation mark (in missing quotation mark errors) and resubmitting a program resolves the problem? 
 
 
 [Course Textbook Chapter 3, Problem 7]
-
+- *Question* (sbagdi-stat6250): What are the essential steps to resolve the issue of invalid option?
 
 
 [Course Textbook Chapter 3, Problem 10]
+- *Question* (sbagdi-stat6250): Which syntax error, other than the ‘missing run statement’, results in error message- ‘DATA Step running’ at the top of active window?
+
 
 
 
 [Course Textbook Chapter 4, Problem 1]
-
+- *Question* (sbagdi-stat6250): Which option is used to remove the default observation column (column that displays observation numbers)? Where do the programmer specifies that option in his program?
 
 
 [Course Textbook Chapter 4, Problem 3]
+- *Question* (sbagdi-stat6250): Why are logical operators used in any SAS programs? Also, Which operator can be used as an alternative to ‘OR’ operator? 
+- *Answer* (sbagdi-stat6250): The logical operators link sequence of expressions into compound expressions. Two types are: ‘AND’ (&) and ‘OR’ (|). Operator ‘IN’ can be used in place of ‘OR’ operator. 
 
 
 
 [Course Textbook Chapter 4, Problem 4]
-
+- *Question* (sbagdi-stat6250): What happens if a programmer doesn’t use OUT= option in a PROC SORT step? 
 
 
 [Course Textbook Chapter 4, Problem 7]
+- *Question* (sbagdi-stat6250): What does the DESCENDING option does? And to which statement should it be added?
+a) The DESCENDING option sorts observations in descending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the BY statement.
+b) The DESCENDING option sorts observations in ascending order of second variable (the one programmer specifies in VAR statement) within descending order of the first variable. And it should be added to the BY statement.
+c) The DESCENDING option sorts observations in ascending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the PROC PRINT statement.
+d) The DESCENDING option sorts observations in ascending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the PROC SORT statement.
 
 
 
 [Course Textbook Chapter 4, Problem 9]
+- *Question* (sbagdi-stat6250): Which operator is used to select observations that include a specified string?
+a) CONTAINS ‘xyz’
+b) CONTAINS xyAZS
+c) ? ‘xzgdbvd’
+d) a and c, both are correct
+e) only a is correct
 
 
 
 [Course Textbook Chapter 4, Problem 10]
-
+- *Question* (sbagdi-stat6250): How many ‘WHERE’ statements can there be in any PROC PRINT step?
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
-
+- *Question* (sbagdi-stat6250): What happens if the OUT= option is set to anything other than the null value? Specify the statement used to sort the duplicate records.
 
 
 [recipe_for_sorting_data Week 3 Recipe]
+- *Question* (sbagdi-stat6250): In which order is a data stored by default in a data set? Does a programmer need to specify the order type in a default order state? 
+- *Answer* (sbagdi-stat6250): By default, the data in a data set is stored in ascending order. And, there’s no need to write ‘ascending’ before the variable name.
 
 
 
 [recipe_for_printing_values Week 3 Recipe]
-
+- *Question* (sbagdi-stat6250): What does a (OBS= ) statement does in PROC PRINT?
 
