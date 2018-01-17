@@ -73,9 +73,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 4, Problem 9]
 -Question(tchan49-stat6250): What is the difference between AND and OR operator? How are they used differently when testing variables from the same attribute or different attributes? 
+
 
 
 [Course Textbook Chapter 4, Problem 10]
