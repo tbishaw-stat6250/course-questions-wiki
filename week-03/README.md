@@ -30,7 +30,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What is some common syntax errors?
 - *Answer* (ldai4-stat6250): Common syntax errors include spelling mistakes, omitting semicolons, leaving quotation marks unbalanced, and specifying invalid options.
 
- [Course Textbook Chapter 3, Problem 4]
+[Course Textbook Chapter 3, Problem 4]
 
 - *Question* (ldai4-stat6250): Can a PROC SORT message appear at the top of the active window?
 
