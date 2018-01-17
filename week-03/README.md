@@ -37,6 +37,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): As I write and edit SAS program, do I need begin RUN statement in column one?
 - Answer(dfei-stat6250): Yes, I have to do so.
 - Question(pcheng14-stat6250): While people write and edit SAS programs, why should we begin RUN statements in column one?
+- *Question* (aacharya4−stat6250): Why should we follow proper indentation format while writing SAS program even if SAS is a free format language?
+- *Answer* (aacharya4−stat6250): Inspite of SAS being a free format language, we should use proper indentation while writing SAS programs as it enhances the readablility of SAS code making it easier to understand the program better.
 
 
 
@@ -61,6 +63,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How can I avoid spelling errors when I am writing SAS program?
 - Question(pcheng14-stat6250): In order to avoid submitted a SAS program that contains spelling errors, we should be careful when we edit SAS programs.
 - Answer(pcheng14-stat6250): Yes, we have to double check before we submit it.
+- *Question* (aacharya4−stat6250): Why is it a good practice to clear the messages in the log window before resubmitting the program?
+- *Answer* (aacharya4−stat6250): It is a good practice to clear the log window before resubmitting the program so as to avoid any confusion with the error messages of the earlier code.
 
 
 
@@ -84,6 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Do I have to put semicolon at the end of each line?
 - Answer(dfei-stat6250): Yes, I have to do so.
 - Question(pcheng14-stat6250): What is the meaning of var resthr maxhr rechr date?
+- *Question* (aacharya4−stat6250): What happens when missing quotation mark is encountered by the SAS program?
 
  
 
@@ -105,6 +110,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): In computer science, a syntax error is an error in the syntax of a sequence of characters or tokens that is intended to be written in a particular programming language.
 - Question(pcheng14-stat6250): Can we detect the syntax error by ourselves?
 - Answer(pcheng14-stat6250): Yes, it can be detected.
+- *Question* (aacharya4−stat6250): What are the best possible ways to identify syntax errors in a SAS program?
+- *Answer* (aacharya4−stat6250): Some of the ways to identify syntax errors in a SAS program are by using the SAS systems options in code window and DATA step debugger.
 
 
 
@@ -126,6 +133,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250):Will it happen some syntax errors when an invalid equation is entered into a calculator?
 - Answer(dfei-stat6250): Yes, it will.
 - Question(pcheng14-stat6250): How often syntax error occurs happened during per SAS programs?
+- *Question* (aacharya4−stat6250): What are the different types of error that one can encounter in SAS programs?
+- *Answer* (aacharya4−stat6250): The types of error encountered in a SAS program are : Syntax error, Data error, Semantic error, execution-time error.
 
 
 
@@ -147,6 +156,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How many types of invalid options in a SAS program?
 - Question(pcheng14-stat6250): What is “DATA step running” meaning?
 - Answer(pcheng14-stat6250): It same as “PROC running”.
+- *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
 
 
 
@@ -166,6 +176,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): What are other common syntax errors that SAS can successfully interpret and return warnings rather than erros?
 - Question(dfei-stat6250): How to find a syntax error in a quick way?
 - Question(pcheng14-stat6250): What is meaning of syntax error?
+- *Question* (aacharya4−stat6250): What is the way to terminate a DATA step in a SAS program?
+- *Answer* (aacharya4−stat6250): A DATA step in a SAS program can be terminated by using a RUN statement or by beginning another DATA step or a PROC step.
 
 
 
@@ -185,6 +197,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): How can you gauge program processing time?
 - Question(dfei-stat6250): How can I fix “DATA step running” errors when programming?
 - Question(pcheng14-stat6250): What kind of data values were not appropriate for the SAS statements?
+- *Question* (aacharya4−stat6250): What happens when there are unbalanced Quotation marks in a DATA step of a SAS program? 
+- *Answer* (aacharya4−stat6250): When there are unbalanced Quotation marks in a DATA step of a SAS program, the log window displays "DATA step running" message.
 
 
 
@@ -205,6 +219,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Is there a limit to the restrictions you can add to the "where" clause?
 - Question(dfei-stat6250): Are there any other codes similar to proc print? 
 - Question(pcheng14-stat6250): How many steps creates the normal PROC PRINT output?
+- *Question* (aacharya4−stat6250): What is the purpose of LABEL option in SAS?
+- *Answer* (aacharya4−stat6250): The LABEL option in SAS is to replace the variable name in the dataset with the label specified.
 
 
 
@@ -225,6 +241,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): No, SAS can process this if the list is delimited by spaces.
 - Question(dfei-stat6250): Are "in" and "=" same in SAS programming?
 - Question(pcheng14-stat6250): What is the meaning of “TWOSTORY”?
+- *Question* (aacharya4−stat6250): Which operator in SAS is used to classify observations based on a range of values?
+- *Answer* (aacharya4−stat6250): The "IN" operator in SAS is used to classify observations based on a range of values.
 
 
 
@@ -247,6 +265,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): Unless specified, SAS sorts data in ascending order by the variable(s) called.
 - Question(dfei-stat6250): How can I create a temp dataset in SAS programming?
 - Question(pcheng14-stat6250): When should we sort data and create a temporary data?
+- *Question* (aacharya4−stat6250): What happens if when use the PROC SORT step without using the OUT option on a SAS dataset? 
+- *Answer* (aacharya4−stat6250): If when use the PROC SORT step without using the OUT option on a SAS dataset, the original dataset gets sorted.
 
 
 
@@ -266,6 +286,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Why does SAS continue to run a program even after if has encountered an error?
 - Question(dfei-stat6250): Do I have to put "run" at the end of each "PROC PRINT"?
 - Question(pcheng14-stat6250): How could we know whether the PROC SORT step permanently sorts the input data set or not?
+- *Question* (aacharya4−stat6250): What happens if we use the PROC SORT step without using the BY statement?
+- *Answer* (aacharya4−stat6250): Without the BY statement, the PROC SORT step generates error.
 
 
 
@@ -286,6 +308,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): What is the most efficient way to add a lengthy list of character values into a conditional statement?
 - Question(dfei-stat6250): Can I program "less" code instead of code "<" sign code in SAS?
 - Question(pcheng14-stat6250): How should we selects colume in which the amount is greater than or equal to $10000 and the account is 1-9527 or the rate equals 0.98?
+- *Question* (aacharya4−stat6250): What is the logical operator used to depict not equal to in SAS?
+- *Answer* (aacharya4−stat6250): In SAS, "^=" logical operator is used to depict not equal. 
 
 
 
@@ -306,6 +330,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Is there a limit to report size in SAS?
 - Question(dfei-stat6250): The result of "PROC PRINT" store in RAM in computer, isn't it?
 - Question(pcheng14-stat6250): Besides PROC PRINT displays all observations and variables in the data set, what kind fo the way I can get the same outcome?
+- *Question* (aacharya4−stat6250): What option is used to remove the default column of observation numbers on far left in PROC PRINT output?
+- *Answer* (aacharya4−stat6250): NOOBS option is used to remove the default column of observation numbers on far left in PROC PRINT output.
 
 
 
@@ -325,6 +351,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): If you are expecting multiple rows per unique identifier, how can you remove duplicate rows from a data set? 
 - Question(dfei-stat6250): How many ways can I use to duplicate codes in SAS?
 - Question(pcheng14-stat6250): Is this method the best way for isolating duplicate rows than the dupout statement?
+- *Question* (aacharya4−stat6250): What happens if the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset?
+- *Answer* (aacharya4−stat6250): If the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset, it creates a deduplicated datset.
 
 
 
@@ -344,6 +372,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): To sort a data set in descending order by all variables listed, can we simply put paratheses around the specified variables?
 - Question(dfei-stat6250): What will happen when there are same data in dataset when decending or ascending sort of data in SAS?
 - Question(pcheng14-stat6250): esides the method, have any other better recipe for sorting data?
+- *Question* (aacharya4−stat6250): Do we need to specify "ascending" option in order to sort the data in ascending order in a PROC SORT step in SAS?
+- *Answer* (aacharya4−stat6250): No. The PROC SORT step in SAS sorts the data in ascending order by default based on the given criteria.
 
 
 
@@ -362,5 +392,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Rather than viewing data sets in SAS, is it possible to export them to Excel or other tools?
 - Question(dfei-stat6250): What is the most convenient way to print values in SAS? 
 - Question(pcheng14-stat6250): When should we use this technique or recipe for printing the value?
+- *Question* (aacharya4−stat6250): What is the use of "var" statement in a PROC PRINT step in SAS?
+- *Answer* (aacharya4−stat6250): In SAS, "var" statement in a PROC PRINT step is used to specify the variables in the dataset which would be included in the output. Without the "var" statement all variables of the dataset would be part of the output.
 
 
