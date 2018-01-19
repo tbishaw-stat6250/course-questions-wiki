@@ -41,8 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Inspite of SAS being a free format language, we should use proper indentation while writing SAS programs as it enhances the readablility of SAS code making it easier to understand the program better.
 - Question(tchan49-stat6250): What can you do to make your SAS statement consistent and readable? 
 - Answer(tchan49-stat6250): a)begin DATA and PROC steps in column one, b) indent statements within step, c) begin RUN statements in column one, d) include a RUN statement after every DATA step or PROC steps
-- Question (ttruong59-stat6250): Why is a consistent layout necessary and useful when writing SAS statements?
-- Answer (ttruong59-stat6250): The reason is because it enhances readability and enable program’s purpose.
+
 
 
 
@@ -70,8 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Why is it a good practice to clear the messages in the log window before resubmitting the program?
 - *Answer* (aacharya4−stat6250): It is a good practice to clear the log window before resubmitting the program so as to avoid any confusion with the error messages of the earlier code.
 - Question(tchan49-stat6250): Before resubmitting your updated SAS statement, which window should you double-check? 
-- Question (ttruong59-stat6250): How do users clear the contain errors of Log window?
-- Answer (ttruong59-stat6250): Users need to recall the submitted statements from the recall buffer to the Program Editor window to correct the problem. Once the errors were updated, users then need to resubmit the revised program.
+
 
 
 
@@ -97,7 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250): What is the meaning of var resthr maxhr rechr date?
 - *Question* (aacharya4−stat6250): What happens when missing quotation mark is encountered by the SAS program?
 - Question(tchan49-stat6250): When you miss a quotation in a SAS statement, where can you find the error message? 
-- Question (ttruong59-stat6250): How do users correct a "PROC PRINT running" message at the top of the active window?
+
  
 
 [Course Textbook Chapter 3, Problem 4]
@@ -121,7 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What are the best possible ways to identify syntax errors in a SAS program?
 - *Answer* (aacharya4−stat6250): Some of the ways to identify syntax errors in a SAS program are by using the SAS systems options in code window and DATA step debugger.
 - Question(tchan49-stat6250): When you have a syntax error, can you check the error message at the Output window?
-- Question (ttruong59-stat6250): When a syntax error is detected, what is the best way to recognize and debug the error?
+
 
 
 [Course Textbook Chapter 3, Problem 5]
@@ -145,8 +143,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What are the different types of error that one can encounter in SAS programs?
 - *Answer* (aacharya4−stat6250): The types of error encountered in a SAS program are : Syntax error, Data error, Semantic error, execution-time error.
 - Question(tchan49-stat6250): Do you get syntax error when some data values are not appropriate for the SAS statement? 
-- Question (ttruong59-stat6250): What is the main difference between syntax error and data error?
-- Answer (ttruong59-stat6250): Syntax error occurs when program statements do not conform to the SAS rules while data error occurs when the values of data are not specifically specified.
+
 
 
 
@@ -170,8 +167,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250): It same as “PROC running”.
 - *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
 - Question(tchan49-stat6250): When you have an invalid option in SAS program, is it a syntax error or data error? 
-- Question (ttruong59-stat6250): How do users fix a debug error where a log message indicates an option is not valid or not recognized?
-- Answer (ttruong59-stat6250): Users need to recall the program, remove or replace the invalid option, check the statement syntax and resubmit the statement.
+
 
 
 
@@ -194,7 +190,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the way to terminate a DATA step in a SAS program?
 - *Answer* (aacharya4−stat6250): A DATA step in a SAS program can be terminated by using a RUN statement or by beginning another DATA step or a PROC step.
 - Question(tchan49-stat6250): How can you correct the misspelling key work on a SAS statement? Do you need to re-type the entire statement? 
-- Question (ttruong59-stat6250): Does SAS point out any misspelling error?
+
 
 
 [Course Textbook Chapter 3, Problem 10]
@@ -217,7 +213,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): When there are unbalanced Quotation marks in a DATA step of a SAS program, the log window displays "DATA step running" message.
 - Question(tchan49-stat6250): If you miss the RUN statement for a DATA step, what is going to display on the active window? 
 - Answer(tchan49-stat6250): “DATA step running” for a long time. 
-- Question (ttruong59-stat6250): Is each step compiled and executed independently?
+
 
 
 [Course Textbook Chapter 4, Problem 1]
@@ -241,7 +237,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The LABEL option in SAS is to replace the variable name in the dataset with the label specified.
 - Question(tchan49-stat6250): How can you replace Obs column with other columns? 
 - Answer(tchan49-stat6250): Use ID statement 
-- Question (ttruong59-stat6250): How do users specify a dataset they wanted to print out?
+
 
 
 [Course Textbook Chapter 4, Problem 3]
@@ -264,7 +260,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Which operator in SAS is used to classify observations based on a range of values?
 - *Answer* (aacharya4−stat6250): The "IN" operator in SAS is used to classify observations based on a range of values.
 - Question(tchan49-stat6250): When you test for multiple values of the same variable, besides using OR in a WHERE statement, what operator can you use? 
-- Question (ttruong59-stat6250): Is WHERE the only statement used to set conditions?
+
 
 
 [Course Textbook Chapter 4, Problem 4]
@@ -289,7 +285,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What happens if when use the PROC SORT step without using the OUT option on a SAS dataset? 
 - *Answer* (aacharya4−stat6250): If when use the PROC SORT step without using the OUT option on a SAS dataset, the original dataset gets sorted.
 - Question(tchan49-stat6250): Do you create a temporary dataset before identifying the datatset that you want to read or after? 
-- Question (ttruong59-stat6250): How do users sort data and create a temporary data set to store sorted data?
+
 
 
 [Course Textbook Chapter 4, Problem 7]
@@ -311,7 +307,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What happens if we use the PROC SORT step without using the BY statement?
 - *Answer* (aacharya4−stat6250): Without the BY statement, the PROC SORT step generates error.
 - Question(tchan49-stat6250): Is BY statement required when you try to sort a dataset? 
-- Question (ttruong59-stat6250): Why do users need to run PROC SORT and PROC PRINT statement?
+
 
 
 [Course Textbook Chapter 4, Problem 9]
@@ -334,7 +330,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the logical operator used to depict not equal to in SAS?
 - *Answer* (aacharya4−stat6250): In SAS, "^=" logical operator is used to depict not equal. 
 - Question(tchan49-stat6250): What is the difference between AND and OR operator? How are they used differently when testing variables from the same attribute or different attributes? 
-- Question (ttruong59-stat6250): What are the comparison operators used in WHERE statement?
+
 
 
 [Course Textbook Chapter 4, Problem 10]
@@ -379,7 +375,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What happens if the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset?
 - *Answer* (aacharya4−stat6250): If the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset, it creates a deduplicated datset.
 - Question(tchan49-stat6250): Why is it important to check duplicate records for unique IDs especially the dataset is obtained from external source?
-- Question (ttruong59-stat6250): What is a significant reason to remove duplicates rows in a data set?
+
 
 
 [recipe_for_sorting_data Week 3 Recipe]
@@ -401,7 +397,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): Do we need to specify "ascending" option in order to sort the data in ascending order in a PROC SORT step in SAS?
 - *Answer* (aacharya4−stat6250): No. The PROC SORT step in SAS sorts the data in ascending order by default based on the given criteria.
 - Question(tchan49-stat6250): How can you sort the data in ascending order by multiple columns? 
-- Question (ttruong59-stat6250): Is it required to specify the out=option when sorting data in SAS?
+
 
 
 [recipe_for_printing_values Week 3 Recipe]
@@ -422,5 +418,5 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the use of "var" statement in a PROC PRINT step in SAS?
 - *Answer* (aacharya4−stat6250): In SAS, "var" statement in a PROC PRINT step is used to specify the variables in the dataset which would be included in the output. Without the "var" statement all variables of the dataset would be part of the output.
 - Question(tchan49-stat6250): How can you print last 30 Obs of the dataset? 
-- Question (ttruong59-stat6250): Why do users have to limit rows when printing out?
+
 
