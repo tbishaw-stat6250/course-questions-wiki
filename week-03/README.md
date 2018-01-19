@@ -142,7 +142,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Do syntax errors and data errors always appear in the Log window with explanation of the error?
 - Answer (xyin6-stat6250): Yes, problems with your statements or data might not be evident when you look at results in the Output window. Therefore, it is important to review the messages in the Log window each time you submit a SAS program.
 - *Question* (tbishawstat6250): Where can you find the line numbers and is it located in the same place for all operating environments? 
-- *Answer* (tbishawstat6250): 
 
 
 
@@ -226,7 +225,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): A DATA or PROC statement indicates the beginning of a new step; a RUN or QUIT statement indicates the end of the current step.
 - Question (xyin6-stat6250): How to user Enhanced Editor for easier finding and checking syntax error?
 - *Question* (tbishawstat6250): If you are missing a quotation mark and you have an unbalanced quotation mark error, how do you resolve the Error?
-- *Answer* (tbishawstat6250): 
 
 
 
