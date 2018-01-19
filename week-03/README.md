@@ -1,4 +1,5 @@
 
+
 ## Week 3 Quiz Questions and Answers
 
 In order to prepare your Week 3 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -10,6 +11,8 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 - the week-3 branch of your version of the repo as the head fork.
 
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
+
+
 
 ********************************************************************************
 
@@ -42,6 +45,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250): What can you do to make your SAS statement consistent and readable? 
 - Answer(tchan49-stat6250): a)begin DATA and PROC steps in column one, b) indent statements within step, c) begin RUN statements in column one, d) include a RUN statement after every DATA step or PROC steps
 - Question (lsun20-stat6250): Why the RUN statements can in the column one? Is there any example?
+- *Question* (ldai4-stat6250): Why it is a good idea to begin DATA and PROC step in column?
+- *Answer* (ldai4-stat6250): Because a consistent layout enhances readability and enables you to understand the program’s purpose.
 
 
 
@@ -71,6 +76,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250): Before resubmitting your updated SAS statement, which window should you double-check? 
 - Question (lsun20-stat6250): which window will show your error specifically?
 - Answer (lsun20-stat6250): the log window will display the messages about the error.
+- *Question* (ldai4-stat6250): If I didn’t find the spelling errors, what would happen after running the program?
 
 
 
@@ -97,8 +103,11 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What happens when missing quotation mark is encountered by the SAS program?
 - Question(tchan49-stat6250): When you miss a quotation in a SAS statement, where can you find the error message? 
 - Question (lsun20-stat6250): what is the maxmum length of a quoted string?
+- *Question* (ldai4-stat6250): What is some common syntax errors?
+- *Answer* (ldai4-stat6250): Common syntax errors include spelling mistakes, omitting semicolons, leaving quotation marks unbalanced, and specifying invalid options.
 
  
+
 
 [Course Textbook Chapter 3, Problem 4]
 - Question (ljiang11−stat6250): What would happen if it is a typo?
@@ -122,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Some of the ways to identify syntax errors in a SAS program are by using the SAS systems options in code window and DATA step debugger.
 - Question(tchan49-stat6250): When you have a syntax error, can you check the error message at the Output window?
 - Question (lsun20-stat6250): Which errors except Syntax error also will cause SAS to stop processing the step in which the error occurred?
+- *Question* (ldai4-stat6250): Can a PROC SORT message appear at the top of the active window?
 
 
 
@@ -147,6 +157,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The types of error encountered in a SAS program are : Syntax error, Data error, Semantic error, execution-time error.
 - Question(tchan49-stat6250): Do you get syntax error when some data values are not appropriate for the SAS statement? 
 - Question (lsun20-stat6250): How many tpye of error the SAS program has? Could you give at least 5 example?
+- *Question* (ldai4-stat6250): How can a syntax error be modified in a submitted SAS program?
 
 
 
@@ -171,6 +182,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How does one avoid making "invalid option" error while writing SAS code?
 - Question(tchan49-stat6250): When you have an invalid option in SAS program, is it a syntax error or data error? 
 - Question (lsun20-stat6250): What is the reason may cause an invalid option in a SAS program?
+- *Question* (ldai4-stat6250): Can a log message indicate spelling errors in addition to notifying the invalid option?
 
 
 
@@ -194,6 +206,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): A DATA step in a SAS program can be terminated by using a RUN statement or by beginning another DATA step or a PROC step.
 - Question(tchan49-stat6250): How can you correct the misspelling key work on a SAS statement? Do you need to re-type the entire statement? 
 - Question (lsun20-stat6250): When the SAS produces only a warning message, not an error, will it influence the program running?
+- *Question* (ldai4-stat6250): What statement indicates the beginning of a new step or the end of the current step?
+- *Answer* (ldai4-stat6250): A DATA or PROC statement indicates the beginning of a new step; a RUN or QUIT statement indicates the end of the current step.
 
 
 
@@ -218,6 +232,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250): If you miss the RUN statement for a DATA step, what is going to display on the active window? 
 - Answer(tchan49-stat6250): “DATA step running” for a long time. 
 - Question (lsun20-stat6250): If you create a Endless Loop and run it, what will happen in SAS program?
+- *Question* (ldai4-stat6250): Does each step need to RUN statement to end?
 
 
 
@@ -244,6 +259,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(tchan49-stat6250): Use ID statement 
 - Question (lsun20-stat6250): What is the ID statement means?
 - Answer (lsun20-stat6250): the ID statement replaces the Obs column with the specified variable.
+- *Question* (ldai4-stat6250): How can you use PROC PRINT step to create a basic report?
+- *Answer* (ldai4-stat6250): To produce a simple list report, you first reference the library in which your SAS data set is stored. If you want, you can also set system options to control the appearance of your reports. Then you submit a basic PROC PRINT step.
 
 
 
@@ -268,6 +285,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The "IN" operator in SAS is used to classify observations based on a range of values.
 - Question(tchan49-stat6250): When you test for multiple values of the same variable, besides using OR in a WHERE statement, what operator can you use? 
 - Question (lsun20-stat6250): Can we use double quotation marks in this situation?
+- *Question* (ldai4-stat6250): What step can be used to selected observations?
 
 
 
@@ -295,6 +313,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250): Do you create a temporary dataset before identifying the datatset that you want to read or after? 
 - Question (lsun20-stat6250): What will happen if we code without By statement in this case?
 - Answer (lsun20-stat6250): The BY statement is required in PROC SORT, without it, the PROC SORT step fails.
+- *Question* (ldai4-stat6250): what is the SORT procedure by using PROC SORT?
 
 
 
@@ -318,6 +337,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Without the BY statement, the PROC SORT step generates error.
 - Question(tchan49-stat6250): Is BY statement required when you try to sort a dataset? 
 - Question (lsun20-stat6250): Why the PROC PRINT step will still runs successfully?
+- *Question* (ldai4-stat6250): How can we produce column totals for numeric variables?
 
 
 
@@ -342,6 +362,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): In SAS, "^=" logical operator is used to depict not equal. 
 - Question(tchan49-stat6250): What is the difference between AND and OR operator? How are they used differently when testing variables from the same attribute or different attributes? 
 - Question (lsun20-stat6250): Can we seprate the one statement to two statements which have the same effect?
+- *Question* (ldai4-stat6250): Can SUM statement appear after the BY statement?
 
 
 
@@ -366,6 +387,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): NOOBS option is used to remove the default column of observation numbers on far left in PROC PRINT output.
 - Question(tchan49-stat6250): To avoid printing out columns that you do not want, what statement do you need to use?
 - Question (lsun20-stat6250): What the common usage of the PROC PRINT statement?
+- *Question* (ldai4-stat6250): What would happen if you submit a DATA step without a RUN statement?
+- *Answer* (ldai4-stat6250): The active window displays the message “DATA step running” for a long time.
 
 
 
@@ -389,6 +412,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): If the OUT option is not set to a NULL dataset while removing duplicate records from a SAS dataset, it creates a deduplicated datset.
 - Question(tchan49-stat6250): Why is it important to check duplicate records for unique IDs especially the dataset is obtained from external source?
 - Question (lsun20-stat6250): What will be the influence if we use a dataset with some duplicated records?
+- *Question* (ldai4-stat6250): How can we remove the duplicate variables from SAS data set?
 
 
 
@@ -412,6 +436,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): No. The PROC SORT step in SAS sorts the data in ascending order by default based on the given criteria.
 - Question(tchan49-stat6250): How can you sort the data in ascending order by multiple columns? 
 - Question (lsun20-stat6250): Can we make the dataset to sort by the first colum in ascending order and the remaining other columns in descending order?
+- *Question* (ldai4-stat6250): Does the new data set created by using PROC SORT replace original data? Does the original data disappear from SAS library?
 
 
 
@@ -434,5 +459,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): In SAS, "var" statement in a PROC PRINT step is used to specify the variables in the dataset which would be included in the output. Without the "var" statement all variables of the dataset would be part of the output.
 - Question(tchan49-stat6250): How can you print last 30 Obs of the dataset? 
 - Question (lsun20-stat6250): What will happen in the example if the PORC PRINT statement without the "(obs=20)"?
+- *Question* (ldai4-stat6250): How the report can be shown the title and footnote?
+- *Answer* (ldai4-stat6250): Use TITLE and FOOTNOTE statement.
 
 
