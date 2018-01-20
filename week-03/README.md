@@ -49,7 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): Does SAS allow you to reopen a stored program to make edits on it for resubmission?
 - *Answer* (tbishawstat6250): SAS software does allow you to reopen a stored program and made edits needed to submit it again. You can open a program using: file shortcuts, My Favorite Folders, the INCLUDE command, and the Open window. 
 - Question (ttruong59-stat6250): Why is a consistent layout necessary and useful when writing SAS statements?
-- Answer (ttruong59-stat6250): The reason is because it enhances readability and enable program’s purpose
+- Answer (ttruong59-stat6250): The reason is because it enhances readability and enable program’s purpose.
 
 
 
