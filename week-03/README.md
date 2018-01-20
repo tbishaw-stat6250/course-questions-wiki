@@ -353,7 +353,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What option is used to remove the default column of observation numbers on far left in PROC PRINT output?
 - *Answer* (aacharya4−stat6250): NOOBS option is used to remove the default column of observation numbers on far left in PROC PRINT output.
 - Question(tchan49-stat6250): To avoid printing out columns that you do not want, what statement do you need to use?
-- Question (ttruong59-stat6250): What does PROC PRINT display by default?
+
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
