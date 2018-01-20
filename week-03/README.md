@@ -16,12 +16,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 3, Problem 1]
-- *Question* (sbagdi-stat6250): Which of the following is true for SAS statements?
-a) All SAS statements start and end with semi-colon.
-b) SAS statements cannot be combined in one line.
-c) SAS statements cannot continue over several lines.
-d) Usually begins with a SAS keyword and always end with a semi-colon.
-- *Answer* (sbagdi-stat6250): The correct answer is- Choice d.
+- *Question* (sbagdi-stat6250): Can I create my own keywords?
+- *Answer* (sbagdi-stat6250): Yes, creating and formatting keywords for a SAS program is possible using the enhanced editer in SAS. 
 
 
 
@@ -74,20 +70,11 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 
 [Course Textbook Chapter 4, Problem 7]
 - *Question* (sbagdi-stat6250): What does the DESCENDING option does? And to which statement should it be added?
-a) The DESCENDING option sorts observations in descending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the BY statement.
-b) The DESCENDING option sorts observations in ascending order of second variable (the one programmer specifies in VAR statement) within descending order of the first variable. And it should be added to the BY statement.
-c) The DESCENDING option sorts observations in ascending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the PROC PRINT statement.
-d) The DESCENDING option sorts observations in ascending order of first variable (the one programmer specifies in VAR statement) within descending order of the second variable. And it should be added to the PROC SORT statement.
-
-
+- *Answer* (sbagdi-stat6250): The DESCENDING option sorts observations in ascending order of second variable (the one programmer specifies in VAR statement) within descending order of the first variable. And it should be added to the BY statement.
 
 [Course Textbook Chapter 4, Problem 9]
 - *Question* (sbagdi-stat6250): Which operator is used to select observations that include a specified string?
-a) CONTAINS ‘xyz’
-b) CONTAINS xyAZS
-c) ? ‘xzgdbvd’
-d) a and c, both are correct
-e) only a is correct
+- *Answer* (sbagdi-stat6250):The contains operator is used to select observations including a specified string- CONTAINS ‘xyz’ OR ? ‘xyz.
 
 
 
