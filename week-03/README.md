@@ -93,5 +93,5 @@ b) if that abbreviation is recognized, a tooltip displays the expanded text; Pre
 
 
 [recipe_for_printing_values Week 3 Recipe]
-- *Question* (sbagdi-stat6250): What does a (OBS= ) statement does in PROC PRINT?
+- *Question* (sbagdi-stat6250): What does a (OBS= ) statement does in PROC PRINT??
 
