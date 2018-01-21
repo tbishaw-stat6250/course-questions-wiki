@@ -122,6 +122,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users correct a "PROC PRINT running" message at the top of the active window?
 
 
+
 [Course Textbook Chapter 3, Problem 4]
 - Question (ljiang11−stat6250): What would happen if it is a typo?
 - Answer (ljiang11−stat6250): SAS will continue processing, and displays a warning in log window.
@@ -149,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (xyin6-stat6250): Yes, problems with your statements or data might not be evident when you look at results in the Output window. Therefore, it is important to review the messages in the Log window each time you submit a SAS program.
 - *Question* (tbishawstat6250): Where can you find the line numbers and is it located in the same place for all operating environments? 
 - Question (ttruong59-stat6250): When a syntax error is detected, what is the best way to recognize and debug the error?
+
 
 
 [Course Textbook Chapter 3, Problem 5]
@@ -182,7 +184,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [Course Textbook Chapter 3, Problem 6]
 - Question (ljiang11−stat6250): In what situation a "PROC running" message would occur?
 - *Question* (jcanfield3-stat6250): Where can you find a list of possible options?
@@ -209,7 +210,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): What are some of the most common errors in SAS? Where can you review the messages to check for errors each time you submit a SAS program?
 - Question (ttruong59-stat6250): How do users fix a debug error where a log message indicates an option is not valid or not recognized?
 - Answer (ttruong59-stat6250): Users need to recall the program, remove or replace the invalid option, check the statement syntax and resubmit the statement.
-
 
 
 
@@ -240,6 +240,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Does SAS point out any misspelling error?
 
 
+
 [Course Textbook Chapter 3, Problem 10]
 - Question (ljiang11−stat6250): Will there be any message in log window?
 - *Question* (jcanfield3-stat6250): Can you tell if a continuous "DATA step running" is due to a run missing or long compiling time, without looking at the code?
@@ -265,6 +266,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): If missing a RUN statement to end the DATA step, will the previous steps being executed? Or are these steps independent from each other?
 - *Question* (tbishawstat6250): What is the comment symbol in SAS? And does the SAS program execute or read the comments you make?
 - Question (ttruong59-stat6250): Is each step compiled and executed independently?
+
 
 
 [Course Textbook Chapter 4, Problem 1]
@@ -298,6 +300,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users specify a dataset they wanted to print out?
 
 
+
 [Course Textbook Chapter 4, Problem 3]
 - Question (ljiang11−stat6250): Can I write where style in ('RANCH',"SPLIT",'TWOSTORY');?
 - Answer (ljiang11−stat6250): As long as the single quotation mark and double quotation mark are not used on the same word, it will be fine.
@@ -323,6 +326,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Can I also use IN operator for selecting multiple numeric values? Is the quote sign required?
 - *Question* (tbishawstat6250): Can you specify the variables you want listed from a data set when creating a report? If so which SAS statement would you need to use to do so?
 - Question (ttruong59-stat6250): Is WHERE the only statement used to set conditions? 
+
 
 
 [Course Textbook Chapter 4, Problem 4]
@@ -356,6 +360,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users sort data and create a temporary data set to store sorted data?
 
 
+
 [Course Textbook Chapter 4, Problem 7]
 - Question (ljiang11−stat6250): Is it a syntax error that by statement is missing in PROC SORT step?
 - *Question* (jcanfield3-stat6250): In the book solution is the second run statement missing a semicolon?
@@ -380,6 +385,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): If missing a BY statement in PROC SORT, will the data set still printed if followed by PROC PRINT?
 - *Question* (tbishawstat6250): Which SAS statement do you use to produce column totals for numeric variables? And which SAS statement do you use for generating subtotals? 
 - Question (ttruong59-stat6250): Why do users need to run PROC SORT and PROC PRINT statement?
+
 
 
 [Course Textbook Chapter 4, Problem 9]
@@ -410,6 +416,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What are the comparison operators used in WHERE statement?
 
 
+
 [Course Textbook Chapter 4, Problem 10]
 - Question (ljiang11−stat6250): How can we remove first column?
 - Answer (ljiang11−stat6250): By adding option noobs;
@@ -436,6 +443,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (xyin6-stat6250): Is it mandatory to specify equal sign in the DATA= after PROC PRINT?
 - *Question* (tbishawstat6250): Which SAS statement do you use to label columns? And is it possible to use single or multiple label statements?
 - Question (ttruong59-stat6250): What does PROC PRINT display by default?
+
 
 
 [recipe_to_check_for_duplicates Week 3 Recipe]
@@ -465,6 +473,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a significant reason to remove duplicates rows in a data set?
 
 
+
 [recipe_for_sorting_data Week 3 Recipe]
 - Question (ljiang11−stat6250): Why the out= is necessary?
 - Answer (ljiang11−stat6250): Because otherwise the original data will be overwritten.
@@ -492,6 +501,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Is it required to specify the out=option when sorting data in SAS?
 
 
+
 [recipe_for_printing_values Week 3 Recipe]
 - Question (ljiang11−stat6250): How to show the last 20 observations?
 - *Question* (jcanfield3-stat6250): Is the obs= only capable of showing the first 'x' rows?  What if I didn't want the first row?
@@ -517,4 +527,5 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): What does the PROC PRINT statement display by default? And what are the observations displayed?
 - *Answer* (tbishawstat6250): The PROC PRINT displays all observations and variable in a data set, a column for observation numbers on the far left, and variables in the order in which they occur in the data set. 
 - Question (ttruong59-stat6250): Why do users have to limit rows when printing out?
+
 
