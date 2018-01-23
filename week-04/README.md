@@ -15,61 +15,61 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 3]
-
+- *Question* (jcanfield3-stat6250): Who do character variables require a '$' to be assigned formats?
 
 
 [Course Textbook Chapter 7, Problem 4]
-
-
+- *Question* (jcanfield3-stat6250): How do you define a permanent format?
+- *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 
 [Course Textbook Chapter 7, Problem 5]
-
+- *Question* (jcanfield3-stat6250): If i'm using number and letters both as characters, would I just add quotes to the numbers as well?
 
 
 [Course Textbook Chapter 7, Problem 6]
-
+- *Question* (jcanfield3-stat6250): Why is 256 the character limit of a label?
 
 
 [Course Textbook Chapter 7, Problem 7]
-
-
+- *Question* (jcanfield3-stat6250): Wouldn't having Miss/Missing as a key word be useful when separating missing and other values?
+- *Answer* (jcanfield3-stat6250): This is because a . or ' ' can be used instead.
 
 [Course Textbook Chapter 7, Problem 8]
-
-
+- *Question* (jcanfield3-stat6250): Does formatting replace original data?
+- *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 
 [Course Textbook Chapter 8, Problem 1]
-
+- *Question* (jcanfield3-stat6250): Why is standard deviation a default statistic instead of variance?
 
 
 [Course Textbook Chapter 8, Problem 2]
-
+- *Question* (jcanfield3-stat6250): What is the difference between using var and keep?
 
 
 [Course Textbook Chapter 8, Problem 4]
-
+- *Question* (jcanfield3-stat6250): Why do by variables have to be pre-sorted?
 
 
 [Course Textbook Chapter 8, Problem 7]
-
+- *Question* (jcanfield3-stat6250): Is having a frequency table for numeric variables useful?
 
 
 [Course Textbook Chapter 8, Problem 8]
-
+- *Question* (jcanfield3-stat6250): Are discrete numerical variables more useful than continuous ones when it comes to frequency tables?
 
 
 [Course Textbook Chapter 8, Problem 10]
-
+- *Question* (jcanfield3-stat6250): Can all options of a table be suppressed?
 
 
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
-
+- *Question* (jcanfield3-stat6250): Can I save a mean as a variable in a dataset?
 
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
-
+- *Question* (jcanfield3-stat6250): How long has SAS been around for?
 
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
-
+- *Question* (jcanfield3-stat6250): Can I format formats?
 
