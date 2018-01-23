@@ -53,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The reason is because it enhances readability and enable program’s purpose.
 - *Question* (aguenane−stat6250): Why is it useful to write your SAS programs in a consistent layout?
 - *Answer* (aguenane-stat6250): This is because a consistent layout enhances readability and helps you understand the program’s purpose.
+- Question (who7−stat6250): Is the idea of putting DATA and PROC on column 1 more for style or for technical reason?
 
 
 
@@ -91,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users clear the contain errors of Log window?
 - Answer (ttruong59-stat6250): Users need to recall the submitted statements from the recall buffer to the Program Editor window to correct the problem. Once the errors were updated, users then need to resubmit the revised program.
 - *Question* (aguenane−stat6250): What are two ways that you can clear the contents of the SAS programming windows?
+- Question (who7−stat6250): Are there any third party SAS compiler that help you identify error when you are writing the code?
 
 
 
@@ -126,6 +128,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users correct a "PROC PRINT running" message at the top of the active window?
 - *Question* (aguenane−stat6250): What is the benefit of issuing the RECALL command or selected Run -> Recall Last Submit?
 - *Answer* (aguenane-stat6250): This allows you to obtain the statements you just submitted. This allows you to edit your code easily when you run into syntax errors.
+- Question (who7−stat6250): Do we always have to rename data set everytime we manipulate it? Can we overwrite existing data set?
 
 
 
@@ -157,6 +160,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): Where can you find the line numbers and is it located in the same place for all operating environments? 
 - Question (ttruong59-stat6250): When a syntax error is detected, what is the best way to recognize and debug the error?
 - *Question* (aguenane−stat6250): When debugging your programs, can you just look at the Output window?
+- Question (who7−stat6250): Would there be an instance where program encounter a syntax error and continue running?
 
 
 
@@ -190,6 +194,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Syntax error occurs when program statements do not conform to the SAS rules while data error occurs when the values of data are not specifically specified.
 - *Question* (aguenane−stat6250): What is the difference between a syntax error and a data error?
 - *Answer* (aguenane-stat6250): A syntax error occurs when program statements do not conform to the rules of the SAS language while a data error occurs when some data values are not appropriate for the SAS statements that are specified in the program.
+- Question (who7−stat6250): What is the main difference between syntax error and other error in SAS?
 
 
 
@@ -220,6 +225,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users fix a debug error where a log message indicates an option is not valid or not recognized?
 - Answer (ttruong59-stat6250): Users need to recall the program, remove or replace the invalid option, check the statement syntax and resubmit the statement.
 - *Question* (aguenane−stat6250): How do you resolve an invalid option error?
+- Question (who7−stat6250): Is there a better to keep track of different variables when writing code to avoid invalid option error?
 
 
 
@@ -249,6 +255,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): If you are missing a quotation mark and you have an unbalanced quotation mark error, how do you resolve the Error?
 - Question (ttruong59-stat6250): Does SAS point out any misspelling error?
 - *Question* (aguenane−stat6250): What type of errors are the following: omitting semicolons, leaving quotation marks unbalanced, specifying invalid options?
+- Question (who7−stat6250): What would be the best way to avoid syntax error?
 
 
 
@@ -278,6 +285,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): What is the comment symbol in SAS? And does the SAS program execute or read the comments you make?
 - Question (ttruong59-stat6250): Is each step compiled and executed independently?
 - *Question* (aguenane−stat6250): Is it true that each step in a SAS program is compiled and executed independently from every other step.
+- Question (who7−stat6250): Why wouldn't SAS automate the RUN; statement into the program?
 
 
 
@@ -311,6 +319,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): To create a simple list report, you first have to reference the library in which your SAS data set is stored. 
 - Question (ttruong59-stat6250): How do users specify a dataset they wanted to print out?
 - *Question (aguenane−stat6250): When producing a list report, if you don’t want to list all of the variables in the data set, can you choose indiv*idual variables to show?
+- Question (who7−stat6250): one of the answer attempted to change the label name of a variable, can we display variable a as "A"?
 
 
 
@@ -340,6 +349,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): Can you specify the variables you want listed from a data set when creating a report? If so which SAS statement would you need to use to do so?
 - Question (ttruong59-stat6250): Is WHERE the only statement used to set conditions? 
 - *Question* (aguenane−stat6250): When specifying variables with WHERE expressions, what are the two things you must do?
+- Question (who7−stat6250): Can i create AND condition within a OR condition?
 
 
 
@@ -373,6 +383,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): The SORT procedure rearranges the observations in a SAS data set, creates a new SAS data set that contains the rearranged observations, replace the original SAS data set by default, and can sort multiple variables (ascending or descending order).
 - Question (ttruong59-stat6250): How do users sort data and create a temporary data set to store sorted data?
 - *Question* (aguenane−stat6250): What is the general form of a simple PROC SORT step?
+- Question (who7−stat6250): What is the difference between sorting data set to name and a.name?
 
 
 
@@ -401,6 +412,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): Which SAS statement do you use to produce column totals for numeric variables? And which SAS statement do you use for generating subtotals? 
 - Question (ttruong59-stat6250): Why do users need to run PROC SORT and PROC PRINT statement?
 - *Question* (aguenane−stat6250): Does the PROC SORT step permanently sort the input data set?
+- Question (who7−stat6250): Can SAS combine 2 data sets and sort it and print certain variables from the 2 data set like in SQL?
 
 
 
@@ -431,6 +443,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): To generate SAS LISTING output, you must first select Tools and then you go to Options and under Options you select Preferences. In the Preference menu you will find the Results tab and the Creating Listing option. 
 - Question (ttruong59-stat6250): What are the comparison operators used in WHERE statement?
 - *Question* (aguenane−stat6250): Can you use quotation marks when specifying certain character strings, or must you use apostrophes?
+- Question (who7−stat6250): Can we create new abbreviation in SAS?
 
 
 
@@ -461,6 +474,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (tbishawstat6250): Which SAS statement do you use to label columns? And is it possible to use single or multiple label statements?
 - Question (ttruong59-stat6250): What does PROC PRINT display by default?
 - *Question* (aguenane−stat6250): What does the Obs column represent and how do you remove the Obs column in your program?
+- Question (who7−stat6250): Can we write a statement that only print the first row of data?
+- Answer (who7−stat6250): Yes, you can limit the number of data shown by using (obs=1).
 
 
 
@@ -490,6 +505,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): You have to attempt to sort the data set which simultaneously removing duplicate values but outputting the results of the de-duplication process to a null data set. By doing so you are able to find the number of duplicate records in the data log. It is extremely important to always check if our data contains duplicates. 
 - Question (ttruong59-stat6250): What is a significant reason to remove duplicates rows in a data set?
 - *Question* (aguenane−stat6250): What is the purpose of removing duplicate rows in a SAS data set?
+- Question (who7−stat6250): Would there be a situation where looking for duplicate data is not recommended?
+- Answer (who7−stat6250): There might be a scenario when duplicate data is common and by removing duplicate data you will be removing valuable data.
 
 
 
@@ -519,6 +536,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): To sort a report based on values of a variable, we would use the PROC SORT statement to sort the data before using the PRINT procedure to create reports from the data. 
 - Question (ttruong59-stat6250): Is it required to specify the out=option when sorting data in SAS?
 - *Question* (aguenane−stat6250): When sorting data, why should you add the “out=” command?
+- Question (who7−stat6250): How can we best sort data when we want to keep the order of data?
+- Answer (who7−stat6250): We can create a temp data set to store the sort data so you can keep the correct order of the data in the original data set.
 
 
 
@@ -548,5 +567,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (tbishawstat6250): The PROC PRINT displays all observations and variable in a data set, a column for observation numbers on the far left, and variables in the order in which they occur in the data set. 
 - Question (ttruong59-stat6250): Why do users have to limit rows when printing out?
 - *Question* (aguenane−stat6250): How do you specify which rows will be used when using a PROC PRINT command?
+- Question (who7−stat6250): By the video, it seems it is easy for SAS to change to Excel mode. What are the advantage of using SAS over Excel?
+
 
 
