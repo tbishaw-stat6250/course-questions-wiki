@@ -17,38 +17,50 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 7, Problem 3]
 
 
+- Question (lceballos-stat6250): Why can't the format with the VALUE statement end in a period?
 
 [Course Textbook Chapter 7, Problem 4]
 
 
+- Question (lceballos-stat6250): Can the semicolon be placed in a new line after the 3='Blue' to make it more readable?
 
 [Course Textbook Chapter 7, Problem 5]
 
 
+- Question (lceballos-stat6250): Why can't you have different character and numeric values as value statements?
+- Answer (lceballos-stat6250): The format of the values must be predefined.
 
 [Course Textbook Chapter 7, Problem 6]
 
 
+- Question (lceballos-stat6250): What is the lenght limit for the labels?
+- Answer (lceballos-stat6250): 256
 
 [Course Textbook Chapter 7, Problem 7]
 
 
+- Question (lceballos-stat6250): What is LOW used for?
+- Answer (lceballos-stat6250): To set a lower limit of a variable range you use the LOW keyword.
 
 [Course Textbook Chapter 7, Problem 8]
 
 
+- Question (lceballos-stat6250): What happens when you place a FORMAT statement in a PROC step?
 
 [Course Textbook Chapter 8, Problem 1]
 
 
+- Question (lceballos-stat6250): What if we only want to display n?
 
 [Course Textbook Chapter 8, Problem 2]
 
 
+- Question (lceballos-stat6250): Can you use the var statement inversely to exclude only a few variables instead of listing a lot?
 
 [Course Textbook Chapter 8, Problem 4]
 
 
+- Question (lceballos-stat6250):
 
 [Course Textbook Chapter 8, Problem 7]
 
