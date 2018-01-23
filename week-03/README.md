@@ -479,7 +479,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [recipe_to_check_for_duplicates Week 3 Recipe]
 - Question (ljiang11−stat6250): what is the mechanism of keyword "nodupkey"?
 - *Question* (jcanfield3-stat6250): When can isolating duplicate rows be useful?
@@ -508,7 +507,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aguenane−stat6250): What is the purpose of removing duplicate rows in a SAS data set?
 - Question (who7−stat6250): Would there be a situation where looking for duplicate data is not recommended?
 - Answer (who7−stat6250): There might be a scenario when duplicate data is common and by removing duplicate data you will be removing valuable data.
-
 
 
 
@@ -543,7 +541,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-
 [recipe_for_printing_values Week 3 Recipe]
 - Question (ljiang11−stat6250): How to show the last 20 observations?
 - *Question* (jcanfield3-stat6250): Is the obs= only capable of showing the first 'x' rows?  What if I didn't want the first row?
@@ -571,5 +568,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Why do users have to limit rows when printing out?
 - *Question* (aguenane−stat6250): How do you specify which rows will be used when using a PROC PRINT command?
 - Question (who7−stat6250): By the video, it seems it is easy for SAS to change to Excel mode. What are the advantage of using SAS over Excel?
+
 
 
