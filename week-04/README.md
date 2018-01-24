@@ -60,28 +60,34 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 8, Problem 4]
 
 
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What's the difference between CLASS and BY?
 
 [Course Textbook Chapter 8, Problem 7]
 
 
+- Question (lceballos-stat6250): Does PROC FREQ work on binomial distributions?
 
 [Course Textbook Chapter 8, Problem 8]
 
 
+- Question (lceballos-stat6250): Can you do a PROC FREQ with multiple variables?
 
 [Course Textbook Chapter 8, Problem 10]
 
 
+- Question (lceballos-stat6250):What is the purpose of the star * sign in this statement?
 
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
 
 
+- Question (lceballos-stat6250): How can we ignore rows with missing values?
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 
 
+- Question (lceballos-stat6250): How do we summarize multiple variables at the same time using PROC FREQ?
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 
 
+- Question (lceballos-stat6250): Can you make multiple bins to combine different variables that roll up into different categories?
