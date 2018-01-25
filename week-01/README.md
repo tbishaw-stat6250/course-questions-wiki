@@ -46,6 +46,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Is there another way to saving and commiting files without the use of a repo?
 - *Question* (akrishnamurthy−stat6250): what are the components to be completed to earn an Initial Setup achievement award? 
 - Question (nshrivastava2-stat6250):Since, we are using GitHub web interface as well Github desktop. What is the benefit of using GitHub desktop over GitHub web?
+- *Question* (aguenane−stat6250): What must you do if your Horizon email address is already associated with a GitHub account?
+- *Answer* (aguenane-stat6250)*: You can change the username on the account or you can change the account's email address which allows you to create a new account. This way, you have a GitHub account solely for STAT 6250.
 
 
 
@@ -82,6 +84,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): Forums are a great knowledge sharing platform for professional programmers to be aware of current trends in specific field as well as real world applications. Investing time weekly in forums participation is a good practice for successfull programmers and hence this course will help the students to cultivate this habit and earn Reading for Breadth Acheivement award towards the course grade.Totally 10 weekly forums posts are required in this course and 8 of these 10 forums posts should be completed successfully to earn Reading for Breadth Achievement Award.  
 - Question (nshrivastava2-stat6250):What is the purpose of  reading an articles and posting one of those in Discussion Form on Blackboard?
 - Answer   (nshrivastava2-stat6250):It will enhance the student's learning experience and this way they will a great opportunity to read multiple articles and process learn about the subject and make decision problem.
+- *Question* (aguenane−stat6250): What is the benefit of using a news aggregator service like feedly.com to look for recent articles relating to SAS?
+- *Answer* (aguenane-stat6250): Using a news aggregator service lets you look at recent article posts from all of the sources that you want. In this way, all of the articles from different websites are in one place so you don't have to search through many websites.
 
 
 
@@ -119,6 +123,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What is the requirement to earn Reading for depth Achievement award? 
 - Question (nshrivastava2-stat6250):Why we have the course structured having weekly quizzes ?
 - Answer   (nshrivastava2-stat6250):Since this is an online course and  in order to develop substantive questions whose answers would better help you understand the concepts in course textbook problems.
+- *Question* (aguenane−stat6250): When you submit your Weekly quiz, will the Professor automatically merge your pull request?
 
 
 
@@ -148,6 +153,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Will there be any group google hangouts in the interest of collaboration?
 - *Question* (akrishnamurthy−stat6250): What are the steps in a team project and what is the professional practice award issued on completion of all steps of the two projects? 
 - Question (nshrivastava2-stat6250):Is the project consist of individual based or team based? If project is team based then how many students are in one team? 
+- *Question* (aguenane−stat6250): What are the goals of the two team projects (besides getting good grades on them)?
+- *Answer* (aguenane-stat6250): To collaboratively work toward creative solutions and adding value to each team-member's work-sample portfolio. If your code doesn't work, someone else can take a look with fresh eyes and see if they can come up with a solution. This fosters teamwork and communication.
 
 
 
@@ -181,6 +188,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What is the pattern and duration of final exam? How to prepare for the finals and what professional practice is accomplished on completion of finals ? 
 - *Answer* (akrishnamurthy-stat6250): Final exam wil include 65 multiple choice questions with a time limit of 110 minutes. Review the SAS Certified base programmer process and example problems in <http://www.sas.com> website with additional emphasis on chapters 1-8,10-17, and 19-20 in course textbook. In particular, pay more attention to all the weekly quizes and review them thoroughly as the finals will mostly be similar to the weekly quizes.  
 - Question (nshrivastava2-stat6250):Is the final exam is from all the chapters of text book or cumulative? 
+- *Question* (aguenane−stat6250): Which chapters do you need to study out of the course textbook for the final exam and what should you focus on?
 
 
 
@@ -209,6 +217,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What acheivement awards are necessary to earn grade A in this course?  
 - *Answer* (akrishnamurthy-stat6250): As per course grading criteria, Team-based problem solving achievement award is mandatory. The other additional course achivement awards earned determine the grade. To earn grade A, student should earn all possible achievement awards which includes the Initial setup award, Reading for Depth award, Reading for Breadth award, Building General Knowledge award in addition to the Team-based problem solving award.  
 - Question (nshrivastava2-stat6250):What is the difference in all possible achievements and additional achievements to earn grades?
+- *Question* (aguenane−stat6250): How can you use the five professional practices to get more out of this class than just a letter grade? Basically, what can they teach you outside of the classroom?
 
 
 
@@ -238,6 +247,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): What percentage of students on average resubmit incomplete assignments? Does the percentage increase or decrease as the class moves forward?
 - *Question* (akrishnamurthy−stat6250): How are late and incomplete submissions handled ? Why incomplete submissions are given a chance for follow-up evaluation with instructor's permission? 
 - Question (nshrivastava2-stat6250):Likewise WeekQuiz1, is the instructor will allow student to review on his comments and resubmit on web GitHub for all weekly quizes?
+- *Question* (aguenane−stat6250): If you find yourself not meeting assignment expectations or deadlines, what can you do so that you can succeed in this course?
 
 
 
@@ -268,6 +278,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (mresendiz3-stat6250): Don't punctuation marks at the ends of sentences belong within the quotation marks (referrring to Question 1?)
 - *Question* (akrishnamurthy−stat6250): What are the options to earn extra credits and why does the instructor encourage contribution even after week 10 quiz? 
 - Question (nshrivastava2-stat6250): What is the maximum limit of earning extra credit?
+- *Question* (aguenane−stat6250): What is the benefit of continuing to contribute to the Course Questions Wiki when preparing for the final exam?
+- *Answer* (aguenane-stat6250): Asking and answering substantive questions helps you understand and remember important course concepts, which will help you study for the final exam.
 
 
 
@@ -300,6 +312,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): How do i contact the instructor for an immediate response? 
 - Question (nshrivastava2-stat6250):How many times students can have one on one online meeting with instructor in case they  need to discuss on any issue by sharing desktop ?
 - Answer   (nshrivastava2-stat6250):Students can always use horizonmail, prefer direct message to slack  but in case of savior issue for which student need help from instructor, can be setup one to one online meeting for not more than 3 times in the duration of the course.
+- *Question* (aguenane−stat6250): Why is sending a message to the Professor through Slack generally the preferred method of communication?
 
 
 
@@ -332,6 +345,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy−stat6250): What technologies are essential for this course and why should these be checked daily? 
 - Question (nshrivastava2-stat6250):What could be the challenges of using CSUEB-Horizon email technology?
 - Answer   (nshrivastava2-stat6250):Since CSUEB-Horizon is Google based, while making an online appointment with instructor, if student  logged in with Google account other than horizon account, he/she will not able to sync the calendar with an instructor.
+- *Question* (aguenane−stat6250): Why should you check all of the course technologies daily? 
 
 
 
@@ -377,6 +391,7 @@ In this case, everything between the “proc print” and the second “run” s
 - *Question* (akrishnamurthy−stat6250): How is a SAS program defined and what are the steps involved ? 
 - Question (nshrivastava2-stat6250): What is the rules while creating datasets name or variables name?
 - Answer   (nshrivastava2-stat6250): 1) It should start with either with any letter or underscore,2)                             Should NOT use any number at the very first place,3) Should NOT use special character except _(underscore) and 4)             Should 32 character long.
+- *Question* (aguenane-stat6250): what dose mean SAS recipe?
 
 
 
@@ -407,5 +422,6 @@ In this case, everything between the “proc print” and the second “run” s
 - Question (mresendiz3-stat6250): What is the mod function useful for other than finding the remainder of a division problem?
 - *Question* (akrishnamurthy−stat6250): Why is a null data step used? 
 - Question (nshrivastava2-stat6250): Is the SAS programing works similar to SAP programing, how they are different?
+- *Question* (aguenane-stat6250): how can we use the function MOD?
 
 
