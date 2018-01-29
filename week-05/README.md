@@ -73,4 +73,4 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
-- *Question* (cnguyen77-stat6250): What are the procs of using Proc sql in SAS?
+- *Question* (cnguyen77-stat6250): What are the pros of using Proc sql in SAS?
