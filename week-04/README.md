@@ -19,9 +19,11 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): It must begin with a dollar sign ($) if used with a character variable.
 
 
+
 [Course Textbook Chapter 7, Problem 4]
 - Question(dfei-stat6250): What is the semicolon rule for VALUE statement rule? 
 - Answer(dfei-stat6250): No semicolon at the end of VALUE command line, but it has to do at the end of whole commands.
+
 
 
 [Course Textbook Chapter 7, Problem 5]
@@ -37,42 +39,54 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How many keywords can be used to label missing values?
 
 
+
 [Course Textbook Chapter 7, Problem 8]
 - Question(dfei-stat6250): What happens when I place FORMAT statement in a PROC step?
+
 
 
 [Course Textbook Chapter 8, Problem 1]
 - Question(dfei-stat6250): What the default statistics produced by the "Stand Deviation" procedure?
 
 
+
 [Course Textbook Chapter 8, Problem 2]
 - Question(dfei-stat6250): What is the relationships between variables Boarded, Transfer and Deplane?
+
 
 
 [Course Textbook Chapter 8, Problem 4]
 - Question(dfei-stat6250): How many types of BY-group processings?
 
 
+
 [Course Textbook Chapter 8, Problem 7]
 - Question(dfei-stat6250): By default, does PROC FREQ creates a table of frequencies and percentages for continuous values?
 - Answer(dfei-stat6250): No it does not.
 
+
+
 [Course Textbook Chapter 8, Problem 8]
 - Question(dfei-stat6250): What does Frequency distributions mean in SAS? 
+
 
 
 [Course Textbook Chapter 8, Problem 10]
 - Question(dfei-stat6250): What is the first step to produce a table in SAS?
 
 
+
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
 - Question(dfei-stat6250): What is the advanage of "output delivery system"(ODS)?
+
 
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 - Question(dfei-stat6250): Is the in levels option mandatory or not? What will happen without it? 
 
 
+
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 - Question(dfei-stat6250): Why there is no space between "norow, nocol and nopercent" after slash? 
+
 
