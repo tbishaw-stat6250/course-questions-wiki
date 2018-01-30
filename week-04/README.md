@@ -90,3 +90,5 @@ The instructor will then review the pull request and make comments should furthe
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 - Question (aguenane−stat6250): When binning values, where should semi colon(s) be placed? 
 
+
+
