@@ -94,4 +94,3 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Temporarily binning values with a format is a two-step process, can a user make it permanently?
 
 
-
