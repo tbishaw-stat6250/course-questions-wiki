@@ -80,3 +80,5 @@ proc contents data=‟libref‟.dataset; run;
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - *Question* (jbettonville-stat6250): Why does PROC SQL require a QUIT statement at the end instead of a RUN statement?
+
+
