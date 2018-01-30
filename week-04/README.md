@@ -91,4 +91,3 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): When binning values, where should semi colon(s) be placed? 
 
 
-
