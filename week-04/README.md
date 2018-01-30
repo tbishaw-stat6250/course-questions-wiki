@@ -12,6 +12,8 @@ The instructor will then review the pull request and make comments should furthe
 
 ********************************************************************************
 
+
+
 [Course Textbook Chapter 7, Problem 3]
 - Question (tchan49-stat6250): When is a dollar sign needed when creating a format with the VALUE statement?
 - Answer (tchan49-stat6250): The new format’s name must begin with a dollar sign if used with character variable.
