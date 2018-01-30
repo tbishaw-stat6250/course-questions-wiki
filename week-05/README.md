@@ -19,17 +19,21 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): It is filename crime 'c:\states\data\crime.dat'
 
 
+
 [Course Textbook Chapter 5, Problem 2]
 - Question(dfei-stat6250): Does Filerefs remain in effect after you cancel them or end your SAS session? 
 - Answer(dfei-stat6250): No, they will not in effect.
+
 
 
 [Course Textbook Chapter 5, Problem 6]
 - Question(dfei-stat6250): Why SAS shows 1-----+-----10-------+---------20-------+--------30 these kind of format?
 
 
+
 [Course Textbook Chapter 5, Problem 7]
 - Question(dfei-stat6250): Do I have to put some speical sign in "input" statement? 
+
 
 
 [Course Textbook Chapter 5, Problem 8]
@@ -37,12 +41,15 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): Yes, it means 2 times the original variable.
 
 
+
 [Course Textbook Chapter 6, Problem 1]
 - Question(dfei-stat6250): What does compilation phase mean in SAS?
 
 
+
 [Course Textbook Chapter 6, Problem 2]
 - Question(dfei-stat6250): How many syntax errors in SAS programming? 
+
 
 
 [Course Textbook Chapter 6, Problem 3]
@@ -54,18 +61,23 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): In SAS programming, what's the advanages to define the value of _N_ is 1 and the value of_ERROR_ is  0? 
 
 
+
 [Course Textbook Chapter 6, Problem 5]
 - Question(dfei-stat6250): How to know What is the value of the automatic variable _ERROR_?
+
 
 
 [Course Textbook Chapter 6, Problem 6]
 - Question(dfei-stat6250): The rule of iteration in SAS the same as in other computer languages?  
 
 
+
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question(dfei-stat6250): Why PDF is one of the most difficult parts in SAS?
 
 
+
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question(dfei-stat6250): How many types of task can data steps accomplish?
+
 
