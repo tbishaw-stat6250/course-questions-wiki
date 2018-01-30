@@ -22,6 +22,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The numeric values should not end with '$' and they should be enclosed within quotation marks.
 - *Question* (jbettonville-stat6250): If a dollar sign is placed in front of a format name, can a combination of character and number labels be used?
 - *Answer* (jbettonville-stat6250): The values for a label can either be unique numerical values that are not surrounded by quotation marks, or unique combinations of characters surrounded by quotation marks, but not a combination of the two.
+- Question (who7−stat6250): Could you write basic arithmetic function into the categorisation during FORMAT?
 
 
 
@@ -31,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What are the rules to follow while defining one's own unique format with PROC FORMAT statement?
 - *Answer* (aacharya4−stat6250): To define one own's unique format, it must begin with keyword value followed by the format name and ends with semicolon after all labels are defined.
 - *Question* (jbettonville-stat6250): In a VALUE statement, could all of the labels be included on the same line, even though this would be a poor stylistic choice? Would the declaration function the same way?
+- Question (who7−stat6250): Is there a limit on how many conditions we can set during FORMAT?
 
 
 
@@ -40,6 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): How to define a list of values (either numeric or character) in the VALUE statement?
 - *Answer* (aacharya4−stat6250): A list containing either all numeric or character values can be used in the VALUE statement by seperating each value with commas.
 - *Question* (jbettonville-stat6250): Can a combination of character and number labels within quotes be used in a VALUE statement? I.e. could 'A1' and 'A2' be used in a VALUE statement?
+- Question (who7−stat6250): What can we do if we need to exceed the range in the VALUE statement?
 
 
 
@@ -49,6 +52,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Is it necessary to specify the maximum length of labels?
 - *Question* (aacharya4−stat6250): What happens if the format name ends in a period when used in a VALUE statement?
 - *Question* (jbettonville-stat6250): Does the 256 character limit for labels include the quotation marks that surround the content of the label?
+- Question (who7−stat6250): Would it be wise to use FORMAT on a primary key?
 
 
 
@@ -58,6 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What keywords can be used as a label to depict the lower and upper limits of a variable's value range in VALUE statement?
 - *Answer* (aacharya4−stat6250): 'LOW' and 'HIGH' keywords can be used as a label to depict the lower and upper limits of a variable's value range in VALUE statement.
 - *Question* (jbettonville-stat6250): In which other contexts might we use keywords LOW, HIGH, and OTHER?
+- Question (who7−stat6250): Is there other keywords that can be used when we define our range?
 
 
 
@@ -67,6 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What can we make a apostrophe to appear in a label?
 - *Answer* (aacharya4−stat6250): In order to make a make a apostrophe to appear in a label, we have to use two single quotation marks.
 - *Question* (jbettonville-stat6250): If a format is permanently associated with a variable by using FORMAT in a DATA step, can another format be temporarily applied by using FORMAT to choose another format in a PROC step in reference to the same variable?
+- Question (who7−stat6250): Can we save the temp FORMAT statement afterward?
 
 
 
@@ -83,6 +89,7 @@ The instructor will then review the pull request and make comments should furthe
 proc means data=mydata &mmse.;
 run;
 ```
+- Question (who7−stat6250): What is the main difference between PROC MEAN and PROC SUMMARY?
 
 
 
@@ -93,6 +100,7 @@ run;
 - *Question* (aacharya4−stat6250): What is the purpose of using "var" statement in PROC MEANS? 
 - *Answer* (aacharya4−stat6250): The purpose of using "var" in PROC MEANS statement is to specify the variables in the dataset for which PROC MEANS is applied.
 - *Question* (jbettonville-stat6250): Would the statement "by boarded transfer deplane" create separate analyses breakdowns for each combination of unique values of variables Boarded, Transfer, and Deplane? Does SAS limit the number of breakdowns that can be created in a single PROC step?
+- Question (who7−stat6250): What happens when you accidentally put a var that does not exist?
 
 
 
@@ -102,6 +110,7 @@ run;
 - *Question* (aacharya4−stat6250): What should be done before using the "BY" group processing?
 - *Answer* (aacharya4−stat6250): "BY" group processing needs already indexed or sorted data, hence we need to run PROC SORT before using BY group processing.
 - *Question* (jbettonville-stat6250): What happens if you attempt to use BY with data that has not already been sorted or indexed in the order of the BY variables?
+- Question (who7−stat6250): When is the best scenario to use BY and when to use VAR?
 
 
 
@@ -112,6 +121,7 @@ run;
 - *Question* (aacharya4−stat6250): How is the purpose of using TABLES statement in PROC FREQ ?
 - *Answer* (aacharya4−stat6250): The purpose of using TABLES statement in PROC FREQ is to determine the order in which the variables appear in the PROC FREQ report.
 - *Question* (jbettonville-stat6250): Does PROC FREQ have any options that would cause character strings that are equal except for capitalization to be considered identical for purposes of counting? I.e. "Place" counted in the same group as "PLACE"?
+- Question (who7−stat6250): Is there other keywords taht you can ues like in PROC MEAN?
 
 
 
@@ -120,6 +130,7 @@ run;
 - *Question* (cli19−stat6250): Aside from PROC FREQ or PROC MEANS, what would be an alternative way for examining the distribution for numeric values?
 - *Question* (aacharya4−stat6250): Why frequency distributions do not work well with continous and unique values?
 - *Question* (jbettonville-stat6250): Under what, if any, circumstances might we want to use FREQ with continuous numerical data rather than categorical data?
+- Question (who7−stat6250): Can we combine certain variables to count together in PROC FREQUENCY?
 
 
 
@@ -129,6 +140,7 @@ run;
 - *Question* (aacharya4−stat6250): What is the purpose of using NOFREQ option in PROC FREQ statement?
 - *Answer* (aacharya4−stat6250): The purpose of using NOFREQ option in PROC FREQ statement is to suppress the cell frequencies.
 - *Question* (jbettonville-stat6250): Beyond the options shown in this chapter, what other options can be applied after a slash in a TABLES statement to alter the appearance of a table when using the FREQ procedure?
+- Question (who7−stat6250): Can we use SAS to create a table similar to OLAP cube?
 
 
 
@@ -138,6 +150,8 @@ run;
 - *Question* (aacharya4−stat6250): What is the purpose of using "class" statement in PROC MEANS? 
 - *Answer* (aacharya4−stat6250): The purpose of using "class" statement in PROC MEANS is to group the PROC MEANS output by the values of variables mentioned in the class statement.
 - *Question* (jbettonville-stat6250): How might we use options with PROC MEANS to exclude variables with a number of observations beneath a certain threshold from the output?
+- Question (who7−stat6250): Which are the most often uses PROC statement in statistical anlysis?
+- Answer (who7−stat6250): PROC MEAN and PROC FREQUENCY are some of the most often use PROC statments.
 
 
 
@@ -147,6 +161,8 @@ run;
 - *Question* (aacharya4−stat6250): How to create two way table using TABLES statement in PROC FREQ?
 - *Answer* (aacharya4−stat6250): In PROC FREQ, the TABLES statement contains the keyword "tables" followed by the two variable names joined by asterisk(*). The first varible represents the rows while the second variable represents the columns in PROC FREQ output table.
 - *Question* (jbettonville-stat6250): How would the LABEL function be used in a FREQ procedure to alter the headers in the resulting output table?
+- Question (who7−stat6250): What are the ways to summarize your data set?
+- Answer (who7−stat6250): You can create two-way tables or one-way tables or even present your data as a list.
 
 
 
@@ -157,6 +173,8 @@ run;
 - *Answer* (aacharya4−stat6250): A varible can be permanently associated with a format if the format is defined in the data step.
 - *Question* (jbettonville-stat6250): Can implicit ranges with half-closed intervals be written with the inclusive term on the right-hand side, as in (.36-.67] instead of [.36-.67)?
 - *Answer* (jbettonville-stat6250): Changing the format of a label in a VALUE statement from .36-<.67 to .36<-.67 does not cause an error to occur when the statement runs, so this construction appears to be syntactically valid.
+- Question (who7−stat6250): how can we avoid edge cases when binning values?
+- Answer (who7−stat6250): We can use the keywords low or high to avoid edge cases when binning values.
 
 
 
