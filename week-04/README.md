@@ -24,6 +24,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Is there any difference in formatting a numeric and character value of a VALUE statement?
 
 
+
 [Course Textbook Chapter 7, Problem 5]
 - Question (ttruong59-stat6250): Can ranges in VALUE statement specify a list of numeric and character values?
 - Answer (ttruong59-stat6250): No. Either all numeric or all character values can specify.
@@ -40,8 +41,10 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): OTHER is a keyword to label any missing value that is not specified in a range. Is there any other keyword perform this function? 
 
 
+
 [Course Textbook Chapter 7, Problem 8]
 - Question (ttruong59-stat6250): Does FORMAT statement replace original data when we place it in a DATA step?
+
 
 
 [Course Textbook Chapter 8, Problem 1]
@@ -60,25 +63,31 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Why does user need to run BY group processing statement?
 
 
+
 [Course Textbook Chapter 8, Problem 7]
 - Question (ttruong59-stat6250): What is a required statement to create a table of frequencies and percentages for all variables in a dataset?
 - Answer (ttruong59-stat6250): The PROC FREQ is the required statement for the FREQ procedure.
+
 
 
 [Course Textbook Chapter 8, Problem 8]
 - Question (ttruong59-stat6250): Why does frequency distribution work best with categorical values only?
 
 
+
 [Course Textbook Chapter 8, Problem 10]
 - Question (ttruong59-stat6250): Is it possible to join 2 variables from 2 different datasets with PROC FREQ?
+
 
 
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
 - Question (ttruong59-stat6250): Both PROC MEANS and PROC FREQ are used to tell SAS which variables to summarize, but what are the major differences between of these 2 statements?
 
 
+
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
 - Question (ttruong59-stat6250): Does PROC FREQ have an option to calculate or compute the content (values) between two rows in the table? or should a user need to add another procedure to do so?
+
 
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
