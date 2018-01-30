@@ -151,6 +151,7 @@ run;
 - Question (tchan49-stat6250): Do you need to use different statements to summarize numeric and character variables?
 
 
+
 [Course Textbook Chapter 8, Problem 8]
 - *Question* (shatcher4-stat6250): How do you specify varirables to be processed by the FREQ procedure?
 - Question(pcheng14-stat6250): When should we use the frequency distributions in SAS?
