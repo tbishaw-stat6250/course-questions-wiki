@@ -11,8 +11,6 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
-
-
 [Course Textbook Chapter 5, Problem 1]
 
 - *Question* (ldai4-stat6250): What is the difference for FILENAME and LIBNAME?
