@@ -83,4 +83,4 @@ This way, when you call out the dataset, it won't cause any confusions.
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question (tchan49-stat6250):When you finish the PROC SQL step, do you end it with RUN statement?
-- Answer (tchan49-stat6250):
+
