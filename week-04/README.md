@@ -15,55 +15,55 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 3]
-Question (ldeng11−stat6250): When you use VALUR statement, does the format saved permanently to the dataset?
+- Question (ldeng11−stat6250): When you use VALUR statement, does the format saved permanently to the dataset?
 
 [Course Textbook Chapter 7, Problem 4]
-Question (ldeng11−stat6250): What are the naming rules when you use VALUE statement?
+- Question (ldeng11−stat6250): What are the naming rules when you use VALUE statement?
 
-Answer (ldeng11−stat6250): must begin with the $ if apply to the character data; must be a valid SAS name (the same rules as you define the variable); can’t be the same name as an existing SAS format; can’t end in a number; can’t end in a period.
+- Answer (ldeng11−stat6250): must begin with the $ if apply to the character data; must be a valid SAS name (the same rules as you define the variable); can’t be the same name as an existing SAS format; can’t end in a number; can’t end in a period.
 
 [Course Textbook Chapter 7, Problem 5]
-Question (ldeng11−stat6250): What is the VALUE range used for?
+- Question (ldeng11−stat6250): What is the VALUE range used for?
 
 [Course Textbook Chapter 7, Problem 6]
-Question (ldeng11−stat6250): When you add label to your dataset, how many character can you use?
+- Question (ldeng11−stat6250): When you add label to your dataset, how many character can you use?
 
 [Course Textbook Chapter 7, Problem 7]
-Question (ldeng11−stat6250): How do you label the missing values?
+- Question (ldeng11−stat6250): How do you label the missing values?
 
 [Course Textbook Chapter 7, Problem 8]
-Question (ldeng11−stat6250): When you use FORMAT statement in the DATA step. What happened?
+- Question (ldeng11−stat6250): When you use FORMAT statement in the DATA step. What happened?
 
-Answer (ldeng11−stat6250): You permanently add the formats to the variables.
+- Answer (ldeng11−stat6250): You permanently add the formats to the variables.
 
 [Course Textbook Chapter 8, Problem 1]
-Question (ldeng11−stat6250): What are the default output when you use the MEANS procedure.
+- Question (ldeng11−stat6250): What are the default output when you use the MEANS procedure.
 
-Answer (ldeng11−stat6250): mean, minimum, maximum, n-count, standard deviation.
+- Answer (ldeng11−stat6250): mean, minimum, maximum, n-count, standard deviation.
 
 [Course Textbook Chapter 8, Problem 2]
-Question (ldeng11−stat6250): What you should do if you only want to do the analysis on some specific variables?
+- Question (ldeng11−stat6250): What you should do if you only want to do the analysis on some specific variables?
 
 [Course Textbook Chapter 8, Problem 4]
-Question (ldeng11−stat6250): What would happen when you add BY group.
+- Question (ldeng11−stat6250): What would happen when you add BY group.
 
 [Course Textbook Chapter 8, Problem 7]
-Question (ldeng11−stat6250): Can you use PROC FREQ on character variables?
+- Question (ldeng11−stat6250): Can you use PROC FREQ on character variables?
 
 [Course Textbook Chapter 8, Problem 8]
-Question (ldeng11−stat6250): What kind of variables are the best to use frequency distributions?
+- Question (ldeng11−stat6250): What kind of variables are the best to use frequency distributions?
 
 [Course Textbook Chapter 8, Problem 10]
-Question (ldeng11−stat6250): How can you change the table format?
+- Question (ldeng11−stat6250): How can you change the table format?
 
 [recipe_for_summarizing_quantitative_values Week 4 Recipe]
-Question (ldeng11−stat6250): What is the “missing” statement doing here? What happen if you don’t include “missing” statement here?
+- Question (ldeng11−stat6250): What is the “missing” statement doing here? What happen if you don’t include “missing” statement here?
 
 [recipe_for_summarizing_qualitative_values Week 4 Recipe]
-Question (ldeng11−stat6250): What is “nlevels” statement doing here?
+- Question (ldeng11−stat6250): What is “nlevels” statement doing here?
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
-Question (ldeng11−stat6250): What is “missing list” statement doing here?
+- Question (ldeng11−stat6250): What is “missing list” statement doing here?
 
 
 
