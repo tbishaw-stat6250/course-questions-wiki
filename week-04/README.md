@@ -29,6 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250): The new format’s name must begin with a dollar sign if used with character variable.
 - Question (ttruong59-stat6250): What is a naming convention to name a character variable that is created with a VALUE statement?
 - Answer (ttruong59-stat6250): The name of a format with a VALUE statement must begin with a dollar sign ($) if it applies to a character variable.
+- Question (ldeng11−stat6250): When you use VALUR statement, does the format saved permanently to the dataset?
 
 
 
@@ -43,6 +44,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250): Is semicolon needed every time after you finish formatting a name to a variable? 
 - Answer (tchan49-stat6250): No, semicolon is needed after you finish formatting the last variable. 
 - Question (ttruong59-stat6250): Is there any difference in formatting a numeric and character value of a VALUE statement?
+- Question (ldeng11−stat6250): What are the naming rules when you use VALUE statement?
+- Answer (ldeng11−stat6250): must begin with the $ if apply to the character data; must be a valid SAS name (the same rules as you define the variable); can’t be the same name as an existing SAS format; can’t end in a number; can’t end in a period.
 
 
 
@@ -58,6 +61,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250): No, it cannot. 
 - Question (ttruong59-stat6250): Can ranges in VALUE statement specify a list of numeric and character values?
 - Answer (ttruong59-stat6250): No. Either all numeric or all character values can specify.
+- Question (ldeng11−stat6250): What is the VALUE range used for?
 
 
 
@@ -72,6 +76,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250): Can you use more than 256 characters in a label?
 - Question (ttruong59-stat6250): How many characters can be used in label? What if the label exceeds character limits?
 - Answer (ttruong59-stat6250): There are 256 characters can be used in label. In case the label exceeds 256 character limit, the system normally returns an error and notifies the user to rename. 
+- Question (ldeng11−stat6250): When you add label to your dataset, how many character can you use?
 
 
 
@@ -86,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250): Is UNKOWN the keyword you should use to format the missing values? 
 - Answer (tchan49-stat6250): NO, it should be OTHER 
 - Question (ttruong59-stat6250): OTHER is a keyword to label any missing value that is not specified in a range. Is there any other keyword perform this function? 
+- Question (ldeng11−stat6250): How do you label the missing values?
 
 
 
@@ -100,6 +106,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7−stat6250): Can we save the temp FORMAT statement afterward?
 - Question (tchan49-stat6250): What should you do if you want to associate a format with a variable permanently? 
 - Question (ttruong59-stat6250): Does FORMAT statement replace original data when we place it in a DATA step?
+- Question (ldeng11−stat6250): When you use FORMAT statement in the DATA step. What happened?
+- Answer (ldeng11−stat6250): You permanently add the formats to the variables.
 
 
 
@@ -121,6 +129,8 @@ run;
 - Question (tchan49-stat6250): Can you get the median of the data set by the default setting of the MEAN procedure?
 - Question (ttruong59-stat6250): What are the default statistics produced by the MEANS procedure?
 - Answer (ttruong59-stat6250): By default, MEANS procedure returns the n, mean, min, max, and standard deviation.
+- Question (ldeng11−stat6250): What are the default output when you use the MEANS procedure.
+- Answer (ldeng11−stat6250): mean, minimum, maximum, n-count, standard deviation.
 
 
 
@@ -136,6 +146,7 @@ run;
 - Question (tchan49-stat6250): Do you use VAR to specify which variables you want to generate the MEAN from?
 - Question (ttruong59-stat6250): To limit a PROC MEANS analysis to variables, what can user do? 
 - Answer (ttruong59-stat6250): User can add a VAR statement and list only the variable names they want to analyze.
+- Question (ldeng11−stat6250): What you should do if you only want to do the analysis on some specific variables?
 
 
 
@@ -150,6 +161,7 @@ run;
 - Question (tchan49-stat6250): Can you use BY and CLASS interchangeably? What are the differences? 
 - Answer (tchan49-stat6250): No, the difference is that BY requires a sorted or indexed dataset. 
 - Question (ttruong59-stat6250): Why does user need to run BY group processing statement?
+- Question (ldeng11−stat6250): What would happen when you add BY group.
 
 
 
@@ -165,6 +177,7 @@ run;
 - Question (tchan49-stat6250): Do you need to use different statements to summarize numeric and character variables?
 - Question (ttruong59-stat6250): What is a required statement to create a table of frequencies and percentages for all variables in a dataset?
 - Answer (ttruong59-stat6250): The PROC FREQ is the required statement for the FREQ procedure.
+- Question (ldeng11−stat6250): Can you use PROC FREQ on character variables?
 
 
 
@@ -177,6 +190,7 @@ run;
 - Question (who7−stat6250): Can we combine certain variables to count together in PROC FREQUENCY?
 - Question (tchan49-stat6250): Is it better to use PROC FREQ on continuous variables or categorical variables?
 - Question (ttruong59-stat6250): Why does frequency distribution work best with categorical values only?
+- Question (ldeng11−stat6250): What kind of variables are the best to use frequency distributions?
 
 
 
@@ -191,6 +205,7 @@ run;
 - Question (who7−stat6250): Can we use SAS to create a table similar to OLAP cube?
 - Question (tchan49-stat6250): How can you suppress the row and column percentages by default? 
 - Question (ttruong59-stat6250): Is it possible to join 2 variables from 2 different datasets with PROC FREQ?
+- Question (ldeng11−stat6250): How can you change the table format?
 
 
 
@@ -205,6 +220,7 @@ run;
 - Answer (who7−stat6250): PROC MEAN and PROC FREQUENCY are some of the most often use PROC statments.
 - Question (tchan49-stat6250): How do you decide when to use PROC MEAN or PROC FREQ?
 - Question (ttruong59-stat6250): Both PROC MEANS and PROC FREQ are used to tell SAS which variables to summarize, but what are the major differences between of these 2 statements?
+- Question (ldeng11−stat6250): What is the “missing” statement doing here? What happen if you don’t include “missing” statement here?
 
 
 
@@ -219,6 +235,7 @@ run;
 - Answer (who7−stat6250): You can create two-way tables or one-way tables or even present your data as a list.
 - Question (tchan49-stat6250): Can you generate a PROC FREQ table for only one variable?
 - Question (ttruong59-stat6250): Does PROC FREQ have an option to calculate or compute the content (values) between two rows in the table? or should a user need to add another procedure to do so?
+- Question (ldeng11−stat6250): What is “nlevels” statement doing here?
 
 
 
@@ -234,6 +251,7 @@ run;
 - Answer (who7−stat6250): We can use the keywords low or high to avoid edge cases when binning values.
 - Question (tchan49-stat6250): How can you permanently associate a format to a variable? 
 - Question (ttruong59-stat6250): Temporarily binning values with a format is a two-step process, can a user make it permanently?
+- Question (ldeng11−stat6250): What is “missing list” statement doing here?
 
 
 
