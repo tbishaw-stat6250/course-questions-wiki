@@ -88,4 +88,3 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (nshrivastava2-stat6250):Variables can be dynamically created in PROC SQL. Dynamically created variables can be given a variable name, label, or neither. If a dynamically created variable is not given a name or a label, it will appear on the report as a column with no column heading.
 
 
-
