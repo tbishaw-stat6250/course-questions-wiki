@@ -31,6 +31,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What's the rule of SAS statement associates the fileref Crime with the raw data file?
 - Answer(dfei-stat6250): It is filename crime 'c:\states\data\crime.dat'
 - *Question* (aamiri2-stat6250): What are the steps in creating a raw data file? How can one identify a raw data file in a SAS statement?
+- Question (aguenane−stat6250): To read a raw data file, what four instructions must the DATA step provide to SAS?
+- Answer (aguenane-stat6250): The location or name of the external text file, the name for the new SAS data set, the reference that identifies the external file, and a description of the data values to be read. 
 
 
 
@@ -51,6 +53,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Does Filerefs remain in effect after you cancel them or end your SAS session? 
 - Answer(dfei-stat6250): No, they will not in effect.
 - *Question* (aamiri2-stat6250): What are the differences and similarities between Fileref and Libref?
+- Question (aguenane−stat6250): What is the difference between the LIBNAME and FILENAME statements?
+- Answer (aguenane-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 
 
 
@@ -73,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): Why SAS shows 1-----+-----10-------+---------20-------+--------30 these kind of format?
 - *Question* (aamiri2-stat6250): When running an INPUT statement, when are dollar signs ($) used and when is it not needed?
 - *Answer* (aamiri2-stat6250): The dollar sign ($) identifies the variable as a character in the columns. It is usually used for characters such as name or sex. It is not used for age because this is already a numeric value so there is no need for the dollar sign.
+- Question (aguenane−stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
+- Answer (aguenane-stat6250): It identifies the variable type as character. 
 
 
 
@@ -92,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250):Put a $ sign in front of the start column number if the variable is character. Nothing happens to the numeric variables. 
 - Question(dfei-stat6250): Do I have to put some speical sign in "input" statement? 
 - *Question* (aamiri2-stat6250): Does the ruler in a raw data file have a maximum limit? Is there another method to find out where individual fields begin and end?
+- Question (aguenane−stat6250): If you wanted to name a new variable NewBalance, when do you need to specify it in the exact case you wanted stored and when can you specify the name in uppercase, lowercase, or mixed case?
 
 
 
@@ -111,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): Yes, it means 2 times the original variable.
 - *Question* (aamiri2-stat6250): Can you use multiple arithmetic operators in an expression? If so, does order of operation automatically apply?
 - *Answer* (aamiri2-stat6250): You can use many different arithmetic operations such as division, addition, subtraction, multiplication, and exponentiation. Negative prefixes have priority but then it goes by order of operations and parentheses can be used to control this better.
+- Question (aguenane−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
 
 
 
@@ -132,6 +140,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question(dfei-stat6250): What does compilation phase mean in SAS?
 - *Question* (aamiri2-stat6250): During the compilation phase, SAS scans statements in the DATA step for syntax errors, what are some of the errors that may occur?
 - *Answer* (aamiri2-stat6250): Some of the syntax errors that occur during the compilation phase are misspelled keywords or missing keywords, invalid variable names, missing or invalid punctuation, and invalid options.
+- Question (aguenane−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 
 
 
@@ -150,6 +159,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (tchan49-stat6250):Are incorrect values and formats considered as syntax errors? 
 - Question(dfei-stat6250): How many syntax errors in SAS programming? 
 - *Question* (aamiri2-stat6250): When a syntax error of invalid options occurs, what can be done to correct this error? What precautions can be made to avoid such errors beforehand?
+- Question (aguenane−stat6250): What happens when SAS finds a syntax error during the compilation phase?
 
 
 
@@ -168,6 +178,7 @@ proc contents data=‟libref‟.dataset; run;
 - Answer (tchan49-stat6250):
 - Question(dfei-stat6250): What is the original way to DATA step executes?
 - *Question* (aamiri2-stat6250): After the Data step is compiled, what are the next steps during the execution phase?
+- Question (aguenane−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step? 
 
 
 
@@ -186,6 +197,7 @@ proc contents data=‟libref‟.dataset; run;
 - Answer (tchan49-stat6250):Missing numeric values are represented by periods and missing character values are represented by blanks. 
 - Question(dfei-stat6250): In SAS programming, what's the advanages to define the value of _N_ is 1 and the value of_ERROR_ is  0? 
 - *Question* (aamiri2-stat6250): If _ERROR_ is 1 at the beginning of the execution phase, will it tell is exactly the source of the error?
+- Question (aguenane−stat6250): If I was missing the item name, what symbol would represent this missing value?
 
 
 
@@ -204,6 +216,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (tchan49-stat6250):When would the value of the sutomatic variable _ERROR_ larger than one? 
 - Question(dfei-stat6250): How to know What is the value of the automatic variable _ERROR_?
 - *Question* (aamiri2-stat6250): What is the value of the automatic variable _ ERROR_ when there is more than one error? 
+- Question (aguenane−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 
 
 
@@ -220,6 +233,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (tchan49-stat6250):When would the values of variables created in programming statements re-set to missing in program data vector? 
 - Question(dfei-stat6250): The rule of iteration in SAS the same as in other computer languages?  
 - *Question* (aamiri2-stat6250): What happens to the data during the beginning iteration DATA step? What information can be obtain during this step?
+- Question (aguenane−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 
 
 
@@ -239,6 +253,7 @@ proc contents data=‟libref‟.dataset; run;
 This way, when you call out the dataset, it won't cause any confusions. 
 - Question(dfei-stat6250): Why PDF is one of the most difficult parts in SAS?
 - *Question* (aamiri2-stat6250): What are the differences between RETAIN and KEEP statements?
+- Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 
 
 
@@ -257,6 +272,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question (tchan49-stat6250):When you finish the PROC SQL step, do you end it with RUN statement?
 - Question(dfei-stat6250): How many types of task can data steps accomplish?
 - *Question* (aamiri2-stat6250): How can we load our data using PROC SQL?
+- Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 
 
 
