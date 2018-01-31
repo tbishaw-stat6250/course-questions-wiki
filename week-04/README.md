@@ -29,7 +29,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
- [Course Textbook Chapter 7, Problem 6]
+[Course Textbook Chapter 7, Problem 6]
 - *Question* (aamiri2-stat6250): What is the result of going over the character limit in a label?
 
 
@@ -39,12 +39,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
- [Course Textbook Chapter 7, Problem 8]
+[Course Textbook Chapter 7, Problem 8]
 - *Question* (aamiri2-stat6250): What happens when you place FORMAT in a PROC step? What is the difference between the DATA step?
 
 
 
- [Course Textbook Chapter 8, Problem 1]
+[Course Textbook Chapter 8, Problem 1]
 - *Question* (aamiri2-stat6250): Can you obtain specific descriptive statistics of certain variables in a dataset?
 
 
@@ -55,7 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
- [Course Textbook Chapter 8, Problem 4]
+[Course Textbook Chapter 8, Problem 4]
 - *Question* (aamiri2-stat6250): What is the difference between BY and CLASS?
 - *Answer* (aamiri2-stat6250): BY processing differs from CLASS because it requires your data to be sorted in the order of the BY variable, unlike CLASS which processes differently. They also both have different layouts of group results.
 
