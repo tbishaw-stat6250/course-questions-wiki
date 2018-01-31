@@ -233,6 +233,8 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - *Question* (ldai4-stat6250): How does the DATA step execute the missing variables?
 - *Answer* (ldai4-stat6250): Missing numeric values are represented by periods, and missing character values are represented by blanks.
+
+
 − Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
 
 
