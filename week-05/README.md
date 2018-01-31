@@ -21,6 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): What is the advantage of creating a dataset without giving it a temp name?
 - Question (ttruong59-stat6250): What is a major difference between LIBNAME and FILENAME statement?
 - Answer (ttruong59-stat6250): We can use a LIBNAME statement to reference a SAS library while a FILENAME statement is used to reference an external file that contains the data.
+- Question (lceballos-stat6250): What is the difference between fileref and filename?
 
 
 
@@ -31,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): How can we ensure filerefs update when we move the file?
 - Question (ttruong59-stat6250): What are fileref’s functions? And when are filerefs no longer effect in SAS session? 
 - Answer (ttruong59-stat6250):  Filerefs perform the same function as librefs in where they temporarily point to a storage location for the data, but filerefs reference external data only. Filerefs are no longer in effect when users change, cancel them or SAS session was ended.
+- Question (lceballos-stat6250): How can a filename be reassigned?
 
 
 
@@ -42,6 +44,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Is there a max width for the dataset we create?
 - Question (ttruong59-stat6250): How to use INPUT statement correctly?
 - Answer (ttruong59-stat6250): INPUT statement reads raw data in external files or data lines so users need to specify the variable name exactly as they appear in the dataset.
+- Question (lceballos-stat6250): What does the dollar ("$") sign do in the function?
+- Answer (lceballos-stat6250): When using variables with character names, use the dollar sign.
 
 
 
@@ -51,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): How can we format the numeric column to only have 2 decimal place?
 - Question (ttruong59-stat6250): Why is a $ sign used in a INPUT statement?
 - Answer (ttruong59-stat6250): Once we specify the variable name in a INPUT statement, $ sign is used to identify character variables. 
+- Question (lceballos-stat6250): How can you combine different tables in SAS when the values are of the same domain?
 
 
 
@@ -59,6 +64,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How to redefine a variable with a new value using SAS expressions?
 - Question (who7-stat6250): Can we use operator for character varailbe to add 2 words together?
 - Question (ttruong59-stat6250): When does a user need to redefine the values of the variables? Is there any difference in term of redefining the values of the variable and creating a new variables?
+- Question (lceballos-stat6250): Does the method income=income * 2 redifine every value of income?
+- Answer (lceballos-stat6250): Yes, the values for income will all become 100% larger.
 
 
 
@@ -68,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): How is compiling in sas different from other programming language?
 - Question (ttruong59-stat6250): What does SAS create during the compilation phase?
 - Answer (ttruong59-stat6250): During the compilation phase SAS creates 3 items: input buffer, program data vector, and descriptor information.
+- Question (lceballos-stat6250): What are the automatic variables used for?
 
 
 
@@ -78,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): What are the most common syntax error?
 - Question (ttruong59-stat6250): What are the most common syntax errors users often encounter?
 - Answer (ttruong59-stat6250): Syntax error can detect the following errors as invalid options or variables, missing or invalid punctuation, missing or misspelled keywords. However it can't verify the values of variables or its format.
+- Question (lceballos-stat6250): If the compiler detects a syntax error does it stop or does it continue to the end?
 
 
 
@@ -87,6 +96,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Are there other ways to create dataset with using the data statement?
 - Answer (who7-stat6250): Yes, you can use proc sql to create table as well.
 - Question (ttruong59-stat6250): Is it possible DATA step execute more than each record in the input file?
+- Question (lceballos-stat6250): Does SAS support recursion functions?
 
 
 
@@ -96,6 +106,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Why is the value o f_N_ set to 1 during the execution phase?
 - Question (ttruong59-stat6250): What are the missing values set to at the beginning of the execution phase?
 - Answer (ttruong59-stat6250): Missing numeric values are set to periods, and missing character values are presented by blanks.
+- Question (lceballos-stat6250): What is the purpose of the _N_ variable?
+- Answer (lceballos-stat6250): Everytime the data step is ran, the _N_ variable increases by 1.
 
 
 
@@ -105,6 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Would a syntax error be counted in the _ERROR_ value?
 - Question (ttruong59-stat6250): What is the value of _ERROR_ set to if there is more than one DATA error?
 - Answer (ttruong59-stat6250): By default, the value of _ERROR_ is 0, and the value will be set to 1 when multiple errors occurred.
+- Question (lceballos-stat6250): What are the two values that _ERROR_ can be?
+- Answer (lceballos-stat6250): If there is no error: 0. If there are any errors: 1.
 
 
 
@@ -113,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): After the iterative read by DATA statement, what happens to the program data vector during and after execution phase?
 - Question (who7-stat6250): What are the main limiatations when creating the descriptor portion of the dataset?
 - Question (ttruong59-stat6250): At the beginning of an iteration of the DATA step, why is the automatic variable _ERROR_ reset to 0 if necessary? What is a significant reason to reset it to 0 again?
+- Question (lceballos-stat6250): What is the descriptor portion of the data?
 
 
 
@@ -122,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): If the number of columns that needed to be removed is larger than the number of columns needed to keep, is it still best practice to use the KEEP statement instead of DROP statement?
 - Answer (who7-stat6250): There are 2 views regarding this.  First, it may be wise to use DROP instead of KEEP as it will uses less lines of code.  Second, you may still want to use KEEP as it is a more clear way of showing which columns are actually using.
 - Question (ttruong59-stat6250): Should users overwrite retain and keep statement to list more columns in the output when the statements were processed and executed or should users create a new statement for this purpose? Which method is more preferable?
+- Question (lceballos-stat6250): Are both week 5 recipees equivalient?
 
 
 
@@ -132,6 +148,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Are the command under PROC SQL the same as SQL itself?
 - Answer (who7-stat6250): Yes, the commands are the same.
 - Question (ttruong59-stat6250): What is a major difference of using retain/keep statement and proc sql statement? Which method is more preferable in term of using SAS?
+- Question (lceballos-stat6250): What are some disadvantages of using PROC SQL?
 
 
 
