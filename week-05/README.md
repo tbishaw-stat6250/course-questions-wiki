@@ -15,76 +15,163 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
+- *Question* (jcanfield3-stat6250): Since we are defining filerefs, why is the command Filename instead of fileref?
+- *Question* (akrishnamurthy-stat6250): How to associate a fileref to multiple external files? How to access specific files from a directory?
+- *Answer* (akrishnamurthy-stat6250): The FILENAME can associate a fileref to a directory that contains multiple files. A specific file from the directory can then be referenced using the fileref followed by the individual filename in paranthesis.
+- Question (who7-stat6250): What is the advantage of creating a dataset without giving it a temp name?
+- Question (ttruong59-stat6250): What is a major difference between LIBNAME and FILENAME statement?
+- Answer (ttruong59-stat6250): We can use a LIBNAME statement to reference a SAS library while a FILENAME statement is used to reference an external file that contains the data.
+- Question (lceballos-stat6250): What is the difference between fileref and filename?
 - Question (nshrivastava2-stat6250): Which statements are needed from a SAS data set to a raw data file as it used the INFILE and INPUT statements to create a SAS data set?
 - Answer (nshrivastava2-stat6250): We use the FILE and PUT statements from a SAS dataset to to a raw data file. 
 
 
 
 [Course Textbook Chapter 5, Problem 2]
+- *Question* (jcanfield3-stat6250): Can filrefs be removed without your permission?
+- *Answer* (jcanfield3-stat6250): No since they can only be manually changed or when SAS is closed.
+- *Question* (akrishnamurthy-stat6250): What is the scope of files referenced by FILENAME statement?
+- Question (who7-stat6250): How can we ensure filerefs update when we move the file?
+- Question (ttruong59-stat6250): What are fileref’s functions? And when are filerefs no longer effect in SAS session? 
+- Answer (ttruong59-stat6250):  Filerefs perform the same function as librefs in where they temporarily point to a storage location for the data, but filerefs reference external data only. Filerefs are no longer in effect when users change, cancel them or SAS session was ended.
+- Question (lceballos-stat6250): How can a filename be reassigned?
 - Question (nshrivastava2-stat6250): What is the significant role of LIBNAME and FILENAME statements?
 - Answer (nshrivastava2-stat6250): LIBNAME and FILENAME statements are global. Librefs and filerefs remain in effect until you change them, cancel them, or end your SAS session. 
 
 
 
 [Course Textbook Chapter 5, Problem 6]
+- *Question* (jcanfield3-stat6250): Could all three solutions potentially work?
+- *Answer* (jcanfield3-stat6250): Yes, if you add labels to the variables to match the given output.
+- *Question* (akrishnamurthy-stat6250): How should the character and numeric data fields from raw file be defined in SAS dataset?
+- *Answer* (akrishnamurthy-stat6250): While specifying character fields, the variable name should be followed by '$' sign.
+- Question (who7-stat6250): Is there a max width for the dataset we create?
+- Question (ttruong59-stat6250): How to use INPUT statement correctly?
+- Answer (ttruong59-stat6250): INPUT statement reads raw data in external files or data lines so users need to specify the variable name exactly as they appear in the dataset.
+- Question (lceballos-stat6250): What does the dollar ("$") sign do in the function?
+- Answer (lceballos-stat6250): When using variables with character names, use the dollar sign.
 - Question (nshrivastava2-stat6250): When we don't need to specify the LIBNAME?
 - Answer (nshrivastava2-stat6250): We do not need to use LIBNAME statement, if we store the data set in a temporary SAS data set or if SAS has automatically assigned the libref for the permanent library.
 
 
 
 [Course Textbook Chapter 5, Problem 7]
+- *Question* (jcanfield3-stat6250): Could you input different variables using overlapping columns?
+- *Question* (akrishnamurthy-stat6250): Should all the colums from a raw file be read into SAS dataset ? Can the fields from raw file be read in any order ?
+- Question (who7-stat6250): How can we format the numeric column to only have 2 decimal place?
+- Question (ttruong59-stat6250): Why is a $ sign used in a INPUT statement?
+- Answer (ttruong59-stat6250): Once we specify the variable name in a INPUT statement, $ sign is used to identify character variables. 
+- Question (lceballos-stat6250): How can you combine different tables in SAS when the values are of the same domain?
 - Question (nshrivastava2-stat6250): A raw data file is an external text file whose records contain data values that are organized in fields. Is The ruler is not part of the raw data file?
 - Answer (nshrivastava2-stat6250): No, The ruler is not part of the raw data file. The file contains fixed fields; i.e values for each variable are in the same location in all records. 
 
 
 
 [Course Textbook Chapter 5, Problem 8]
+- *Question* (jcanfield3-stat6250): If income isn't predefined, what is the resulting output of income=income*2?
+- *Question* (akrishnamurthy-stat6250): How to redefine a variable with a new value using SAS expressions?
+- Question (who7-stat6250): Can we use operator for character varailbe to add 2 words together?
+- Question (ttruong59-stat6250): When does a user need to redefine the values of the variables? Is there any difference in term of redefining the values of the variable and creating a new variables?
+- Question (lceballos-stat6250): Does the method income=income * 2 redifine every value of income?
+- Answer (lceballos-stat6250): Yes, the values for income will all become 100% larger.
 - Question (nshrivastava2-stat6250): What is the function of INFILE statement ?
 - Answer (nshrivastava2-stat6250): Identify an external file and to verify the data, it is a good idea to use the OBS= option in the INFILE statement. Adding OBS=n to the INFILE statement enables you to process only records 1 through n, so you can verify that the correct fields are being read before reading the entire data file.
 
 
 
 [Course Textbook Chapter 6, Problem 1]
+- *Question* (jcanfield3-stat6250): Is there a way to print the values of _N_ and _Error_?
+- *Question* (akrishnamurthy-stat6250): While subsetting data, are the observations filtered during compilation phase ?
+- Question (who7-stat6250): How is compiling in sas different from other programming language?
+- Question (ttruong59-stat6250): What does SAS create during the compilation phase?
+- Answer (ttruong59-stat6250): During the compilation phase SAS creates 3 items: input buffer, program data vector, and descriptor information.
+- Question (lceballos-stat6250): What are the automatic variables used for?
 - Question (nshrivastava2-stat6250): How can we use Null INPUT Statement? What it's fuctionality?
 
 
 
 [Course Textbook Chapter 6, Problem 2]
+- *Question* (jcanfield3-stat6250): Which syntax errors halt the execution of the compilation phase?
+- *Question* (akrishnamurthy-stat6250): If SAS can interpret a syntax error, will the program DATA step still compile?
+- *Answer* (akrishnamurthy-stat6250): If SAS can interpret a syntax error, then the DATA step compiles and executes. If SAS cannot interpret a syntax error, then the DATA step compiles but does not execute.
+- Question (who7-stat6250): What are the most common syntax error?
+- Question (ttruong59-stat6250): What are the most common syntax errors users often encounter?
+- Answer (ttruong59-stat6250): Syntax error can detect the following errors as invalid options or variables, missing or invalid punctuation, missing or misspelled keywords. However it can't verify the values of variables or its format.
+- Question (lceballos-stat6250): If the compiler detects a syntax error does it stop or does it continue to the end?
 - Question (nshrivastava2-stat6250): How SAS Processes the Programs?
 - Answer (nshrivastava2-stat6250): You first compile the SAS source program and store the compiled code. Then SAS execute the compiled code, redirecting the input and output as necessary. SAS processes the DATA step through the compilation phase and then stores an intermediate code representation of the program and associated data tables in a SAS file.
 
 
 
 [Course Textbook Chapter 6, Problem 3]
+- *Question* (jcanfield3-stat6250): Is there a memory cap for the amount of records that can be inputed?
+- *Question* (akrishnamurthy-stat6250): Will the DATA step execute for each observation?
+- Question (who7-stat6250): Are there other ways to create dataset with using the data statement?
+- Answer (who7-stat6250): Yes, you can use proc sql to create table as well.
+- Question (ttruong59-stat6250): Is it possible DATA step execute more than each record in the input file?
+- Question (lceballos-stat6250): Does SAS support recursion functions?
 - Question (nshrivastava2-stat6250): What are the errors SAS diagnose during compilation phase?
 - Answer (nshrivastava2-stat6250): During the compilation phase, SAS can interpret some syntax errors such as misspelled keywords and data set names,unbalanced quotation marks,invalid options. 
 
 
 
 [Course Textbook Chapter 6, Problem 4]
+- *Question* (jcanfield3-stat6250): Can a missing value be considered undefined?
+- *Question* (akrishnamurthy-stat6250): How does _N_ and _ERROR_ values loop for each record in the file?
+- Question (who7-stat6250): Why is the value o f_N_ set to 1 during the execution phase?
+- Question (ttruong59-stat6250): What are the missing values set to at the beginning of the execution phase?
+- Answer (ttruong59-stat6250): Missing numeric values are set to periods, and missing character values are presented by blanks.
+- Question (lceballos-stat6250): What is the purpose of the _N_ variable?
+- Answer (lceballos-stat6250): Everytime the data step is ran, the _N_ variable increases by 1.
 - Question (nshrivastava2-stat6250): What are the errors SAS diagnose  in the Execution Phase?
 
 
 
 [Course Textbook Chapter 6, Problem 5]
+- *Question* (jcanfield3-stat6250): Why can _Error_ only take values 0 or 1? Wouldn't knowing the amount of errors be more useful?
+- *Question* (akrishnamurthy-stat6250): Is the program data vector values initialized before every record read or will the input data be stored as an array in the program data vector?
+- Question (who7-stat6250): Would a syntax error be counted in the _ERROR_ value?
+- Question (ttruong59-stat6250): What is the value of _ERROR_ set to if there is more than one DATA error?
+- Answer (ttruong59-stat6250): By default, the value of _ERROR_ is 0, and the value will be set to 1 when multiple errors occurred.
+- Question (lceballos-stat6250): What are the two values that _ERROR_ can be?
+- Answer (lceballos-stat6250): If there is no error: 0. If there are any errors: 1.
 - Question (nshrivastava2-stat6250): What specify the keyword _NULL_ as the data set name to view compilation or execution errors without creating a data set?
 
 
 
 [Course Textbook Chapter 6, Problem 6]
+- *Question* (jcanfield3-stat6250): Is the descriptor portion also reset along with the values?
+- *Question* (akrishnamurthy-stat6250): After the iterative read by DATA statement, what happens to the program data vector during and after execution phase?
+- Question (who7-stat6250): What are the main limiatations when creating the descriptor portion of the dataset?
+- Question (ttruong59-stat6250): At the beginning of an iteration of the DATA step, why is the automatic variable _ERROR_ reset to 0 if necessary? What is a significant reason to reset it to 0 again?
+- Question (lceballos-stat6250): What is the descriptor portion of the data?
 - Question (nshrivastava2-stat6250): Making, diagnosing, and resolving errors is part of the process of writing programs. What are the steps to ensure that save of time and hassel?
 - Answer(nshrivastava2-stat6250): We need to make sure each SAS statement ends with a semicolon, filenames are spelled correctly, keywords are spelled correctly. 
 
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- *Question* (jcanfield3-stat6250): Does the order matter for the keep, retain, and set functions?
+- *Question* (akrishnamurthy-stat6250): Why does SAS read a DATA step twice for compilation and execution?
+- Question (who7-stat6250): If the number of columns that needed to be removed is larger than the number of columns needed to keep, is it still best practice to use the KEEP statement instead of DROP statement?
+- Answer (who7-stat6250): There are 2 views regarding this.  First, it may be wise to use DROP instead of KEEP as it will uses less lines of code.  Second, you may still want to use KEEP as it is a more clear way of showing which columns are actually using.
+- Question (ttruong59-stat6250): Should users overwrite retain and keep statement to list more columns in the output when the statements were processed and executed or should users create a new statement for this purpose? Which method is more preferable?
+- Question (lceballos-stat6250): Are both week 5 recipees equivalient?
 - Question (nshrivastava2-stat6250):What retain, keep and drop perform in SAS Progrmaing and What is Program Data Vector(PDV) for SAS dataset?
 - Answer (nshrivastava2-stat6250): The RETAIN statement specifies variables whose values are not set to missing at the beginning of each iteration of the DATA step. The KEEP statement specifies variables that are to be included in any data set that is being created and DROP specifies the names of the variables to omit from the output data set. Program Data Vector(PDV)is an area of memory where SAS stores variable values and attributes. It is the PDV that stores an observation as it is being processed in the DATA step.
 
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- *Question* (jcanfield3-stat6250): What are some other uses of proc sql?
+- *Answer* (jcanfield3-stat6250): Proq Sql can be used to "retrieve and manipulate data that is stored in tables or views; create tables, views, and indexes on columns in tables; create SAS macro variables that contain values from rows in a query's result; add or modify the data values in a table’s columns or insert and delete rows. You can also modify the table itself by adding, modifying, or dropping columns; and send DBMS-specific SQL statements to a database management system (DBMS) and retrieve DBMS data". 
+- *Question* (akrishnamurthy-stat6250): What is the function of PROC SQL statement? Can larger datasets be processed with PROC SQL ?
+- Question (who7-stat6250): Are the command under PROC SQL the same as SQL itself?
+- Answer (who7-stat6250): Yes, the commands are the same.
+- Question (ttruong59-stat6250): What is a major difference of using retain/keep statement and proc sql statement? Which method is more preferable in term of using SAS?
+- Question (lceballos-stat6250): What are some disadvantages of using PROC SQL?
 - Question (nshrivastava2-stat6250): Can we create new varaibles using PROC SQL? If, yes please give brief explainations.
 - Answer (nshrivastava2-stat6250):Variables can be dynamically created in PROC SQL. Dynamically created variables can be given a variable name, label, or neither. If a dynamically created variable is not given a name or a label, it will appear on the report as a column with no column heading.
+
 
 
