@@ -185,7 +185,7 @@ proc contents data=‟libref‟.dataset; run;
 
 [Course Textbook Chapter 6, Problem 3]
 * Question (ljiang11-stat6250): How the the DATA step execute?
-− Answer (ljiang11-stat6250): It executes one record and iterate back to excute the second one.
+* Answer (ljiang11-stat6250): It executes one record and iterate back to excute the second one.
 - *Question* (jcanfield3-stat6250): Is there a memory cap for the amount of records that can be inputed?
 - *Question* (akrishnamurthy-stat6250): Will the DATA step execute for each observation?
 - Question (who7-stat6250): Are there other ways to create dataset with using the data statement?
