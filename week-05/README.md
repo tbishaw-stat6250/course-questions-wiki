@@ -18,9 +18,11 @@ The instructor will then review the pull request and make comments should furthe
 − *Question* (xyin6-stat6250): What should be included in the DATA step in order to read the raw data file?
 
 
+
 [Course Textbook Chapter 5, Problem 2]
 − *Question* (xyin6-stat6250): When is necessary to use a LIBNAME statement?
 − *Answer* (xyin6-stat6250): When we have to reference the permanent SAS library in which thedata set will be stored.
+
 
 
 [Course Textbook Chapter 5, Problem 6]
