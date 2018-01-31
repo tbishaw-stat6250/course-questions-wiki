@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a major difference between LIBNAME and FILENAME statement?
 - Answer (ttruong59-stat6250): We can use a LIBNAME statement to reference a SAS library while a FILENAME statement is used to reference an external file that contains the data.
 - Question (lceballos-stat6250): What is the difference between fileref and filename?
+- Question (nshrivastava2-stat6250): Which statements are needed from a SAS data set to a raw data file as it used the INFILE and INPUT statements to create a SAS data set?
+- Answer (nshrivastava2-stat6250): We use the FILE and PUT statements from a SAS dataset to to a raw data file. 
 
 
 
@@ -33,6 +35,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What are fileref’s functions? And when are filerefs no longer effect in SAS session? 
 - Answer (ttruong59-stat6250):  Filerefs perform the same function as librefs in where they temporarily point to a storage location for the data, but filerefs reference external data only. Filerefs are no longer in effect when users change, cancel them or SAS session was ended.
 - Question (lceballos-stat6250): How can a filename be reassigned?
+- Question (nshrivastava2-stat6250): What is the significant role of LIBNAME and FILENAME statements?
+- Answer (nshrivastava2-stat6250): LIBNAME and FILENAME statements are global. Librefs and filerefs remain in effect until you change them, cancel them, or end your SAS session. 
 
 
 
@@ -46,6 +50,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): INPUT statement reads raw data in external files or data lines so users need to specify the variable name exactly as they appear in the dataset.
 - Question (lceballos-stat6250): What does the dollar ("$") sign do in the function?
 - Answer (lceballos-stat6250): When using variables with character names, use the dollar sign.
+- Question (nshrivastava2-stat6250): When we don't need to specify the LIBNAME?
+- Answer (nshrivastava2-stat6250): We do not need to use LIBNAME statement, if we store the data set in a temporary SAS data set or if SAS has automatically assigned the libref for the permanent library.
 
 
 
@@ -56,6 +62,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Why is a $ sign used in a INPUT statement?
 - Answer (ttruong59-stat6250): Once we specify the variable name in a INPUT statement, $ sign is used to identify character variables. 
 - Question (lceballos-stat6250): How can you combine different tables in SAS when the values are of the same domain?
+- Question (nshrivastava2-stat6250): A raw data file is an external text file whose records contain data values that are organized in fields. Is The ruler is not part of the raw data file?
+- Answer (nshrivastava2-stat6250): No, The ruler is not part of the raw data file. The file contains fixed fields; i.e values for each variable are in the same location in all records. 
 
 
 
@@ -66,6 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When does a user need to redefine the values of the variables? Is there any difference in term of redefining the values of the variable and creating a new variables?
 - Question (lceballos-stat6250): Does the method income=income * 2 redifine every value of income?
 - Answer (lceballos-stat6250): Yes, the values for income will all become 100% larger.
+- Question (nshrivastava2-stat6250): What is the function of INFILE statement ?
+- Answer (nshrivastava2-stat6250): Identify an external file and to verify the data, it is a good idea to use the OBS= option in the INFILE statement. Adding OBS=n to the INFILE statement enables you to process only records 1 through n, so you can verify that the correct fields are being read before reading the entire data file.
 
 
 
@@ -76,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What does SAS create during the compilation phase?
 - Answer (ttruong59-stat6250): During the compilation phase SAS creates 3 items: input buffer, program data vector, and descriptor information.
 - Question (lceballos-stat6250): What are the automatic variables used for?
+- Question (nshrivastava2-stat6250): How can we use Null INPUT Statement? What it's fuctionality?
 
 
 
@@ -87,6 +98,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What are the most common syntax errors users often encounter?
 - Answer (ttruong59-stat6250): Syntax error can detect the following errors as invalid options or variables, missing or invalid punctuation, missing or misspelled keywords. However it can't verify the values of variables or its format.
 - Question (lceballos-stat6250): If the compiler detects a syntax error does it stop or does it continue to the end?
+- Question (nshrivastava2-stat6250): How SAS Processes the Programs?
+- Answer (nshrivastava2-stat6250): You first compile the SAS source program and store the compiled code. Then SAS execute the compiled code, redirecting the input and output as necessary. SAS processes the DATA step through the compilation phase and then stores an intermediate code representation of the program and associated data tables in a SAS file.
 
 
 
@@ -97,6 +110,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): Yes, you can use proc sql to create table as well.
 - Question (ttruong59-stat6250): Is it possible DATA step execute more than each record in the input file?
 - Question (lceballos-stat6250): Does SAS support recursion functions?
+- Question (nshrivastava2-stat6250): What are the errors SAS diagnose during compilation phase?
+- Answer (nshrivastava2-stat6250): During the compilation phase, SAS can interpret some syntax errors such as misspelled keywords and data set names,unbalanced quotation marks,invalid options. 
 
 
 
@@ -108,6 +123,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Missing numeric values are set to periods, and missing character values are presented by blanks.
 - Question (lceballos-stat6250): What is the purpose of the _N_ variable?
 - Answer (lceballos-stat6250): Everytime the data step is ran, the _N_ variable increases by 1.
+- Question (nshrivastava2-stat6250): What are the errors SAS diagnose  in the Execution Phase?
 
 
 
@@ -119,6 +135,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): By default, the value of _ERROR_ is 0, and the value will be set to 1 when multiple errors occurred.
 - Question (lceballos-stat6250): What are the two values that _ERROR_ can be?
 - Answer (lceballos-stat6250): If there is no error: 0. If there are any errors: 1.
+- Question (nshrivastava2-stat6250): What specify the keyword _NULL_ as the data set name to view compilation or execution errors without creating a data set?
 
 
 
@@ -128,6 +145,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): What are the main limiatations when creating the descriptor portion of the dataset?
 - Question (ttruong59-stat6250): At the beginning of an iteration of the DATA step, why is the automatic variable _ERROR_ reset to 0 if necessary? What is a significant reason to reset it to 0 again?
 - Question (lceballos-stat6250): What is the descriptor portion of the data?
+- Question (nshrivastava2-stat6250): Making, diagnosing, and resolving errors is part of the process of writing programs. What are the steps to ensure that save of time and hassel?
+- Answer(nshrivastava2-stat6250): We need to make sure each SAS statement ends with a semicolon, filenames are spelled correctly, keywords are spelled correctly. 
 
 
 
@@ -138,6 +157,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): There are 2 views regarding this.  First, it may be wise to use DROP instead of KEEP as it will uses less lines of code.  Second, you may still want to use KEEP as it is a more clear way of showing which columns are actually using.
 - Question (ttruong59-stat6250): Should users overwrite retain and keep statement to list more columns in the output when the statements were processed and executed or should users create a new statement for this purpose? Which method is more preferable?
 - Question (lceballos-stat6250): Are both week 5 recipees equivalient?
+- Question (nshrivastava2-stat6250):What retain, keep and drop perform in SAS Progrmaing and What is Program Data Vector(PDV) for SAS dataset?
+- Answer (nshrivastava2-stat6250): The RETAIN statement specifies variables whose values are not set to missing at the beginning of each iteration of the DATA step. The KEEP statement specifies variables that are to be included in any data set that is being created and DROP specifies the names of the variables to omit from the output data set. Program Data Vector(PDV)is an area of memory where SAS stores variable values and attributes. It is the PDV that stores an observation as it is being processed in the DATA step.
 
 
 
@@ -149,6 +170,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): Yes, the commands are the same.
 - Question (ttruong59-stat6250): What is a major difference of using retain/keep statement and proc sql statement? Which method is more preferable in term of using SAS?
 - Question (lceballos-stat6250): What are some disadvantages of using PROC SQL?
+- Question (nshrivastava2-stat6250): Can we create new varaibles using PROC SQL? If, yes please give brief explainations.
+- Answer (nshrivastava2-stat6250):Variables can be dynamically created in PROC SQL. Dynamically created variables can be given a variable name, label, or neither. If a dynamically created variable is not given a name or a label, it will appear on the report as a column with no column heading.
 
 
 
