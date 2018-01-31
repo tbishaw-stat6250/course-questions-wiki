@@ -33,6 +33,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Who do character variables require a '$' to be assigned formats?
 - *Question* (akrishnamurthy-stat6250): How should format name be defined for character and numeric data ?
 - Question (lceballos-stat6250): Why can't the format with the VALUE statement end in a period?
+- Question (nshrivastava2-stat6250): SAS stores date values as the number of days between January 1, 1960, and a specific date. How one can report the date more meaningful and recognisable?
 
 
 
@@ -53,6 +54,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 - *Question* (akrishnamurthy-stat6250): What is the syntax of VALUE statement while defining multiple labels in PROC FORMAT? 
 - Question (lceballos-stat6250): Can the semicolon be placed in a new line after the 3='Blue' to make it more readable?
+- Question (nshrivastava2-stat6250): How can we use the format procedure to create the formats? 
+- Answer (nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
 
 
 
@@ -74,6 +77,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): FORMAT can be defined for either character or numeric data and cannot hold mixed data types. When the specified values are character, the format name should begin with '$' and values should be enclosed within quotes. Format for numeric values should not be enclosed within quotes and format name should not begin with '$'.
 - Question (lceballos-stat6250): Why can't you have different character and numeric values as value statements?
 - Answer (lceballos-stat6250): The format of the values must be predefined.
+- Question (nshrivastava2-stat6250): There are many existing SAS formats that you can use. What is the Character formats begin with ? 
 
 
 
@@ -93,6 +97,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How is a label defined for a range of values in FORMAT ?
 - Question (lceballos-stat6250): What is the lenght limit for the labels?
 - Answer (lceballos-stat6250): 256
+- Question (nshrivastava2-stat6250): Why we use Value Statement in PROC FORMAT step?  
+- Answer (nshrivastava2-stat6250): You use a VALUE statement in a PROC FORMAT step to specify the way that you want the data values to appear in your output. You define value-range sets to specify the values to be formatted and the formatted values to display instead of the stored value or values. The value portion of a value-range set can include an indiv idual value, a range of values, a list of values, or a keyword. The keyword OTHER is used to define a value to display if the stored data value does not match any of the defined value-ranges.
 
 
 
@@ -113,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): While specifying range, how are the out of bound or missing values identified ? Is it necessary to specify a seperate label for such values?
 - Question (lceballos-stat6250): What is LOW used for?
 - Answer (lceballos-stat6250): To set a lower limit of a variable range you use the LOW keyword.
+- Question (nshrivastava2-stat6250): The LOW and HIGH keywords are used to define a continuous range when the lowest and highest values are not known. How does the LOW meant for character value and numeric values? 
+- Answer (nshrivastava2-stat6250):  For character values, the LOW keyword treats missing values as the lowest possible values. However, for numeric values, LOW does not include missing values.
 
 
 
@@ -133,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 - *Question* (akrishnamurthy-stat6250): What is the difference of using the format statement in PROC or DATA step?
 - Question (lceballos-stat6250): What happens when you place a FORMAT statement in a PROC step?
+- Question (nshrivastava2-stat6250): How SAS Converts Calendar Dates to SAS Date Values? 
 
 
 
@@ -159,7 +168,8 @@ run;
 - *Question* (jcanfield3-stat6250): Why is standard deviation a default statistic instead of variance?
 - *Question* (akrishnamurthy-stat6250): What are the default statistical measures produced by MEANS procedure?
 - Question (lceballos-stat6250): What if we only want to display n?
-
+- Question (nshrivastava2-stat6250): A PROC FREQ analysis identified invalid and missing values in a data set. Which of these procedures can display the observations that contain invalid or missing values? 
+ 
 
 
 [Course Textbook Chapter 8, Problem 2]
@@ -178,6 +188,7 @@ run;
 - *Question* (jcanfield3-stat6250): What is the difference between using var and keep?
 - *Question* (akrishnamurthy-stat6250): If variables are not explicitly specified for MEANS procedure, what will be the output? If dataset includes only character data, how does MEANS procedure behave?
 - Question (lceballos-stat6250): Can you use the var statement inversely to exclude only a few variables instead of listing a lot?
+- Question (nshrivastava2-stat6250): Which procedures can display the observations that contain invalid or missing values?
 
 
 
@@ -196,6 +207,8 @@ run;
 - *Question* (jcanfield3-stat6250): Why do by variables have to be pre-sorted?
 - *Question* (akrishnamurthy-stat6250): What is the difference between 'BY' and 'CLASS' statements?
 - Question (lceballos-stat6250): What's the difference between CLASS and BY?
+- Question (nshrivastava2-stat6250): List the PROC MEANS step creates the statistics?
+- Answer (nshrivastava2-stat6250): You can use PROC MEANS to produce summary reports with descriptive statistics. By default, it reports the number of nonmissing values, the mean, the standard dev iation, the minimum, and the maximum value of every numeric variable in a data set.
 
 
 
@@ -216,6 +229,8 @@ run;
 - *Question* (akrishnamurthy-stat6250): Why is it advisable to use TABLES statment while creating crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): FREQ procedure creates frequency table for all variables in a data set. However, it may not be meaningful for conitnuous numeric values like timestamp. Hence it is better to specify the variables that are categorical explicitly using TABLES statement.
 - Question (lceballos-stat6250): Does PROC FREQ work on binomial distributions?
+- Question (nshrivastava2-stat6250): How PROC FREQ Validate the dataset?  
+- Answer (nshrivastava2-stat6250): The FREQ procedure can also be used to validate a data set. A one-way frequency table, which displays all discrete values for a variable and reports on missing values, easily identifies the existence of invalid or missing values. You can use the ORDER=FREQ and NLEVELS options to identify duplicate values. After you've identified invalid values, you can use PROC PRINT to display the corresponding observations. 
 
 
 
@@ -232,6 +247,8 @@ run;
 - *Question* (jcanfield3-stat6250): Are discrete numerical variables more useful than continuous ones when it comes to frequency tables?
 - *Question* (akrishnamurthy-stat6250): Why does frequency distribution work better for categorical values?
 - Question (lceballos-stat6250): Can you do a PROC FREQ with multiple variables?
+- Question (nshrivastava2-stat6250): While using the SAS Output Delivery System, Can we open the file on the destination without closing the ODS with an appropriate file type?
+- Answer (nshrivastava2-stat6250): No, <ods pdf file="c:/output/salaries.pdf"> is accompanied by <ods pdf close>, in oder to open the file at the destination. 
 
 
 
@@ -251,6 +268,8 @@ run;
 - *Question* (akrishnamurthy-stat6250): How can the cell frequencies be suppressed in crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): The cell frequencies can be suppressed by using NOFREQ option.
 - Question (lceballos-stat6250):What is the purpose of the star * sign in this statement?
+- Question (nshrivastava2-stat6250): Why and How  PROC UNIVARIATE is useful?
+- Answer (nshrivastava2-stat6250): PROC UNIVARIATE can be more useful because it displays the extreme observations, or outliers. By default, it displays the five highest and five lowest values of the analysis variable, and the number of the observation with each extreme value. You can use the NEXTROBS= option to display a different number of extreme observations.
 
 
 
@@ -269,6 +288,8 @@ run;
 - *Question* (jcanfield3-stat6250): Can I save a mean as a variable in a dataset?
 - *Question* (akrishnamurthy-stat6250): Is 'Class' statement mandatory while summarizing data using MEANS procedure?
 - Question (lceballos-stat6250): How can we ignore rows with missing values?
+- Question (nshrivastava2-stat6250):  How the CLASS and BY Statements works when included in a PROC MEANS?
+- Answer (nshrivastava2-stat6250):  CLASS statement options are also available in the PROC MEANS statement. They affect all CLASS variables. It specifies one or more variables that the procedure uses to group the data. Variables in a CLASS statement are referred to as class variables. Class variables are numeric or character.
 
 
 
@@ -287,6 +308,8 @@ run;
 - *Question* (jcanfield3-stat6250): How long has SAS been around for?
 - *Question* (akrishnamurthy-stat6250): While creating cross tabulated reports, how are rows with missing variables handled?
 - Question (lceballos-stat6250): How do we summarize multiple variables at the same time using PROC FREQ?
+- Question (nshrivastava2-stat6250): What is Cross-tabulation in SAS ?
+- Answer (nshrivastava2-stat6250): Cross tabulation involves producing cross tables also called contingent tables using all possible combinations of two or more variables. In SAS it is created using PROC FREQ along with the TABLES option.
 
 
 
@@ -306,6 +329,7 @@ run;
 - *Question* (jcanfield3-stat6250): Can I format formats?
 - *Question* (akrishnamurthy-stat6250): How to specify non inclusive range of unique values while defining FORMAT?
 - Question (lceballos-stat6250): Can you make multiple bins to combine different variables that roll up into different categories?
-
+- Question (nshrivastava2-stat6250):  How binning works?
+- Answer (nshrivastava2-stat6250): Statistical data binning is a way to group a number of more or less continuous values into a smaller number of "bins". For example, if you have data about a group of people, you might want to arrange their ages into a smaller number of age intervals.PROC HPBIN does not allow empty bins. If an empty bin is detected because of an insufficient number of nonmissing observations, PROC HPBIN issues an error and exits.
 
 
