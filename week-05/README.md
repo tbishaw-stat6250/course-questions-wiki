@@ -28,6 +28,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What is a raw data file?
 - Question (tchan49-stat6250): When you use FILENAME statement to read an external file, do you need to assign a name to the file?
 - Answer (tchan49-stat6250): Yes, the name associated to the file is called fileref. 
+- Question(dfei-stat6250): What's the rule of SAS statement associates the fileref Crime with the raw data file?
+- Answer(dfei-stat6250): It is filename crime 'c:\states\data\crime.dat'
 
 
 
@@ -45,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What is a fileref that is assigned using a FILENAME statement?
 - *Answer* (shatcher4-stat6250): A fileref is a name associated with an external file, that is 1 to 8 characters long that begins with a letter or underscore, and contains only letters, numerals, or underscores.
 - Question (tchan49-stat6250): Would Filerefs remain in effect permanently?
+- Question(dfei-stat6250): Does Filerefs remain in effect after you cancel them or end your SAS session? 
+- Answer(dfei-stat6250): No, they will not in effect.
 
 
 
@@ -64,6 +68,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jbettonville-stat6250): While it is not made explicit in the example, the ID fields are not sequential, nor are any values beyond the four shown included; if other ID values contained characters, it would be appropriate to cast the ID field as a character variable.
 - *Question* (shatcher4-stat6250): What information is needed in the INPUT statement to read each wanted field of raw data into a SAS data set?
 - Question (tchan49-stat6250):How can you assign a new column name to each column in a output table where the columns are imported from raw table? 
+- Question(dfei-stat6250): Why SAS shows 1-----+-----10-------+---------20-------+--------30 these kind of format?
 
 
 
@@ -81,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (shatcher4-stat6250): Read any or all fields from the raw data file, read the fields in any order, and specify only the starting column for values that occupy only one column.
 - Question (tchan49-stat6250):How do you differentiate numeric and character variable when you input columns from raw dataset?
 - Answer (tchan49-stat6250):Put a $ sign in front of the start column number if the variable is character. Nothing happens to the numeric variables. 
+- Question(dfei-stat6250): Do I have to put some speical sign in "input" statement? 
 
 
 
@@ -96,6 +102,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Does SAS support iterative operators that are common in other programming languages? (i.e. ++ to increment a variable, -- to decrement)
 - *Question* (shatcher4-stat6250): What happens when you use more than one arithmetic operator in an expression?
 - Question (tchan49-stat6250):To create a new variable, is the re-defined name of the value on the left side of the equal sign or right side?
+- Question(dfei-stat6250): Does to re-defines the values of the variable Income as 100 percent higher mean double the value?
+- Answer(dfei-stat6250): Yes, it means 2 times the original variable.
 
 
 
@@ -114,6 +122,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Answer* (shatcher4-stat6250): Each statement is scanned for syntax errors.
 - Question (tchan49-stat6250):Would the descriptor portion of the new SAS data set be created after the compilation phase completes? 
 - Answer (tchan49-stat6250):No, it will be created at the end of the compilation phase. 
+- Question(dfei-stat6250): What does compilation phase mean in SAS?
 
 
 
@@ -130,6 +139,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (jbettonville-stat6250): What procedures should be used to detect errors that are not syntax errors, so that the code will run but may not produce the desired result?
 - *Question* (shatcher4-stat6250): How does the program data vector work?
 - Question (tchan49-stat6250):Are incorrect values and formats considered as syntax errors? 
+- Question(dfei-stat6250): How many syntax errors in SAS programming? 
 
 
 
@@ -146,6 +156,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (shatcher4-stat6250): What happens during the execution phase?
 - Question (tchan49-stat6250):Can the DATA step excutes each record in the input file more than once? 
 - Answer (tchan49-stat6250):
+- Question(dfei-stat6250): What is the original way to DATA step executes?
 
 
 
@@ -162,6 +173,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (shatcher4-stat6250): In the execution phase, what are missing numeric values and missing character values represented by?
 - Question (tchan49-stat6250):How do you know if there are any missing numeric and character values on Program Data Vector?  
 - Answer (tchan49-stat6250):Missing numeric values are represented by periods and missing character values are represented by blanks. 
+- Question(dfei-stat6250): In SAS programming, what's the advanages to define the value of _N_ is 1 and the value of_ERROR_ is  0? 
 
 
 
@@ -178,6 +190,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Answer* (jbettonville-stat6250): One example might be for the purpose of debugging SAS code with a PUT statement that outputs the record number given by \_N\_ along with the \_ERROR\_ variable so that it can be determined if SAS received an error on a given record.
 - *Question* (shatcher4-stat6250): Why would the automatic variable _ERROR_ reset to zero?
 - Question (tchan49-stat6250):When would the value of the sutomatic variable _ERROR_ larger than one? 
+- Question(dfei-stat6250): How to know What is the value of the automatic variable _ERROR_?
 
 
 
@@ -192,6 +205,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (jbettonville-stat6250): What is the underlying mechanism by which SAS knows to stop executing the DATA step when it finishes operating on the last record in a file?
 - *Question* (shatcher4-stat6250): Why does the DATA step work like a loop?
 - Question (tchan49-stat6250):When would the values of variables created in programming statements re-set to missing in program data vector? 
+- Question(dfei-stat6250): The rule of iteration in SAS the same as in other computer languages?  
 
 
 
@@ -209,6 +223,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (tchan49-stat6250):Should you create a new name for the new dataset you create that obtains rows and columns from another dataset? 
 - Answer (tchan49-stat6250):Yes, it is very important to name the new dataset to something unique and different from the dataset you obstain rows and colums from. 
 This way, when you call out the dataset, it won't cause any confusions. 
+- Question(dfei-stat6250): Why PDF is one of the most difficult parts in SAS?
 
 
 
@@ -225,6 +240,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (jbettonville-stat6250): Why does PROC SQL require a QUIT statement at the end instead of a RUN statement?
 - *Question* (shatcher4-stat6250): What is the purpose of proc sql?
 - Question (tchan49-stat6250):When you finish the PROC SQL step, do you end it with RUN statement?
+- Question(dfei-stat6250): How many types of task can data steps accomplish?
 
 
 
