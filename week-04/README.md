@@ -19,14 +19,17 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): To define a format for displaying one or more values for a specific output.
 
 
+
 [Course Textbook Chapter 7, Problem 4]
 − *Question* (xyin6-stat6250): What will happen if I just format part of a variable's values, not all of them?
 - *Answer* (xyin6-stat6250): Those that are not listed in the VALUE statement are printed as they appear in the SAS dataset, (in the original format of characters/numbers)
 
 
+
 [Course Textbook Chapter 7, Problem 5]
 − *Question* (xyin6-stat6250): When I use LOW and HIGH keywords to specify the lower and upper limits, how to deal with missing value?
 - *Answer* (xyin6-stat6250): The keyword OTHER can be used to lable missing values, and we can label it 'unknown'.
+
 
 
 [Course Textbook Chapter 7, Problem 6]
@@ -49,6 +52,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): use the sub-statement statistic-keywords to specify the statistics to compute.
 
 
+
 [Course Textbook Chapter 8, Problem 2]
 − *Question* (xyin6-stat6250): What if we want to add a number range of variables?
 
@@ -56,6 +60,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 8, Problem 4]
 − *Question* (xyin6-stat6250): Is OUT= option necessary in sorting data sets when we try to enable group processing?
+
 
 
 [Course Textbook Chapter 8, Problem 7]
@@ -85,4 +90,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [recipe_for_temporarily_binning_values Week 4 Recipe]
 − *Question* (xyin6-stat6250): How to permanently associate a format with a variable in the DATA step?
+
 
