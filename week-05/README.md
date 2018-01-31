@@ -18,53 +18,66 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Why we need to use quotation mark in this statement?
 
 
+
 [Course Textbook Chapter 5, Problem 2]
 - Question (lsun20-stat6250): Is there any other statement like FILENAME statement are global?
 
 
+
 [Course Textbook Chapter 5, Problem 6]
 - Question (lsun20-stat6250): What is the usage of the dollar sign($)?
-
 - Answer (lsun20-stat6250): The dollar sign($) is used to identify the character variables.
+
+
 
 [Course Textbook Chapter 5, Problem 7]
 - Question (lsun20-stat6250): Is there any order of input these column?
-
 - Answer (lsun20-stat6250): We can use column input to read fields in any order.
 
+
+
 [Course Textbook Chapter 5, Problem 8]
-- Question (lsun20-stat6250): Can we change the statement to "income*2=income" in this situation?
+- Question (lsun20-stat6250): Does the new variable Income need a new name, such as Income_1, which is different from the original one?
+
 
 
 [Course Textbook Chapter 6, Problem 1]
 - Question (lsun20-stat6250): What is the data set descriptor include?
-
 - Answer (lsun20-stat6250): The description includes the name of the data set, the number of observations and variables and the names and attributes of the variables.
 
+
+
 [Course Textbook Chapter 6, Problem 2]
-- Question (lsun20-stat6250): What are the things need to be considered a syntax error? list them.
+- Question (lsun20-stat6250): Why the invalid option or variable name should be considered as a syntax error? 
+
 
 
 [Course Textbook Chapter 6, Problem 3]
 - Question (lsun20-stat6250): When the DATA step will executes?
 
 
+
 [Course Textbook Chapter 6, Problem 4]
 - Question (lsun20-stat6250): Why the answer is "missing"?
+
 
 
 [Course Textbook Chapter 6, Problem 5]
 - Question (lsun20-stat6250): Is the value of the automatic variable_ERROR_ calculate by times?
 
 
+
 [Course Textbook Chapter 6, Problem 6]
 - Question (lsun20-stat6250): What is descriptor portion of the data set?
+
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question (lsun20-stat6250): Is there any limit number of column from the data set?
 
 
+
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question (lsun20-stat6250): Is there any limitation of the column name? Such as can not end as a number?
+
 
