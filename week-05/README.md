@@ -15,53 +15,68 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
+- Question (lceballos-stat6250): What is the difference between fileref and filename?
 
 
 
 [Course Textbook Chapter 5, Problem 2]
+- Question (lceballos-stat6250): How can a filename be reassigned?
 
 
 
 [Course Textbook Chapter 5, Problem 6]
+- Question (lceballos-stat6250): What does the dollar ("$") sign do in the function?
+- Answer (lceballos-stat6250): When using variables with character names, use the dollar sign.
 
 
 
 [Course Textbook Chapter 5, Problem 7]
+- Question (lceballos-stat6250): How can you combine different tables in SAS when the values are of the same domain?
 
 
 
 [Course Textbook Chapter 5, Problem 8]
+- Question (lceballos-stat6250): Does the method income=income * 2 redifine every value of income?
+- Answer (lceballos-stat6250): Yes, the values for income will all become 100% larger.
 
 
 
 [Course Textbook Chapter 6, Problem 1]
+- Question (lceballos-stat6250): What are the automatic variables used for?
 
 
 
 [Course Textbook Chapter 6, Problem 2]
+- Question (lceballos-stat6250): If the compiler detects a syntax error does it stop or does it continue to the end?
 
 
 
 [Course Textbook Chapter 6, Problem 3]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 6, Problem 4]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 6, Problem 5]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 6, Problem 6]
+- Question (lceballos-stat6250):
 
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- Question (lceballos-stat6250):
 
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- Question (lceballos-stat6250):
 
 
