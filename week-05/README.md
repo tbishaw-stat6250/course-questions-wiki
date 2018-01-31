@@ -52,31 +52,32 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 6, Problem 3]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): Does SAS support recursion functions?
 
 
 
 [Course Textbook Chapter 6, Problem 4]
-- Question (lceballos-stat6250):
-
+- Question (lceballos-stat6250): What is the purpose of the _N_ variable?
+- Answer (lceballos-stat6250): Everytime the data step is ran, the _N_ variable increases by 1.
 
 
 [Course Textbook Chapter 6, Problem 5]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What are the two values that _ERROR_ can be?
+- Answer (lceballos-stat6250): If there is no error: 0. If there are any errors: 1.
 
 
 
 [Course Textbook Chapter 6, Problem 6]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What is the descriptor portion of the data?
 
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): Are both week 5 recipees equivalient?
 
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What are some disadvantages of using PROC SQL?
 
 
