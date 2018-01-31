@@ -33,6 +33,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Who do character variables require a '$' to be assigned formats?
 - *Question* (akrishnamurthy-stat6250): How should format name be defined for character and numeric data ?
 - Question (lceballos-stat6250): Why can't the format with the VALUE statement end in a period?
+- *Question* (kamirneni-stat6250): Is format that is stored Work.formats is temporary or permanent?
+- *Answer* (kamirneni-stat6250): The format exists for the current SAS session. It is erased after the SAS session ends.
 
 
 
@@ -53,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 - *Question* (akrishnamurthy-stat6250): What is the syntax of VALUE statement while defining multiple labels in PROC FORMAT? 
 - Question (lceballos-stat6250): Can the semicolon be placed in a new line after the 3='Blue' to make it more readable?
+- *Question* (kamirneni-stat6250): What is the most important rule when creating a format with VALUE statement?
+- *Answer* (kamirneni-stat6250): It must begin with a $ sign if it is a character variable.
 
 
 
@@ -74,6 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): FORMAT can be defined for either character or numeric data and cannot hold mixed data types. When the specified values are character, the format name should begin with '$' and values should be enclosed within quotes. Format for numeric values should not be enclosed within quotes and format name should not begin with '$'.
 - Question (lceballos-stat6250): Why can't you have different character and numeric values as value statements?
 - Answer (lceballos-stat6250): The format of the values must be predefined.
+- *Question* (kamirneni-stat6250): Can we enter special characters in ranges in VALUE statement?
 
 
 
@@ -93,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How is a label defined for a range of values in FORMAT ?
 - Question (lceballos-stat6250): What is the lenght limit for the labels?
 - Answer (lceballos-stat6250): 256
+- *Question* (kamirneni-stat6250): How many characters can be used in a label? 256 or 32,767?
 
 
 
@@ -113,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): While specifying range, how are the out of bound or missing values identified ? Is it necessary to specify a seperate label for such values?
 - Question (lceballos-stat6250): What is LOW used for?
 - Answer (lceballos-stat6250): To set a lower limit of a variable range you use the LOW keyword.
+- *Question* (kamirneni-stat6250): What is the result when you place a FORMAT statement in DATA step?
+- *Answer* (kamirneni-stat6250): By doing so, you permanently associate the FORMAT with the variable.
 
 
 
@@ -133,6 +141,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 - *Question* (akrishnamurthy-stat6250): What is the difference of using the format statement in PROC or DATA step?
 - Question (lceballos-stat6250): What happens when you place a FORMAT statement in a PROC step?
+- *Question* (kamirneni-stat6250): What is the difference between temporary and permanent library?
 
 
 
@@ -159,6 +168,9 @@ run;
 - *Question* (jcanfield3-stat6250): Why is standard deviation a default statistic instead of variance?
 - *Question* (akrishnamurthy-stat6250): What are the default statistical measures produced by MEANS procedure?
 - Question (lceballos-stat6250): What if we only want to display n?
+- *Question* (kamirneni-stat6250): Does the using the PROC statement for Statistics generate results in the same dataset by or as a separate output in another location?
+- *Question* (kamirneni-stat6250): What are the statements by which one can perform group processing?
+- *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 
 
 
@@ -178,6 +190,8 @@ run;
 - *Question* (jcanfield3-stat6250): What is the difference between using var and keep?
 - *Question* (akrishnamurthy-stat6250): If variables are not explicitly specified for MEANS procedure, what will be the output? If dataset includes only character data, how does MEANS procedure behave?
 - Question (lceballos-stat6250): Can you use the var statement inversely to exclude only a few variables instead of listing a lot?
+- *Question* (kamirneni-stat6250): What is the difference between CLASS and BY statements?
+- *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 
 
 
@@ -196,6 +210,7 @@ run;
 - *Question* (jcanfield3-stat6250): Why do by variables have to be pre-sorted?
 - *Question* (akrishnamurthy-stat6250): What is the difference between 'BY' and 'CLASS' statements?
 - Question (lceballos-stat6250): What's the difference between CLASS and BY?
+- *Question* (kamirneni-stat6250): Does the using the PROC statement for Statistics generate results in the same dataset by or as a separate output in another location?
 
 
 
@@ -216,6 +231,8 @@ run;
 - *Question* (akrishnamurthy-stat6250): Why is it advisable to use TABLES statment while creating crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): FREQ procedure creates frequency table for all variables in a data set. However, it may not be meaningful for conitnuous numeric values like timestamp. Hence it is better to specify the variables that are categorical explicitly using TABLES statement.
 - Question (lceballos-stat6250): Does PROC FREQ work on binomial distributions?
+- *Question* (kamirneni-stat6250): How can one supress the default report?
+- *Answer* (kamirneni-stat6250): One can use NOPRINT option in PROC MEANS statement to supress the default report and only create the desired output data set
 
 
 
@@ -232,6 +249,7 @@ run;
 - *Question* (jcanfield3-stat6250): Are discrete numerical variables more useful than continuous ones when it comes to frequency tables?
 - *Question* (akrishnamurthy-stat6250): Why does frequency distribution work better for categorical values?
 - Question (lceballos-stat6250): Can you do a PROC FREQ with multiple variables?
+- *Question* (kamirneni-stat6250): How does one create n-way tables for frequency analysis for more than 2 variables?
 
 
 
@@ -251,6 +269,7 @@ run;
 - *Question* (akrishnamurthy-stat6250): How can the cell frequencies be suppressed in crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): The cell frequencies can be suppressed by using NOFREQ option.
 - Question (lceballos-stat6250):What is the purpose of the star * sign in this statement?
+- *Question* (kamirneni-stat6250): What is the use of NOFREQ option?
 
 
 
@@ -269,6 +288,7 @@ run;
 - *Question* (jcanfield3-stat6250): Can I save a mean as a variable in a dataset?
 - *Question* (akrishnamurthy-stat6250): Is 'Class' statement mandatory while summarizing data using MEANS procedure?
 - Question (lceballos-stat6250): How can we ignore rows with missing values?
+- *Question* (kamirneni-stat6250): How does one determine that class statements are needed or not?
 
 
 
@@ -287,6 +307,7 @@ run;
 - *Question* (jcanfield3-stat6250): How long has SAS been around for?
 - *Question* (akrishnamurthy-stat6250): While creating cross tabulated reports, how are rows with missing variables handled?
 - Question (lceballos-stat6250): How do we summarize multiple variables at the same time using PROC FREQ?
+- *Question* (kamirneni-stat6250): Why in EDA (Exploratory Data Analysis), PROC functions are not utilized instead of PROC MEANS and PROC FREQ being used to replicate the result?
 
 
 
@@ -306,6 +327,6 @@ run;
 - *Question* (jcanfield3-stat6250): Can I format formats?
 - *Question* (akrishnamurthy-stat6250): How to specify non inclusive range of unique values while defining FORMAT?
 - Question (lceballos-stat6250): Can you make multiple bins to combine different variables that roll up into different categories?
-
+- *Question* (kamirneni-stat6250): In discrete quantitative variables, does taking the high and low options affect the outcome of data, resulting in neglecting of edge cases? 
 
 
