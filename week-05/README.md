@@ -16,7 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 5, Problem 1]
 
-− Question (ljiang11-stat6250): Assign a libref, we use statement LIBNAME, what is the statement for assigning a filefre?
+* Question (ljiang11-stat6250): Assign a libref, we use statement LIBNAME, what is the statement for assigning a filefre?
 − Answer (ljiang11-stat6250): FILENAME.
 - *Question* (jcanfield3-stat6250): Since we are defining filerefs, why is the command Filename instead of fileref?
 - *Question* (akrishnamurthy-stat6250): How to associate a fileref to multiple external files? How to access specific files from a directory?
