@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 7, Problem 8]
-- Question (guenane−stat6250): When would you want to permanently associate a format with a variable?
+- Question (aguenane−stat6250): When would you want to permanently associate a format with a variable?
 
 
 
