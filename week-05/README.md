@@ -15,53 +15,69 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
+- *Question* (jcanfield3-stat6250): Since we are defining filerefs, why is the command Filename instead of fileref?
 
 
 
 [Course Textbook Chapter 5, Problem 2]
+- *Question* (jcanfield3-stat6250): Can filrefs be removed without your permission?
+- *Answer* (jcanfield3-stat6250): No since they can only be manually changed or when SAS is closed.
 
 
 
 [Course Textbook Chapter 5, Problem 6]
+- *Question* (jcanfield3-stat6250): Could all three solutions potentially work?
+- *Answer* (jcanfield3-stat6250): Yes, if you add labels to the variables to match the given output.
 
 
 
 [Course Textbook Chapter 5, Problem 7]
+- *Question* (jcanfield3-stat6250): Could you input different variables using overlapping columns?
 
 
 
 [Course Textbook Chapter 5, Problem 8]
+- *Question* (jcanfield3-stat6250): If income isn't predefined, what is the resulting output of income=income*2?
 
 
 
 [Course Textbook Chapter 6, Problem 1]
+- *Question* (jcanfield3-stat6250): Is there a way to print the values of _N_ and _Error_?
 
 
 
 [Course Textbook Chapter 6, Problem 2]
+- *Question* (jcanfield3-stat6250): Which syntax errors halt the execution of the compilation phase?
 
 
 
 [Course Textbook Chapter 6, Problem 3]
+- *Question* (jcanfield3-stat6250): Is there a memory cap for the amount of records that can be inputed?
 
 
 
 [Course Textbook Chapter 6, Problem 4]
+- *Question* (jcanfield3-stat6250): Can a missing value be considered undefined?
 
 
 
 [Course Textbook Chapter 6, Problem 5]
+- *Question* (jcanfield3-stat6250): Why can _Error_ only take values 0 or 1? Wouldn't knowing the amount of errors be more useful?
 
 
 
 [Course Textbook Chapter 6, Problem 6]
+- *Question* (jcanfield3-stat6250): Is the descriptor portion also reset along with the values?
 
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- *Question* (jcanfield3-stat6250): Does the order matter for the keep, retain, and set functions?
 
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
+- *Question* (jcanfield3-stat6250): What are some other uses of proc sql?
+- *Answer* (jcanfield3-stat6250): Proq Sql can be used to "retrieve and manipulate data that is stored in tables or views; create tables, views, and indexes on columns in tables; create SAS macro variables that contain values from rows in a query's result; add or modify the data values in a table’s columns or insert and delete rows. You can also modify the table itself by adding, modifying, or dropping columns; and send DBMS-specific SQL statements to a database management system (DBMS) and retrieve DBMS data". 
 
 
