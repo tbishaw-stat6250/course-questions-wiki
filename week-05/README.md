@@ -13,8 +13,10 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
+
 [Course Textbook Chapter 5, Problem 1]
 - Question(pcheng14-stat6250):When should we use the fileref Crime with the raw data as our SAS statement?
+
 
 
 [Course Textbook Chapter 5, Problem 2]
@@ -74,6 +76,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Is any other way can tell SAS which rows and columns to include in a newly created dataset?
 
 
+
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
 - Question(pcheng14-stat6250):Why many SAS programmers rely on proc sql for the bulk of their data manipulation tasks?
+
+
 
