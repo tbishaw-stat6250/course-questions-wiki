@@ -33,6 +33,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Who do character variables require a '$' to be assigned formats?
 - *Question* (akrishnamurthy-stat6250): How should format name be defined for character and numeric data ?
 - Question (lceballos-stat6250): Why can't the format with the VALUE statement end in a period?
+- Question (aguenane−stat6250): What is the general form of the VALUE statement?
 
 
 
@@ -53,6 +54,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): You assign a permanent library using the lib= command.
 - *Question* (akrishnamurthy-stat6250): What is the syntax of VALUE statement while defining multiple labels in PROC FORMAT? 
 - Question (lceballos-stat6250): Can the semicolon be placed in a new line after the 3='Blue' to make it more readable?
+- Question (aguenane−stat6250): What are your two options when using the PROC FORMAT statement?
+- Answer (aguenane-stat6250): You can enter LIBRARY, which specifies the libref for a SAS library to contain a permanent catalog of user-defined formats, or FMTLIB, which displays a list of all of the formats in your catalog with descriptions.
 
 
 
@@ -74,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): FORMAT can be defined for either character or numeric data and cannot hold mixed data types. When the specified values are character, the format name should begin with '$' and values should be enclosed within quotes. Format for numeric values should not be enclosed within quotes and format name should not begin with '$'.
 - Question (lceballos-stat6250): Why can't you have different character and numeric values as value statements?
 - Answer (lceballos-stat6250): The format of the values must be predefined.
+- Question (aguenane−stat6250): When specifying a VALUE range, can you have a list of values that are a combination of character and numeric values?
+- Answer (aguenane-stat6250): No, these values must be character values OR numeric values, not a combination. This is because formats themselves are either character or numeric.
 
 
 
@@ -93,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How is a label defined for a range of values in FORMAT ?
 - Question (lceballos-stat6250): What is the lenght limit for the labels?
 - Answer (lceballos-stat6250): 256
+- Question (aguenane−stat6250): Can you use numeric values in a label?
 
 
 
@@ -113,6 +119,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): While specifying range, how are the out of bound or missing values identified ? Is it necessary to specify a seperate label for such values?
 - Question (lceballos-stat6250): What is LOW used for?
 - Answer (lceballos-stat6250): To set a lower limit of a variable range you use the LOW keyword.
+- Question (aguenane−stat6250): What is the point of using the LOW and HIGH keywords instead of using a low or high number?
 
 
 
@@ -133,6 +140,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): No it does not, it merely transforms the look of the data, but the original data remains intact.
 - *Question* (akrishnamurthy-stat6250): What is the difference of using the format statement in PROC or DATA step?
 - Question (lceballos-stat6250): What happens when you place a FORMAT statement in a PROC step?
+- Question (aguenane−stat6250): When would you want to permanently associate a format with a variable?
 
 
 
@@ -159,6 +167,7 @@ run;
 - *Question* (jcanfield3-stat6250): Why is standard deviation a default statistic instead of variance?
 - *Question* (akrishnamurthy-stat6250): What are the default statistical measures produced by MEANS procedure?
 - Question (lceballos-stat6250): What if we only want to display n?
+- Question (aguenane−stat6250): What is the difference between the MEANS procedure and the SUMMARY procedure?
 
 
 
@@ -178,6 +187,8 @@ run;
 - *Question* (jcanfield3-stat6250): What is the difference between using var and keep?
 - *Question* (akrishnamurthy-stat6250): If variables are not explicitly specified for MEANS procedure, what will be the output? If dataset includes only character data, how does MEANS procedure behave?
 - Question (lceballos-stat6250): Can you use the var statement inversely to exclude only a few variables instead of listing a lot?
+- Question (aguenane−stat6250): If you have a large amount of similar variables (designated by different numbers), what can you do to make the task of listing out all of these variables less tedious?
+- Answer (aguenane-stat6250): Instead of listing variables separately, you can use a numbered range of variables (i.e. item1-item5 instead of item1, item2, item3, item4, and item5).
 
 
 
@@ -196,6 +207,7 @@ run;
 - *Question* (jcanfield3-stat6250): Why do by variables have to be pre-sorted?
 - *Question* (akrishnamurthy-stat6250): What is the difference between 'BY' and 'CLASS' statements?
 - Question (lceballos-stat6250): What's the difference between CLASS and BY?
+- Question (aguenanestat6250): When would you use the BY statement and when would you use the CLASS statement?
 
 
 
@@ -216,6 +228,7 @@ run;
 - *Question* (akrishnamurthy-stat6250): Why is it advisable to use TABLES statment while creating crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): FREQ procedure creates frequency table for all variables in a data set. However, it may not be meaningful for conitnuous numeric values like timestamp. Hence it is better to specify the variables that are categorical explicitly using TABLES statement.
 - Question (lceballos-stat6250): Does PROC FREQ work on binomial distributions?
+- Question (aguenane−stat6250): What is recommended that you use when you use a PROC FREQ statement?
 
 
 
@@ -232,6 +245,7 @@ run;
 - *Question* (jcanfield3-stat6250): Are discrete numerical variables more useful than continuous ones when it comes to frequency tables?
 - *Question* (akrishnamurthy-stat6250): Why does frequency distribution work better for categorical values?
 - Question (lceballos-stat6250): Can you do a PROC FREQ with multiple variables?
+- Question (aguenane−stat6250): How do you determine the order that your variables are listed in the PROC FREQ report?
 
 
 
@@ -251,6 +265,7 @@ run;
 - *Question* (akrishnamurthy-stat6250): How can the cell frequencies be suppressed in crosstabulation table?
 - *Answer* (akrishnamurthy-stat6250): The cell frequencies can be suppressed by using NOFREQ option.
 - Question (lceballos-stat6250):What is the purpose of the star * sign in this statement?
+- Question (aguenane−stat6250):When cross tabulations are specified, what are the four parameters produced by the PROC FREQ statement?
 
 
 
@@ -269,6 +284,7 @@ run;
 - *Question* (jcanfield3-stat6250): Can I save a mean as a variable in a dataset?
 - *Question* (akrishnamurthy-stat6250): Is 'Class' statement mandatory while summarizing data using MEANS procedure?
 - Question (lceballos-stat6250): How can we ignore rows with missing values?
+- Question (aguenane−stat6250): What is the default precision for the output and can you change the precision?
 
 
 
@@ -287,6 +303,7 @@ run;
 - *Question* (jcanfield3-stat6250): How long has SAS been around for?
 - *Question* (akrishnamurthy-stat6250): While creating cross tabulated reports, how are rows with missing variables handled?
 - Question (lceballos-stat6250): How do we summarize multiple variables at the same time using PROC FREQ?
+- Question (aguenane−stat6250): When and why would you want to use the NOPRINT statement?
 
 
 
@@ -306,6 +323,7 @@ run;
 - *Question* (jcanfield3-stat6250): Can I format formats?
 - *Question* (akrishnamurthy-stat6250): How to specify non inclusive range of unique values while defining FORMAT?
 - Question (lceballos-stat6250): Can you make multiple bins to combine different variables that roll up into different categories?
+- Question (aguenane−stat6250): When binning values, where should semi colon(s) be placed? 
 
 
 
