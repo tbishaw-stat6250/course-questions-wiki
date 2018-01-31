@@ -17,7 +17,7 @@ The instructor will then review the pull request and make comments should furthe
 [Course Textbook Chapter 5, Problem 1]
 
 * Question (ljiang11-stat6250): Assign a libref, we use statement LIBNAME, what is the statement for assigning a filefre?
-− Answer (ljiang11-stat6250): FILENAME.
+* Answer (ljiang11-stat6250): FILENAME.
 - *Question* (jcanfield3-stat6250): Since we are defining filerefs, why is the command Filename instead of fileref?
 - *Question* (akrishnamurthy-stat6250): How to associate a fileref to multiple external files? How to access specific files from a directory?
 - *Answer* (akrishnamurthy-stat6250): The FILENAME can associate a fileref to a directory that contains multiple files. A specific file from the directory can then be referenced using the fileref followed by the individual filename in paranthesis.
@@ -42,7 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 2]
-− Question (ljiang11-stat6250): Is fileref only active in the current session?
+* Question (ljiang11-stat6250): Is fileref only active in the current session?
 - *Question* (jcanfield3-stat6250): Can filrefs be removed without your permission?
 - *Answer* (jcanfield3-stat6250): No since they can only be manually changed or when SAS is closed.
 - *Question* (akrishnamurthy-stat6250): What is the scope of files referenced by FILENAME statement?
@@ -66,7 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 6]
-− Question (ljiang11-stat6250): Will the variable name take from input statement?
+* Question (ljiang11-stat6250): Will the variable name take from input statement?
 - *Question* (jcanfield3-stat6250): Could all three solutions potentially work?
 - *Answer* (jcanfield3-stat6250): Yes, if you add labels to the variables to match the given output.
 - *Question* (akrishnamurthy-stat6250): How should the character and numeric data fields from raw file be defined in SAS dataset?
@@ -93,7 +93,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 7]
-− Question (ljiang11-stat6250): Why Price has no dollar sign following? Do we not want it to be a character value?
+* Question (ljiang11-stat6250): Why Price has no dollar sign following? Do we not want it to be a character value?
 - *Question* (jcanfield3-stat6250): Could you input different variables using overlapping columns?
 - *Question* (akrishnamurthy-stat6250): Should all the colums from a raw file be read into SAS dataset ? Can the fields from raw file be read in any order ?
 - Question (who7-stat6250): How can we format the numeric column to only have 2 decimal place?
@@ -115,8 +115,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 8]
-− Question (ljiang11-stat6250): What does 100 percent more mean?
-− Answer (ljiang11-stat6250): 100% higher means double of the original.
+* Question (ljiang11-stat6250): What does 100 percent more mean?
+* Answer (ljiang11-stat6250): 100% higher means double of the original.
 - *Question* (jcanfield3-stat6250): If income isn't predefined, what is the resulting output of income=income*2?
 - *Question* (akrishnamurthy-stat6250): How to redefine a variable with a new value using SAS expressions?
 - Question (who7-stat6250): Can we use operator for character varailbe to add 2 words together?
@@ -138,7 +138,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 6, Problem 1]
-− Question (ljiang11-stat6250): When is the first observation created?
+* Question (ljiang11-stat6250): When is the first observation created?
 - *Question* (jcanfield3-stat6250): Is there a way to print the values of _N_ and _Error_?
 - *Question* (akrishnamurthy-stat6250): While subsetting data, are the observations filtered during compilation phase ?
 - Question (who7-stat6250): How is compiling in sas different from other programming language?
@@ -163,7 +163,7 @@ proc contents data=‟libref‟.dataset; run;
 
 
 [Course Textbook Chapter 6, Problem 2]
-− Question (ljiang11-stat6250): Why SAS cannot detect incorrect format?
+* Question (ljiang11-stat6250): Why SAS cannot detect incorrect format?
 - *Question* (jcanfield3-stat6250): Which syntax errors halt the execution of the compilation phase?
 - *Question* (akrishnamurthy-stat6250): If SAS can interpret a syntax error, will the program DATA step still compile?
 - *Answer* (akrishnamurthy-stat6250): If SAS can interpret a syntax error, then the DATA step compiles and executes. If SAS cannot interpret a syntax error, then the DATA step compiles but does not execute.
@@ -184,7 +184,7 @@ proc contents data=‟libref‟.dataset; run;
 
 
 [Course Textbook Chapter 6, Problem 3]
-− Question (ljiang11-stat6250): How the the DATA step execute?
+* Question (ljiang11-stat6250): How the the DATA step execute?
 − Answer (ljiang11-stat6250): It executes one record and iterate back to excute the second one.
 - *Question* (jcanfield3-stat6250): Is there a memory cap for the amount of records that can be inputed?
 - *Question* (akrishnamurthy-stat6250): Will the DATA step execute for each observation?
@@ -225,12 +225,12 @@ proc contents data=‟libref‟.dataset; run;
 - *Answer* (ldai4-stat6250): Missing numeric values are represented by periods, and missing character values are represented by blanks.
 
 
-− Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
+* Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
 
 
 [Course Textbook Chapter 6, Problem 5]
-− Question (ljiang11-stat6250): How does the automatic variable _ERROR_ work?
-− Answer (ljiang11-stat6250): It will display 1 when there are 1 or more errors.
+* Question (ljiang11-stat6250): How does the automatic variable _ERROR_ work?
+* Answer (ljiang11-stat6250): It will display 1 when there are 1 or more errors.
 - *Question* (jcanfield3-stat6250): Why can _Error_ only take values 0 or 1? Wouldn't knowing the amount of errors be more useful?
 - *Question* (akrishnamurthy-stat6250): Is the program data vector values initialized before every record read or will the input data be stored as an array in the program data vector?
 - Question (who7-stat6250): Would a syntax error be counted in the _ERROR_ value?
@@ -266,13 +266,13 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (aamiri2-stat6250): What happens to the data during the beginning iteration DATA step? What information can be obtain during this step?
 - Question (aguenane−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - *Question* (ldai4-stat6250): What action occurs at the end of the DATA step?
-− Question (ljiang11-stat6250): Why is the values in PDV reset to missing?
+* Question (ljiang11-stat6250): Why is the values in PDV reset to missing?
 
 
 
 
 [basic_recipe_for_creating_analytic_datasets Week 5 Recipe]
-− Question (ljiang11-stat6250): Does the values in retain statement need to be exact the same as the values in keep statements?
+* Question (ljiang11-stat6250): Does the values in retain statement need to be exact the same as the values in keep statements?
 - *Question* (jcanfield3-stat6250): Does the order matter for the keep, retain, and set functions?
 - *Question* (akrishnamurthy-stat6250): Why does SAS read a DATA step twice for compilation and execution?
 - Question (who7-stat6250): If the number of columns that needed to be removed is larger than the number of columns needed to keep, is it still best practice to use the KEEP statement instead of DROP statement?
@@ -291,11 +291,11 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - *Question* (ldai4-stat6250): How can we read a remote excel file in the SAS?
 
-− Question (ljiang11-stat6250): Why SAS reading data by each record imply it can deal with big data? Can it store arbitrarily large amount of data?
+* Question (ljiang11-stat6250): Why SAS reading data by each record imply it can deal with big data? Can it store arbitrarily large amount of data?
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
-− Question (ljiang11-stat6250): Does PROC SQL's SELECT has the similar function as RETAIN and KEEP statements in DATA STEP? 
+* Question (ljiang11-stat6250): Does PROC SQL's SELECT has the similar function as RETAIN and KEEP statements in DATA STEP? 
 - *Question* (jcanfield3-stat6250): What are some other uses of proc sql?
 - *Answer* (jcanfield3-stat6250): Proq Sql can be used to "retrieve and manipulate data that is stored in tables or views; create tables, views, and indexes on columns in tables; create SAS macro variables that contain values from rows in a query's result; add or modify the data values in a table’s columns or insert and delete rows. You can also modify the table itself by adding, modifying, or dropping columns; and send DBMS-specific SQL statements to a database management system (DBMS) and retrieve DBMS data". 
 - *Question* (akrishnamurthy-stat6250): What is the function of PROC SQL statement? Can larger datasets be processed with PROC SQL ?
