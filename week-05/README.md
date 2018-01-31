@@ -35,6 +35,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): The location or name of the external text file, the name for the new SAS data set, the reference that identifies the external file, and a description of the data values to be read. 
 - *Question* (ldai4-stat6250): What is the difference for FILENAME and LIBNAME?
 - *Answer* (ldai4-stat6250): FILENAME statement can be used to point to external raw file; LIBNAME is used to assign a libref.
+- *Question*(kamirneni-stat6250): If one does not want to specify a file extension for referencing a file in an aggregate storage location, what is the alternative?
+- *Answer*(kamirneni-stat6250): The alternative is to put the filename in quotation marks.
 
 
 
@@ -58,6 +60,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the difference between the LIBNAME and FILENAME statements?
 - Answer (aguenane-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 - *Question* (ldai4-stat6250): What is fileref? Is the function of fileref same as libref’s?
+- *Question*(kamirneni-stat6250): What is the naming convention when declaring a new variable?
+- *Answer*(kamirneni-stat6250): One must specify the variable in the exact case to be stored. After that, one can specify it any case.
 
 
 
@@ -84,6 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): It identifies the variable type as character. 
 - *Question* (ldai4-stat6250): How can we use INPUT statement?
 - *Answer* (ldai4-stat6250): The INPUT statement creates a Variable using the name that we assign to each field. There, when we write an INPUT statement, we need to specify the variable names exactly as we want them to appear in the SAS dataset.
+- *Question*(kamirneni-stat6250): What should be included in the INFILE statement to process records 1 through n?
 
 
 
@@ -105,6 +110,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): Does the ruler in a raw data file have a maximum limit? Is there another method to find out where individual fields begin and end?
 - Question (aguenane−stat6250): If you wanted to name a new variable NewBalance, when do you need to specify it in the exact case you wanted stored and when can you specify the name in uppercase, lowercase, or mixed case?
 - *Question* (ldai4-stat6250): Which variable need to add a $ before the name in using column input to read fields in any order?
+- *Question*(kamirneni-stat6250): Can date be assigned to variables, if yes, how?
 
 
 
@@ -126,6 +132,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250): You can use many different arithmetic operations such as division, addition, subtraction, multiplication, and exponentiation. Negative prefixes have priority but then it goes by order of operations and parentheses can be used to control this better.
 - Question (aguenane−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
 - *Question* (ldai4-stat6250): How can we re-define the value of the variable?
+- *Question*(kamirneni-stat6250): Does subsetting DATA create a new file with the conditional data or make changes to the original file?
 
 
 
@@ -150,6 +157,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): What are the two automatic variables that can be used for processing contained in the program data vector?
 - *Question* (ldai4-stat6250): How is the program data vector created during the compilation phase?
 - *Answer* (ldai4-stat6250): During the compilation, the program data vector includes the two automatic variables_N_and_ERROR_. The descriptor portion of the new SAS data set is created at the end of the compilation phase. Observations are not written until the execution phase.
+- *Question*(kamirneni-stat6250): Why is raw data considered for creating a input buffer, and not SAS data at all?
 
 
 
@@ -170,6 +178,8 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (aamiri2-stat6250): When a syntax error of invalid options occurs, what can be done to correct this error? What precautions can be made to avoid such errors beforehand?
 - Question (aguenane−stat6250): What happens when SAS finds a syntax error during the compilation phase?
 - *Question* (ldai4-stat6250): What is a syntax error in SAS?
+- *Question*(kamirneni-stat6250): What is a program data vector?
+- *Answer*(kamirneni-stat6250): It is the area of memory where SAS holds one observation at a time.
 
 
 
@@ -190,6 +200,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (aamiri2-stat6250): After the Data step is compiled, what are the next steps during the execution phase?
 - Question (aguenane−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step? 
 - *Question* (ldai4-stat6250): How does the DATA step work?
+- *Question*(kamirneni-stat6250): After the end of DATA step, why variable values in the program data vector are re-set to missing?
 
 
 
@@ -211,6 +222,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): If I was missing the item name, what symbol would represent this missing value?
 - *Question* (ldai4-stat6250): How does the DATA step execute the missing variables?
 - *Answer* (ldai4-stat6250): Missing numeric values are represented by periods, and missing character values are represented by blanks.
+- *Question*(kamirneni-stat6250): Why are there exceptions for SAS to set value of variable missing in DATA statement at beginning of each cycle of execution? What happens if the exceptions are ignored?
 
 
 
@@ -232,6 +244,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): Why does the value of the automatic variable _ERROR_ only go from 0 to 1?
 - *Question* (ldai4-stat6250): In program data vector, what does error 1 represent?
 - *Answer* (ldai4-stat6250): Error signals are caused by the data during execution. The default value is 0, which means there is no error. When one or more errors occur, the value is set to 1.
+- *Question*(kamirneni-stat6250): How do PROC FREQ and PROC MEANS filter invalid data?
 
 
 
@@ -250,6 +263,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (aamiri2-stat6250): What happens to the data during the beginning iteration DATA step? What information can be obtain during this step?
 - Question (aguenane−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - *Question* (ldai4-stat6250): What action occurs at the end of the DATA step?
+- *Question*(kamirneni-stat6250): Is it efficient to delete observations which have invalid data instead of correcting them?
 
 
 
@@ -271,6 +285,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (aamiri2-stat6250): What are the differences between RETAIN and KEEP statements?
 - Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - *Question* (ldai4-stat6250): How can we read a remote excel file in the SAS?
+- *Question*(kamirneni-stat6250): Which is more efficient in loading data from disk, PDV in SAS or R/SQL, considering time and size of data?
 
 
 
@@ -291,6 +306,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (aamiri2-stat6250): How can we load our data using PROC SQL?
 - Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS? 
-
+- *Question*(kamirneni-stat6250): What is the advantage of using PROC SQL over the conventional retain and keep method?
+- *Answer*(kamirneni-stat6250): it can also be used as a substitute for proc means, proc freq, and many other proc statements with the right syntax to make the code and dataset result more efficient.
 
 
