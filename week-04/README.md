@@ -37,6 +37,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): While creating a format with a VALUE statement, why is it important to have the correct format in the beginning and ending statements?
 - Question(dfei-stat6250): What is the new format's name rule with VALUE statement rule?
 - Answer(dfei-stat6250): It must begin with a dollar sign ($) if used with a character variable.
+- *Question* (kamirneni-stat6250): Is format that is stored Work.formats is temporary or permanent?
+- *Answer* (kamirneni-stat6250): The format exists for the current SAS session. It is erased after the SAS session ends.
 
 
 
@@ -62,6 +64,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): How will we be able to use the values assigned to each variable during the analysis? Are values easier to use as compared to the actual variable name?
 - Question(dfei-stat6250): What is the semicolon rule for VALUE statement rule? 
 - Answer(dfei-stat6250): No semicolon at the end of VALUE command line, but it has to do at the end of whole commands.
+- *Question* (kamirneni-stat6250): What is the most important rule when creating a format with VALUE statement?
+- *Answer* (kamirneni-stat6250): It must begin with a $ sign if it is a character variable.
 
 
 
@@ -87,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): No, these values must be character values OR numeric values, not a combination. This is because formats themselves are either character or numeric.
 - *Question* (aamiri2-stat6250): Are there any differences in formatting a range VALUE statement between numeric and character values? 
 - Question(dfei-stat6250): How many types of ranges in the VALUE statement can specify?
+- *Question* (kamirneni-stat6250): Can we enter special characters in ranges in VALUE statement?
 
 
 
@@ -109,6 +114,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): Can you use numeric values in a label?
 - *Question* (aamiri2-stat6250): What is the result of going over the character limit in a label?
 - Question(dfei-stat6250): How many numbers can be used in a label?
+- *Question* (kamirneni-stat6250): How many characters can be used in a label? 256 or 32,767?
 
 
 
@@ -132,6 +138,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the point of using the LOW and HIGH keywords instead of using a low or high number?
 - *Question* (aamiri2-stat6250): The textbook mentions you can use the keyword OTHER to label a missing value, are there any other keywords that can have the same function?
 - Question(dfei-stat6250): How many keywords can be used to label missing values?
+- *Question* (kamirneni-stat6250): What is the result when you place a FORMAT statement in DATA step?
+- *Answer* (kamirneni-stat6250): By doing so, you permanently associate the FORMAT with the variable.
 
 
 
@@ -155,6 +163,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): When would you want to permanently associate a format with a variable?
 - *Question* (aamiri2-stat6250): What happens when you place FORMAT in a PROC step? What is the difference between the DATA step?
 - Question(dfei-stat6250): What happens when I place FORMAT statement in a PROC step?
+- *Question* (kamirneni-stat6250): What is the difference between temporary and permanent library?
 
 
 
@@ -184,6 +193,9 @@ run;
 - Question (aguenane−stat6250): What is the difference between the MEANS procedure and the SUMMARY procedure?
 - *Question* (aamiri2-stat6250): Can you obtain specific descriptive statistics of certain variables in a dataset?
 - Question(dfei-stat6250): What the default statistics produced by the "Stand Deviation" procedure?
+- *Question* (kamirneni-stat6250): Does the using the PROC statement for Statistics generate results in the same dataset by or as a separate output in another location?
+- *Question* (kamirneni-stat6250): What are the statements by which one can perform group processing?
+- *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 
 
 
@@ -208,6 +220,8 @@ run;
 - *Question* (aamiri2-stat6250): Is there a way to limit the descriptive statistics so we can only have the minimum and maximum?
 - *Answer* (aamiri2-stat6250): To specify a statistic you can use a PROC MEANS statement and use the specific keywords like MINIMUM and MAXIMUM to get the descriptive statistics of only that.
 - Question(dfei-stat6250): What is the relationships between variables Boarded, Transfer and Deplane?
+- *Question* (kamirneni-stat6250): What is the difference between CLASS and BY statements?
+- *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 
 
 
@@ -230,6 +244,7 @@ run;
 - *Question* (aamiri2-stat6250): What is the difference between BY and CLASS?
 - *Answer* (aamiri2-stat6250): BY processing differs from CLASS because it requires your data to be sorted in the order of the BY variable, unlike CLASS which processes differently. They also both have different layouts of group results.
 - Question(dfei-stat6250): How many types of BY-group processings?
+- *Question* (kamirneni-stat6250): Does the using the PROC statement for Statistics generate results in the same dataset by or as a separate output in another location?
 
 
 
@@ -254,6 +269,8 @@ run;
 - *Question* (aamiri2-stat6250): In which situation would we create a table of frequencies? What can we learn about our dataset with this information?
 - Question(dfei-stat6250): By default, does PROC FREQ creates a table of frequencies and percentages for continuous values?
 - Answer(dfei-stat6250): No it does not.
+- *Question* (kamirneni-stat6250): How can one supress the default report?
+- *Answer* (kamirneni-stat6250): One can use NOPRINT option in PROC MEANS statement to supress the default report and only create the desired output data set
 
 
 
@@ -273,6 +290,7 @@ run;
 - Question (aguenane−stat6250): How do you determine the order that your variables are listed in the PROC FREQ report?
 - *Question* (aamiri2-stat6250): Why do frequency distributions work best with variables that contain categorical values?
 - Question(dfei-stat6250): What does Frequency distributions mean in SAS? 
+- *Question* (kamirneni-stat6250): How does one create n-way tables for frequency analysis for more than 2 variables?
 
 
 
@@ -295,6 +313,7 @@ run;
 - Question (aguenane−stat6250):When cross tabulations are specified, what are the four parameters produced by the PROC FREQ statement?
 - *Question* (aamiri2-stat6250): What is the benefit of creating a two-way frequency table as compared to a one-way frequency table?
 - Question(dfei-stat6250): What is the first step to produce a table in SAS?
+- *Question* (kamirneni-stat6250): What is the use of NOFREQ option?
 
 
 
@@ -316,6 +335,7 @@ run;
 - Question (aguenane−stat6250): What is the default precision for the output and can you change the precision?
 - *Question* (aamiri2-stat6250): What is the difference between PROC MEANS and PROC FREQ? What is the default format of PROC FREQ?
 - Question(dfei-stat6250): What is the advanage of "output delivery system"(ODS)?
+- *Question* (kamirneni-stat6250): How does one determine that class statements are needed or not?
 
 
 
@@ -338,6 +358,7 @@ run;
 - *Question* (aamiri2-stat6250): What does cross tabulation mean and what are the benefits of using it?
 - *Answer* (aamiri2-stat6250): Cross tabulation is one of the tools used to analyze the categorical data between one or more variables. This provides a way to analyze and compare the results for one or more variable with the results of another. It helps you understand the relationships within the data.
 - Question(dfei-stat6250): Is the in levels option mandatory or not? What will happen without it? 
+- *Question* (kamirneni-stat6250): Why in EDA (Exploratory Data Analysis), PROC functions are not utilized instead of PROC MEANS and PROC FREQ being used to replicate the result?
 
 
 
@@ -360,6 +381,7 @@ run;
 - Question (aguenane−stat6250): When binning values, where should semi colon(s) be placed? 
 - *Question* (aamiri2-stat6250): When are appropriate scenarios when we would need to roll-up/bin values?
 - Question(dfei-stat6250): Why there is no space between "norow, nocol and nopercent" after slash? 
+- *Question* (kamirneni-stat6250): In discrete quantitative variables, does taking the high and low options affect the outcome of data, resulting in neglecting of edge cases? 
 
 
 
