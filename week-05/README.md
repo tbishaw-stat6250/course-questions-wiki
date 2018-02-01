@@ -286,7 +286,6 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question* (aamiri2-stat6250): What are the differences between RETAIN and KEEP statements?
 - Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - *Question* (ldai4-stat6250): How can we read a remote excel file in the SAS?
-- *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS?
 * Question (ljiang11-stat6250): Why SAS reading data by each record imply it can deal with big data? Can it store arbitrarily large amount of data?
 * Question (ljiang11-stat6250): Does the values in retain statement need to be exact the same as the values in keep statements?
 
@@ -308,6 +307,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question(dfei-stat6250): How many types of task can data steps accomplish?
 - *Question* (aamiri2-stat6250): How can we load our data using PROC SQL?
 - Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
+- *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS?
 * Question (ljiang11-stat6250): Does PROC SQL's SELECT has the similar function as RETAIN and KEEP statements in DATA STEP?
 
 
