@@ -308,7 +308,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question(dfei-stat6250): How many types of task can data steps accomplish?
 - *Question* (aamiri2-stat6250): How can we load our data using PROC SQL?
 - Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
-- *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS? 
+- *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS?  
 * Question (ljiang11-stat6250): Does PROC SQL's SELECT has the similar function as RETAIN and KEEP statements in DATA STEP? 
 
 
