@@ -33,7 +33,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): It is filename crime 'c:\states\data\crime.dat'
 - *Question* (aamiri2-stat6250): What are the steps in creating a raw data file? How can one identify a raw data file in a SAS statement?
 - Question (aguenane-stat6250): To read a raw data file, what four instructions must the DATA step provide to SAS?
-- Question (aguenane−stat6250): To read a raw data file, what four instructions must the DATA step provide to SAS?
 - Answer (aguenane-stat6250): The location or name of the external text file, the name for the new SAS data set, the reference that identifies the external file, and a description of the data values to be read. 
 - *Question* (ldai4-stat6250): What is the difference for FILENAME and LIBNAME?
 - *Answer* (ldai4-stat6250): FILENAME statement can be used to point to external raw file; LIBNAME is used to assign a libref.
@@ -73,7 +72,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): No, they will not in effect.
 - *Question* (aamiri2-stat6250): What are the differences and similarities between Fileref and Libref?
 - Question (aguenane-stat6250): What is the difference between the LIBNAME and FILENAME statements?
-- Question (aguenane−stat6250): What is the difference between the LIBNAME and FILENAME statements?
 - Answer (aguenane-stat6250): LIBNAME references a SAS library while FILENAME references an external file.
 - *Question* (ldai4-stat6250): What is fileref? Is the function of fileref same as libref’s?
 - Question (ldeng11-stat6250): What do the LIBNAME and FILENAME statements are global mean?
@@ -116,7 +114,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): When running an INPUT statement, when are dollar signs ($) used and when is it not needed?
 - *Answer* (aamiri2-stat6250): The dollar sign ($) identifies the variable as a character in the columns. It is usually used for characters such as name or sex. It is not used for age because this is already a numeric value so there is no need for the dollar sign.
 - Question (aguenane-stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
-- Question (aguenane−stat6250): When using the INPUT statement to describe the fields of raw data to be read and placed into the SAS data set, what does the dollar sign ($) do?
 - Answer (aguenane-stat6250): It identifies the variable type as character. 
 - *Question* (ldai4-stat6250): How can we use INPUT statement?
 - *Answer* (ldai4-stat6250): The INPUT statement creates a Variable using the name that we assign to each field. There, when we write an INPUT statement, we need to specify the variable names exactly as we want them to appear in the SAS dataset.
@@ -465,7 +462,6 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question(dfei-stat6250): How many types of task can data steps accomplish?
 - *Question* (aamiri2-stat6250): How can we load our data using PROC SQL?
 - Question (aguenane-stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
-- Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS? 
 - Question (ldeng11-stat6250): What are the advantages and the disadvantages when using PROC SQL?
 - Question(pcheng14-stat6250):Why many SAS programmers rely on proc sql for the bulk of their data manipulation tasks?
