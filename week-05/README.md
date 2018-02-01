@@ -39,6 +39,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When should we use the fileref Crime with the raw data as our SAS statement?
 - *Question*(kamirneni-stat6250): If one does not want to specify a file extension for referencing a file in an aggregate storage location, what is the alternative?
 - *Answer*(kamirneni-stat6250): The alternative is to put the filename in quotation marks.
+- Question (lsun20-stat6250): Why we need to use quotation mark in this statement?
 
 
 
@@ -68,6 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):Yes, they are.
 - *Question*(kamirneni-stat6250): What is the naming convention when declaring a new variable?
 - *Answer*(kamirneni-stat6250): One must specify the variable in the exact case to be stored. After that, one can specify it any case.
+- Question (lsun20-stat6250): Is there any other statement like FILENAME statement are global?
 
 
 
@@ -98,6 +100,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ldeng11−stat6250): The dollar sign ($) identify the variable type as character; if the variable is numeric, then you don't need to anything.
 - Question(pcheng14-stat6250):Have any other program can create the PROC PRINT same output?
 - *Question*(kamirneni-stat6250): What should be included in the INFILE statement to process records 1 through n?
+- Question (lsun20-stat6250): What is the usage of the dollar sign($)?
+- Answer (lsun20-stat6250): The dollar sign($) is used to identify the character variables.
 
 
 
@@ -123,6 +127,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):In order to  correctly reads the fields, do we must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field?
 - Answer(pcheng14-stat6250):We do.
 - *Question*(kamirneni-stat6250): Can date be assigned to variables, if yes, how?
+- Question (lsun20-stat6250): Is there any order of input these column?
+- Answer (lsun20-stat6250): We can use column input to read fields in any order.
 
 
 
@@ -148,6 +154,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When shoudl we re-defines the values?
 - Answer(pcheng14-stat6250):Depends on quesion or situation, if the question need to re-defines values.
 - *Question*(kamirneni-stat6250): Does subsetting DATA create a new file with the conditional data or make changes to the original file?
+- Question (lsun20-stat6250): Does the new variable Income need a new name, such as Income_1, which is different from the original one?
 
 
 
@@ -175,6 +182,8 @@ proc contents data=‟libref‟.dataset; run;
 - Question (ldeng11−stat6250): What will happen during the compilation phase?
 - Question(pcheng14-stat6250):Why "the program data vector" is created during the compilation phase?
 - *Question*(kamirneni-stat6250): Why is raw data considered for creating a input buffer, and not SAS data at all?
+- Question (lsun20-stat6250): What is the data set descriptor include?
+- Answer (lsun20-stat6250): The description includes the name of the data set, the number of observations and variables and the names and attributes of the variables.
 
 
 
@@ -199,6 +208,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question(pcheng14-stat6250):Besdies verify the values of variables or the correctness of formats, what else errors Syntax checking can't detect?
 - *Question*(kamirneni-stat6250): What is a program data vector?
 - *Answer*(kamirneni-stat6250): It is the area of memory where SAS holds one observation at a time.
+- Question (lsun20-stat6250): Why the invalid option or variable name should be considered as a syntax error? 
 
 
 
@@ -222,6 +232,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (ldeng11−stat6250): During the execution phase, how the DATA step works?
 - Question(pcheng14-stat6250):Why DATA step executes only once for each record in the input file?
 - *Question*(kamirneni-stat6250): After the end of DATA step, why variable values in the program data vector are re-set to missing?
+- Question (lsun20-stat6250): When the DATA step will executes?
 
 
 
@@ -247,6 +258,7 @@ proc contents data=‟libref‟.dataset; run;
 - Answer (ldeng11−stat6250): Because at the beginning of the execution phase, we are reading the first observation, and there is no error sofar, so the value of _N_ is 1, the value of _ERROR_ is 0, and the values of the remainning variables are setting to missing.
 - Question(pcheng14-stat6250):Why missing numeric values are represented by periods, and missing character values are represented by blanks?
 - *Question*(kamirneni-stat6250): Why are there exceptions for SAS to set value of variable missing in DATA statement at beginning of each cycle of execution? What happens if the exceptions are ignored?
+- Question (lsun20-stat6250): Why the answer is "missing"?
 
 
 
@@ -271,6 +283,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (ldeng11−stat6250): What is the value of _ERROR_ if you have three errors? 
 - Question(pcheng14-stat6250):How many times errors can be happened during running a program? 
 - *Question*(kamirneni-stat6250): How do PROC FREQ and PROC MEANS filter invalid data?
+- Question (lsun20-stat6250): Is the value of the automatic variable_ERROR_ calculate by times?
 
 
 
@@ -292,6 +305,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (ldeng11−stat6250): What will happen during the DATA step?
 - Question(pcheng14-stat6250):Why the automatic variable _ERROR_ is reset to 0 if necessary?
 - *Question*(kamirneni-stat6250): Is it efficient to delete observations which have invalid data instead of correcting them?
+- Question (lsun20-stat6250): What is descriptor portion of the data set?
 
 
 
@@ -316,6 +330,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question (ldeng11−stat6250): What is the difference between retain and keep staments?
 - Question(pcheng14-stat6250):Is any other way can tell SAS which rows and columns to include in a newly created dataset?
 - *Question*(kamirneni-stat6250): Which is more efficient in loading data from disk, PDV in SAS or R/SQL, considering time and size of data?
+- Question (lsun20-stat6250): Is there any limit number of column from the data set?
 
 
 
@@ -340,6 +355,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question(pcheng14-stat6250):Why many SAS programmers rely on proc sql for the bulk of their data manipulation tasks?
 - *Question*(kamirneni-stat6250): What is the advantage of using PROC SQL over the conventional retain and keep method?
 - *Answer*(kamirneni-stat6250): it can also be used as a substitute for proc means, proc freq, and many other proc statements with the right syntax to make the code and dataset result more efficient.
+- Question (lsun20-stat6250): Is there any limitation of the column name? Such as can not end as a number?
 
 
 
