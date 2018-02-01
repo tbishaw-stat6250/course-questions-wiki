@@ -42,6 +42,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What is the name of a format with a VALUE statement?
 - *Answer* (ldai4-stat6250): The name of a format with a VALUE statement must begin with a dollar sign ($) if it applies to a character variable.
 - Question (nshrivastava2-stat6250): SAS stores date values as the number of days between January 1, 1960, and a specific date. How one can report the date more meaningful and recognisable?
+- Question (lsun20-stat6250): Does the dollar sign($) only be used at begin of the name of a format which is created with a VALUE statement?
 
 
 
@@ -73,6 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): The statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 - Question (nshrivastava2-stat6250): How can we use the format procedure to create the formats? 
 - Answer (nshrivastava2-stat6250): The name of a character format must begin with a dollar sign, followed by a letter or underscore, followed by letters, numbers, and underscores. Names for numeric formats must begin with a letter or underscore, followed by letters, numbers, and underscores. A format name cannot end in a number and cannot be the name of a SAS format. 
+- Question (lsun20-stat6250): If we add the semicolon after each line in the VALUE statement, what will happen?
+- Answer (lsun20-stat6250): If we add the semicolon after ever line, there will be error about the VALUE statement.
 
 
 
@@ -101,6 +104,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (kamirneni-stat6250): Can we enter special characters in ranges in VALUE statement?
 - *Question* (ldai4-stat6250): In the VALUE statement, can a combined list of numeric and character be used?   
 - Question (nshrivastava2-stat6250): There are many existing SAS formats that you can use. What is the Character formats begin with ? 
+- Question (lsun20-stat6250): Can we put numeric values and character values together in a list?
 
 
 
@@ -128,6 +132,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): Enclose the label in quotation marks; limit the label to 256 characters; and use two single quotation marks if you want an apostrophe to appear in the label.
 - Question (nshrivastava2-stat6250): Why we use Value Statement in PROC FORMAT step?  
 - Answer (nshrivastava2-stat6250): You use a VALUE statement in a PROC FORMAT step to specify the way that you want the data values to appear in your output. You define value-range sets to specify the values to be formatted and the formatted values to display instead of the stored value or values. The value portion of a value-range set can include an indiv idual value, a range of values, a list of values, or a keyword. The keyword OTHER is used to define a value to display if the stored data value does not match any of the defined value-ranges.
+- Question (lsun20-stat6250): How to carry out the limitation of 256 characters?
 
 
 
@@ -156,6 +161,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Can the keyword OTHER be used in the label missing character values?
 - Question (nshrivastava2-stat6250): The LOW and HIGH keywords are used to define a continuous range when the lowest and highest values are not known. How does the LOW meant for character value and numeric values? 
 - Answer (nshrivastava2-stat6250):  For character values, the LOW keyword treats missing values as the lowest possible values. However, for numeric values, LOW does not include missing values.
+- Question (lsun20-stat6250): Which value that we can ues LOW to instead of?
 
 
 
@@ -182,6 +188,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (kamirneni-stat6250): What is the difference between temporary and permanent library?
 - *Question* (ldai4-stat6250): What happens when placing the FORMAT statement in a DATA step?
 - Question (nshrivastava2-stat6250): How SAS Converts Calendar Dates to SAS Date Values? 
+- Question (lsun20-stat6250): What happens when you place the FORMAT statement in a PROC step?
 
 
 
@@ -216,7 +223,7 @@ run;
 - *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 - *Question* (ldai4-stat6250): Which descriptive statistics can be displayed by using PROC MEANS? How to limit statistics?
 - Question (nshrivastava2-stat6250): A PROC FREQ analysis identified invalid and missing values in a data set. Which of these procedures can display the observations that contain invalid or missing values? 
- 
+- Question (lsun20-stat6250): Which procedure can produce median?
 
 
 
@@ -245,6 +252,7 @@ run;
 - *Answer* (kamirneni-stat6250): Using CLASS and BY statements, one can perform group processing.
 - *Question* (ldai4-stat6250): What happens if using VAR statement in the PROC MEANS statement?
 - Question (nshrivastava2-stat6250): Which procedures can display the observations that contain invalid or missing values?
+- Question (lsun20-stat6250): What is the usage of this statement? 
 
 
 
@@ -271,6 +279,8 @@ run;
 - *Question* (ldai4-stat6250): What is CLASS statement and BY statement? What is the BY statement different from the CLASS statement?
 - Question (nshrivastava2-stat6250): List the PROC MEANS step creates the statistics?
 - Answer (nshrivastava2-stat6250): You can use PROC MEANS to produce summary reports with descriptive statistics. By default, it reports the number of nonmissing values, the mean, the standard dev iation, the minimum, and the maximum value of every numeric variable in a data set.
+- Question (lsun20-stat6250): How to use the BY group to conduct data?
+- Answer (lsun20-stat6250): The most common use of BY-group processing in the DATA step is to combine two or more SAS data sets using a BY statement with a SET, MERGE, MODIFY, or UPDATE statement.
 
 
 
@@ -301,6 +311,7 @@ run;
 - *Answer* (ldai4-stat6250): The PROC FREQ produces one-way and n-way frequency tables, and it concisely describes your data by reporting the distribution of variable values.
 - Question (nshrivastava2-stat6250): How PROC FREQ Validate the dataset?  
 - Answer (nshrivastava2-stat6250): The FREQ procedure can also be used to validate a data set. A one-way frequency table, which displays all discrete values for a variable and reports on missing values, easily identifies the existence of invalid or missing values. You can use the ORDER=FREQ and NLEVELS options to identify duplicate values. After you've identified invalid values, you can use PROC PRINT to display the corresponding observations. 
+- Question (lsun20-stat6250): How to use the PROC FREQ to create a table of frequencies and percentages?
 
 
 
@@ -324,6 +335,7 @@ run;
 - *Question* (ldai4-stat6250): what variables are unsuitable for PROC FREQ processing? Why?
 - Question (nshrivastava2-stat6250): While using the SAS Output Delivery System, Can we open the file on the destination without closing the ODS with an appropriate file type?
 - Answer (nshrivastava2-stat6250): No, <ods pdf file="c:/output/salaries.pdf"> is accompanied by <ods pdf close>, in oder to open the file at the destination. 
+- Question (lsun20-stat6250): Why the frequency distributions works best with categorical values?
 
 
 
@@ -350,6 +362,8 @@ run;
 - *Question* (ldai4-stat6250): How does PROC FREQ produce two-way tables?
 - Question (nshrivastava2-stat6250): Why and How  PROC UNIVARIATE is useful?
 - Answer (nshrivastava2-stat6250): PROC UNIVARIATE can be more useful because it displays the extreme observations, or outliers. By default, it displays the five highest and five lowest values of the analysis variable, and the number of the observation with each extreme value. You can use the NEXTROBS= option to display a different number of extreme observations.
+- Question (lsun20-stat6250): What is the usage of nofreq statement?
+- Answer (lsun20-stat6250): The NOFREQ option suppresses cell frequencies.
 
 
 
@@ -375,6 +389,7 @@ run;
 - *Question* (ldai4-stat6250): What is the NOCUM and NOPERCENT options in the TABLES statement?
 - Question (nshrivastava2-stat6250):  How the CLASS and BY Statements works when included in a PROC MEANS?
 - Answer (nshrivastava2-stat6250):  CLASS statement options are also available in the PROC MEANS statement. They affect all CLASS variables. It specifies one or more variables that the procedure uses to group the data. Variables in a CLASS statement are referred to as class variables. Class variables are numeric or character.
+- Question (lsun20-stat6250): What's the max number of columns in class?
 
 
 
@@ -401,6 +416,7 @@ run;
 - *Question* (ldai4-stat6250): How do we use a LENGTH statement in our DATA step to explicitly define the length of a character variable?
 - Question (nshrivastava2-stat6250): What is Cross-tabulation in SAS ?
 - Answer (nshrivastava2-stat6250): Cross tabulation involves producing cross tables also called contingent tables using all possible combinations of two or more variables. In SAS it is created using PROC FREQ along with the TABLES option.
+- Question (lsun20-stat6250): If without "missing" code, what will happen?
 
 
 
@@ -428,6 +444,7 @@ run;
 - *Answer* (ldai4-stat6250): Yes, we can use PROC FORMAT to bin a numerical variable into categories.
 - Question (nshrivastava2-stat6250):  How binning works?
 - Answer (nshrivastava2-stat6250): Statistical data binning is a way to group a number of more or less continuous values into a smaller number of "bins". For example, if you have data about a group of people, you might want to arrange their ages into a smaller number of age intervals.PROC HPBIN does not allow empty bins. If an empty bin is detected because of an insufficient number of nonmissing observations, PROC HPBIN issues an error and exits.
+- Question (lsun20-stat6250): What's the means of the following statement "value Enrollment_K12_bins"?
 
 
 
