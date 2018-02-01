@@ -41,6 +41,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer*(kamirneni-stat6250): The alternative is to put the filename in quotation marks.
 - Question (lsun20-stat6250): Why we need to use quotation mark in this statement?
 - *Question* (xyin6-stat6250): What should be included in the DATA step in order to read the raw data file?
+- Question (tbishaw-stat6250): What do we need to do before reading raw data from a file in the SAS software?
+- Answer (tbishaw-stat6250): We might need to reference the SAS library in which we will be storing the data set. Then we can write a DATA step program to read the raw data file and create a SAS data set.
 
 
 
@@ -73,6 +75,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Is there any other statement like FILENAME statement are global?
 - *Question* (xyin6-stat6250): When is necessary to use a LIBNAME statement?
 - *Answer* (xyin6-stat6250): When we have to reference the permanent SAS library in which thedata set will be stored.
+- Question (tbishaw-stat6250): What SAS command can we use to create a report after using the DATA step to read the raw data?
+- Answer (tbishaw-stat6250): After using the DATA step to read the raw data, we can use the PROC PRINT step to produce a report that displays the data values that are in the new data set. 
 
 
 
@@ -107,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): The dollar sign($) is used to identify the character variables.
 - *Question* (xyin6-stat6250): What does the dollar sign "$" in INPUT statement stand for?
 - *Answer* (xyin6-stat6250): The dollar sign identifies the variable type as character (if the variable is numeric, then nothing appears here).
+- Question (tbishaw-stat6250): why would we need to use the LIBNAME statement as we are writing a program?
 
 
 
@@ -136,6 +141,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): We can use column input to read fields in any order.
 - *Question* (xyin6-stat6250): When should we use INPUT statement?
 - *Answer* (xyin6-stat6250): The INPUT statement describes the fields of raw data to be read and placed into the SAS data set.
+- Question (tbishaw-stat6250): What is a fileref and what are the criterias for implementing for the fileref name? 
+- Answer (tbishaw-stat6250): fileref is a name you assoiate wit han external file and the name must be 1 to 8 characters long. And the name has to also begin with a letter or underscore, and contain only letters, numerals, or underscores.
 
 
 
@@ -163,6 +170,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): Does subsetting DATA create a new file with the conditional data or make changes to the original file?
 - Question (lsun20-stat6250): Does the new variable Income need a new name, such as Income_1, which is different from the original one?
 - *Question* (xyin6-stat6250): What is the format of re-defining a variable? (numeric value)
+- Question (tbishaw-stat6250): When do you use a subsetting IF statment? 
 
 
 
@@ -195,6 +203,8 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (xyin6-stat6250): What is happening during the compilation phase?
 - *Answer* (xyin6-stat6250): During the compilation phase, each statement is scanned for syntax
 errors. Most syntax errors prevent further processing of the DATA step. When the compilation phase is complete, the descriptor portion of the new data set is created.
+- Question (tbishaw-stat6250): How is a SAS DATA step processed? 
+- Answer (tbishaw-stat6250): A SAS DATA step is processed in two phases: Compilation Phase and Execution Phase.
 
 
 
@@ -221,6 +231,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Answer*(kamirneni-stat6250): It is the area of memory where SAS holds one observation at a time.
 - Question (lsun20-stat6250): Why the invalid option or variable name should be considered as a syntax error? 
 - *Question* (xyin6-stat6250): What are typical types of syntax errors?
+- Question (tbishaw-stat6250): What is stored in the program data vector afeter the input buffer is created?
 
 
 
@@ -246,6 +257,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question*(kamirneni-stat6250): After the end of DATA step, why variable values in the program data vector are re-set to missing?
 - Question (lsun20-stat6250): When the DATA step will executes?
 - *Question* (xyin6-stat6250): Is the descriptor portion of the SAS data created after the program data vector being created or before?
+- Question (tbishaw-stat6250): What are some examples of some syntax errors?
+- Answer (tbishaw-stat6250): Missing or misspelled keywords, invalid variable names, missing or invalid punctuation, and invalid options.
 
 
 
@@ -273,6 +286,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question*(kamirneni-stat6250): Why are there exceptions for SAS to set value of variable missing in DATA statement at beginning of each cycle of execution? What happens if the exceptions are ignored?
 - Question (lsun20-stat6250): Why the answer is "missing"?
 - *Question* (xyin6-stat6250): What statement is the next after defining the _N_ & _ERROR_ values?
+- Question (tbishaw-stat6250): What are included in the descriptor portion of the SAS data set?
 
 
 
@@ -299,6 +313,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question*(kamirneni-stat6250): How do PROC FREQ and PROC MEANS filter invalid data?
 - Question (lsun20-stat6250): Is the value of the automatic variable_ERROR_ calculate by times?
 - *Question* (xyin6-stat6250): What is the value of variable _ERROR_ at the end of the DATA step?
+- Question (tbishaw-stat6250): How many times does the dATA step execute for each record in the input file? What are the exceptions?
+- Answer (tbishaw-stat6250): The DATA step executes once for each record in the inut file, unless otherwise directed by an additional statements.
 
 
 
@@ -322,6 +338,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - *Question*(kamirneni-stat6250): Is it efficient to delete observations which have invalid data instead of correcting them?
 - Question (lsun20-stat6250): What is descriptor portion of the data set?
 - *Question* (xyin6-stat6250): When reading variables from a SAS data set,does SAS sets the vaues to missing first?
+- Question (tbishaw-stat6250): How can you detect common errors and save development time? 
+- Answer (tbishaw-stat6250): You can use the OBS= option in the INFILE statement to limit the number o observations that are read or created during the DATA step. 
 
 
 
@@ -348,6 +366,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Question*(kamirneni-stat6250): Which is more efficient in loading data from disk, PDV in SAS or R/SQL, considering time and size of data?
 - Question (lsun20-stat6250): Is there any limit number of column from the data set?
 - *Question* (xyin6-stat6250): If the variable appears in retain, does it have to be in the keep statement?
+- Question (tbishaw-stat6250): Is there a way to tell SAS which rows and columns to include in a newly created data set? If so how?
 
 
 
@@ -374,5 +393,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - *Answer*(kamirneni-stat6250): it can also be used as a substitute for proc means, proc freq, and many other proc statements with the right syntax to make the code and dataset result more efficient.
 - Question (lsun20-stat6250): Is there any limitation of the column name? Such as can not end as a number?
 - *Question* (xyin6-stat6250): Other than "Select", what other command does PROC SQL have that is convenience for data manipulation steps?
+- Question (tbishaw-stat6250): What is the Program Data Vector (PDV) and how is it used in SAS?   
+- Answer (tbishaw-stat6250): PDV is one of the most complex parts of using SAS and takes a lot of practice. PDV is one of the main features of SAS, and it allows SAS to read datasets one record at a time. 
 
 
