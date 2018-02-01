@@ -47,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (ljiang11-stat6250): FILENAME.
 - *Question* (aacharya4−stat6250): To read a external raw data file, what are the instructions that DATA step must provide?
 - *Answer* (aacharya4−stat6250):Location of the external file, name of new SAS data set, reference to locate external file, description of data values.
+- *Question* (cnguyen77-stat6250): Which SAS statement can be used to reference an external file?
+- *Answer* (cnguyen77-stat6250): You assign a fileref by using a FILENAME statement in the same way that you assign a libref by using a LIBNAME statement.
 
 
 
@@ -84,6 +86,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (ljiang11-stat6250): Is fileref only active in the current session?
 - *Question* (aacharya4−stat6250): Are LIBNAME and FILNENAME statements global in SAS?
 - *Answer* (aacharya4−stat6250): Yes, LIBNAME and FILNENAME statements are global in SAS.
+- *Question* (cnguyen77-stat6250): When does fileref remain in effect?
+- *Answer* (cnguyen77-stat6250): Like LIBNAME statements, FILENAME statements are global; they remain in effect until you change them, cancel them, or end your SAS session.
 
 
 
@@ -122,6 +126,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (ljiang11-stat6250): Will the variable name take from input statement?
 - *Question* (aacharya4−stat6250): What is the purpose of the INPUT statement in SAS?
 - *Answer* (aacharya4−stat6250): The input statement creates variables in the SAS dataset as per the names, types and number of fields as mentioned in the INPUT statement.
+- *Question* (cnguyen77-stat6250): What does the dollar sign ($) in INPUT statement mean?
+- *Answer* (cnguyen77-stat6250): The dollar sign ($) identifies the variable type as character (if the variable is numeric, then nothing appears here).
 
 
 
@@ -156,6 +162,8 @@ The instructor will then review the pull request and make comments should furthe
 * Question (ljiang11-stat6250): Why Price has no dollar sign following? Do we not want it to be a character value?
 - *Question* (aacharya4−stat6250): How can we distinguish between a character variable and numeric variable in INPUT statement?
 - *Answer* (aacharya4−stat6250): The character variables are followed by a '$' in INPUT statements while numeric variables are not.
+- *Question* (cnguyen77-stat6250): Is it necessary to read fields in an order when using column input?
+- *Answer* (cnguyen77-stat6250): You can use column input to read fields in any order. You must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field.
 
 
 
@@ -188,6 +196,8 @@ The instructor will then review the pull request and make comments should furthe
 * Answer (ljiang11-stat6250): 100% higher means double of the original.
 - *Question* (aacharya4−stat6250): What is used as an assignment operator in SAS?
 - *Answer* (aacharya4−stat6250): The '=' is used as an assignment operator in SAS.
+- *Question* (cnguyen77-stat6250): How to re-define the values of a variable in an assignment statement?
+- *Answer* (cnguyen77-stat6250): To re-define the values of a variable in an assignment statement, you specify the variable name on the left side of the equal sign and an appropriate expression including the variable name on the right side of the equal sign.
 
 
 
@@ -224,6 +234,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Answer (tbishaw-stat6250): A SAS DATA step is processed in two phases: Compilation Phase and Execution Phase.
 * Question (ljiang11-stat6250): When is the first observation created?
 - *Question* (aacharya4−stat6250): What are the automatic variables of Program Data Vector (PDV)?
+- *Question* (cnguyen77-stat6250): When is the descriptor of the new SAS data set created?
+- *Answer* (cnguyen77-stat6250): The descriptor portion of the new SAS data set is created at the end of the compilation phase. The descriptor portion includes the name of the data set, the number of observations and variables, and the names and attributes of the variables. Observations are not written until the execution phase.
 
 
 
@@ -254,6 +266,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 * Question (ljiang11-stat6250): Why SAS cannot detect incorrect format?
 - *Question* (aacharya4−stat6250): What constitutes syntax errors that are checked during compilation phase?
 - *Answer* (aacharya4−stat6250): Synatax error include invalid variable names/options, missing or invalid punctuation, missing or misspelled words.
+- *Question* (cnguyen77-stat6250): What are the common errors that a syntax checking can identify?
+- *Answer* (cnguyen77-stat6250): Syntax checking can detect many common errors including invalid options or variable names, missing or invalid punctuation, missing or misspelled keywords. However, it cannot verify the values of variables or the correctness of formats.
 
 
 
@@ -285,6 +299,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 * Answer (ljiang11-stat6250): It executes one record and iterate back to excute the second one.
 - *Question* (aacharya4−stat6250): What is the difference when DATA step reads data raw data as compared to reading from a SAS dataset?
 - *Answer* (aacharya4−stat6250): When DATA step reads data raw data, SAS reads each record of the data in an input buffer as compared to SAS dataset, in that case SAS reads directly into Program Data Vector.
+- *Question* (cnguyen77-stat6250): When are records in the input raw data file written to the new data set as observations?
+- *Answer* (cnguyen77-stat6250): During execution, each record in the input raw data file is read into the input buffer, copied to the program data vector, and then written to the new data set as an observation. The DATA step executes once for each record in the input file, unless otherwise directed by additional statements.
 
 
 
@@ -316,6 +332,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 * Question (ljiang11-stat6250): Why at the beginning of the execution phase, the variables that aren't executed are set to missing?
 - *Question* (aacharya4−stat6250): What happens to the automatic variable 'N' of program data vector with each iteration of the DATA step?
 - *Answer* (aacharya4−stat6250): With each iteration of the DATA step, the automatic variable 'N' is increamented by 1.
+- *Question* (cnguyen77-stat6250): What are the values of the remaining variables set to at the beginning of the execution phase?
+- *Answer* (cnguyen77-stat6250): The remaining variables are initialized to missing. Missing numeric values are represented by periods, and missing character values are represented by blanks.
 
 
 
@@ -348,6 +366,8 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 * Answer (ljiang11-stat6250): It will display 1 when there are 1 or more errors.
 - *Question* (aacharya4−stat6250): What is the default value of automatic variable 'ERROR' of Program Data Vector(PDV)? 
 - *Answer* (aacharya4−stat6250): The default value of 'ERROR' variable of PDV is 0. This indicates no error, which changes to 1 in case error occurs in data execution.
+- *Question* (cnguyen77-stat6250): What is the value of the automatic variable_ERROR_ when multiple errors occur?
+- *Answer* (cnguyen77-stat6250): The default value of _ERROR_ is 0, which means there is no data error. When an error occurs, whether one error or multiple errors, the value is set to 1.
 
 
 
@@ -375,6 +395,7 @@ errors. Most syntax errors prevent further processing of the DATA step. When the
 - Answer (tbishaw-stat6250): You can use the OBS= option in the INFILE statement to limit the number o observations that are read or created during the DATA step. 
 * Question (ljiang11-stat6250): Why is the values in PDV reset to missing?
 - *Question* (aacharya4−stat6250): When is descriptor information created during compilation phase of SAS program?
+- *Question* (cnguyen77-stat6250): What happens at the beginning of an iteration of the DATA step?
 
 
 
@@ -405,7 +426,8 @@ This way, when you call out the dataset, it won't cause any confusions.
 * Question (ljiang11-stat6250): Why SAS reading data by each record imply it can deal with big data? Can it store arbitrarily large amount of data?
 * Question (ljiang11-stat6250): Does the values in retain statement need to be exact the same as the values in keep statements?
 - *Question* (aacharya4−stat6250): What is the purpose of keeping the same set of columns in the retain and keep statement?
- 
+- *Question* (cnguyen77-stat6250): What is the difference between retain and keep statements?
+
 
 
 [adv_recipe_for_creating_analytic_datasets Week 5 Recipe]
@@ -437,6 +459,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 * Question (ljiang11-stat6250): Does PROC SQL's SELECT has the similar function as RETAIN and KEEP statements in DATA STEP?
 - *Question* (aacharya4−stat6250): What is the difference between loading data using PROC SQL statement instead of using DATA step using RETAIN and KEEP statements?
 - *Answer* (aacharya4−stat6250): When PROC SQL statement is used to load data, it loads all records of a dataset into the memory from the memory at one go. In case of DATA step, records are loaded into the memory one by one from disk.
+- *Question* (cnguyen77-stat6250): What are the pros of using Proc sql in SAS?
 
 
 
