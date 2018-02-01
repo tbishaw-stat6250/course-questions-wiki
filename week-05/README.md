@@ -15,7 +15,6 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 5, Problem 1]
-
 - *Question* (jcanfield3-stat6250): Since we are defining filerefs, why is the command Filename instead of fileref?
 - *Question* (akrishnamurthy-stat6250): How to associate a fileref to multiple external files? How to access specific files from a directory?
 - *Answer* (akrishnamurthy-stat6250): The FILENAME can associate a fileref to a directory that contains multiple files. A specific file from the directory can then be referenced using the fileref followed by the individual filename in paranthesis.
