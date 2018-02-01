@@ -36,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What is the difference for FILENAME and LIBNAME?
 - *Answer* (ldai4-stat6250): FILENAME statement can be used to point to external raw file; LIBNAME is used to assign a libref.
 - Question (ldeng11−stat6250): When you refrencing a raw data file, you use the absulut file path, what you need to do if the raw data file is not saved in your local machine?
+- Question(pcheng14-stat6250):When should we use the fileref Crime with the raw data as our SAS statement?
 
 
 
@@ -61,6 +62,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What is fileref? Is the function of fileref same as libref’s?
 - Question (ldeng11−stat6250): What do the LIBNAME and FILENAME statements are global mean?
 - Answer (ldeng11−stat6250): It means once the program excuted these statements, they are remain effect until you change them, cancel them, or end your SAS session.
+- Question(pcheng14-stat6250):Are FILENAME statements global?
+- Answer(pcheng14-stat6250):Yes, they are.
 
 
 
@@ -89,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): The INPUT statement creates a Variable using the name that we assign to each field. There, when we write an INPUT statement, we need to specify the variable names exactly as we want them to appear in the SAS dataset.
 - Question (ldeng11−stat6250): What is $ mean in the INPUT statement?
 - Answer (ldeng11−stat6250): The dollar sign ($) identify the variable type as character; if the variable is numeric, then you don't need to anything.
+- Question(pcheng14-stat6250):Have any other program can create the PROC PRINT same output?
 
 
 
@@ -111,6 +115,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): If you wanted to name a new variable NewBalance, when do you need to specify it in the exact case you wanted stored and when can you specify the name in uppercase, lowercase, or mixed case?
 - *Question* (ldai4-stat6250): Which variable need to add a $ before the name in using column input to read fields in any order?
 - Question (ldeng11−stat6250): What you need to do if you want to read the raw data in your own order, not follow the order saved in the raw data file?
+- Question(pcheng14-stat6250):In order to  correctly reads the fields, do we must specify the variable name, identify character variables with a $, and specify the correct starting and ending column for each field?
+- Answer(pcheng14-stat6250):We do.
 
 
 
@@ -133,6 +139,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): When you use more than one arithmetic operator in an expression, how do you control the order of operations?
 - *Question* (ldai4-stat6250): How can we re-define the value of the variable?
 - Question (ldeng11−stat6250): How do you correctly use the operators in SAS expression?
+- Question(pcheng14-stat6250):When shoudl we re-defines the values?
+- Answer(pcheng14-stat6250):Depends on quesion or situation, if the question need to re-defines values.
 
 
 
@@ -158,6 +166,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (ldai4-stat6250): How is the program data vector created during the compilation phase?
 - *Answer* (ldai4-stat6250): During the compilation, the program data vector includes the two automatic variables_N_and_ERROR_. The descriptor portion of the new SAS data set is created at the end of the compilation phase. Observations are not written until the execution phase.
 - Question (ldeng11−stat6250): What will happen during the compilation phase?
+- Question(pcheng14-stat6250):Why "the program data vector" is created during the compilation phase?
 
 
 
@@ -179,6 +188,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): What happens when SAS finds a syntax error during the compilation phase?
 - *Question* (ldai4-stat6250): What is a syntax error in SAS?
 - Question (ldeng11−stat6250): What are the syntax errors?
+- Question(pcheng14-stat6250):Besdies verify the values of variables or the correctness of formats, what else errors Syntax checking can't detect?
 
 
 
@@ -200,6 +210,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): A raw data file with 20 records on the file executes how many times during the DATA step? 
 - *Question* (ldai4-stat6250): How does the DATA step work?
 - Question (ldeng11−stat6250): During the execution phase, how the DATA step works?
+- Question(pcheng14-stat6250):Why DATA step executes only once for each record in the input file?
 
 
 
@@ -223,6 +234,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Answer* (ldai4-stat6250): Missing numeric values are represented by periods, and missing character values are represented by blanks.
 - Question (ldeng11−stat6250): At the beginning of the execution phase, why the value of _N_ is 1, the value of _ERROR_ is 0, and what are the values of the remaining variables?
 - Answer (ldeng11−stat6250): Because at the beginning of the execution phase, we are reading the first observation, and there is no error sofar, so the value of _N_ is 1, the value of _ERROR_ is 0, and the values of the remainning variables are setting to missing.
+- Question(pcheng14-stat6250):Why missing numeric values are represented by periods, and missing character values are represented by blanks?
 
 
 
@@ -245,6 +257,7 @@ proc contents data=‟libref‟.dataset; run;
 - *Question* (ldai4-stat6250): In program data vector, what does error 1 represent?
 - *Answer* (ldai4-stat6250): Error signals are caused by the data during execution. The default value is 0, which means there is no error. When one or more errors occur, the value is set to 1.
 - Question (ldeng11−stat6250): What is the value of _ERROR_ if you have three errors? 
+- Question(pcheng14-stat6250):How many times errors can be happened during running a program? 
 
 
 
@@ -264,6 +277,7 @@ proc contents data=‟libref‟.dataset; run;
 - Question (aguenane−stat6250): Why are the values of variables in the program data vector created in programming statements reset to missing at the end of the DATA step?
 - *Question* (ldai4-stat6250): What action occurs at the end of the DATA step?
 - Question (ldeng11−stat6250): What will happen during the DATA step?
+- Question(pcheng14-stat6250):Why the automatic variable _ERROR_ is reset to 0 if necessary?
 
 
 
@@ -286,6 +300,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question (aguenane−stat6250): Even though it looks redundant to have the same variables in both the RETAIN and KEEP statements, why is this necessary?
 - *Question* (ldai4-stat6250): How can we read a remote excel file in the SAS?
 - Question (ldeng11−stat6250): What is the difference between retain and keep staments?
+- Question(pcheng14-stat6250):Is any other way can tell SAS which rows and columns to include in a newly created dataset?
 
 
 
@@ -307,6 +322,7 @@ This way, when you call out the dataset, it won't cause any confusions.
 - Question (aguenane−stat6250): Even though PROC SQL requires less code (since it uses the select clause to combine the functions of the RETAIN and KEEP statements), when are the times when you want to use PROC SQL and when are the times you would want to use the regular DATA step?
 - *Question* (ldai4-stat6250): How can we recover the right format of date for downloaded Excel file in SAS? 
 - Question (ldeng11−stat6250): What are the advantages and the disadvantages when using PROC SQL?
+- Question(pcheng14-stat6250):Why many SAS programmers rely on proc sql for the bulk of their data manipulation tasks?
 
 
 
