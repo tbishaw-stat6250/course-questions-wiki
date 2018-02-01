@@ -47,6 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): To define a format for displaying one or more values for a specific output.
 - Question (tbishaw-stat6250): What format is a PROC FORMAT stored in? And what happens if the SAS libary does not contain a fomrat catalog?   
 - Answer (tbishaw-stat6250): Anytime a PROC FORMAT is uese to create a format, the format is stored in a format catlog. If the SAS libary does not already contain a fortmat catalog, SAS automatically creates one.  
+- *Question* (cnguyen77-stat6250): What are the rules to name a format with VALUE statement?
 
 
 
@@ -83,6 +84,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What will happen if I just format part of a variable's values, not all of them?
 - *Answer* (xyin6-stat6250): Those that are not listed in the VALUE statement are printed as they appear in the SAS dataset, (in the original format of characters/numbers)
 - Question (tbishaw-stat6250): How do you specify a non-inclusive range of numeric values to avoid overlapping?   
+- *Question* (cnguyen77-stat6250): Is it necessary to have a semicolon after the PROC FORMAT statement and VALUE statement?
+- *Answer* (cnguyen77-stat6250): A semicolon is needed after the PROC FORMAT statement. The VALUE statement begins with the keyword VALUE and ends with a semicolon after all the labels have been defined.
 
 
 
@@ -116,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): The keyword OTHER can be used to lable missing values, and we can label it 'unknown'.
 - Question (tbishaw-stat6250): What order does SAS search for the fromat JOBFMT in the two libraries?   
 - Answer (tbishaw-stat6250): SAS seraches for the temporary libary refrence by the libref Work and then the permanent libary refernced by the by the libref Library. 
+- *Question* (cnguyen77-stat6250): Can ranges in the VALUE statement specify a list of numeric and character values separated by commas?
+- *Answer* (cnguyen77-stat6250): You can list values separated by commas, but the list must contain either all numeric values or all character values. Data set variables are either numeric or character.
 
 
 
@@ -147,6 +152,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): WHen to use two single quotation marks in the label?
 - Question (tbishaw-stat6250): Is there a difference between placing the FORMAT statement in either a DATA step or a PROC step?   
 - Answer (tbishaw-stat6250): When placing the Format statement in a DATA step, you can permananetly associate a format with a variable. 
+- *Question* (cnguyen77-stat6250): Is there any limitation for the number of characters of a label?
+- *Answer* (cnguyen77-stat6250): When specifying a label, enclose it in quotation marks and limit the label to 256 characters.
 
 
 
@@ -179,6 +186,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): How to difine several formats in one proc format statement?
 - Question (tbishaw-stat6250): What are the key steps to remember when associating a format with a variable?  
 - Answer (tbishaw-stat6250): You have to use the same format name in the FORMAT statement that you specified in the VALUE statement. And you have to place a period at the end of the format name when it is used in the FORMAT statement.  
+- *Question* (cnguyen77-stat6250): How to label missing numeric values as well as any values that are not specified in a range?
+- *Answer* (cnguyen77-stat6250): The keyword OTHER can be used in the VALUE statement to label missing values as well as any values that are not specifically included in a range.
 
 
 
@@ -208,6 +217,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What happens when you place the FORMAT statement in a PROC step?
 - *Question* (xyin6-stat6250): Do we have to reference the location of the format cataloh each time in the DATA pr PROC step?
 - Question (tbishaw-stat6250): Why is it necessary to add the key word FMTLIB to the PROC FORMAT statement when you're building a large catalog of permanent formats? 
+- *Question* (cnguyen77-stat6250): Can FORMAT statement be used in a DATA step?
+- *Answer* (cnguyen77-stat6250): Yes. By placing the FORMAT statement in a DATA step, you permanently associate the defined format with variables.
 
 
 
@@ -247,6 +258,8 @@ run;
 - *Answer* (xyin6-stat6250): use the sub-statement statistic-keywords to specify the statistics to compute.
 - Question (tbishaw-stat6250): What actions does the BESTw. format perform?    
 - Answer (tbishaw-stat6250): The BESTw. format is the default format that SAS uses for writing numeric values. When there is no format specification, SAS chooses the format that provides the most informaiton about the value accorind to the avaible field width. 
+- *Question* (cnguyen77-stat6250): What are included in the output of PROC MEANS?
+- *Answer* (cnguyen77-stat6250): By default, the MEANS procedure produces the n, mean, minimum, maximum, and standard deviation.
 
 
 
@@ -278,6 +291,8 @@ run;
 - Question (lsun20-stat6250): What is the usage of this statement? 
 - *Question* (xyin6-stat6250): What if we want to add a number range of variables?
 - Question (tbishaw-stat6250): What are CLASS variable used for? And are CLASS variables characters or numbers?  
+- *Question* (cnguyen77-stat6250): How to specify the variables that PROC MEANS analyzes?
+- *Answer* (cnguyen77-stat6250): To specify the variables that PROC MEANS analyzes, add a VAR statement and list the variable names.
 
 
 
@@ -308,6 +323,8 @@ run;
 - Answer (lsun20-stat6250): The most common use of BY-group processing in the DATA step is to combine two or more SAS data sets using a BY statement with a SET, MERGE, MODIFY, or UPDATE statement.
 - *Question* (xyin6-stat6250): Is OUT= option necessary in sorting data sets when we try to enable group processing?
 - Question (tbishaw-stat6250): What is the key difference between BY and CLASS variables?  
+- *Question* (cnguyen77-stat6250): What is the key difference between CLASS and BY processing?
+- *Answer* (cnguyen77-stat6250): Unlike CLASS processing, BY group processing requires that your data already be indexed or sorted in the order of the BY variables. You might need to run the SORT procedure before using PROC MEANS with a BY group.
 
 
 
@@ -342,6 +359,8 @@ run;
 - *Question* (xyin6-stat6250): How many columns are there in the one-way table produced by PROC FREQ by default?
 - Question (tbishaw-stat6250): How can you create an output SAS data set?  
 - Answer (tbishaw-stat6250): You can create an output SAS data set using the OUTPUT statemnt in PROC MEANS.  
+- *Question* (cnguyen77-stat6250): Does PROC FREQ creates a table of frequencies and percentages for character variables or numeric variables?
+- *Answer* (cnguyen77-stat6250): Both character and numeric variables. By default, PROC FREQ creates a table for all variables in a data set.
 
 
 
@@ -368,6 +387,8 @@ run;
 - Question (lsun20-stat6250): Why the frequency distributions works best with categorical values?
 - *Question* (xyin6-stat6250): What kind of variable is unsuitable for PROC FREQ processing and why?
 - Question (tbishaw-stat6250): What is the FREQ proceduce used for?   
+- *Question* (cnguyen77-stat6250): When is the best case to use frequency distributions?
+- *Answer* (cnguyen77-stat6250): Frequency distributions work best with categorical values.
 
 
 
@@ -399,6 +420,8 @@ run;
 - *Question* (xyin6-stat6250): What is NOFREQ, NOROW, and NOCO options?
 - Question (tbishaw-stat6250): When do you add the NOCUM option to your TABLES statement?  
 - Answer (tbishaw-stat6250): Adding the NOCUM option to your TABLES statement suproessed the display of cumlative frequenceis and cumaltive percentages in one-way frequency tables and in list output.  
+- *Question* (cnguyen77-stat6250): How to join the variables in crosstabulation tables?
+- *Answer* (cnguyen77-stat6250): An asterisk is used to join the variables in crosstabulation tables.
 
 
 
@@ -428,6 +451,8 @@ run;
 - *Question* (xyin6-stat6250): Should we use keyword "other" to define missing values or just define a specific name as the video shown?
 - Question (tbishaw-stat6250): What are the two basic statstical PROCS in SAS?   
 - Answer (tbishaw-stat6250): PORC MEANS along with PROC FREQ are the two basic stastical PROCS in SAS and they cover most cases for explanatory data analysis. 
+- *Question* (cnguyen77-stat6250): What are the two most basic statistical procs in SAS?
+- *Answer* (cnguyen77-stat6250): Proc mean and proc means are the two most basic statistical procs in SAS.
 
 
 
@@ -458,6 +483,7 @@ run;
 - *Question* (xyin6-stat6250): How is MISSING NOFREQ, NOROW NOCO option different from directly apply them after "/"?
 - Question (tbishaw-stat6250): How can you specify the variables to include in PROC MEANS output?
 - Answer (tbishaw-stat6250): In order to specify the varibles to include in PROC MEANS output, you have to list them in a VAR statment. 
+- *Question* (cnguyen77-stat6250): What is the nlevels used for in proc freq?
 
 
 
@@ -489,6 +515,7 @@ run;
 - *Question* (xyin6-stat6250): How to permanently associate a format with a variable in the DATA step?
 - Question (tbishaw-stat6250): How do you supress table information?
 - Answer (tbishaw-stat6250): You can supress the display of specific statistics by adding one or more options to the TABLES statement, such as: NOFREQ supresses cell frequencies, NOPRECENT supresses cell percentages, NOROW supresses row percentages, and NOCOL supresses column percentages. 
+- *Question* (cnguyen77-stat6250): How to group values in a SAS dataset without changing the underlying values in the dataset?
 
 
 
