@@ -162,6 +162,7 @@ The instructor will then review the pull request and make comments should furthe
  
 
 
+
 [Course Textbook Chapter 7, Problem 7]
 - *Question* (shatcher4-stat6250): What does the keyword LOW do when applied to a character format?
 - Question(pcheng14-stat6250): What is the meaning of “OTHER” in keyword?
@@ -406,6 +407,7 @@ run;
   
 
 
+
 [Course Textbook Chapter 8, Problem 10]
 - *Question* (shatcher4-stat6250): How do you create a two-way frequency table?
 - *Answer* (shatcher4-stat6250): Join two variables with an asterisk in the TABLES statement of a PROC FREQ step.
@@ -537,5 +539,6 @@ run;
 - *Question* (cnguyen77-stat6250): How to group values in a SAS dataset without changing the underlying values in the dataset?
 - *Question* (sbagdi-stat6250): What difference does low and high options make for discrete and continuous quantitative variables? 
 - *Answer* (sbagdi-stat6250): The low and high options in general are used to avoid the edge cases. In particular, for discrete quant variables, the explicit ranges of variables are associated with bin values and for continuous variables, the ranges of variables is implicit.  
+
 
 
