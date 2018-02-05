@@ -15,37 +15,49 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 12, Problem 1]
+- *Question* (shatcher4-stat6250): What are the different methods of merging?
+- *Answer* (shatcher4-stat6250): The methods of merging are one-to-one reading, concatenating, appending, interleaving, and match-merging
 
 
 
 [Course Textbook Chapter 12, Problem 2]
+- *Question* (shatcher4-stat6250): What happens when a program concatenates data sets?
 
 
 
 [Course Textbook Chapter 12, Problem 3]
+- *Question* (shatcher4-stat6250): How do you concatenate data sets?
+- *Answer* (shatcher4-stat6250): You must use the SET statement to append the observations from one data set to another data set by specifying a list of data set names in the statement.
 
 
 
 [Course Textbook Chapter 12, Problem 4]
+- *Question* (shatcher4-stat6250): When concatenating data sets, what would cause an error message?
 
 
 
 [Course Textbook Chapter 12, Problem 5]
+- *Question* (shatcher4-stat6250): How are unmatched observations and missing values handled during the match-merge process?
 
 
 
 [Course Textbook Chapter 12, Problem 7]
+- *Question* (shatcher4-stat6250): What happens when you have same-named variables in more than one input data set?
 
 
 
 [Course Textbook Chapter 12, Problem 9]
+- *Question* (shatcher4-stat6250): What does the IN= data set option do in excluding unmatched observations?
+- *Answer* (shatcher4-stat6250): It creates and names a variable that indicates whether the data set contributed data to the current observations.
 
 
 
 [basic_recipe_for_combining_data_horizontally Week 6 Recipe]
+- *Question* (shatcher4-stat6250): In match-merging why is a merge and by statement required?
 
 
 
 [adv_recipe_for_combining_data_horizontally Week 6 Recipe]
+- *Question* (shatcher4-stat6250): What are the tradeoffs in combining datasets using proc sql?
 
 
