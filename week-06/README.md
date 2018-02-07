@@ -15,37 +15,49 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 12, Problem 1]
+- Question (who7-stat6250): Is there a way to combine 2 datasets using if loop in the proc statement?
 
 
 
 [Course Textbook Chapter 12, Problem 2]
+- Question (who7-stat6250): Why would SAS use a formatting method to differentiate different combining method instead of using a command word?
 
 
 
 [Course Textbook Chapter 12, Problem 3]
+- Question (who7-stat6250): What happens when columsn from 2 datasets have the same column name but different properties?
+- Answer (who7-stat6250): Depends on how you merge the datasets.  If you are just appending them, it would just add the 2nd dataset to the 1st dataset.
 
 
 
 [Course Textbook Chapter 12, Problem 4]
+- Question (who7-stat6250): Is there a way to combine datasets by adding columns instead of adding it by row?
+- Answer (who7-stat6250): Yes, you can use the BY statement to merge 2 datasets by using common unique key to combine the datasets horizontally.
 
 
 
 [Course Textbook Chapter 12, Problem 5]
+- Question (who7-stat6250): If interleaving datasets will overwrite value that is the same, what happens if one is integer and one is decimal?
 
 
 
 [Course Textbook Chapter 12, Problem 7]
+- Question (who7-stat6250): What is the preferred method to avoid overwriting? using rename or some other way?
 
 
 
 [Course Textbook Chapter 12, Problem 9]
+- Question (who7-stat6250): Would there be other ways to combine data besides using merge method?
+- Answer (who7-stat6250): Yes, you can merge datasets by useing proc sql.
 
 
 
 [basic_recipe_for_combining_data_horizontally Week 6 Recipe]
+- Question (who7-stat6250): Given using proc sql would use less code to achieve the same result, would proc sql be considered advanced SAS programming?
 
 
 
 [adv_recipe_for_combining_data_horizontally Week 6 Recipe]
+- Question (who7-stat6250): How would the use of inner join and outer join in sql language affect the way the datasets are combined in proc sql?
 
 
