@@ -42,21 +42,21 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 12, Problem 7]
-- Question (lceballos-stat6250): 
+- Question (lceballos-stat6250): Can you use the IN statement for several variables at a time?
 
 
 
 [Course Textbook Chapter 12, Problem 9]
-- Question (lceballos-stat6250): 
-
+- Question (lceballos-stat6250): How do you merge using an ID?
+- Answer (lceballos-stat6250): Using the BY statement.
 
 
 [basic_recipe_for_combining_data_horizontally Week 6 Recipe]
-- Question (lceballos-stat6250): 
+- Question (lceballos-stat6250): Performance wise, is the PROC SQL method more effient?
 
 
 
 [adv_recipe_for_combining_data_horizontally Week 6 Recipe]
-- Question (lceballos-stat6250): 
+- Question (lceballos-stat6250): How does the "AS" Statement make the code easier to read or work with?
 
 
