@@ -51,6 +51,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): Using the BY statement.
 
 
+
 [basic_recipe_for_combining_data_horizontally Week 6 Recipe]
 - Question (lceballos-stat6250): Performance wise, is the PROC SQL method more effient?
 
