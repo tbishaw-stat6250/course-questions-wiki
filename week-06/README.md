@@ -42,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): Since SAS processes data row by row, the DATA step processing stops when the smaller data set reaches an end-of-file.
 - *Question* (jbettonville-stat6250): Can more than two SET statements be used in a single DATA step to combine records from more than two data sets?
 - *Answer* (jbettonville-stat6250): Yes, multiple data sets can be combined at once.
+- Question (ldeng11−stat6250): What would happen if the two datasets have different number of observations, and have contain the variables have the same name when you use one-to-one reading?
+- Answer (ldeng11−stat6250): The new data set will have all the values from the samllest data set; and the value of the variable will be the last read data set.
 
 
 
@@ -66,6 +68,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Why isn't it necessary to first sort data prior to concatenating data sets?
 - *Answer* (cli19−stat6250): SAS checks sequentially if key indicators match in a MERGE statement to combine rows, so sorting the data prior to a merge is required. For concatenating data sets, sorting isn't necessary since SAS essentially stacks the listed data sets and doesn't need to pair data sets by key indicators.
 - *Question* (jbettonville-stat6250): When using BY to interleave multiple data sets, can we apply the DESCENDING keyword to change the order in which the resulting data set is sorted?
+- Question (ldeng11−stat6250): How many onbervations will the end data set have after the interleaving process?
+- Answer (ldeng11−stat6250): The new data set have all the variables from all the input data sets, and the total number of observations are the sum of the input data sets.
 
 
 
@@ -93,6 +97,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):In concatenating reading, if two dataset have different types attributes, how would two datasets be combined?
 - *Question* (cli19−stat6250): Is it possible to concatenate data sets and keep common variables only?
 - *Question* (jbettonville-stat6250): Can data be sorted in the same step as it is concatenated (perhaps by using a BY statement), or does sorting require a separate step?
+- Question (ldeng11−stat6250): How concatenating the data set process work?
 
 
 
@@ -115,6 +120,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): How does SAS determine the length of different variables when concatenating data sets?
 - *Answer* (cli19−stat6250): SAS takes the attribute from the first data set that contains the variable with that attribute. If the greatest length of varaibles is known, it's best to state it (using length or format) to avoid truncation.
 - *Question* (jbettonville-stat6250): Is it possible to exclude specific variables while concatenating two or more data sets?
+- Question (ldeng11−stat6250): What would happen if all the input data sets have the same variable name when you using the concatenating process?
 
 
 
@@ -139,6 +145,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): When merging two data sets by a key indicator, why do common variables from the second data set supercede the values from the first?
 - *Question* (jbettonville-stat6250): In the example provided in this problem, how would we keep Age variables from both data sets when merging on the SSN variable?
 - *Answer* (jbettonville-stat6250): In the MERGE statement, after the name of the data set containing the variable for which the name should be change, add a RENAME= option, as in (rename=(Age=LowerAge)) to change the Age variable in the second data set to a variable called LowerAge in the resulting output data set.
+- Question (ldeng11−stat6250): What would happen if the input data sets have the same viariable names other than the match merge column?
+- Answer (ldeng11−stat6250): The value from the later data set would overwrite the value of the forward data set in the same viariable column.
 
 
 
@@ -163,6 +171,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):If you want to prevent the variable being overwritten by the second dataset, do you rename the variable name of the first dataset or second dataset? 
 - *Question* (cli19−stat6250): When merging data sets, is there an expedient way to automatically rename variables with the same name to keep variables from both data sets?
 - *Question* (jbettonville-stat6250): Can data combinations such as the examples listed in this chapter also be completed using PROC SQL statements?
+- Question (ldeng11−stat6250): If the input data sets have the same column, what you need to do to prevent the data be over write when you use the match merge process?
 
 
 
@@ -189,6 +198,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): This can also be accomplished by using a FULL JOIN in a PROC SQL step.
 - *Question* (jbettonville-stat6250): If the Name variables were not the same for each ID variable in these data sets, which value of Name would the resulting data set take for each ID?
 - *Answer* (jbettonville-stat6250): If the ID variable for both data sets matched but the Name variable in each data set was different for that ID number, the resulting data set would take on the Name variable of the second data set containing the given ID, because the PDV would take the second Name variable and overwrite the first Name variable before adding the new record to the output data set.
+- Question (ldeng11−stat6250): How the match merge process handle the unmatched observations?
 
 
 
@@ -214,6 +224,7 @@ used to fill in the PDV for each row to be included in output.
 - Answer(tchan49-stat6250):There BY statement in interleaving reading. 
 - *Question* (cli19−stat6250): From which data set being merged are labels kept when it comes to common variables?
 - *Question* (jbettonville-stat6250): Do KEEP statements have to list variables in the same order as RETAIN statements?
+- Question (ldeng11−stat6250): What does the rename statement do?
 
 
 
@@ -234,6 +245,7 @@ used to fill in the PDV for each row to be included in output.
 - Question(tchan49-stat6250): What are the advantages of using Proc SQL to create a merged table for two datasets?
 - *Question* (cli19−stat6250): How do DATA steps and PROC SQL compare computationally? Is one more intensive than the other?
 - *Question* (jbettonville-stat6250): When using PROC SQL to match-merge data sets, do the data sets first need to be sorted by the variables on which they are to be merged, as they do when performing a match-merge with a DATA step?
+- Question (ldeng11−stat6250): What is full join mean in SAS PROC SQL procedure? What are the differneces between PROC SQL and SQL language when joining the data? 
 
 
 
