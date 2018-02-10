@@ -26,6 +26,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): In one-to-one merging you can read different data sets, or you can read the same data set more than once, as if you were reading from separate data sets.  
 - Question (nshrivastava2-stat6250): How one-to-one reading data set works ?
 - Answer(nshrivastava2-stat6250): The first SET statement reads the first observation from the first data set into the program data vector. Then The second SET statement reads the first observation from the second data set into the program data vector and SAS writes the contents of the program data vector to the new data set. The value from second data set overwrites the value from first data set.  
+- Question (ttruong59-stat6250): What happen if the data sets contain variables that have the same names in term of One-to-One Reading?
+- Answer (ttruong59-stat6250): The value that are read from the last data set overwrite the values that were read from earlier data sets.
 
 
 
@@ -39,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What is the difference between appending and concatenating?   
 - Question (nshrivastava2-stat6250):To append the observations from one data set to another data set,what are the two ways to do that?
 - Answer(nshrivastava2-stat6250): Concatenating and appending are the two ways, by specifying the data set names in the SET statement and PROC APPEND procedure respectively.
+- Question (ttruong59-stat6250): According to the textbook, the result is interleaving if you use a BY statement when users concatenate data sets. What if users do not include a BY statement? Is it still considered as interleaving?
 
 
 
@@ -55,6 +58,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): If you use a BY statement when you concatenate data sets, the result is interleaving. Interleaving intersperses observations from two or more data sets, based on one or more common variables.
 - Question (nshrivastava2-stat6250): What is the requirement to append procedure?
 - Answer(nshrivastava2-stat6250): Only two data sets can be used at a time in one step. The observations in the base data set are not read whereas the variable information in the descriptor portion of the base data set cannot change. The final data set is the original data set with appended observations and that no new data set was created.
+- Question (ttruong59-stat6250): What does concatenating datasets mean?
+- Answer (ttruong59-stat6250): Concatenating datasets means stacking one dataset on top of the other. For example, given two datasets, records from the second dataset will be added to the end of the first one.
 
 
 
@@ -67,6 +72,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Why the concatenated data sets are read sequentially?
 - Question (tbishaw-stat6250): How does Match-Merging Select Data?   
 - Question (nshrivastava2-stat6250): What is the functionality of FORCE option in APPEND procedure ?
+- Question (ttruong59-stat6250): I see the correct answer from the textbook for problem 4 is “a” that means “missing" or the second observation in Sales.Rep does not contain a value for Sale, so a missing value appears for this variable. What about the first observation? Does a missing value appear for this variable as well?
 
 
 
@@ -80,6 +86,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What is the code format to renaming a variable in SAS?   
 - Answer (tbishaw-stat6250): RENAME=(old-variable-name=new-variable-name)
 - Question (nshrivastava2-stat6250): What is the difference between Interleaving and Conacatenate dataset?
+- Question (ttruong59-stat6250): What is a mechanism of SAS when users merge the datasets but have variables with the same name in more than one input dataset?
+- Answer (ttruong59-stat6250): Values of the same name variable in the second dataset will overwrite the values of the first one.
 
 
 
@@ -95,6 +103,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): If you do not reference the variable then you may get unexpected results and your variable will be uninitialized. 
 - Question (nshrivastava2-stat6250): How Interleaving Selects Data works?
 - Answer(nshrivastava2-stat6250): When SAS interleaves data sets, observations in each BY group in each data set in the SET statement are read sequentially, in the order in which the data sets and BY variables are listed, until all observations have been processed. The new data set includes all the variables from all the input data sets, and it contains the total number of observations from all input data sets.
+- Question (ttruong59-stat6250): What is a main reason users have to prevent the values of the variable from overwritten when merging two datasets that have a same-named variable?
 
 
 
@@ -109,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): Observations that have missing values for the BY variable appear at the top of the output data set.
 - Question (nshrivastava2-stat6250): Explian the match merging processing?
 - Answer(nshrivastava2-stat6250): When we submit a DATA step, it is processed in two phases: the compilation phase, in which SAS checks the syntax of the SAS statements and compiles them (translates them into machine code). During this phase, SAS also sets up descriptor information for the output data set and creates the program data vector (PDV), an area of memory where SAS holds one observation at a time. 
+- Question (ttruong59-stat6250): How does the DATA step perform or process match-merges? What happen if observations do not match?
 
 
 
@@ -123,6 +133,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): You use a RETAIN statement to specify column order in the output data set. 
 - Question (nshrivastava2-stat6250): In match merging, when we are trying to merge two files BY variables. In case of character variables, what happen when variables from one dataset has different case? 
 - Answer(nshrivastava2-stat6250): The SAS match-merge is case sensitive. In such case an upper-case letter form one data set will not match with a lower-case of another dataset. However, when we receive data from different sources, the alphabet is not keyed uniformly in upper or lower case. 
+- Question (ttruong59-stat6250): When combining data horizontally by using a recipe per provided, is it possible to merge two columns with the same names but they have different variable attributes? 
 
 
 
@@ -134,6 +145,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Besides using proc sql with a from clause combining the datasteps with a join operation specifying the condition for matching up rows. Is there any other ways can get same result? 
 - Question (tbishaw-stat6250): What is the Program Data Vecor (PDV)?  
 - Question (nshrivastava2-stat6250): Comparing data step match-merges and proc sql joins, how they are different from each other?
+- Question (ttruong59-stat6250): What is a disadvantage of using proc sql?
+- Answer (ttruong59-stat6250):proc sql loads all the data into memory before joining so the process will take longer to create join datasets if the datasets are large but there is no issue as long as the data are small enough to fit in memory.
 
 
 
