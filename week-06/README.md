@@ -14,7 +14,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
-[Course Textbook Chapter 12, Problem 1]- Question (ljiang11−stat6250): Would the second SET statement rewrite the first SET statement?
+[Course Textbook Chapter 12, Problem 1]
+- Question (ljiang11−stat6250): Would the second SET statement rewrite the first SET statement?
 - Answer (ljiang11−stat6250): Yes.
 
 
