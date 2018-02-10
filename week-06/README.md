@@ -45,6 +45,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What would happen if the two datasets have different number of observations, and have contain the variables have the same name when you use one-to-one reading?
 - Answer (ldeng11−stat6250): The new data set will have all the values from the samllest data set; and the value of the variable will be the last read data set.
 - *Question* (jcanfield3-stat6250): Is it ever useful to replace previous variable contents in one-to-one matching?
+- *Question* (cnguyen77-stat6250): In one-to-one merging, how is the number of observations of the new data set defined?
+- *Answer* (cnguyen77-stat6250): In one-to-one merging, the number of observations in the new data set is the number of observations in the smallest original data set.
 
 
 
@@ -72,6 +74,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How many onbervations will the end data set have after the interleaving process?
 - Answer (ldeng11−stat6250): The new data set have all the variables from all the input data sets, and the total number of observations are the sum of the input data sets.
 - *Question* (jcanfield3-stat6250): Do variables need to be pre-sorted for interleaving to work?
+- *Question* (cnguyen77-stat6250): What statements are required in Interleaving method?
+- *Answer* (cnguyen77-stat6250): A list of data set names in the SET statement and one or more BY variables in the BY statement.
 
 
 
@@ -101,6 +105,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Can data be sorted in the same step as it is concatenated (perhaps by using a BY statement), or does sorting require a separate step?
 - Question (ldeng11−stat6250): How concatenating the data set process work?
 - *Question* (jcanfield3-stat6250): How would the dataset in answer B) be formed, since there is no id to match them?
+- *Question* (cnguyen77-stat6250): What happens when combining two SAS data sets by using concaternating method?
+- *Answer* (cnguyen77-stat6250): Concatenating appends the observations from one data set to another data set. The new data set contains all of the variables and observations from all of the input data sets.
 
 
 
@@ -126,6 +132,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What would happen if all the input data sets have the same variable name when you using the concatenating process?
 - *Question* (jcanfield3-stat6250): In concatenating, do variables repeated throughout the datasets become merged or listed multiple times?
 - *Answer* (jcanfield3-stat6250): They get listed multiple times.  They are treated as completely new observations rather than a continuation of a previous observation.
+- *Question* (cnguyen77-stat6250): How does concatenating select data?
+- *Answer* (cnguyen77-stat6250): When a program concatenates data sets, all of the observations are read from the first data set listed in the SET statement. Then all of the observations are read from the second data set listed, and so on, until all of the listed data sets have been read. The concatenated data sets are read sequentially, in the order in which they are listed in the SET statement.
 
 
 
@@ -154,6 +162,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ldeng11−stat6250): The value from the later data set would overwrite the value of the forward data set in the same viariable column.
 - *Question* (jcanfield3-stat6250): How can you avoid overwriting variables?
 - *Answer* (jcanfield3-stat6250): By concatenating, renaming variables, and not combining datasets with like named variables.
+- *Question* (cnguyen77-stat6250): What happens if you merge two data sets that have variables with the same name?
+- *Answer* (cnguyen77-stat6250): If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets.
 
 
 
@@ -180,6 +190,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Can data combinations such as the examples listed in this chapter also be completed using PROC SQL statements?
 - Question (ldeng11−stat6250): If the input data sets have the same column, what you need to do to prevent the data be over write when you use the match merge process?
 - *Question* (jcanfield3-stat6250): What is the final results of the code? Do they get concatenated or merged horizontally?
+- *Question* (cnguyen77-stat6250): Can you keep the values of same-named variables from being overwritten when you merge the two data sets?
+- *Answer* (cnguyen77-stat6250): To prevent overwriting, rename variables by using the RENAME= data set option in the MERGE statement.
 
 
 
@@ -209,6 +221,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How the match merge process handle the unmatched observations?
 - *Question* (jcanfield3-stat6250): Which variables can be overwritten?
 - *Answer* (jcanfield3-stat6250): Variables with matching id's and different contents when merging, or just different contents when one-to-one matching.
+- *Question* (cnguyen77-stat6250): How does match-merging select data?
 
 
 
@@ -236,6 +249,8 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (jbettonville-stat6250): Do KEEP statements have to list variables in the same order as RETAIN statements?
 - Question (ldeng11−stat6250): What does the rename statement do?
 - *Question* (jcanfield3-stat6250): How does the Best12. format know how to decide between formats?
+- *Question* (cnguyen77-stat6250): What are the functions of the merge and by statements in match-merging method?
+- *Answer* (cnguyen77-stat6250): The merge statement is used to name two input datasets, and the by statement is used to name the unique id column(s), which specify how rows are to be matched up when combining the datasets.
 
 
 
@@ -258,6 +273,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (jbettonville-stat6250): When using PROC SQL to match-merge data sets, do the data sets first need to be sorted by the variables on which they are to be merged, as they do when performing a match-merge with a DATA step?
 - Question (ldeng11−stat6250): What is full join mean in SAS PROC SQL procedure? What are the differneces between PROC SQL and SQL language when joining the data? 
 - *Question* (jcanfield3-stat6250): Why does the select function require commas to separate values rather than the usual space or semicolon?
+- *Question* (cnguyen77-stat6250): What is the approach to merge multiple datasets with respect to a condition for matching up rows without using data steps?
 
 
 
