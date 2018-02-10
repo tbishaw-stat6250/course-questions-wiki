@@ -44,6 +44,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jbettonville-stat6250): Yes, multiple data sets can be combined at once.
 - Question (ldeng11−stat6250): What would happen if the two datasets have different number of observations, and have contain the variables have the same name when you use one-to-one reading?
 - Answer (ldeng11−stat6250): The new data set will have all the values from the samllest data set; and the value of the variable will be the last read data set.
+- *Question* (jcanfield3-stat6250): Is it ever useful to replace previous variable contents in one-to-one matching?
 
 
 
@@ -70,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): When using BY to interleave multiple data sets, can we apply the DESCENDING keyword to change the order in which the resulting data set is sorted?
 - Question (ldeng11−stat6250): How many onbervations will the end data set have after the interleaving process?
 - Answer (ldeng11−stat6250): The new data set have all the variables from all the input data sets, and the total number of observations are the sum of the input data sets.
+- *Question* (jcanfield3-stat6250): Do variables need to be pre-sorted for interleaving to work?
 
 
 
@@ -98,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): Is it possible to concatenate data sets and keep common variables only?
 - *Question* (jbettonville-stat6250): Can data be sorted in the same step as it is concatenated (perhaps by using a BY statement), or does sorting require a separate step?
 - Question (ldeng11−stat6250): How concatenating the data set process work?
+- *Question* (jcanfield3-stat6250): How would the dataset in answer B) be formed, since there is no id to match them?
 
 
 
@@ -121,6 +124,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19−stat6250): SAS takes the attribute from the first data set that contains the variable with that attribute. If the greatest length of varaibles is known, it's best to state it (using length or format) to avoid truncation.
 - *Question* (jbettonville-stat6250): Is it possible to exclude specific variables while concatenating two or more data sets?
 - Question (ldeng11−stat6250): What would happen if all the input data sets have the same variable name when you using the concatenating process?
+- *Question* (jcanfield3-stat6250): In concatenating, do variables repeated throughout the datasets become merged or listed multiple times?
+- *Answer* (jcanfield3-stat6250): They get listed multiple times.  They are treated as completely new observations rather than a continuation of a previous observation.
 
 
 
@@ -147,6 +152,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jbettonville-stat6250): In the MERGE statement, after the name of the data set containing the variable for which the name should be change, add a RENAME= option, as in (rename=(Age=LowerAge)) to change the Age variable in the second data set to a variable called LowerAge in the resulting output data set.
 - Question (ldeng11−stat6250): What would happen if the input data sets have the same viariable names other than the match merge column?
 - Answer (ldeng11−stat6250): The value from the later data set would overwrite the value of the forward data set in the same viariable column.
+- *Question* (jcanfield3-stat6250): How can you avoid overwriting variables?
+- *Answer* (jcanfield3-stat6250): By concatenating, renaming variables, and not combining datasets with like named variables.
 
 
 
@@ -172,6 +179,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19−stat6250): When merging data sets, is there an expedient way to automatically rename variables with the same name to keep variables from both data sets?
 - *Question* (jbettonville-stat6250): Can data combinations such as the examples listed in this chapter also be completed using PROC SQL statements?
 - Question (ldeng11−stat6250): If the input data sets have the same column, what you need to do to prevent the data be over write when you use the match merge process?
+- *Question* (jcanfield3-stat6250): What is the final results of the code? Do they get concatenated or merged horizontally?
 
 
 
@@ -199,6 +207,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): If the Name variables were not the same for each ID variable in these data sets, which value of Name would the resulting data set take for each ID?
 - *Answer* (jbettonville-stat6250): If the ID variable for both data sets matched but the Name variable in each data set was different for that ID number, the resulting data set would take on the Name variable of the second data set containing the given ID, because the PDV would take the second Name variable and overwrite the first Name variable before adding the new record to the output data set.
 - Question (ldeng11−stat6250): How the match merge process handle the unmatched observations?
+- *Question* (jcanfield3-stat6250): Which variables can be overwritten?
+- *Answer* (jcanfield3-stat6250): Variables with matching id's and different contents when merging, or just different contents when one-to-one matching.
 
 
 
@@ -225,6 +235,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (cli19−stat6250): From which data set being merged are labels kept when it comes to common variables?
 - *Question* (jbettonville-stat6250): Do KEEP statements have to list variables in the same order as RETAIN statements?
 - Question (ldeng11−stat6250): What does the rename statement do?
+- *Question* (jcanfield3-stat6250): How does the Best12. format know how to decide between formats?
 
 
 
@@ -246,6 +257,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (cli19−stat6250): How do DATA steps and PROC SQL compare computationally? Is one more intensive than the other?
 - *Question* (jbettonville-stat6250): When using PROC SQL to match-merge data sets, do the data sets first need to be sorted by the variables on which they are to be merged, as they do when performing a match-merge with a DATA step?
 - Question (ldeng11−stat6250): What is full join mean in SAS PROC SQL procedure? What are the differneces between PROC SQL and SQL language when joining the data? 
+- *Question* (jcanfield3-stat6250): Why does the select function require commas to separate values rather than the usual space or semicolon?
 
 
 
