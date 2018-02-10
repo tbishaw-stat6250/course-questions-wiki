@@ -47,6 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Is it ever useful to replace previous variable contents in one-to-one matching?
 - *Question* (cnguyen77-stat6250): In one-to-one merging, how is the number of observations of the new data set defined?
 - *Answer* (cnguyen77-stat6250): In one-to-one merging, the number of observations in the new data set is the number of observations in the smallest original data set.
+- Question (lsun20-stat6250): Why the column VarX in the Brother.Three table will be 2 and 4 after combine?
 
 
 
@@ -76,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Do variables need to be pre-sorted for interleaving to work?
 - *Question* (cnguyen77-stat6250): What statements are required in Interleaving method?
 - *Answer* (cnguyen77-stat6250): A list of data set names in the SET statement and one or more BY variables in the BY statement.
+- Question (lsun20-stat6250): What is the usage of the BY statement?
+- Answer (lsun20-stat6250): To notice that observation in each BY group are read sequentially, in the order that the BY variable list.
 
 
 
@@ -107,6 +110,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): How would the dataset in answer B) be formed, since there is no id to match them?
 - *Question* (cnguyen77-stat6250): What happens when combining two SAS data sets by using concaternating method?
 - *Answer* (cnguyen77-stat6250): Concatenating appends the observations from one data set to another data set. The new data set contains all of the variables and observations from all of the input data sets.
+- Question (lsun20-stat6250): What will happen if the two table have one or more same column?
 
 
 
@@ -134,6 +138,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): They get listed multiple times.  They are treated as completely new observations rather than a continuation of a previous observation.
 - *Question* (cnguyen77-stat6250): How does concatenating select data?
 - *Answer* (cnguyen77-stat6250): When a program concatenates data sets, all of the observations are read from the first data set listed in the SET statement. Then all of the observations are read from the second data set listed, and so on, until all of the listed data sets have been read. The concatenated data sets are read sequentially, in the order in which they are listed in the SET statement.
+- Question (lsun20-stat6250): How to concatenate the tables when they have different type of variable in SAS? 
 
 
 
@@ -164,6 +169,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): By concatenating, renaming variables, and not combining datasets with like named variables.
 - *Question* (cnguyen77-stat6250): What happens if you merge two data sets that have variables with the same name?
 - *Answer* (cnguyen77-stat6250): If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets.
+- Question (lsun20-stat6250): Which statement can make the same-named variable keep original when you merge the two data sets?
 
 
 
@@ -192,6 +198,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): What is the final results of the code? Do they get concatenated or merged horizontally?
 - *Question* (cnguyen77-stat6250): Can you keep the values of same-named variables from being overwritten when you merge the two data sets?
 - *Answer* (cnguyen77-stat6250): To prevent overwriting, rename variables by using the RENAME= data set option in the MERGE statement.
+- Question (lsun20-stat6250): Why we need to use RENAME=data set option in the MERGE statement?
+- Answer (lsun20-stat6250): RENAME= data set option can help us to prevent overwriting when we merge the two data set.
 
 
 
@@ -222,6 +230,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Which variables can be overwritten?
 - *Answer* (jcanfield3-stat6250): Variables with matching id's and different contents when merging, or just different contents when one-to-one matching.
 - *Question* (cnguyen77-stat6250): How does match-merging select data?
+- Question (lsun20-stat6250): What will happen if there are some missing value in these table after merging?
+- Answer (lsun20-stat6250): All the observations will be keep after merging except the same-name observation, and will leave blank speace in the missing value.
 
 
 
@@ -251,6 +261,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (jcanfield3-stat6250): How does the Best12. format know how to decide between formats?
 - *Question* (cnguyen77-stat6250): What are the functions of the merge and by statements in match-merging method?
 - *Answer* (cnguyen77-stat6250): The merge statement is used to name two input datasets, and the by statement is used to name the unique id column(s), which specify how rows are to be matched up when combining the datasets.
+- Question (lsun20-stat6250): What is the usage of best12? Why we need the format best12 in this place?
 
 
 
@@ -274,6 +285,7 @@ used to fill in the PDV for each row to be included in output.
 - Question (ldeng11−stat6250): What is full join mean in SAS PROC SQL procedure? What are the differneces between PROC SQL and SQL language when joining the data? 
 - *Question* (jcanfield3-stat6250): Why does the select function require commas to separate values rather than the usual space or semicolon?
 - *Question* (cnguyen77-stat6250): What is the approach to merge multiple datasets with respect to a condition for matching up rows without using data steps?
+- Question (lsun20-stat6250): What is the means of the dash between the two input statements in the example?
 
 
 
