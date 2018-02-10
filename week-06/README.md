@@ -38,6 +38,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): They are one-to-one reading, concatenating, appending, interleaving, and match-merging.
 - Question(tchan49-stat6250):In one-to-one reading, is the number of observations in the new dataset the the number of observations in the largerst or smallest orginal dataset?
 - Answer(tchan49-stat6250):The smallest orginal datset. 
+- *Question* (cli19−stat6250): In one-to-one reading, why does the final data set take on the number or rows from the smaller data set being combined?
+- *Answer* (cli19−stat6250): Since SAS processes data row by row, the DATA step processing stops when the smaller data set reaches an end-of-file.
 
 
 
@@ -59,6 +61,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What happens when a program concatenates data sets?
 - Question (aguenane−stat6250): What is the difference between the interleaving and match-merging methods?
 - Question(tchan49-stat6250):In interleaving reading, what happen if the variable for BY statement is character variable?
+- *Question* (cli19−stat6250): Why isn't it necessary to first sort data prior to concatenating data sets?
+- *Answer* (cli19−stat6250): SAS checks sequentially if key indicators match in a MERGE statement to combine rows, so sorting the data prior to a merge is required. For concatenating data sets, sorting isn't necessary since SAS essentially stacks the listed data sets and doesn't need to pair data sets by key indicators.
 
 
 
@@ -84,6 +88,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the difference in the coding between one-to-one matching and concatenating?
 - Answer (aguenane-stat6250): With one-to-one matching, you use individual SET statements per data set while with concatenating, you have multiple data sets in one SET statement separated by commas.
 - Question(tchan49-stat6250):In concatenating reading, if two dataset have different types attributes, how would two datasets be combined?
+- *Question* (cli19−stat6250): Is it possible to concatenate data sets and keep common variables only?
 
 
 
@@ -103,6 +108,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): When can you not concatenate multiple data sets?
 - Answer (aguenane-stat6250): Any common variable must have the same type attribute.
 - Question(tchan49-stat6250):In concatenating reading, what would happen if two dataset have different lengths of observations? 
+- *Question* (cli19−stat6250): How does SAS determine the length of different variables when concatenating data sets?
+- *Answer* (cli19−stat6250): SAS takes the attribute from the first data set that contains the variable with that attribute. If the greatest length of varaibles is known, it's best to state it (using length or format) to avoid truncation.
 
 
 
@@ -124,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): If you want to merge more than one variable in descending order, how do you code this?
 - Question(tchan49-stat6250):If two dataset have the same name in a variable, would the second dataset overwrite the value in the first dataset? 
 - Answer(tchan49-stat6250):Yes, the second dataset would overwrite the value. 
+- *Question* (cli19−stat6250): When merging two data sets by a key indicator, why do common variables from the second data set supercede the values from the first?
 
 
 
@@ -146,6 +154,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What happens when you have same-named variables in more than one input data set?
 - Question (aguenane−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
 - Question(tchan49-stat6250):If you want to prevent the variable being overwritten by the second dataset, do you rename the variable name of the first dataset or second dataset? 
+- *Question* (cli19−stat6250): When merging data sets, is there an expedient way to automatically rename variables with the same name to keep variables from both data sets?
 
 
 
@@ -168,6 +177,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
 - Question(tchan49-stat6250):When the dataset are merged, will the new dataset drop the rows that have any missing value?
 - Answer(tchan49-stat6250):No, the new dataset will keep the all the rows even there are missing values. 
+- *Question* (cli19−stat6250): What are other methods to keep all observations from data sets being merged by a key indicator?
+- *Answer* (cli19−stat6250): This can also be accomplished by using a FULL JOIN in a PROC SQL step.
 
 
 
@@ -191,6 +202,7 @@ used to fill in the PDV for each row to be included in output.
 - Question (aguenane−stat6250): What is the goal of using a RETAIN statement when merging data sets?
 - Question(tchan49-stat6250):What is the difference of the code between concatenating and interleaving? 
 - Answer(tchan49-stat6250):There BY statement in interleaving reading. 
+- *Question* (cli19−stat6250): From which data set being merged are labels kept when it comes to common variables?
 
 
 
@@ -209,6 +221,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (shatcher4-stat6250): What are the tradeoffs in combining datasets using proc sql?
 - Question (aguenane−stat6250):What is the (PDV) MEANS ?
 - Question(tchan49-stat6250): What are the advantages of using Proc SQL to create a merged table for two datasets?
+- *Question* (cli19−stat6250): How do DATA steps and PROC SQL compare computationally? Is one more intensive than the other?
 
 
 
