@@ -34,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250):This is possible, there are many situations where there are multiple variables associated with one ID. Foremost, it is important that any dataset you want to combine should both have matching ID's. You can then combine the first dataset with the second dataset where you will have one ID column and various variables that were in both datasets.
 - *Question* (shatcher4-stat6250): What are the different methods of merging?
 - *Answer* (shatcher4-stat6250): The methods of merging are one-to-one reading, concatenating, appending, interleaving, and match-merging
+- Question (aguenane−stat6250): What are the five methods of combining observations from two or more data sets into a new data set?
+- Answer (aguenane-stat6250): They are one-to-one reading, concatenating, appending, interleaving, and match-merging.
 
 
 
@@ -53,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What are the differences between one-to-one merging, concatenating, and appending when combining datasets?
 - *Answer* (aamiri2-stat6250): The method of one-to-one merging creates observations that contain all of the variable from each dataset and combines the observations based on their position in each data set. The method of concatenating appends the observations from one dataset to another. The method of appending adds the observations in the second dataset to the end of the original dataset.
 - *Question* (shatcher4-stat6250): What happens when a program concatenates data sets?
+- Question (aguenane−stat6250): What is the difference between the interleaving and match-merging methods?
 
 
 
@@ -75,6 +78,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): When combining a dataset using DATA CONCAT and all variables and observations are combined, what happens if there is missing data?
 - *Question* (shatcher4-stat6250): How do you concatenate data sets?
 - *Answer* (shatcher4-stat6250): You must use the SET statement to append the observations from one data set to another data set by specifying a list of data set names in the statement.
+- Question (aguenane−stat6250): What is the difference in the coding between one-to-one matching and concatenating?
+- Answer (aguenane-stat6250): With one-to-one matching, you use individual SET statements per data set while with concatenating, you have multiple data sets in one SET statement separated by commas.
 
 
 
@@ -91,6 +96,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): Does any case of duplicity arise when interleaving data, if yes, how is it resolved?
 - *Question* (aamiri2-stat6250): What is the difference between PROC APPEND and DATA CONCAT when combining datasets?
 - *Question* (shatcher4-stat6250): When concatenating data sets, what would cause an error message?
+- Question (aguenane−stat6250): When can you not concatenate multiple data sets?
+- Answer (aguenane-stat6250): Any common variable must have the same type attribute.
 
 
 
@@ -109,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): In match-merging processing, what's the advantage of creating PDV to hold one observation at a time by SAS?
 - *Question* (aamiri2-stat6250): When combining a dataset, can you combine data based on a variable instead of an observation or ID number? 
 - *Question* (shatcher4-stat6250): How are unmatched observations and missing values handled during the match-merge process?
+- Question (aguenane−stat6250): If you want to merge more than one variable in descending order, how do you code this?
 
 
 
@@ -129,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What can be done to prevent a variable from being overwritten when merging two datasets?
 - *Answer* (aamiri2-stat6250): To prevent overwriting, you can rename variables by using the RENAME= option in the MERGE statement. Then the old variable and new variable name must be stated to ensure your data does not get overwritten.
 - *Question* (shatcher4-stat6250): What happens when you have same-named variables in more than one input data set?
+- Question (aguenane−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
 
 
 
@@ -148,6 +157,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): How can you exclude unmatched observation data when combining  a dataset? Does this cause any discrepancies in the final combined dataset?
 - *Question* (shatcher4-stat6250): What does the IN= data set option do in excluding unmatched observations?
 - *Answer* (shatcher4-stat6250): It creates and names a variable that indicates whether the data set contributed data to the current observations.
+- Question (aguenane−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
 
 
 
@@ -168,6 +178,7 @@ The instructor will then review the pull request and make comments should furthe
 used to fill in the PDV for each row to be included in output.
 - *Question* (aamiri2-stat6250): Does MERGE statements and BY statements need to be used conjointly? 
 - *Question* (shatcher4-stat6250): In match-merging why is a merge and by statement required?
+- Question (aguenane−stat6250): What is the goal of using a RETAIN statement when merging data sets?
 
 
 
@@ -184,6 +195,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question*(kamirneni-stat6250): What is the data limit beyond which PROC SQL is no longer useful and conventional SAS methods are to be used?
 - *Question* (aamiri2-stat6250): What is the benefit of using PROC SQL when combining datasets? Where can we learn more about PROC SQL for self-study?
 - *Question* (shatcher4-stat6250): What are the tradeoffs in combining datasets using proc sql?
+- Question (aguenane−stat6250):What is the (PDV) MEANS ?
 
 
 
