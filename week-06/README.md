@@ -30,6 +30,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The value that are read from the last data set overwrite the values that were read from earlier data sets.
 - *Question*(kamirneni-stat6250): In one-to-one reading, what happens when data sets have the same variable names?
 - *Answer*(kamirneni-stat6250): The values which are read from the last dataset overwrite the values from the earlier datasets.
+- *Question* (aamiri2-stat6250): Is it possible to combine two datasets with the goal of merging variables to match ID or observation numbers?
+- *Answer* (aamiri2-stat6250):This is possible, there are many situations where there are multiple variables associated with one ID. Foremost, it is important that any dataset you want to combine should both have matching ID's. You can then combine the first dataset with the second dataset where you will have one ID column and various variables that were in both datasets.
 
 
 
@@ -46,6 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): According to the textbook, the result is interleaving if you use a BY statement when users concatenate data sets. What if users do not include a BY statement? Is it still considered as interleaving?
 - *Question*(kamirneni-stat6250): In concatenation, what does SAS do when length of attributes is different in datasets?
 - *Answer*(kamirneni-stat6250): In this case, SAS takes length from first data set that contains the variable.
+- *Question* (aamiri2-stat6250): What are the differences between one-to-one merging, concatenating, and appending when combining datasets?
+- *Answer* (aamiri2-stat6250): The method of one-to-one merging creates observations that contain all of the variable from each dataset and combines the observations based on their position in each data set. The method of concatenating appends the observations from one dataset to another. The method of appending adds the observations in the second dataset to the end of the original dataset.
 
 
 
@@ -65,6 +69,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What does concatenating datasets mean?
 - Answer (ttruong59-stat6250): Concatenating datasets means stacking one dataset on top of the other. For example, given two datasets, records from the second dataset will be added to the end of the first one.
 - *Question*(kamirneni-stat6250): In what situations is the FORCE option used in APPEND procedure and other what conditions?
+- *Question* (aamiri2-stat6250): When combining a dataset using DATA CONCAT and all variables and observations are combined, what happens if there is missing data?
 
 
 
@@ -79,6 +84,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): What is the functionality of FORCE option in APPEND procedure ?
 - Question (ttruong59-stat6250): I see the correct answer from the textbook for problem 4 is “a” that means “missing" or the second observation in Sales.Rep does not contain a value for Sale, so a missing value appears for this variable. What about the first observation? Does a missing value appear for this variable as well?
 - *Question*(kamirneni-stat6250): Does any case of duplicity arise when interleaving data, if yes, how is it resolved?
+- *Question* (aamiri2-stat6250): What is the difference between PROC APPEND and DATA CONCAT when combining datasets?
 
 
 
@@ -95,6 +101,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a mechanism of SAS when users merge the datasets but have variables with the same name in more than one input dataset?
 - Answer (ttruong59-stat6250): Values of the same name variable in the second dataset will overwrite the values of the first one.
 - *Question*(kamirneni-stat6250): In match-merging processing, what's the advantage of creating PDV to hold one observation at a time by SAS?
+- *Question* (aamiri2-stat6250): When combining a dataset, can you combine data based on a variable instead of an observation or ID number? 
 
 
 
@@ -112,6 +119,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): When SAS interleaves data sets, observations in each BY group in each data set in the SET statement are read sequentially, in the order in which the data sets and BY variables are listed, until all observations have been processed. The new data set includes all the variables from all the input data sets, and it contains the total number of observations from all input data sets.
 - Question (ttruong59-stat6250): What is a main reason users have to prevent the values of the variable from overwritten when merging two datasets that have a same-named variable?
 - *Question*(kamirneni-stat6250): What is the process of referencing a variable in the original dataset? 
+- *Question* (aamiri2-stat6250): What can be done to prevent a variable from being overwritten when merging two datasets?
+- *Answer* (aamiri2-stat6250): To prevent overwriting, you can rename variables by using the RENAME= option in the MERGE statement. Then the old variable and new variable name must be stated to ensure your data does not get overwritten.
 
 
 
@@ -128,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): When we submit a DATA step, it is processed in two phases: the compilation phase, in which SAS checks the syntax of the SAS statements and compiles them (translates them into machine code). During this phase, SAS also sets up descriptor information for the output data set and creates the program data vector (PDV), an area of memory where SAS holds one observation at a time. 
 - Question (ttruong59-stat6250): How does the DATA step perform or process match-merges? What happen if observations do not match?
 - *Question*(kamirneni-stat6250): What is the function of FIRST and LAST in processing?
+- *Question* (aamiri2-stat6250): How can you exclude unmatched observation data when combining  a dataset? Does this cause any discrepancies in the final combined dataset?
 
 
 
@@ -146,6 +156,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What is the difference in working in DATA step of a RETAIN statement between single and multiple datasets?
 - *Answer*(kamirneni-stat6250): The difference is that there are multiple origin points for values in mutliple datasets 
 used to fill in the PDV for each row to be included in output.
+- *Question* (aamiri2-stat6250): Does MERGE statements and BY statements need to be used conjointly? 
 
 
 
@@ -160,6 +171,7 @@ used to fill in the PDV for each row to be included in output.
 - Question (ttruong59-stat6250): What is a disadvantage of using proc sql?
 - Answer (ttruong59-stat6250):proc sql loads all the data into memory before joining so the process will take longer to create join datasets if the datasets are large but there is no issue as long as the data are small enough to fit in memory.
 - *Question*(kamirneni-stat6250): What is the data limit beyond which PROC SQL is no longer useful and conventional SAS methods are to be used?
+- *Question* (aamiri2-stat6250): What is the benefit of using PROC SQL when combining datasets? Where can we learn more about PROC SQL for self-study?
 
 
 
