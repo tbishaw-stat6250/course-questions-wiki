@@ -36,6 +36,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (shatcher4-stat6250): The methods of merging are one-to-one reading, concatenating, appending, interleaving, and match-merging
 - Question (aguenane−stat6250): What are the five methods of combining observations from two or more data sets into a new data set?
 - Answer (aguenane-stat6250): They are one-to-one reading, concatenating, appending, interleaving, and match-merging.
+- Question(tchan49-stat6250):In one-to-one reading, is the number of observations in the new dataset the the number of observations in the largerst or smallest orginal dataset?
+- Answer(tchan49-stat6250):The smallest orginal datset. 
 
 
 
@@ -56,6 +58,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250): The method of one-to-one merging creates observations that contain all of the variable from each dataset and combines the observations based on their position in each data set. The method of concatenating appends the observations from one dataset to another. The method of appending adds the observations in the second dataset to the end of the original dataset.
 - *Question* (shatcher4-stat6250): What happens when a program concatenates data sets?
 - Question (aguenane−stat6250): What is the difference between the interleaving and match-merging methods?
+- Question(tchan49-stat6250):In interleaving reading, what happen if the variable for BY statement is character variable?
 
 
 
@@ -80,6 +83,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (shatcher4-stat6250): You must use the SET statement to append the observations from one data set to another data set by specifying a list of data set names in the statement.
 - Question (aguenane−stat6250): What is the difference in the coding between one-to-one matching and concatenating?
 - Answer (aguenane-stat6250): With one-to-one matching, you use individual SET statements per data set while with concatenating, you have multiple data sets in one SET statement separated by commas.
+- Question(tchan49-stat6250):In concatenating reading, if two dataset have different types attributes, how would two datasets be combined?
 
 
 
@@ -98,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): When concatenating data sets, what would cause an error message?
 - Question (aguenane−stat6250): When can you not concatenate multiple data sets?
 - Answer (aguenane-stat6250): Any common variable must have the same type attribute.
+- Question(tchan49-stat6250):In concatenating reading, what would happen if two dataset have different lengths of observations? 
 
 
 
@@ -117,6 +122,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): When combining a dataset, can you combine data based on a variable instead of an observation or ID number? 
 - *Question* (shatcher4-stat6250): How are unmatched observations and missing values handled during the match-merge process?
 - Question (aguenane−stat6250): If you want to merge more than one variable in descending order, how do you code this?
+- Question(tchan49-stat6250):If two dataset have the same name in a variable, would the second dataset overwrite the value in the first dataset? 
+- Answer(tchan49-stat6250):Yes, the second dataset would overwrite the value. 
 
 
 
@@ -138,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aamiri2-stat6250): To prevent overwriting, you can rename variables by using the RENAME= option in the MERGE statement. Then the old variable and new variable name must be stated to ensure your data does not get overwritten.
 - *Question* (shatcher4-stat6250): What happens when you have same-named variables in more than one input data set?
 - Question (aguenane−stat6250): If you merge two data sets and two values for a variable are the same, the DATA step overwrites the values of the like-named variable in the first data set; is this overwrite permanent?
+- Question(tchan49-stat6250):If you want to prevent the variable being overwritten by the second dataset, do you rename the variable name of the first dataset or second dataset? 
 
 
 
@@ -158,6 +166,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What does the IN= data set option do in excluding unmatched observations?
 - *Answer* (shatcher4-stat6250): It creates and names a variable that indicates whether the data set contributed data to the current observations.
 - Question (aguenane−stat6250): When using a BY statement, can you specify any of the variables/more than one variable?
+- Question(tchan49-stat6250):When the dataset are merged, will the new dataset drop the rows that have any missing value?
+- Answer(tchan49-stat6250):No, the new dataset will keep the all the rows even there are missing values. 
 
 
 
@@ -179,6 +189,8 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (aamiri2-stat6250): Does MERGE statements and BY statements need to be used conjointly? 
 - *Question* (shatcher4-stat6250): In match-merging why is a merge and by statement required?
 - Question (aguenane−stat6250): What is the goal of using a RETAIN statement when merging data sets?
+- Question(tchan49-stat6250):What is the difference of the code between concatenating and interleaving? 
+- Answer(tchan49-stat6250):There BY statement in interleaving reading. 
 
 
 
@@ -196,6 +208,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (aamiri2-stat6250): What is the benefit of using PROC SQL when combining datasets? Where can we learn more about PROC SQL for self-study?
 - *Question* (shatcher4-stat6250): What are the tradeoffs in combining datasets using proc sql?
 - Question (aguenane−stat6250):What is the (PDV) MEANS ?
+- Question(tchan49-stat6250): What are the advantages of using Proc SQL to create a merged table for two datasets?
 
 
 
