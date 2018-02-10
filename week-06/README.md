@@ -48,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): In one-to-one merging, how is the number of observations of the new data set defined?
 - *Answer* (cnguyen77-stat6250): In one-to-one merging, the number of observations in the new data set is the number of observations in the smallest original data set.
 - Question (lsun20-stat6250): Why the column VarX in the Brother.Three table will be 2 and 4 after combine?
+- Question (lceballos-stat6250): How can we combine columns instead of rows?
 
 
 
@@ -79,6 +80,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): A list of data set names in the SET statement and one or more BY variables in the BY statement.
 - Question (lsun20-stat6250): What is the usage of the BY statement?
 - Answer (lsun20-stat6250): To notice that observation in each BY group are read sequentially, in the order that the BY variable list.
+- Question (lceballos-stat6250): What's the difference between the set function and the merge function when combining two datasets?
 
 
 
@@ -111,6 +113,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What happens when combining two SAS data sets by using concaternating method?
 - *Answer* (cnguyen77-stat6250): Concatenating appends the observations from one data set to another data set. The new data set contains all of the variables and observations from all of the input data sets.
 - Question (lsun20-stat6250): What will happen if the two table have one or more same column?
+- Question (lceballos-stat6250): How can you concatenate column by groups?
 
 
 
@@ -139,6 +142,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How does concatenating select data?
 - *Answer* (cnguyen77-stat6250): When a program concatenates data sets, all of the observations are read from the first data set listed in the SET statement. Then all of the observations are read from the second data set listed, and so on, until all of the listed data sets have been read. The concatenated data sets are read sequentially, in the order in which they are listed in the SET statement.
 - Question (lsun20-stat6250): How to concatenate the tables when they have different type of variable in SAS? 
+- Question (lceballos-stat6250): How does SAS read the datasets when combining them?
+- Answer (lceballos-stat6250): The concatenated data sets are read sequentially.
 
 
 
@@ -170,6 +175,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What happens if you merge two data sets that have variables with the same name?
 - *Answer* (cnguyen77-stat6250): If you have variables with the same name in more than one input data set, values of the same-named variable in the first data set in which it appears are overwritten by values of the same-named variable in subsequent data sets.
 - Question (lsun20-stat6250): Which statement can make the same-named variable keep original when you merge the two data sets?
+- Question (lceballos-stat6250): How do we chose which dataset overwrites the other?
+- Answer (lceballos-stat6250): List the data set that you want to keep first, datasets after that with same-named variables will be overwritten.
 
 
 
@@ -200,6 +207,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): To prevent overwriting, rename variables by using the RENAME= data set option in the MERGE statement.
 - Question (lsun20-stat6250): Why we need to use RENAME=data set option in the MERGE statement?
 - Answer (lsun20-stat6250): RENAME= data set option can help us to prevent overwriting when we merge the two data set.
+- Question (lceballos-stat6250): Can you use the IN statement for several variables at a time?
 
 
 
@@ -232,6 +240,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How does match-merging select data?
 - Question (lsun20-stat6250): What will happen if there are some missing value in these table after merging?
 - Answer (lsun20-stat6250): All the observations will be keep after merging except the same-name observation, and will leave blank speace in the missing value.
+- Question (lceballos-stat6250): How do you merge using an ID?
+- Answer (lceballos-stat6250): Using the BY statement.
 
 
 
@@ -262,6 +272,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (cnguyen77-stat6250): What are the functions of the merge and by statements in match-merging method?
 - *Answer* (cnguyen77-stat6250): The merge statement is used to name two input datasets, and the by statement is used to name the unique id column(s), which specify how rows are to be matched up when combining the datasets.
 - Question (lsun20-stat6250): What is the usage of best12? Why we need the format best12 in this place?
+- Question (lceballos-stat6250): Performance wise, is the PROC SQL method more effient?
 
 
 
@@ -286,6 +297,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (jcanfield3-stat6250): Why does the select function require commas to separate values rather than the usual space or semicolon?
 - *Question* (cnguyen77-stat6250): What is the approach to merge multiple datasets with respect to a condition for matching up rows without using data steps?
 - Question (lsun20-stat6250): What is the means of the dash between the two input statements in the example?
+- Question (lceballos-stat6250): How does the "AS" Statement make the code easier to read or work with?
 
 
 
