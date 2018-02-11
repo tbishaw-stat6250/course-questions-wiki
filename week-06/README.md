@@ -53,6 +53,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): How to determine the order of variable/observation for the new combined dataset?
 - *Answer* (xyin6-stat6250): Observations are combined based on their relative position in each data set. That is, the first observation in one data set is joined with the first observation in the other, and so as the variable order.
 - Question (who7-stat6250): Is there a way to combine 2 datasets using if loop in the proc statement?
+- Question (ljiang11−stat6250): Would the second SET statement rewrite the first SET statement?
+- Answer (ljiang11−stat6250): Yes.
 
 
 
@@ -89,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): Interleaving requires a list of data set names in SET statement with corresponding BY statements.The observations in each BY group are read sequentially in the order listed. The new data set contains all the variables from all the input data sets as well as the total number of records from all the input data sets.
 - *Question* (xyin6-stat6250): Does SAS automatically sort the variable after "BY"? Or what sequence does it follow?
 - Question (who7-stat6250): Why would SAS use a formatting method to differentiate different combining method instead of using a command word?
+- Question (ljiang11−stat6250): By putting BY statement here, data will read as the BY variable's order instead of SET data order?
 
 
 
@@ -128,6 +131,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): SAS takes the length from the first data set that contains the variable. The same is true for the label, format, and informat attributes.
 - Question (who7-stat6250): What happens when columsn from 2 datasets have the same column name but different properties?
 - Answer (who7-stat6250): Depends on how you merge the datasets.  If you are just appending them, it would just add the 2nd dataset to the 1st dataset.
+- Question (ljiang11−stat6250): Why is there missing values?
+- Answer (ljiang11−stat6250): Because there are no common columns, SAS will generate missing values for the new variables merged into the dataset.
 
 
 
@@ -162,6 +167,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): If two data sets do not have common variables, can they still be concatenated?
 - Question (who7-stat6250): Is there a way to combine datasets by adding columns instead of adding it by row?
 - Answer (who7-stat6250): Yes, you can use the BY statement to merge 2 datasets by using common unique key to combine the datasets horizontally.
+- Question (ljiang11−stat6250): What does concatenate mean?
+- Answer (ljiang11−stat6250): It means to combine two datasets vertically.
 
 
 
@@ -200,6 +207,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What will happen to the output if input data set doesn't have any observations for a particular value of the by-variable?
 - *Answer* (xyin6-stat6250): The observation in the output data set contains missing values for the variables that are unique to that input data set
 - Question (who7-stat6250): If interleaving datasets will overwrite value that is the same, what happens if one is integer and one is decimal?
+- Question (ljiang11−stat6250): Why the value of age in the 2nd dataset overwrite that from the 1st dataset?
+- Answer (ljiang11−stat6250): The order of the datasets after MERGE statement determines the subsequent dataset can overwrite the 1st dataset.
 
 
 
@@ -234,6 +243,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How to prevent same-named variable from being overwritten ? Can both the same-named variables be retained in the output dataset?
 - *Question* (xyin6-stat6250): If we rename the variable in the output, does the original dataset keep the former name or it will also be changed?
 - Question (who7-stat6250): What is the preferred method to avoid overwriting? using rename or some other way?
+- Question (ljiang11−stat6250): What does RENAME= do?
 
 
 
@@ -272,6 +282,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is it necessary to specify descending order in both DATA and PROC step?
 - Question (who7-stat6250): Would there be other ways to combine data besides using merge method?
 - Answer (who7-stat6250): Yes, you can merge datasets by useing proc sql.
+- Question (ljiang11−stat6250): What happens to the observations with same ID?
 
 
 
@@ -306,6 +317,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (akrishnamurthy-stat6250): Is it necessary for the datasets to be sorted before merging BY a common column?
 - *Question* (xyin6-stat6250): IS it possible to put more than one variable after BY statement?
 - Question (who7-stat6250): Given using proc sql would use less code to achieve the same result, would proc sql be considered advanced SAS programming?
+- Question (ljiang11−stat6250): When combining columns from two datasets, why do we want to convert the varaibles from text to numeric?
 
 
 
@@ -334,6 +346,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (akrishnamurthy-stat6250): What is the benefit of using PROC SQL over merge statement?
 - *Question* (xyin6-stat6250): How to specify join condition instead of full join?
 - Question (who7-stat6250): How would the use of inner join and outer join in sql language affect the way the datasets are combined in proc sql?
+- Question (ljiang11−stat6250): Why would renaming data name in PROC SQL can minimize the amount of missing data?
 
 
 
