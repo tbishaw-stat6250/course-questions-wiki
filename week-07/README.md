@@ -15,53 +15,67 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
+- Question (lceballos-stat6250): What does the format "comma10." do?
 
 
 
 [Course Textbook Chapter 10, Problem 6]
+- Question (lceballos-stat6250): If two IF commands are false what is the output?
 
 
 
 [Course Textbook Chapter 10, Problem 7]
+- Question (lceballos-stat6250): Do you need to specify the length if using SQL statements?
 
 
 
 [Course Textbook Chapter 10, Problem 8]
+- Question (lceballos-stat6250): Can you use CASE statements in SAS?
+- Answer (lceballos-stat6250): Yes, you can use them in a PROC SQL step (e.g select Name, case when).
 
 
 
 [Course Textbook Chapter 10, Problem 9]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 10, Problem 10]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 11, Problem 1]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 11, Problem 2]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 11, Problem 3]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 11, Problem 8]
+- Question (lceballos-stat6250):
 
 
 
 [Course Textbook Chapter 11, Problem 9]
+- Question (lceballos-stat6250):
 
 
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
+- Question (lceballos-stat6250):
 
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
+- Question (lceballos-stat6250):
 
 
