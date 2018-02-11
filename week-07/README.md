@@ -62,12 +62,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 11, Problem 8]
-- Question (lceballos-stat6250): 
+- Question (lceballos-stat6250): What is the purpose of the statement "if last;"?
 
 
 
 [Course Textbook Chapter 11, Problem 9]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What is the program data vector (PDV)?
 
 
 
