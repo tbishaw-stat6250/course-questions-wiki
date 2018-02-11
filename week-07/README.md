@@ -36,32 +36,33 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 9]
-- Question (lceballos-stat6250):
-
+- Question (lceballos-stat6250): Where should the length statement go?
+- Answer (lceballos-stat6250): Before the variable is ever mentioned in the data step.
 
 
 [Course Textbook Chapter 10, Problem 10]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): Can you use DROP or KEEP in a SQL step?
 
 
 
 [Course Textbook Chapter 11, Problem 1]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): Does the drop statement delete original data or does it just exclude it from the new dataset?
 
 
 
 [Course Textbook Chapter 11, Problem 2]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): Is "drop=ordrtime" necessary in this recipe?
 
 
 
 [Course Textbook Chapter 11, Problem 3]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What are the FIRST. and LAST variables used for?
+- Answer (lceballos-stat6250): To identify the first and last observation when sorting with a BY statement.
 
 
 
 [Course Textbook Chapter 11, Problem 8]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): 
 
 
 
