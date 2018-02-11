@@ -49,6 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): In one-to-one merging, the number of observations in the new data set is the number of observations in the smallest original data set.
 - Question (lsun20-stat6250): Why the column VarX in the Brother.Three table will be 2 and 4 after combine?
 - Question (lceballos-stat6250): How can we combine columns instead of rows?
+- *Question* (akrishnamurthy-stat6250): In case of one-to-one reading, what will be the total number of observations in final data set?
 
 
 
@@ -81,6 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What is the usage of the BY statement?
 - Answer (lsun20-stat6250): To notice that observation in each BY group are read sequentially, in the order that the BY variable list.
 - Question (lceballos-stat6250): What's the difference between the set function and the merge function when combining two datasets?
+- *Question* (akrishnamurthy-stat6250): How does interleaving select data?
+- *Answer* (akrishnamurthy-stat6250): Interleaving requires a list of data set names in SET statement with corresponding BY statements.The observations in each BY group are read sequentially in the order listed. The new data set contains all the variables from all the input data sets as well as the total number of records from all the input data sets.
 
 
 
@@ -114,6 +117,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): Concatenating appends the observations from one data set to another data set. The new data set contains all of the variables and observations from all of the input data sets.
 - Question (lsun20-stat6250): What will happen if the two table have one or more same column?
 - Question (lceballos-stat6250): How can you concatenate column by groups?
+- *Question* (akrishnamurthy-stat6250): What is the difference between APPEND procedure and concatenating datasets?
+- *Answer* (akrishnamurthy-stat6250): PROC Append adds the observations of one dataset to the end of a master dataset.Where as,the DATA step creates a new dataset when concatenating.
 
 
 
@@ -144,6 +149,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): How to concatenate the tables when they have different type of variable in SAS? 
 - Question (lceballos-stat6250): How does SAS read the datasets when combining them?
 - Answer (lceballos-stat6250): The concatenated data sets are read sequentially.
+- *Question* (akrishnamurthy-stat6250): What is the difference between merging datasets and concatenating datasets?
 
 
 
@@ -177,6 +183,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Which statement can make the same-named variable keep original when you merge the two data sets?
 - Question (lceballos-stat6250): How do we chose which dataset overwrites the other?
 - Answer (lceballos-stat6250): List the data set that you want to keep first, datasets after that with same-named variables will be overwritten.
+- *Question* (akrishnamurthy-stat6250): How are same named variables handled while merging datasets? Which value takes precedence if both the variables carry different values?
+- *Answer* (akrishnamurthy-stat6250):The values of the same named variable in first dataset is overwritten by the value for the same-named variable in second dataset.
 
 
 
@@ -208,6 +216,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Why we need to use RENAME=data set option in the MERGE statement?
 - Answer (lsun20-stat6250): RENAME= data set option can help us to prevent overwriting when we merge the two data set.
 - Question (lceballos-stat6250): Can you use the IN statement for several variables at a time?
+- *Question* (akrishnamurthy-stat6250): How to prevent same-named variable from being overwritten ? Can both the same-named variables be retained in the output dataset?
 
 
 
@@ -242,6 +251,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): All the observations will be keep after merging except the same-name observation, and will leave blank speace in the missing value.
 - Question (lceballos-stat6250): How do you merge using an ID?
 - Answer (lceballos-stat6250): Using the BY statement.
+- *Question* (akrishnamurthy-stat6250):How are unmatched observations handled while merging two datasets?
 
 
 
@@ -273,6 +283,7 @@ used to fill in the PDV for each row to be included in output.
 - *Answer* (cnguyen77-stat6250): The merge statement is used to name two input datasets, and the by statement is used to name the unique id column(s), which specify how rows are to be matched up when combining the datasets.
 - Question (lsun20-stat6250): What is the usage of best12? Why we need the format best12 in this place?
 - Question (lceballos-stat6250): Performance wise, is the PROC SQL method more effient?
+- *Question* (akrishnamurthy-stat6250): Is it necessary for the datasets to be sorted before merging BY a common column?
 
 
 
@@ -298,6 +309,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (cnguyen77-stat6250): What is the approach to merge multiple datasets with respect to a condition for matching up rows without using data steps?
 - Question (lsun20-stat6250): What is the means of the dash between the two input statements in the example?
 - Question (lceballos-stat6250): How does the "AS" Statement make the code easier to read or work with?
+- *Question* (akrishnamurthy-stat6250): What is the benefit of using PROC SQL over merge statement?
 
 
 
