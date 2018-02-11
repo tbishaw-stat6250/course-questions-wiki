@@ -50,6 +50,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Why the column VarX in the Brother.Three table will be 2 and 4 after combine?
 - Question (lceballos-stat6250): How can we combine columns instead of rows?
 - *Question* (akrishnamurthy-stat6250): In case of one-to-one reading, what will be the total number of observations in final data set?
+- *Question* (xyin6-stat6250): How to determine the order of variable/observation for the new combined dataset?
+- *Answer* (xyin6-stat6250): Observations are combined based on their relative position in each data set. That is, the first observation in one data set is joined with the first observation in the other, and so as the variable order.
 
 
 
@@ -84,6 +86,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): What's the difference between the set function and the merge function when combining two datasets?
 - *Question* (akrishnamurthy-stat6250): How does interleaving select data?
 - *Answer* (akrishnamurthy-stat6250): Interleaving requires a list of data set names in SET statement with corresponding BY statements.The observations in each BY group are read sequentially in the order listed. The new data set contains all the variables from all the input data sets as well as the total number of records from all the input data sets.
+- *Question* (xyin6-stat6250): Does SAS automatically sort the variable after "BY"? Or what sequence does it follow?
 
 
 
@@ -119,6 +122,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How can you concatenate column by groups?
 - *Question* (akrishnamurthy-stat6250): What is the difference between APPEND procedure and concatenating datasets?
 - *Answer* (akrishnamurthy-stat6250): PROC Append adds the observations of one dataset to the end of a master dataset.Where as,the DATA step creates a new dataset when concatenating.
+- *Question* (xyin6-stat6250): If the length of attributes in two datasets are different, how does the concatenated dataset select the length?
+- *Answer* (xyin6-stat6250): SAS takes the length from the first data set that contains the variable. The same is true for the label, format, and informat attributes.
 
 
 
@@ -150,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How does SAS read the datasets when combining them?
 - Answer (lceballos-stat6250): The concatenated data sets are read sequentially.
 - *Question* (akrishnamurthy-stat6250): What is the difference between merging datasets and concatenating datasets?
+- *Question* (xyin6-stat6250): If two data sets do not have common variables, can they still be concatenated?
 
 
 
@@ -185,6 +191,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): List the data set that you want to keep first, datasets after that with same-named variables will be overwritten.
 - *Question* (akrishnamurthy-stat6250): How are same named variables handled while merging datasets? Which value takes precedence if both the variables carry different values?
 - *Answer* (akrishnamurthy-stat6250):The values of the same named variable in first dataset is overwritten by the value for the same-named variable in second dataset.
+- *Question* (xyin6-stat6250): What will happen to the output if input data set doesn't have any observations for a particular value of the by-variable?
+- *Answer* (xyin6-stat6250): The observation in the output data set contains missing values for the variables that are unique to that input data set
 
 
 
@@ -217,6 +225,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): RENAME= data set option can help us to prevent overwriting when we merge the two data set.
 - Question (lceballos-stat6250): Can you use the IN statement for several variables at a time?
 - *Question* (akrishnamurthy-stat6250): How to prevent same-named variable from being overwritten ? Can both the same-named variables be retained in the output dataset?
+- *Question* (xyin6-stat6250): If we rename the variable in the output, does the original dataset keep the former name or it will also be changed?
 
 
 
@@ -252,6 +261,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lceballos-stat6250): How do you merge using an ID?
 - Answer (lceballos-stat6250): Using the BY statement.
 - *Question* (akrishnamurthy-stat6250):How are unmatched observations handled while merging two datasets?
+- *Question* (xyin6-stat6250): Is it necessary to specify descending order in both DATA and PROC step?
 
 
 
@@ -284,6 +294,7 @@ used to fill in the PDV for each row to be included in output.
 - Question (lsun20-stat6250): What is the usage of best12? Why we need the format best12 in this place?
 - Question (lceballos-stat6250): Performance wise, is the PROC SQL method more effient?
 - *Question* (akrishnamurthy-stat6250): Is it necessary for the datasets to be sorted before merging BY a common column?
+- *Question* (xyin6-stat6250): IS it possible to put more than one variable after BY statement?
 
 
 
@@ -310,6 +321,7 @@ used to fill in the PDV for each row to be included in output.
 - Question (lsun20-stat6250): What is the means of the dash between the two input statements in the example?
 - Question (lceballos-stat6250): How does the "AS" Statement make the code easier to read or work with?
 - *Question* (akrishnamurthy-stat6250): What is the benefit of using PROC SQL over merge statement?
+- *Question* (xyin6-stat6250): How to specify join condition instead of full join?
 
 
 
