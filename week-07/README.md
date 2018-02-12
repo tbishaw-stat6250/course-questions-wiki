@@ -40,6 +40,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lceballos-stat6250): Before the variable is ever mentioned in the data step.
 
 
+
 [Course Textbook Chapter 10, Problem 10]
 - Question (lceballos-stat6250): Can you use DROP or KEEP in a SQL step?
 
