@@ -72,11 +72,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): What does the IN statement used for in this recipe?
 
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
-- Question (lceballos-stat6250):
+- Question (lceballos-stat6250): How does the statement "union all corr" work?
 
 
