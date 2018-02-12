@@ -58,7 +58,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 11, Problem 3]
-- *Question* (cli19-stat6250): What are other potential uses for FIRST. and LAST. statements?
+- *Question* (cli19-stat6250): What are other potential use cases for FIRST. and LAST. statements?
+- *Answer* (cli19-stat6250): One use case is FIRST. and LAST. can be used to compare observations to see if there are any duplicate rows.
 
 
 
@@ -73,11 +74,11 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
-- *Question* (cli19-stat6250): 
+- *Question* (cli19-stat6250): Should length be defined outside the do loop rather than inside?
 
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
-- *Question* (cli19-stat6250): 
+- *Question* (cli19-stat6250): What happens if variables are of different type when combining data vertically using a UNION ALL CORR statement in a PROC SQL step?
 
 
