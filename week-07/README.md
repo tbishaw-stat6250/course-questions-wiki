@@ -78,5 +78,6 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (shatcher4-stat6250): How is an asterisk used as shorthand?
+- *Answer* (shatcher4-stat6250): It is used to include all columns from the source dataset name that is listed in the corresponding from clause
 
 
