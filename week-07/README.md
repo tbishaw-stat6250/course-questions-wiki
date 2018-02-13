@@ -15,53 +15,68 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
+- *Question* (shatcher4-stat6250): Why do character values need to be specified in the same case in which they appear in the data set and enclosed in quotation marks?
 
 
 
 [Course Textbook Chapter 10, Problem 6]
+- *Question* (shatcher4-stat6250): How would you perfom an action conditionally in SAS?
+- *Answer* (shatcher4-stat6250): Use an IF-THEN statement, which will execute a SAS statement when the condition in the IF clause is true
 
 
 
 [Course Textbook Chapter 10, Problem 7]
+- *Question* (shatcher4-stat6250): What does the LENGTH statement do?
 
 
 
 [Course Textbook Chapter 10, Problem 8]
+- *Question* (shatcher4-stat6250): How can using an ELSE statement with an IF-THEN statemnet save resources?
 
 
 
 [Course Textbook Chapter 10, Problem 9]
+- *Question* (shatcher4-stat6250): Why does the LENGTH step need to appear before any other reference to the variable in the DATA step?
 
 
 
 [Course Textbook Chapter 10, Problem 10]
+- *Question* (shatcher4-stat6250): What does the DROP= statement do?
 
 
 
 [Course Textbook Chapter 11, Problem 1]
+- *Question* (shatcher4-stat6250): Where is the data set that will be read specified after a DATA step is written to name the SAS data set to be created?
 
 
 
 [Course Textbook Chapter 11, Problem 2]
+- *Question* (shatcher4-stat6250): What are the different ways to manipulate data using the DATA step?
 
 
 
 [Course Textbook Chapter 11, Problem 3]
+- *Question* (shatcher4-stat6250): What happens when you use the BY statement with the SET statement?
 
 
 
 [Course Textbook Chapter 11, Problem 8]
+- *Question* (shatcher4-stat6250): How do you create a temporary numeric variable whose value is used to detect the last observation?
+- *Answer* (shatcher4-stat6250): Use the END= option in the SET statement.
 
 
 
 [Course Textbook Chapter 11, Problem 9]
+- *Question* (shatcher4-stat6250): What happens during the compilation phase of DATA steps that use a SET statement?
 
 
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
+- *Question* (shatcher4-stat6250): What is "business logic" and how is it performed?
 
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
+- *Question* (shatcher4-stat6250): How is an asterisk used as shorthand?
 
 
