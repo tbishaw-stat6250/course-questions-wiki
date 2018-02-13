@@ -55,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What does “july” mean when referencing the data set Orders with this statement: july.orders?
 
 
+
 [Course Textbook Chapter 11, Problem 3]
 - Question (aguenane−stat6250): What are the values in FIRST.variable and LAST.variable?
 - Answer (aguenane-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
@@ -75,6 +76,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the function of the SAS statement DO? 
 
 
+
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 - Question (aguenane-stat6250): What does the AS keyword do in a PROC SQL SELECT statement?
+
 
