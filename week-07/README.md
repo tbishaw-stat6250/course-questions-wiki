@@ -79,3 +79,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (jbettonville-stat6250): If not all columns between the two data sets were named identically, would UNION ALL CORR in lead to missing values in the resulting data set?
+
+
