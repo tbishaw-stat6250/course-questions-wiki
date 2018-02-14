@@ -47,6 +47,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Why the label is not "Amount of Loan"?
 - Answer (ljiang11−stat6250): The LABEL statement in PROC PRINT overrides the previous LABEL.
 - *Question* (akrishnamurthy-stat6250): Can multiple formats be assigned to same variable?
+- *Question* (cnguyen77-stat6250): How does the label and format in PROC PRINT affect the label and format in DATA step?
+- *Answer* (cnguyen77-stat6250): Temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step.
 
 
 
@@ -79,6 +81,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When using IF-THEN statement, are the character values case-sensitive?
 - Question (ljiang11−stat6250): Will the first IF THEN statement execuate before second IF THEN statement?
 - *Question* (akrishnamurthy-stat6250): Does the control break out of IF loop if condition is satisfied or all the IF statements are executed in order?
+- *Question* (cnguyen77-stat6250): When does the IF-THEN statement executes a SAS statement?
+- *Answer* (cnguyen77-stat6250): The IF-THEN statement executes a SAS statement when the condition in the IF clause is true.
 
 
 
@@ -110,6 +114,9 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): What is the maximum length for a new variable?
 - *Question* (akrishnamurthy-stat6250): Can the length of a variable be altered and reassigned after being referenced first in a DATA step?
 - *Answer* (akrishnamurthy-stat6250): No, LENGTH statement will not change the size of a variable if it was created before in another statement. Hence best practice is to make sure that the LENGTH statement appears before any reference to the variable in DATA step.
+- *Question* (cnguyen77-stat6250): How to determine the length of a new variable?
+- *Answer* (cnguyen77-stat6250): The length of a variable is determined by its first reference in the DATA step. When creating a new character variable, SAS allocates as many bytes of storage space as there are characters in the reference to that variable. The first reference to a new variable can also be made with a LENGTH statement or an assignment statement.
+
 
 
 
@@ -142,6 +149,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): What would happen when code is neither 1 or 2?
 - *Question* (akrishnamurthy-stat6250): What is the best coding practice to evaluate mutually exclusive conditions?
 - *Answer* (akrishnamurthy-stat6250): Using ELSE statements is a good practice for conditional processing and IF-THEN/ELSE should be constructed with conditions of decreasing probability.We can also use SELECT groups in DATA steps for mutually exclusive conditions and it is more efficient that multiple IF-THEN-ELSE statements.
+- *Question* (cnguyen77-stat6250): What is the function of ELSE statement?
+- *Answer* (cnguyen77-stat6250): You can write multiple ELSE statements to specify a series of mutually exclusive conditions. The ELSE statement must immediately follow the IF-THEN statement in your program. An ELSE statement executes only if the previous IF-THEN/ELSE statement is false.
 
 
 
@@ -172,6 +181,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The LENGTH statement must appear before any other reference to the variable.
 - Question (ljiang11−stat6250): If put LENGTH TYPE $10 as the first reference, would the length be 10?
 - *Question* (akrishnamurthy-stat6250): Is the length of a variable fixed or does it change with each reference ?
+- *Question* (cnguyen77-stat6250): Where should the LENGTH statement be placed in DATA step?
+- *Answer* (cnguyen77-stat6250): Make sure the LENGTH statement appears before any other reference to the variable in the DATA step. If the variable has been created by another statement, then a later use of the LENGTH statement will not change its length.
 
 
 
@@ -200,6 +211,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): Can KEEP or DROP statements be in PROC step?
 - Answer (ljiang11−stat6250): No, however DROP= and KEEP= can be put in PROC step as a data set option following a data set name.
 - *Question* (akrishnamurthy-stat6250): What is the use of DROP or KEEP statements in DATA and PROC steps?
+- *Question* (cnguyen77-stat6250): Can DROP or KEEP statements be used in PROC steps?
 
 
 
@@ -228,6 +240,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): What is used to separate variables after DROP=
 - Answer (ljiang11−stat6250): Use space, not comma.
 - *Question* (akrishnamurthy-stat6250):How to retain only few variables from a dataset after processing? 
+- *Question* (cnguyen77-stat6250): Where to Specify the DROP= and KEEP= Data Set Options?
+- *Answer* (cnguyen77-stat6250): You can specify DROP= and KEEP= in either the DATA statement or the SET statement, depending on whether you want to drop variables onto output or input.
 
 
 
@@ -259,6 +273,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ljiang11−stat6250): What are the variables left?
 - Answer (ljiang11−stat6250): product, units, price.
 - *Question* (akrishnamurthy-stat6250):Is it necessary to carry over all the variables that are being evaluated to output dataset? Can the variables being evaluated be dropped from output dataset?
+- *Question* (cnguyen77-stat6250): What is the function of DROP= data set option?
+- *Answer* (cnguyen77-stat6250): The DROP= data set option prevents variables from being written to the data set.
 
 
 
@@ -289,6 +305,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When using BY- group processing, the DATA steps create 2 temp variables for each BY variable: FIRST. variable and LAST.variable, and their values are either 1 or 0. Are these variables stored in the data set?
 - Question (ljiang11−stat6250): Is FIRST. and LAST. sorted?
 - *Question* (akrishnamurthy-stat6250): Should the dataset be sorted in any particular order before being processed by BY statements?
+- *Question* (cnguyen77-stat6250): When using the BY statement with the SET statement, are the temporary variables FIRST. and LAST. stored in the data set?
 
 
 
@@ -317,6 +334,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): For this problem, what does “if last;" condition mean? And what does exactly “if last;" do in this program?
 - Question (ljiang11−stat6250): What does END= do?
 - *Question* (akrishnamurthy-stat6250): What is the difference between END and POINT options?
+- *Question* (cnguyen77-stat6250): What is the function of END=option on SET statement?
 
 
 
@@ -346,6 +364,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ljiang11−stat6250): Program Data Vector.
 - *Question* (akrishnamurthy-stat6250): Will the observations be read into the program data vector after compilation ?
 - *Answer* (akrishnamurthy-stat6250): At the end of compilation phase only the descriptor portion of new SAS dataset is created and observations are not read.
+- *Question* (cnguyen77-stat6250): Is there any observations at the start of DATA step processing?
 
 
 
@@ -373,6 +392,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When combining 2 datasets vertically, what happens if one dataset mentioned in the DATA= option has more variables than the other?
 - Question (ljiang11−stat6250): What does IN= do? Is it indexing?
 - *Question* (akrishnamurthy-stat6250): Should two datasets be of same length and structure to be combined vertically ? How are differences handled if the file structure is different between the datasets?
+- *Question* (cnguyen77-stat6250): How to create indicator variables?
 
 
 
@@ -399,6 +419,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Data exists in 2 datasets to be combined vertically, what happens if the variables have the same name but different types?
 - Question (ljiang11−stat6250): What does UNION in PROC SQL do?
 - *Question* (akrishnamurthy-stat6250): How to perform right outer join of two datasets using PROC SQL statement?
+- *Question* (cnguyen77-stat6250): Other than the creation of indicator variables, what is the alternative method being used to combine data vertically?
 
 
 
