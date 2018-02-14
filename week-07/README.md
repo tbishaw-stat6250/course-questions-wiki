@@ -14,7 +14,6 @@ The instructor will then review the pull request and make comments should furthe
 ********************************************************************************
 
 
-
 [Course Textbook Chapter 10, Problem 2]
 - Question (tchan49-stat6250):Is the label statement in DATA step permanent or temporary? 
 - Answer (tchan49-stat6250): The label statement in DATA Step is permanent that would be overwritten by the label statement in PORC print that is temporary. 
