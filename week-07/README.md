@@ -46,6 +46,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): No, they do not. These labels and formats just appears in the output.
 - Question (ljiang11−stat6250): Why the label is not "Amount of Loan"?
 - Answer (ljiang11−stat6250): The LABEL statement in PROC PRINT overrides the previous LABEL.
+- *Question* (akrishnamurthy-stat6250): Can multiple formats be assigned to same variable?
 
 
 
@@ -77,6 +78,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Why does capitalization matter for character values?
 - Question (ttruong59-stat6250): When using IF-THEN statement, are the character values case-sensitive?
 - Question (ljiang11−stat6250): Will the first IF THEN statement execuate before second IF THEN statement?
+- *Question* (akrishnamurthy-stat6250): Does the control break out of IF loop if condition is satisfied or all the IF statements are executed in order?
 
 
 
@@ -106,6 +108,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How do users determine the length of a new variable once IF-THEN and ELSE statement were added to a DATA step?
 - Answer (ttruong59-stat6250): Users can use a LENGTH statement to specify a length, the number of bytes, for TestLength before the first value is referenced elsewhere in the DATA step.
 - Question (ljiang11−stat6250): What is the maximum length for a new variable?
+- *Question* (akrishnamurthy-stat6250): Can the length of a variable be altered and reassigned after being referenced first in a DATA step?
+- *Answer* (akrishnamurthy-stat6250): No, LENGTH statement will not change the size of a variable if it was created before in another statement. Hence best practice is to make sure that the LENGTH statement appears before any reference to the variable in DATA step.
 
 
 
@@ -136,6 +140,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (jcanfield3-stat6250): Option b rewrites type='Fixed' to type='Unknown', because code="1" isn't excluded.  Option C renames all code ^= 1 to '2' and type to 'variable'; the second else command is also invalidated.  In option D, when Code=1 and Type=Fixed then they are rewritten as Code=2 and Type=Variable, else type='Unknown'.
 - Question (ttruong59-stat6250): Are there any limits in term of using ELSE statement to specify a series of mutually exclusive conditions?
 - Question (ljiang11−stat6250): What would happen when code is neither 1 or 2?
+- *Question* (akrishnamurthy-stat6250): What is the best coding practice to evaluate mutually exclusive conditions?
+- *Answer* (akrishnamurthy-stat6250): Using ELSE statements is a good practice for conditional processing and IF-THEN/ELSE should be constructed with conditions of decreasing probability.We can also use SELECT groups in DATA steps for mutually exclusive conditions and it is more efficient that multiple IF-THEN-ELSE statements.
 
 
 
@@ -165,6 +171,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Should the LENGTH statement appear before or after the reference to the variable in the DATA step?
 - Answer (ttruong59-stat6250): The LENGTH statement must appear before any other reference to the variable.
 - Question (ljiang11−stat6250): If put LENGTH TYPE $10 as the first reference, would the length be 10?
+- *Question* (akrishnamurthy-stat6250): Is the length of a variable fixed or does it change with each reference ?
 
 
 
@@ -192,6 +199,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a major reason users cannot use DROP or KEEP statements in PROC steps?
 - Question (ljiang11−stat6250): Can KEEP or DROP statements be in PROC step?
 - Answer (ljiang11−stat6250): No, however DROP= and KEEP= can be put in PROC step as a data set option following a data set name.
+- *Question* (akrishnamurthy-stat6250): What is the use of DROP or KEEP statements in DATA and PROC steps?
 
 
 
@@ -219,6 +227,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Instead of using DROP= and KEEP= data set option in the DATA statements, why don't we use SELECT statements conditionally?
 - Question (ljiang11−stat6250): What is used to separate variables after DROP=
 - Answer (ljiang11−stat6250): Use space, not comma.
+- *Question* (akrishnamurthy-stat6250):How to retain only few variables from a dataset after processing? 
 
 
 
@@ -249,6 +258,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): For this problem, the variables Age, Weight, and Group are specified using the KEEP= option in the SET statement. And after processing, Age and Group are dropped in the DATA statement. The question is what happens if we are going to change (KEEP=product units price ordrtime) to (DROP=product units price ordrtime) in the SET statement?
 - Question (ljiang11−stat6250): What are the variables left?
 - Answer (ljiang11−stat6250): product, units, price.
+- *Question* (akrishnamurthy-stat6250):Is it necessary to carry over all the variables that are being evaluated to output dataset? Can the variables being evaluated be dropped from output dataset?
 
 
 
@@ -278,6 +288,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Is there a way to output the first. and last. variables?
 - Question (ttruong59-stat6250): When using BY- group processing, the DATA steps create 2 temp variables for each BY variable: FIRST. variable and LAST.variable, and their values are either 1 or 0. Are these variables stored in the data set?
 - Question (ljiang11−stat6250): Is FIRST. and LAST. sorted?
+- *Question* (akrishnamurthy-stat6250): Should the dataset be sorted in any particular order before being processed by BY statements?
 
 
 
@@ -305,6 +316,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Can you use an end=last option to make the last observation from each "by or class" variable have last=1? 
 - Question (ttruong59-stat6250): For this problem, what does “if last;" condition mean? And what does exactly “if last;" do in this program?
 - Question (ljiang11−stat6250): What does END= do?
+- *Question* (akrishnamurthy-stat6250): What is the difference between END and POINT options?
 
 
 
@@ -332,6 +344,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): There are no observations set during a compilation phase since DATA step was not executed.
 - Question (ljiang11−stat6250): What is PDV?
 - Answer (ljiang11−stat6250): Program Data Vector.
+- *Question* (akrishnamurthy-stat6250): Will the observations be read into the program data vector after compilation ?
+- *Answer* (akrishnamurthy-stat6250): At the end of compilation phase only the descriptor portion of new SAS dataset is created and observations are not read.
 
 
 
@@ -358,6 +372,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Can I format the id variable before its assigned a value?
 - Question (ttruong59-stat6250): When combining 2 datasets vertically, what happens if one dataset mentioned in the DATA= option has more variables than the other?
 - Question (ljiang11−stat6250): What does IN= do? Is it indexing?
+- *Question* (akrishnamurthy-stat6250): Should two datasets be of same length and structure to be combined vertically ? How are differences handled if the file structure is different between the datasets?
 
 
 
@@ -383,6 +398,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): Why is proc sql not taught at a beginner level if its so much more efficient?
 - Question (ttruong59-stat6250): Data exists in 2 datasets to be combined vertically, what happens if the variables have the same name but different types?
 - Question (ljiang11−stat6250): What does UNION in PROC SQL do?
+- *Question* (akrishnamurthy-stat6250): How to perform right outer join of two datasets using PROC SQL statement?
 
 
 
