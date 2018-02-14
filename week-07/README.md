@@ -50,6 +50,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How does the label and format in PROC PRINT affect the label and format in DATA step?
 - *Answer* (cnguyen77-stat6250): Temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step.
 - *Question* (ldai4-stat6250): Does the temporary labels or format that are assigned in a PROC step override permanent labels or formats that are assigned in DATA step?
+- *Question* (xyin6-stat6250): What is the difference for defining variable format between DATA step and PROC step?
 
 
 
@@ -86,6 +87,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): The IF-THEN statement executes a SAS statement when the condition in the IF clause is true.
 - *Question* (ldai4-stat6250): when can we use the IF-THEN statement?
 - *Answer* (ldai4-stat6250):  when we need to perform an action conditionally, the IF-THEN statement should be used. The IF-then statement executes a SAS statement when the condition in the IF clause is true.
+- *Question* (xyin6-stat6250): Is the character values in quotation marks always case sensitive?
 
 
 
@@ -121,6 +123,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): The length of a variable is determined by its first reference in the DATA step. When creating a new character variable, SAS allocates as many bytes of storage space as there are characters in the reference to that variable. The first reference to a new variable can also be made with a LENGTH statement or an assignment statement.
 - *Question* (ldai4-stat6250): What can the length of a new variable be determined by?
 - *Answer* (ldai4-stat6250):  The length of a variable is determined by its first reference in the DATA step. When creating a new character variable, SAS allocates as many bytes of storage space as there are characters in the reference to that variable.
+- *Question* (xyin6-stat6250): Is the order of If-statements matter in terms of defining variable length?
+- *Answer* (xyin6-stat6250): Yes, SAS allocates as many bytes of storage space as there are characters in the first value that it encounters of the variable. So the length of following variables are restricted by first variable length.
 
 
 
@@ -157,6 +161,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the function of ELSE statement?
 - *Answer* (cnguyen77-stat6250): You can write multiple ELSE statements to specify a series of mutually exclusive conditions. The ELSE statement must immediately follow the IF-THEN statement in your program. An ELSE statement executes only if the previous IF-THEN/ELSE statement is false.
 - *Question* (ldai4-stat6250): Must the ELSE statement immediately follow the IF-THEN statement?
+- *Question* (xyin6-stat6250): When we assign values to a variable, should we use quotation marks for both numeric value and character value?
 
 
 
@@ -191,6 +196,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): Make sure the LENGTH statement appears before any other reference to the variable in the DATA step. If the variable has been created by another statement, then a later use of the LENGTH statement will not change its length.
 - *Question* (ldai4-stat6250): Who can determine the length of a new variable?
 - *Answer* (ldai4-stat6250):  The length of a new variable is determined by the first reference in the DATA step, not by data value.
+- *Question* (xyin6-stat6250): Where should we put the LENGTH statement to specify a length?
+- *Answer* (xyin6-stat6250): It should appear before any other reference to the variable in teh DATA step, otherwise of the variable has been created by another statement, the LENGTH statement will not work.
 
 
 
@@ -221,6 +228,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): What is the use of DROP or KEEP statements in DATA and PROC steps?
 - *Question* (cnguyen77-stat6250): Can DROP or KEEP statements be used in PROC steps?
 - *Question* (ldai4-stat6250): Can we use DROP and KEEP statement in the PROC steps?
+- *Question* (xyin6-stat6250): What is the difference between DROP= data set option and DROP statement?
 
 
 
@@ -252,6 +260,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Where to Specify the DROP= and KEEP= Data Set Options?
 - *Answer* (cnguyen77-stat6250): You can specify DROP= and KEEP= in either the DATA statement or the SET statement, depending on whether you want to drop variables onto output or input.
 - *Question* (ldai4-stat6250): How is a new data set created from an existing SAS data set?
+- *Question* (xyin6-stat6250): Which step will be excuted first? SET statement or DATA statement?
 
 
 
@@ -287,6 +296,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): The DROP= data set option prevents variables from being written to the data set.
 - *Question* (ldai4-stat6250): If we need to reference a variable in the original data set, do we need to specify the variable in the DROP= option in the DATA statement?
 - *Answer* (ldai4-stat6250): Yes, we should specify the variable in the DROP= or KEEP= option in the DATA statement. Otherwise, the statement that references the variable uses a missing value for the variable.
+- *Question* (xyin6-stat6250): Does the if-statement after SET statement overwrite the dataset created in DATA statement? (subseting a new dataset)
 
 
 
@@ -319,6 +329,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Should the dataset be sorted in any particular order before being processed by BY statements?
 - *Question* (cnguyen77-stat6250): When using the BY statement with the SET statement, are the temporary variables FIRST. and LAST. stored in the data set?
 - *Question* (ldai4-stat6250): Using the BY statement with the SET statement, does the DATA step automatically create two variables, FIRST. And LAST., for each variable in the BY statement?
+- *Question* (xyin6-stat6250): How to append a variable into FIRST and LAST as shown in the book example? Is it automatically created by SAS?
 
 
 
@@ -349,6 +360,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): What is the difference between END and POINT options?
 - *Question* (cnguyen77-stat6250): What is the function of END=option on SET statement?
 - *Question* (ldai4-stat6250): If we want to output only one observation, can we use the END= option in the SET statement?
+- *Question* (xyin6-stat6250): Is END= option always follow the SET statement?
 
 
 
@@ -381,6 +393,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Is there any observations at the start of DATA step processing?
 - *Question* (ldai4-stat6250): At the start of DATA step processing, why are there no observations?
 - *Answer* (ldai4-stat6250):  At the bottom of the DATA step, the compilation phase is completed. There are no observations because the DATA step has not yet executed.
+- *Question* (xyin6-stat6250): How does SAS set the value of each variable when SAS reads the raw data?
+- *Answer* (xyin6-stat6250): SAS sets the value of each variable in the DATA step to missing at the beginning or each iteration.
 
 
 
@@ -410,6 +424,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): Should two datasets be of same length and structure to be combined vertically ? How are differences handled if the file structure is different between the datasets?
 - *Question* (cnguyen77-stat6250): How to create indicator variables?
 - *Question* (ldai4-stat6250): If using the APPEND statement to combine two data sets to form a single dataset, do the two original datasets need to have same variables?
+- *Question* (xyin6-stat6250): Why we have to include "do" statement in the body before referring to each data source?
 
 
 
@@ -438,6 +453,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How to perform right outer join of two datasets using PROC SQL statement?
 - *Question* (cnguyen77-stat6250): Other than the creation of indicator variables, what is the alternative method being used to combine data vertically?
 - *Question* (ldai4-stat6250): When using INTERLV statement, does the new data set include all the variables and observations?
+- *Question* (xyin6-stat6250): Is "Union all corr" a necessary statement for every PROC SQL step? 
 
 
 
