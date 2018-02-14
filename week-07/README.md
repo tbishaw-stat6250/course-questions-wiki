@@ -37,6 +37,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250): The label statement in DATA Step is permanent that would be overwritten by the label statement in PORC print that is temporary. 
 - *Question* (jbettonville-stat6250): If two separate labels are to be used with equal frequency within a program, is there a way to specify multiple labels that can be applied, or does the full text of the secondary label need to be entered each time that label is needed?
 - Question (aguenane−stat6250): What is the difference between COMMA6 and COMMA10?
+- *Question* (shatcher4-stat6250): Why do character values need to be specified in the same case in which they appear in the data set and enclosed in quotation marks?
 
 
 
@@ -62,6 +63,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): How might we create a condition in which the case of the letters in the pattern to match is ignored?
 - Question (aguenane−stat6250): For Chapter 10 Quiz, problem 6, if both if statements were false, what would be the values of the variables Count and Control?
 - Answer (aguenane-stat6250): The value of Count would be 12 and the value of Control would be Go.
+- *Question* (shatcher4-stat6250): How would you perfom an action conditionally in SAS?
+- *Answer* (shatcher4-stat6250): Use an IF-THEN statement, which will execute a SAS statement when the condition in the IF clause is true
 
 
 
@@ -84,6 +87,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Is it possible to change the length of a variable within a data set once it has been set in a DATA step?
 - Question (aguenane−stat6250): What does it mean when a value is truncated?
 - Answer (aguenane-stat6250): It means if the value is longer than the assigned length, the value is shortened to the assigned length. 
+- *Question* (shatcher4-stat6250): What does the LENGTH statement do?
 
 
 
@@ -108,6 +112,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250):ELSE statement excutes only if the previous IF-THEN/ELSE is false. 
 - *Question* (jbettonville-stat6250): What is the result if non-mutually exclusive conditions are included in an IF-ELSE statement?
 - Question (aguenane−stat6250): Why is it more efficient to construct IF-THEN/ELSE statements with conditions of decreasing probability?
+- *Question* (shatcher4-stat6250): How can using an ELSE statement with an IF-THEN statemnet save resources?
 
 
 
@@ -131,6 +136,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250):Where shoud LENGTH statement be placed in DATA step? Before or all the reference to variables in DATA step? 
 - *Question* (jbettonville-stat6250): In common SAS usage, is it preferred to implicitly define variable length within an IF statement, or to explicitly define it using a LENGTH statement before the IF statement?
 - Question (aguenane−stat6250): Can you specify a new LENGTH of a variable after the first value for the variable is referenced?
+- *Question* (shatcher4-stat6250): Why does the LENGTH step need to appear before any other reference to the variable in the DATA step?
 
 
 
@@ -152,7 +158,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): In common SAS usage, is it preferred to use DROP statements within DATA steps to explicitly exclude certain variables, or to use KEEP to select specific variables to include?
 - *Answer* (jbettonville-stat6250): It is preferred to use KEEP statements to explicitly include specific variables, as this makes the code somewhat "self-documenting" by showing what is included rather than what is excluded, and it also prevents unwanted columns from being included in case the input data changes. (n.b. Week 5 SAS recipes lines 89-93)
 - Question (aguenane−stat6250): Do you have to provide a label and format for a variable?
-
+- *Question* (shatcher4-stat6250): What does the DROP= statement do?
 
 
 
@@ -174,6 +180,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): What is the difference between using DROP as an option on a DATA step and using DROP or KEEP as an option in a SET statement within a DATA step?
 - *Answer* (jbettonville-stat6250): Using DROP or KEEP in the SET statement specifies what columns from the source data set are dropped or kept, at which point additional conditions may be applied to remove specific observations (i.e. an IF statement can be used following the SET statement to choose only rows that meet a specific condition). Using DROP as an option in the DATA step can be used to exclude columns that were included in the SET statement that may have been used when selecting which observations to select, but that are not desired in the final output data set.
 - Question (aguenane−stat6250): What is the difference between using DROP= and KEEP= statements in the DATA step vs the SET step?
+- *Question* (shatcher4-stat6250): Where is the data set that will be read specified after a DATA step is written to name the SAS data set to be created?
 
 
 
@@ -196,6 +203,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250):Can you drop a variable in DATA step that isn't kept in SET statement? 
 - *Question* (jbettonville-stat6250): Can the KEEP option be used as an option in the DATA step to explicitly choose the variables from the original data set to include in the output data set?
 - Question (aguenane−stat6250): What does “july” mean when referencing the data set Orders with this statement: july.orders?
+- *Question* (shatcher4-stat6250): What are the different ways to manipulate data using the DATA step?
 
 
 
@@ -220,6 +228,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Can multiple observations in a data set take on a value of 1 in the FIRST. and/or LAST. variables when working with more than one BY variable?
 - Question (aguenane−stat6250): What are the values in FIRST.variable and LAST.variable?
 - Answer (aguenane-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
+- *Question* (shatcher4-stat6250): What happens when you use the BY statement with the SET statement?
 
 
 
@@ -241,6 +250,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tchan49-stat6250): At the end of SET statement and also finish it with "if last;" at the end of data step before run statement. 
 - *Question* (jbettonville-stat6250): Can (and should) the END= option be used to return the index of the final observation in a data set?
 - Question (aguenane−stat6250): Is “LAST” a SAS defined statement or is it a variable?
+- *Question* (shatcher4-stat6250): How do you create a temporary numeric variable whose value is used to detect the last observation?
+- *Answer* (shatcher4-stat6250): Use the END= option in the SET statement.
 
 
 
@@ -261,6 +272,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250):When the descriptor portion of the new SAS dataset id created, has the DATA step executed yet?
 - *Question* (jbettonville-stat6250): During the compilation phase, how does SAS determine the order of the variables added to the PDV based upon options in the DATA step, the SET statement, and any additional variables that are created within the statement?
 - Question (aguenane−stat6250): If variables are created in the DATA step, what happens to them during the compilation phase?
+- *Question* (shatcher4-stat6250): What happens during the compilation phase of DATA steps that use a SET statement?
 
 
 
@@ -282,6 +294,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Is it possible to resolve warnings about multiple lengths being specified for the same variable when multiple data sets are joined vertically?
 - *Answer* (jbettonville-stat6250): The warnings about multiple lengths occur because the length of the initial observation for the affected variables in one data set are not the same length as they are in the second. In the example, the Academic_Year variable has length 19 in the first input data set and 60 in the second. It is possible to resolve this issue by specifying the length of this variable within the DATA step prior to the SET statement in which the input data sets are referenced, and choosing a value that is at least as long as the longest instance of this variable; by using the statement "length Academic_Year $ 60;", the warning for the Academic_Year variable will not be shown because the length has been declared to be equal to the longest version of this variable among the input data sets. However, while this resolves the warning for one variable, it may not be a scalable solution as it would require the length of all variables to be specified prior to the SET statement.
 - Question (aguenane−stat6250): What is the function of the SAS statement DO? 
+- *Question* (shatcher4-stat6250): What is "business logic" and how is it performed?
 
 
 
@@ -301,6 +314,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tchan49-stat6250): Can "UNION all corr" make sure that all columns with corresponding name are matched up even in different positions? 
 - *Question* (jbettonville-stat6250): If not all columns between the two data sets were named identically, would UNION ALL CORR in lead to missing values in the resulting data set?
 - Question (aguenane-stat6250): What does the AS keyword do in a PROC SQL SELECT statement?
+- *Question* (shatcher4-stat6250): How is an asterisk used as shorthand?
+- *Answer* (shatcher4-stat6250): It is used to include all columns from the source dataset name that is listed in the corresponding from clause
 
 
 
