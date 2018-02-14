@@ -21,8 +21,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 10, Problem 6]
 - *Question* (ldai4-stat6250): when can we use the IF-THEN statement?
-- *Answer* (ldai4-stat6250):  when we need to perform an action conditionally, the IF-THEN statement should be used. The IF-THEN 
-statement executes a SAS statement when the condition in the IF clause is true.
+- *Answer* (ldai4-stat6250):  when we need to perform an action conditionally, the IF-THEN statement should be used. The IF-THEN statement executes a SAS statement when the condition in the IF clause is true.
 
 
 
