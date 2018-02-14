@@ -33,6 +33,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cli19-stat6250): Variable labels and formats can be temporarily changed in PROC steps or permanently changed in DATA steps.
 - Question (tbishaw-stat6250): What is the function of a RETAIN statement?  
 - Answer (tbishaw-stat6250): A RETAIN statement, assigns an intial value to a retained variable and prevents variables from being initialized each time the DATA step executes.
+- Question (tchan49-stat6250):Is the label statement in DATA step permanent or temporary? 
+- Answer (tchan49-stat6250): The label statement in DATA Step is permanent that would be overwritten by the label statement in PORC print that is temporary. 
 
 
 
@@ -53,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): When recoding variables using IF-THEN statements, would it be better to create a new variable rather than writing over an existing variable?
 - Question (tbishaw-stat6250): What are some of the comparision operators we can use when writing an IF-THEN statements?
 - Answer (tbishaw-stat6250): Comparision operators: =oreq (equal to), ^=orne (not equal to), >orgt (greater than), <orlt (less than), >=orge (greater than or equal to), <=orle (less than or equal to), and in (equal to one of a list)
+- Question (tchan49-stat6250):Can IF-THEN statement be still excuted if character values are in the different case from in which they appear in original dataset? 
+- Answer (tchan49-stat6250):No, it cannot. 
 
 
 
@@ -71,6 +75,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): What happens if the length of proceeding observations is longer than the variable's first reference in the DATA step?
 - *Answer* (cli19-stat6250): This results in WARNING outputs in the log and truncation of observations with that have longer length than what is defined for that variable.
 - Question (tbishaw-stat6250): What statement can you add t oassign a value to TestLength when the condition in you IF-THEN statment is false? 
+- Question (tchan49-stat6250):If the length of the variable's first reference in DATA step is 6, what is the length of the new variable? 
 
 
 
@@ -91,6 +96,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): How does writing separate IF statements differ from IF-ELSE statements for mutually exclusive conditions?
 - *Answer* (cli19-stat6250): Utilizing IF-ELSE statements for mutually exclusive conditions can save computation time compared to separate IF statements. Rather than stepping through each IF statement is true or not, IF-ELSE tells SAS to stop and move to the next observation once it encounters a true statement.
 - Question (tbishaw-stat6250): When do you want to use an IF-THEN statment with a DELETE statement in SAS? 
+- Question (tchan49-stat6250):Would ELSE statement execute if the previous IF-THEN/ELSE is true? 
+- Answer (tchan49-stat6250):ELSE statement excutes only if the previous IF-THEN/ELSE is false. 
 
 
 
@@ -111,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): Does the order of the length statement in a DATA step have any affect on the output data set?
 - Question (tbishaw-stat6250): What is the key difference between the DROP and KEEP statments? 
 - Answer (tbishaw-stat6250): The KEEP and DROP statments are similar, except that the KEEP statement specifies a list of variables to write to output data sets.
+- Question (tchan49-stat6250):Where shoud LENGTH statement be placed in DATA step? Before or all the reference to variables in DATA step? 
 
 
 
@@ -128,6 +136,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): How does syntax differ when dropping, keeping, or renaming variables in DATA steps versus PROC steps?
 - Question (tbishaw-stat6250): Is there an alternative to IF-THEN/ELSE statement? If so what is it?
 - Answer (tbishaw-stat6250): As an alternative to IF-THEN/ELSE statmenent you can use SELECT groups in DATA steps to perform conditional processing. 
+- Question (tchan49-stat6250):Can KEEP or DROP statement be written in PORC statement? 
+
 
 
 
@@ -145,6 +155,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): What is the purpose of specifying DROP or KEEP variables in the SET statement?
 - Question (tbishaw-stat6250): What are the steps you need to perform before you create the data set? 
 - Answer (tbishaw-stat6250): To create the data set, you must first reference the library in which your data is stored and then you wirte a DATA step to read your data and create a new data set; you must assign a libref to the SAS library that will store the data set.
+- Question (tchan49-stat6250):What is the difference between having DROP/KEEP option in SET statement or DATA step? 
 
 
 
@@ -164,6 +175,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): What does the program data vector (PDV) look like when statements in a DATA step reference variables that are not present in the data set?
 - Question (tbishaw-stat6250): What is the function the SET statment performs? 
 - Answer (tbishaw-stat6250): After you write a DATA step to name the SAS data set to be created, you use the SET statement to specify the data set that will be read. 
+- Question (tchan49-stat6250):Can you drop a variable in DATA step that isn't kept in SET statement? 
 
 
 
@@ -184,6 +196,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): What are other potential use cases for FIRST. and LAST. statements?
 - *Answer* (cli19-stat6250): One use case is FIRST. and LAST. can be used to compare observations to see if there are any duplicate rows.
 - Question (tbishaw-stat6250): Which statement do you use if you never refernce certain varaibles and you do not want them to appear in the new data set? 
+- Question (tchan49-stat6250):Are First. and LAST. temporary variables? 
 
 
 
@@ -201,6 +214,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): How can LAST. be combined with other statements to get the last observation with respect to a specific variable?
 - Question (tbishaw-stat6250): What are the two temporary varaibles the DATA step creates for each BY variable? 
 - Answer (tbishaw-stat6250): One is named FIRST.variable, is the name of the BY variable, and the second is named LAST.variable. These two variables identify the first and last observation in each BY group. 
+- Question (tchan49-stat6250):When you only want to select only the last observation of the dataset, do you put end=last at the end of SET statement ot DATA step? 
+- Answer (tchan49-stat6250): At the end of SET statement and also finish it with "if last;" at the end of data step before run statement. 
 
 
 
@@ -218,6 +233,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): Why are there no observations at the start of DATA step processing?
 - Question (tbishaw-stat6250): How can you prevent continuous looping when using direct access to read data?  
 - Answer (tbishaw-stat6250): You add a STOP statement to the DATA step to prevent continuous looping. 
+- Question (tchan49-stat6250):When the descriptor portion of the new SAS dataset id created, has the DATA step executed yet?
 
 
 
@@ -235,6 +251,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cli19-stat6250): Should length be defined outside the do loop rather than inside?
 - Question (tbishaw-stat6250): How is the LEGNGTH statement used in SAS? 
 - Answer (tbishaw-stat6250): The LENGTH statemnt is used in the dATA step to specify a variable's length. If the varaible is character, the length applies to the PDV and the output data set. If the variable is numeric, the length applies only to the output data set.   
+- Question (tchan49-stat6250): What is the benefit having in= dataset option? 
 
 
 
@@ -251,6 +268,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The three set operators are differ in nature from each other in terms of the set-theoretic rules they implement, but resemble one another in terms of their mechanics. UNION, INTERSECT, and EXCEPT do not have simple DATA step counterparts,though some emulation can be programmed.
 - *Question* (cli19-stat6250): What happens if variables are of different type when combining data vertically using a UNION ALL CORR statement in a PROC SQL step?
 - Question (tbishaw-stat6250): How are a group of statments executed as a unit in DATA steps? 
+- Question (tchan49-stat6250): Can "UNION all corr" make sure that all columns with corresponding name are matched up even in different positions? 
 
 
 
