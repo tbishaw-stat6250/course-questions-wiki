@@ -128,6 +128,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 
+
 [Course Textbook Chapter 10, Problem 8]
 - *Question* (aamiri2-stat6250): What is the main difference between IF-THEN statements and DROP= KEEP= statements? 
 - Question (dfei-stat6250): Can IF-THEN statements equal to IF-ELSE statements?
@@ -453,5 +454,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): Other than the creation of indicator variables, what is the alternative method being used to combine data vertically?
 - *Question* (ldai4-stat6250): When using INTERLV statement, does the new data set include all the variables and observations?
 - *Question* (xyin6-stat6250): Is "Union all corr" a necessary statement for every PROC SQL step? 
+
 
 
