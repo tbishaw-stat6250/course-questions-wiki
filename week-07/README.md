@@ -1,4 +1,3 @@
-
 ## Week 7 Quiz Questions and Answers
 
 In order to prepare your Week 7 Quiz submission, please edit ***this*** document to provide substantive questions for each Quiz Problem and SAS Recipe listed below, as well as answers to at least three questions raised.
@@ -12,6 +11,7 @@ All edits should conform to GitHub Markdown specifications (https://guides.githu
 The instructor will then review the pull request and make comments should further revision be needed. Then, after the contents of the pull request have been finalized without any merge conflicts, the instructor will merge the pull request.
 
 ********************************************************************************
+
 
 
 [Course Textbook Chapter 10, Problem 2]
