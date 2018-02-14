@@ -22,6 +22,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):No, correct is "Temporary labels or formats that are assigned in a PROC step override permanent labels or formats that are assigned in a DATA step."
 - Question (ldeng11−stat6250): What would happen if you have label and format statement in both DATA setp and Print procedure?
 - Answer (ldeng11−stat6250): The label and format you assign in the print procedure will overwrite the ones in the DATA step.
+- *Question* (asharda-stat6250): Do labels and format affect how data is stored in data set?
+- *Answer* (asharda-stat6250): Labels and Formats do not affect how data is stored in the data set, but only how it appears in output.
 
 
 
@@ -32,6 +34,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Do we must enclose character values in quotation marks?
 - Answer(pcheng14-stat6250):Yes, we do.
 - Question (ldeng11−stat6250): What are thr rules when you have logical operand in the IF-THEN statement?
+- *Question* (asharda-stat6250): What is the advantage of using ELSE statement with IF-THEN statement?.
+- *Answer* (asharda-stat6250): Using ELSE statements with IF-THEN statements can save resources.
 
 
 
@@ -42,6 +46,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):No, it should be by its first reference in the DATA step.
 - Question (ldeng11−stat6250): How many factors can affect the length of a new variable?
 - Answer (ldeng11−stat6250): You could use LENGTH statement; assignment statement to define the length of a new variable; or it could be the length of the variable from the first reference in the DATA step.
+- *Question* (asharda-stat6250): How do you find length of new variable in SAS?.
 
 
 
@@ -51,6 +56,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei-stat6250): No, they can not.
 - Question(pcheng14-stat6250):Can we write multiple ELSE statements to specify a series of mutually exclusive conditions?
 - Question (ldeng11−stat6250): What are the advantages using IF-ESLE statements than the multiple IF-THEN statement?
+- *Question* (asharda-stat6250): Can you write multiple ELSE statements.
+- *Answer* (asharda-stat6250): You can write multiple ELSE statements to specify a series of mutually exclusive conditions.
 
 
 
@@ -60,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): How to determind the length of the variable Type?
 - Question(pcheng14-stat6250):How many types of the length of the variable we have?
 - Question (ldeng11−stat6250): Where you should place the LENGTH statement if you want to use it in the DATA step?
+- *Question* (asharda-stat6250): What is the length of new variable determined by?
+- *Answer* (asharda-stat6250): The length of a new variable is determined by the first reference in the DATA step.
 
 
 
@@ -68,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): Do I have to put drop sumsec in the second choice of the question?
 - Question(pcheng14-stat6250):When should we use DROP or KEEP statement in any DATA step?
 - Question (ldeng11−stat6250): What are the rules if you want to use KEEP, DROP statement?
+- *Question* (asharda-stat6250): Which statements can you use to select variables?.
+- *Answer* (asharda-stat6250): You can use a DROP or KEEP statement in any DATA step. 
 
 
 
@@ -76,6 +87,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): What is the squence when I put some variables appear in the new data set?
 - Question(pcheng14-stat6250):Besides using the KEEP= option in the SET statement, have any others way can get same result?
 - Question (ldeng11−stat6250): What are the rules if you want to use KEEP, DROP option in the DATA step?
+- *Question* (asharda-stat6250): What is the significance of using KEEP=option in the SET statement?.
 
 
 
@@ -85,6 +97,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When can we drop OrdrTime in the SET statement?
 - Question (ldeng11−stat6250): Can you drop the variable in the SET statement if you want to process this variable in the condition statements later?
  - Answer (ldeng11−stat6250): No. If you place the drop statement in the SET statement, you never read the drop variables from the original data set. You need to drop the variables in the DATA statement if you want to use the variables in the condition statementes later.
+- *Question* (asharda-stat6250): How do you prevent variables from being written to the data set?
+- *Answer* (asharda-stat6250): The DROP= data set option prevents variables from being written to the data set .
 
 
 
@@ -95,6 +109,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (dfei-stat6250): Yes, it can.
 - Question(pcheng14-stat6250):When will the DATA step create the temporary variables FIRST. and LAST.?
 - Question (ldeng11−stat6250): What are First., Last. variables stand for when you use BY-group process?
+- *Question* (asharda-stat6250): What happens when you use BY statement with the SET statement?.
 
 
 
@@ -103,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): How to figure out whether my command is a a continuous loop or not?
 - Question(pcheng14-stat6250):What kind of the program should use the END= option?
 - Question (ldeng11−stat6250): What you should do if you only want to select the last observation?
+- *Question* (asharda-stat6250): When do you use END=option?.
 
 
 
@@ -111,6 +127,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): What does compilation phase mean?
 - Question(pcheng14-stat6250):What is the meaning of PDV?
 - Question (ldeng11−stat6250): What happend during the data compilation phase?
+- *Question* (asharda-stat6250): What is the general form basic DATA step for reading a single data set?
 
 
 
@@ -119,6 +136,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): If two datasets with same column can not combine together successfully, what will the error messagers show?
 - Question(pcheng14-stat6250):What is meaning of "business logic"?
 - Question (ldeng11−stat6250): How do you use in= option?
+- *Question* (asharda-stat6250): What is a defensive programming practice?
 
 
 
@@ -127,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (dfei-stat6250): In the second short video, the "select * " command seems like sql language, isn't it?
 - Question(pcheng14-stat6250):Why many SAS programers rely on proc sql for the bulk of thier data manipulation tasks?
 - Question (ldeng11−stat6250): Can you write the equivalent DATA step code to repalce the PROC SQL code?
+- *Question* (asharda-stat6250): Does using "union" allow datasets to contain duplicates?
 
 
 
