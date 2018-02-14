@@ -40,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): Why do character values need to be specified in the same case in which they appear in the data set and enclosed in quotation marks?
 - *Question* (who7-stat6250): Is there a way to override the LABEL made in DATA step?
 - *Answer* (who7-stat6250): Yes, you can override existing labels made in the DATA Step by creating another label in the PROC step.
+- *Question* (jcanfield3-stat6250): Why is the label option needed?
+- *Answer* (jcanfield3-stat6250): Without it the data does not know to output the new label within the proc statememt.
 
 
 
@@ -68,6 +70,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How would you perfom an action conditionally in SAS?
 - *Answer* (shatcher4-stat6250): Use an IF-THEN statement, which will execute a SAS statement when the condition in the IF clause is true
 - *Question* (who7-stat6250): Can i create an extra condition within a condition? E.g. If a and (b or c) Then.
+- *Question* (jcanfield3-stat6250): Why does capitalization matter for character values?
 
 
 
@@ -93,6 +96,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What does the LENGTH statement do?
 - *Question* (who7-stat6250): in what situation would we need to get the length of a variable?
 - *Answer* (who7-stat6250): You might need to find the length of a variable when there is a limit of length or certain condition where length is required.
+- *Question* (jcanfield3-stat6250): Are there any other ways to determine/change variable length?
 
 
 
@@ -119,6 +123,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): Why is it more efficient to construct IF-THEN/ELSE statements with conditions of decreasing probability?
 - *Question* (shatcher4-stat6250): How can using an ELSE statement with an IF-THEN statemnet save resources?
 - *Question* (who7-stat6250): Would we use While loop in SAS?
+- *Question* (jcanfield3-stat6250): Why do b, c, and d fail to emulate the desired code?
+- *Answer* (jcanfield3-stat6250): Option b rewrites type='Fixed' to type='Unknown', because code="1" isn't excluded.  Option C renames all code ^= 1 to '2' and type to 'variable'; the second else command is also invalidated.  In option D, when Code=1 and Type=Fixed then they are rewritten as Code=2 and Type=Variable, else type='Unknown'.
 
 
 
@@ -144,6 +150,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): Can you specify a new LENGTH of a variable after the first value for the variable is referenced?
 - *Question* (shatcher4-stat6250): Why does the LENGTH step need to appear before any other reference to the variable in the DATA step?
 - *Question* (who7-stat6250): What would happen if variable length exceed what we set in the DATA Step?
+- *Question* (jcanfield3-stat6250): Why does capitalization not matter when referencing variables?
 
 
 
@@ -167,6 +174,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): Do you have to provide a label and format for a variable?
 - *Question* (shatcher4-stat6250): What does the DROP= statement do?
 - *Question* (who7-stat6250): How can we achieve the DROP function in PROC step?
+- *Question* (jcanfield3-stat6250): Why does an error occur when you use a drop or keep statement in a proc step?
 
 
 
@@ -190,6 +198,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the difference between using DROP= and KEEP= statements in the DATA step vs the SET step?
 - *Question* (shatcher4-stat6250): Where is the data set that will be read specified after a DATA step is written to name the SAS data set to be created?
 - *Question* (who7-stat6250): If we DROP variable in the DATA step, can we recall those varaibles if we use another DATA Step?
+- *Question* (jcanfield3-stat6250): Is the if statement processed before or after the drop= option?
 
 
 
@@ -215,6 +224,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What are the different ways to manipulate data using the DATA step?
 - *Question* (who7-stat6250): Why would we drop varialbe when we create new dataset?
 - *Answer* (who7-stat6250): Sometimes it is present a more clear cut dataset taht shows only varaibles that is needed.
+- *Question* (jcanfield3-stat6250): What is wrong with option B?
+- *Answer* (jcanfield3-stat6250): Not only is ordrtime never read, thus invalidating the if statement, but also we are creating the orders dataset rather than reading it.
 
 
 
@@ -241,6 +252,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): Their values are either 1 for the first and last observations respectively or 0 for any other observation.
 - *Question* (shatcher4-stat6250): What happens when you use the BY statement with the SET statement?
 - *Question* (who7-stat6250): What are some other interesting ways to use the FRIST and LAST variables?
+- *Question* (jcanfield3-stat6250): Is there a way to output the first. and last. variables?
 
 
 
@@ -265,6 +277,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How do you create a temporary numeric variable whose value is used to detect the last observation?
 - *Answer* (shatcher4-stat6250): Use the END= option in the SET statement.
 - *Question* (who7-stat6250): How can we achieve the function of end=last function for the first entry?
+- *Question* (jcanfield3-stat6250): Can you use an end=last option to make the last observation from each "by or class" variable have last=1? 
 
 
 
@@ -287,6 +300,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): If variables are created in the DATA step, what happens to them during the compilation phase?
 - *Question* (shatcher4-stat6250): What happens during the compilation phase of DATA steps that use a SET statement?
 - *Question* (who7-stat6250): With the way SAS runs the compilation phase, does it means all data manipulation process should be done in the DATA step?
+- *Question* (jcanfield3-stat6250): Is there a way to print how the PDV works in an output?
 
 
 
@@ -310,6 +324,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the function of the SAS statement DO? 
 - *Question* (shatcher4-stat6250): What is "business logic" and how is it performed?
 - *Question* (who7-stat6250): How do the do end condition differs from the if then condition?
+- *Question* (jcanfield3-stat6250): Can I format the id variable before its assigned a value?
 
 
 
@@ -332,6 +347,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How is an asterisk used as shorthand?
 - *Answer* (shatcher4-stat6250): It is used to include all columns from the source dataset name that is listed in the corresponding from clause
 - *Question* (who7-stat6250): It seems for one proc sql seems to involve more code to do merge than normal SAS code, would it be considered a better way to merge dataset?
+- *Question* (jcanfield3-stat6250): Why is proc sql not taught at a beginner level if its so much more efficient?
 
 
 
