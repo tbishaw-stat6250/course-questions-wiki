@@ -34,28 +34,36 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): When we assign values to a variable, should we use quotation marks for both numeric value and character value?
 
 
+
 [Course Textbook Chapter 10, Problem 9]
 - *Question* (xyin6-stat6250): Where should we put the LENGTH statement to specify a length?
 - *Answer* (xyin6-stat6250): It should appear before any other reference to the variable in teh DATA step, otherwise of the variable has been created by another statement, the LENGTH statement will not work.
 
+
+
 [Course Textbook Chapter 10, Problem 10]
 - *Question* (xyin6-stat6250): What is the difference between DROP= data set option and DROP statement?
+
 
 
 [Course Textbook Chapter 11, Problem 1]
 - *Question* (xyin6-stat6250): Which step will be excuted first? SET statement or DATA statement?
 
 
+
 [Course Textbook Chapter 11, Problem 2]
 - *Question* (xyin6-stat6250): Does the if-statement after SET statement overwrite the dataset created in DATA statement? (subseting a new dataset)
+
 
 
 [Course Textbook Chapter 11, Problem 3]
 - *Question* (xyin6-stat6250): How to append a variable into FIRST and LAST as shown in the book example? Is it automatically created by SAS?
 
 
+
 [Course Textbook Chapter 11, Problem 8]
 - *Question* (xyin6-stat6250): Is END= option always follow the SET statement?
+
 
 
 [Course Textbook Chapter 11, Problem 9]
@@ -63,10 +71,14 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): SAS sets the value of each variable in the DATA step to missing at the beginning or each iteration.
 
 
+
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (xyin6-stat6250): Why we have to include "do" statement in the body before referring to each data source?
 
 
+
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (xyin6-stat6250): Is "Union all corr" a necessary statement for every PROC SQL step? 
+
+
 
