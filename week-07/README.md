@@ -15,69 +15,69 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 10, Problem 2]
-- Question (lsun-stat6250): What is the usage of the "infile creddata"?
+- Question (lsun20-stat6250): What is the usage of the "infile creddata"?
 
 
 
 [Course Textbook Chapter 10, Problem 6]
-- Question (lsun-stat6250): Does capitalization influence the character values everytime in SAS?
+- Question (lsun20-stat6250): Does capitalization influence the character values everytime in SAS?
 
 
 
 [Course Textbook Chapter 10, Problem 7]
-- Question (lsun-stat6250): How the assignment statement determine the length of a new variable?
+- Question (lsun20-stat6250): How the assignment statement determine the length of a new variable?
 
 
 
 [Course Textbook Chapter 10, Problem 8]
-- Question (lsun-stat6250): How the ELSE statement works?
-- Answer (lsun-stat6250): The ELSE statement works when the previous IF-THEN/ELSE statement is false.
+- Question (lsun20-stat6250): How the ELSE statement works?
+- Answer (lsun20-stat6250): The ELSE statement works when the previous IF-THEN/ELSE statement is false.
 
 
 
 [Course Textbook Chapter 10, Problem 9]
-- Question (lsun-stat6250): Why the length of the variable Type is not 10 with the Length statement?
-- Answer (lsun-stat6250): Because the LENGTH statement is in the wrong place, it should before any other reference to the variable in the DATA step.
+- Question (lsun20-stat6250): Why the length of the variable Type is not 10 with the Length statement?
+- Answer (lsun20-stat6250): Because the LENGTH statement is in the wrong place, it should before any other reference to the variable in the DATA step.
 
 
 
 [Course Textbook Chapter 10, Problem 10]
-- Question (lsun-stat6250): If we put the DROP statement after the data= option, it will still an error?
+- Question (lsun20-stat6250): If we put the DROP statement after the data= option, it will still an error?
 
 
 
 [Course Textbook Chapter 11, Problem 1]
-- Question (lsun-stat6250): What the difference about the DROP/KEEP= option in DATA and SET statement?
+- Question (lsun20-stat6250): What the difference about the DROP/KEEP= option in DATA and SET statement?
 
 
 
 [Course Textbook Chapter 11, Problem 2]
-- Question (lsun-stat6250): Why we don't need the THEN statement after IF statement?
+- Question (lsun20-stat6250): Why we don't need the THEN statement after IF statement?
 
 
 
 [Course Textbook Chapter 11, Problem 3]
-- Question (lsun-stat6250): Where the FIRST and LAST are stored when you use BY-group processing?
-- Answer (lsun-stat6250): The DATA step creates the temporary variables FIRST and LAST.
+- Question (lsun20-stat6250): Where the FIRST and LAST are stored when you use BY-group processing?
+- Answer (lsun20-stat6250): The DATA step creates the temporary variables FIRST and LAST.
 
 
 
 [Course Textbook Chapter 11, Problem 8]
-- Question (lsun-stat6250): What the means of "IF last"? How does it works?
+- Question (lsun20-stat6250): What the means of "IF last"? How does it works?
 
 
 
 [Course Textbook Chapter 11, Problem 9]
-- Question (lsun-stat6250): When the observation will be created?
+- Question (lsun20-stat6250): When the observation will be created?
 
 
 
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
-- Question (lsun-stat6250): Can we remove the first END statement after the ELSE statement?
+- Question (lsun20-stat6250): Can we remove the first END statement after the ELSE statement?
 
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
-- Question (lsun-stat6250): What is the usage of the " * " in the SELECT statement?
+- Question (lsun20-stat6250): What is the usage of the " * " in the SELECT statement?
 
 
