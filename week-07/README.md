@@ -26,6 +26,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): Labels and Formats do not affect how data is stored in the data set, but only how it appears in output.
 - *Question* (aacharya4−stat6250): What happens in case the format of a variable is provided in both DATA step and PROC step?
 - *Answer* (aacharya4−stat6250): The temporary format of the variable assigned in PROC step overides the permanent formatting assigned to the variable in DATA step.
+- Question (lceballos-stat6250): What does the format "comma10." do?
 
 
 
@@ -40,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): Using ELSE statements with IF-THEN statements can save resources.
 - *Question* (aacharya4−stat6250): What are the possible results that are possible from using IF-THEN statement in SAS?
 - *Answer* (aacharya4−stat6250): IF-THEN statement in SAS produces a result that is either nonzero, zero, or missing. If result is nonzero,nonmissing value, then TRUE; if result is zerp, missing value, then FALSE.
+- Question (lceballos-stat6250): If two IF commands are false what is the output?
 
 
 
@@ -53,6 +55,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): How do you find length of new variable in SAS?.
 - *Question* (aacharya4−stat6250): How is the length of a variable determined in SAS?
 - *Answer* (aacharya4−stat6250): The length of a variable in SAS can be determined by VLENGTH or VARLEN function.
+- Question (lceballos-stat6250): Do you need to specify the length if using SQL statements?
 
 
 
@@ -66,6 +69,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): You can write multiple ELSE statements to specify a series of mutually exclusive conditions.
 - *Question* (aacharya4−stat6250): In SAS, in what other ways one can perform the task of conditional processing as used in IF-THEN-ELSE statements?
 - *Answer* (aacharya4−stat6250): In SAS, one can use the PROC FORMAT or SELECT statement in place of IF-THEN-ELSE statements for conditional processing.
+- Question (lceballos-stat6250): Can you use CASE statements in SAS?
+- Answer (lceballos-stat6250): Yes, you can use them in a PROC SQL step (e.g select Name, case when).
 
 
 
@@ -79,6 +84,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): The length of a new variable is determined by the first reference in the DATA step.
 - *Question* (aacharya4−stat6250): How is the use of LENGTH statement in SAS?
 - *Answer* (aacharya4−stat6250): The LENGTH statement is used to set the length of a variable to a desired value. 
+- Question (lceballos-stat6250): Where should the length statement go?
+- Answer (lceballos-stat6250): Before the variable is ever mentioned in the data step.
 
 
 
@@ -91,6 +98,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): You can use a DROP or KEEP statement in any DATA step. 
 - *Question* (aacharya4−stat6250): How can a DROP statement be used in a PROC step?
 - *Answer* (aacharya4−stat6250): If used in a PROC statement, the DROP dataset option should be used follwed by a dataset name. For eg: proc print data=salary(drop=employee address);
+- Question (lceballos-stat6250): Can you use DROP or KEEP in a SQL step?
 
 
 
@@ -102,6 +110,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the significance of using KEEP=option in the SET statement?.
 - *Question* (aacharya4−stat6250): What is the difference between KEEP data set option and KEEP statement in a DATA step?
 - *Answer* (aacharya4−stat6250): In DATA step, the KEEP data set option is for both input and output data sets, while the KEEP sttement is only for output data sets.
+- Question (lceballos-stat6250): Does the drop statement delete original data or does it just exclude it from the new dataset?
 
 
 
@@ -115,6 +124,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): The DROP= data set option prevents variables from being written to the data set .
 - *Question* (aacharya4−stat6250): What is the purpose of using DROP data set option in DATA step?
 - *Answer* (aacharya4−stat6250): The purpose of using DROP data set option in DATA step is to prevent the mentioned variables in DROP data set option from being written to the data set.
+- Question (lceballos-stat6250): Is "drop=ordrtime" necessary in this recipe?
 
 
 
@@ -128,6 +138,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What happens when you use BY statement with the SET statement?.
 - *Question* (aacharya4−stat6250): What are the two variables created by DATA step when BY statement is used with SET statement?
 - *Answer* (aacharya4−stat6250): The DATA step automatically creates a FIRST. and LAST. variable for each variable mentioned in BY statement to sidentify first and last observation of each BY group.
+- Question (lceballos-stat6250): What are the FIRST. and LAST variables used for?
+- Answer (lceballos-stat6250): To identify the first and last observation when sorting with a BY statement.
 
 
 
@@ -139,6 +151,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): When do you use END=option?.
 - *Question* (aacharya4−stat6250): What is the use of END data set option in SAS?
 - *Answer* (aacharya4−stat6250): The END data set option is to signify a temporary variable that contains the end-of-file marker.
+- Question (lceballos-stat6250): What is the purpose of the statement "if last;"?
 
 
 
@@ -150,6 +163,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the general form basic DATA step for reading a single data set?
 - *Question* (aacharya4−stat6250): What is Program Data Vector (PDV)?
 - *Answer* (aacharya4−stat6250): PDV is a logiacal memory area created during the compilation of a DATA step process. SAS reads one observation at a time to PDV to make the SAS dataset.
+- Question (lceballos-stat6250): What is the program data vector (PDV)?
 
 
 
@@ -161,6 +175,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is a defensive programming practice?
 - *Question* (aacharya4−stat6250): What is the purpose of using IN data set option in SAS?
 - *Answer* (aacharya4−stat6250): The IN data set option names the indicator variable that determines whether the input data set is part of the current observation. The value of the indicator variable is 1, if input data set contributes to current  observation. Otherwise, the value of indicator variable is 0.
+- Question (lceballos-stat6250): What does the IN statement used for in this recipe?
 
 
 
@@ -172,6 +187,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): Does using "union" allow datasets to contain duplicates?
 - *Question* (aacharya4−stat6250): What is the change needed in the code of this recipe to select the rows that are common in both the datasets?
 - *Answer* (aacharya4−stat6250): In oreder to select the rows that are common in both the datasets, "union" in the code should be replaced by "intersect".
+- Question (lceballos-stat6250): How does the statement "union all corr" work?
 
 
 
