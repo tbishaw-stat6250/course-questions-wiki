@@ -484,6 +484,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is "Union all corr" a necessary statement for every PROC SQL step? 
 - Question (lsun20-stat6250): What is the usage of the " * " in the SELECT statement?
 - *Question*(kamirneni-stat6250): What are the trade-offs for combining datasets using SQL in SAS? 
-- *Answer*(kamirneni-stat6250): It loads all data into memory before performing set theory operations, RAM has limitations and takes longer time to create datasets comparatively. 
+- *Answer*(kamirneni-stat6250): It loads all data into memory before performing set theory operations, RAM has limitations and takes longer time to create datasets comparatively.  
 
 
