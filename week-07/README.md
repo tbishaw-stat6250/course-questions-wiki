@@ -56,6 +56,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer*(kamirneni-stat6250): The RETAIN statements assigns an initial value to the retained variable and prevents variables from being initialized each time the DATA step executes.
 
 
+
 [Course Textbook Chapter 10, Problem 6]
 - *Question* (aamiri2-stat6250): What is the general form of an IF-THEN statement and which comparison and logical operators can be used with this?
 - Question (dfei-stat6250): Are IF-THEN statements in SAS same to IF-ELSE statements in Python?
@@ -92,6 +93,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is the character values in quotation marks always case sensitive?
 - Question (lsun20-stat6250): Does capitalization influence the character values everytime in SAS?
 - *Question*(kamirneni-stat6250): What functions do we use to read and process variables that we do not want in the dataset?
+
 
 
 [Course Textbook Chapter 10, Problem 7]
@@ -132,6 +134,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): Do the temporary labels and formats assigned during PROC step override the ones in DATA step if assigned?
 
 
+
 [Course Textbook Chapter 10, Problem 8]
 - *Question* (aamiri2-stat6250): What is the main difference between IF-THEN statements and DROP= KEEP= statements? 
 - Question (dfei-stat6250): Can IF-THEN statements equal to IF-ELSE statements?
@@ -168,6 +171,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): How the ELSE statement works?
 - Answer (lsun20-stat6250): The ELSE statement works when the previous IF-THEN/ELSE statement is false.
 - *Question*(kamirneni-stat6250): Does WHEN statement identify both TRUE and FALSE statements?
+
 
 
 [Course Textbook Chapter 10, Problem 9]
@@ -208,6 +212,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): When does SAS issue an error in the SELECT-WHEN statement?
 
 
+
 [Course Textbook Chapter 10, Problem 10]
 - *Question* (aamiri2-stat6250): What are the different type of errors that can happen? Are there any precautions that can be taken to avoid these errors?
 - Question (dfei-stat6250): Do I have to put drop sumsec in the second choice of the question?
@@ -238,6 +243,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What is the difference between DROP= data set option and DROP statement?
 - Question (lsun20-stat6250): If we put the DROP statement after the data= option, it will still an error?
 - *Question*(kamirneni-stat6250): Are there any limitations in using SELECT groups? 
+
 
 
 [Course Textbook Chapter 11, Problem 1]
@@ -272,6 +278,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What the difference about the DROP/KEEP= option in DATA and SET statement?
 - *Question*(kamirneni-stat6250): What is the difference in procedure of referencing a variable from original dataset? 
 - *Answer*(kamirneni-stat6250): Use DROP/KEEP in SET statement to not reference variables and not let them appear in new dataset. If one needs to reference a variable in the original dataset, use DROP/KEEP statement in DATA statement.
+
 
 
 [Course Textbook Chapter 11, Problem 2]
@@ -311,6 +318,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What is a minor difference between STOP and DATA step in looping with POINT function?
 
 
+
 [Course Textbook Chapter 11, Problem 3]
 - *Question* (aamiri2-stat6250): What are the results of using the BY statement with the SET statement?
 - *Answer* (aamiri2-stat6250):The data sets listed in the SET statements are sorted by the BY statement values. The DATA step then creates two temporary variables for every BY variable. They will be identified as FIRST.variable and LAST.variable with values of either 1 or 0.
@@ -346,6 +354,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250): What is the difference in DATA step processing for existing dataset and raw data?
 
 
+
 [Course Textbook Chapter 11, Problem 8]
 - *Question* (aamiri2-stat6250): What is the difference between the two options, END= and POINT=. In which situations should these options be used?
 - Question (dfei-stat6250): How to figure out whether my command is a a continuous loop or not?
@@ -376,6 +385,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is END= option always follow the SET statement?
 - Question (lsun20-stat6250): What the means of "IF last"? How does it works?
 - *Question*(kamirneni-stat6250): What does SAS do differently for raw data compared to existing dataset in DATA step?
+
 
 
 [Course Textbook Chapter 11, Problem 9]
@@ -413,6 +423,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question*(kamirneni-stat6250):How does the DATA step execute the dataset?
 
 
+
 [basic_recipe_for_combining_data_vertically Week 7 Recipe]
 - *Question* (aamiri2-stat6250): While creating values for data source why is it assigned a character value at first?
 - Question (dfei-stat6250): If two datasets with same column can not combine together successfully, what will the error messagers show?
@@ -442,6 +453,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Why we have to include "do" statement in the body before referring to each data source?
 - Question (lsun20-stat6250): Can we remove the first END statement after the ELSE statement?
 - *Question*(kamirneni-stat6250): How are defensive programming practices defined?
+
 
 
 [adv_recipe_for_combining_data_vertically Week 7 Recipe]
