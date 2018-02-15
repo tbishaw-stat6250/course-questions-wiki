@@ -52,6 +52,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Does the temporary labels or format that are assigned in a PROC step override permanent labels or formats that are assigned in DATA step?
 - *Question* (xyin6-stat6250): What is the difference for defining variable format between DATA step and PROC step?
 - Question (lsun20-stat6250): What is the usage of the "infile creddata"?
+- *Question*(kamirneni-stat6250): What is the advantage of RETAIN statement used in initializing SUM variables? 
+- *Answer*(kamirneni-stat6250): The RETAIN statements assigns an initial value to the retained variable and prevents variables from being initialized each time the DATA step executes.
 
 
 
@@ -90,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250):  when we need to perform an action conditionally, the IF-THEN statement should be used. The IF-then statement executes a SAS statement when the condition in the IF clause is true.
 - *Question* (xyin6-stat6250): Is the character values in quotation marks always case sensitive?
 - Question (lsun20-stat6250): Does capitalization influence the character values everytime in SAS?
+- *Question*(kamirneni-stat6250): What functions do we use to read and process variables that we do not want in the dataset?
 
 
 
@@ -128,6 +131,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is the order of If-statements matter in terms of defining variable length?
 - *Answer* (xyin6-stat6250): Yes, SAS allocates as many bytes of storage space as there are characters in the first value that it encounters of the variable. So the length of following variables are restricted by first variable length.
 - Question (lsun20-stat6250): How the assignment statement determine the length of a new variable?
+- *Question*(kamirneni-stat6250): Do the temporary labels and formats assigned during PROC step override the ones in DATA step if assigned?
 
 
 
@@ -166,6 +170,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): When we assign values to a variable, should we use quotation marks for both numeric value and character value?
 - Question (lsun20-stat6250): How the ELSE statement works?
 - Answer (lsun20-stat6250): The ELSE statement works when the previous IF-THEN/ELSE statement is false.
+- *Question*(kamirneni-stat6250): Does WHEN statement identify both TRUE and FALSE statements?
 
 
 
@@ -204,6 +209,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): It should appear before any other reference to the variable in teh DATA step, otherwise of the variable has been created by another statement, the LENGTH statement will not work.
 - Question (lsun20-stat6250): Why the length of the variable Type is not 10 with the Length statement?
 - Answer (lsun20-stat6250): Because the LENGTH statement is in the wrong place, it should before any other reference to the variable in the DATA step.
+- *Question*(kamirneni-stat6250): When does SAS issue an error in the SELECT-WHEN statement?
 
 
 
@@ -236,6 +242,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Can we use DROP and KEEP statement in the PROC steps?
 - *Question* (xyin6-stat6250): What is the difference between DROP= data set option and DROP statement?
 - Question (lsun20-stat6250): If we put the DROP statement after the data= option, it will still an error?
+- *Question*(kamirneni-stat6250): Are there any limitations in using SELECT groups? 
 
 
 
@@ -269,6 +276,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): How is a new data set created from an existing SAS data set?
 - *Question* (xyin6-stat6250): Which step will be excuted first? SET statement or DATA statement?
 - Question (lsun20-stat6250): What the difference about the DROP/KEEP= option in DATA and SET statement?
+- *Question*(kamirneni-stat6250): What is the difference in procedure of referencing a variable from original dataset? 
+- *Answer*(kamirneni-stat6250): Use DROP/KEEP in SET statement to not reference variables and not let them appear in new dataset. If one needs to reference a variable in the original dataset, use DROP/KEEP statement in DATA statement.
 
 
 
@@ -306,6 +315,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): Yes, we should specify the variable in the DROP= or KEEP= option in the DATA statement. Otherwise, the statement that references the variable uses a missing value for the variable.
 - *Question* (xyin6-stat6250): Does the if-statement after SET statement overwrite the dataset created in DATA statement? (subseting a new dataset)
 - Question (lsun20-stat6250): Why we don't need the THEN statement after IF statement?
+- *Question*(kamirneni-stat6250): What is a minor difference between STOP and DATA step in looping with POINT function?
 
 
 
@@ -341,6 +351,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): How to append a variable into FIRST and LAST as shown in the book example? Is it automatically created by SAS?
 - Question (lsun20-stat6250): Where the FIRST and LAST are stored when you use BY-group processing?
 - Answer (lsun20-stat6250): The DATA step creates the temporary variables FIRST and LAST.
+- *Question*(kamirneni-stat6250): What is the difference in DATA step processing for existing dataset and raw data?
 
 
 
@@ -373,6 +384,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): If we want to output only one observation, can we use the END= option in the SET statement?
 - *Question* (xyin6-stat6250): Is END= option always follow the SET statement?
 - Question (lsun20-stat6250): What the means of "IF last"? How does it works?
+- *Question*(kamirneni-stat6250): What does SAS do differently for raw data compared to existing dataset in DATA step?
 
 
 
@@ -408,6 +420,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): How does SAS set the value of each variable when SAS reads the raw data?
 - *Answer* (xyin6-stat6250): SAS sets the value of each variable in the DATA step to missing at the beginning or each iteration.
 - Question (lsun20-stat6250): When the observation will be created?
+- *Question*(kamirneni-stat6250):How does the DATA step execute the dataset?
 
 
 
@@ -439,6 +452,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): If using the APPEND statement to combine two data sets to form a single dataset, do the two original datasets need to have same variables?
 - *Question* (xyin6-stat6250): Why we have to include "do" statement in the body before referring to each data source?
 - Question (lsun20-stat6250): Can we remove the first END statement after the ELSE statement?
+- *Question*(kamirneni-stat6250): How are defensive programming practices defined?
 
 
 
@@ -469,6 +483,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): When using INTERLV statement, does the new data set include all the variables and observations?
 - *Question* (xyin6-stat6250): Is "Union all corr" a necessary statement for every PROC SQL step? 
 - Question (lsun20-stat6250): What is the usage of the " * " in the SELECT statement?
-
+- *Question*(kamirneni-stat6250): What are the trade-offs for combining datasets using SQL in SAS? 
+- *Answer*(kamirneni-stat6250): It loads all data into memory before performing set theory operations, RAM has limitations and takes longer time to create datasets comparatively.  
 
 
