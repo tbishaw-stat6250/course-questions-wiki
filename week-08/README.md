@@ -15,41 +15,56 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question(pcheng14-stat6250):When specifying a variable list, do we have to be sure to precede the list with the word OF?
+- Answer(pcheng14-stat6250):Yes, we do.
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- Question(pcheng14-stat6250):When will SAS automatically converts the character values of PayRate to numeric values?
+- Answer(pcheng14-stat6250):When this DATA step is executed.
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- Question(pcheng14-stat6250):When should we use the INPUT function?
+- Answer(pcheng14-stat6250):When we explicitly convert character values to numeric values.
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- Question(pcheng14-stat6250):When should we use the PUT function?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- Question(pcheng14-stat6250):What is the meaning of MDY function?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- Question(pcheng14-stat6250):When and why should we use the SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- Question(pcheng14-stat6250):What is the SUBSTR function?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question(pcheng14-stat6250):Besides using the INDEX function in a subsetting IF statement, when can we use it?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- Question(pcheng14-stat6250):Why should we sort the data with respect to the unique id schema?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- Question(pcheng14-stat6250):What is the meaning of "business logic"?
+
+
 
 
