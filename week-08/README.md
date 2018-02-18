@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (aguenane−stat6250): Do we really need to word OF inside the mean function?
+- Answer (aguenane−stat6250): If you omit the word OF, the function argument might not be interpreted as expect
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- Question (aguenane-stat6250): What is the target variables?
+- Answer (aguenane-stat6250): A target variable is the variable to whic the result of a function is assigned.
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- Question (aguenane−stat6250): Which fuction should we use to convert character value to numeric value?
+- Answer (aguenane−stat6250): we should use INPUT function.
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- Question (aguenane−stat6250): What is the correct format for PUT function?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- Question (aguenane−stat6250): how to write date in correct order in MDY function?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- Question (aguenane−stat6250): When can we use the SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- Question (aguenane-stat6250): What is the difference between SCAN and SUBSTR?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (aguenane−stat6250): What is the default order when use INDEX function to search values?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- Question (aguenane−stat6250): Can we do the doublecate comparision without isolating the rows in a temperory dataset?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- Question (aguenane-stat6250): Why is it necessary to rename High_Grade?
 
 
