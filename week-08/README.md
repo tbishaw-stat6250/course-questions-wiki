@@ -15,41 +15,60 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (tibishaw-stat6250): What steps must be taken before using a SAS function?  
+- Answer (tbishaw-stat6250): We must specify the function name followed by the function argument (enclosed in parentheses). 
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- Question (tibishaw-stat6250): When can we specify a SAS function? What are the requirements? 
+- Answer (tbishaw-stat6250): We can specify a SAS function anywhere that you would use a SAS expression, as long as the function is part of a SAS statement. 
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- Question (tibishaw-stat6250): When does Automatic character-to-numberic conversion occur?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- Question (tibishaw-stat6250): What function can we use to convert character data values to numeric values?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- Question (tibishaw-stat6250): What happens if you skip the INOUT function or the PUT function when converting data?
+- Answer (tbishaw-stat6250): SAS will detect the mismatched variables and will try an automatic character-to-numeric or numeric-to-character conversion.
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- Question (tibishaw-stat6250): Can you display SAS date values in a variety of forms? and how can this be accomplished?
+- Answer (tbishaw-stat6250): You can display SAS date values in a variety of forms by associating a SAS format with the values.
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- Question (tibishaw-stat6250): Which SAS function do you use to return the integer portion of a numeric value?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (tbishaw-stat6250): When is it appropriate to nest functions?  
+- Answer (tbishaw-stat6250): You can nest any functions as long as the function that is used as the argument meets the requirements for the argument
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- Question (tbishaw-stat6250): What SAS functions can we use to isolate duplicates in a dataset? 
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- Question (tbishaw-stat6250): Which SAS functions allows us to perform a character-to-numeric converstion?
+- Answer (tbishaw-stat6250): We use the INPUT function to perform a character-to-numeric conversion, this technique is called swap and drop.
+
+
+
 
 
