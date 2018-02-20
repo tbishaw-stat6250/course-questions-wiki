@@ -64,3 +64,5 @@ The instructor will then review the pull request and make comments should furthe
 
 [recipe_for_drop_and_swap Week 8 Recipe]
 - *Question* (jbettonville-stat6250): When using the COMPRESS function, there does not appear to be an appreciable difference between writing the option characters as 'kd' or as 'dk'; what is reason for selecting the non-alphabetic order option in the recipe example? 
+
+
