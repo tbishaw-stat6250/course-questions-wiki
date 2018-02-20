@@ -57,7 +57,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 10]
-- *Question* (cnguyen77-stat6250): 
+- *Question* (cnguyen77-stat6250): When is the INDEX function being used?
 
 
 
