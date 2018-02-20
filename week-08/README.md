@@ -62,8 +62,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
-- Question (nshrivastava2-stat6250): NODUP option in sort procedure, will it work for composite key? 
-- Answer(nshrivastava2-stat6250): You use the NODUP option on PROC SORT to remove records where every variable in this record matches every variable in the last observation. SAS only looks at one previous observation when comparing variables and deciding what records to remove. 
+- Question (nshrivastava2-stat6250): NODUPKEY and DUPOUT= option in sort procedure, how its helpful in getting rid of duplicate records? 
+- Answer(nshrivastava2-stat6250): The new DUPOUT option on the SORT statement provides this without adding program steps. if input data set is not expected to contain duplicates, PROC SORT with NODUPKEY and DUPOUT provides protection against bad duplicate data without adding much overhead when there are no duplicates. Use of NODUP option on PROC SORT to remove records where every variable in this record matches every variable in the last observation. SAS only looks at one previous observation when comparing variables and deciding what records to remove. 
 
 
 
