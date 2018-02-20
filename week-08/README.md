@@ -15,41 +15,56 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (ljiang11−stat6250): What does mean(var1-var4) output?
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- Question (ljiang11−stat6250): Will a message be written to SAS log everytime an automatic convertion occur?
+- Answer (ljiang11−stat6250): Yes.
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- Question (ljiang11−stat6250): What does INPUT do?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- Question (ljiang11−stat6250): What does PUT do?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- Question (ljiang11−stat6250): Why MDY(1, 3, 20) won't work?
+- Answer (ljiang11−stat6250): Because the YEARCUTOFF= system option is set to 1920, so 20 will be mistaken to 1920.
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- Question (ljiang11−stat6250): Why we want to use SCAN instead of SUBSTR?
+- Answer (ljiang11−stat6250): The SCAN function is used to extract words from a character value when you know the order of the words.
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- Question (ljiang11−stat6250): Why do we want to use SUBSTR, not SCAN?
+- Answer (ljiang11−stat6250): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value.
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (ljiang11−stat6250): What does INDEX function do?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- Question (ljiang11−stat6250): 
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- Question (ljiang11−stat6250): 
+
 
 
