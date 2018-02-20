@@ -62,7 +62,9 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question* (cnguyen77-stat6250): How to isolate duplicate values of records of a SAS data set?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question* (cnguyen77-stat6250): What is the function of "call missing (variable)"?
