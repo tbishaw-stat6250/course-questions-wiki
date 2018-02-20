@@ -15,6 +15,8 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (nshrivastava2-stat6250): What is the difference between INPUT and PUT functions?
+- Answer(nshrivastava2-stat6250):  The form of the INPUT function is very similar to the form of the PUT function (which performs numeric-to-character conversions). However, the INPUT function requires an informat, whereas the PUT function requires a format. 
 
 
 
