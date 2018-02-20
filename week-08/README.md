@@ -15,41 +15,55 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- *Question* (xyin6-stat6250): Where should we put the word "of" if we want mean value of x1,x2,x4, excluding x3?
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- *Question* (xyin6-stat6250): Is there any restrictions in the automatic character-to-numeric conversion?
+- *Answer* (xyin6-stat6250): It will produce a numeric missing value from any character value that does not conform to standard numeric notation (digits with an optional decimal point, leading sign or scientific notation).
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- *Question* (xyin6-stat6250): When choosing the numeric informat in the INPUT function, do we refer to the longest character value?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- *Question* (xyin6-stat6250): What happens if we use the PUT function to create a variable that has not been previously identifies?
+- *Answer* (xyin6-stat6250): It will create a character variable whose length is equal to the format width.
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- *Question* (xyin6-stat6250): What does the format "date9." represent in the date conversion process?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- *Question* (xyin6-stat6250): What is the most significant difference between SCAN and SUBSTR function?
+- *Answer* (xyin6-stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. By contrast, the SCAN function is best used when you know the order of the words in the character value; the starting position of the words varies and the words are marked by some delimiter.
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- *Question* (xyin6-stat6250): In the SUBSTR function, if position =2 and n is omitted, what will happen to the character value?
+- *Answer* (xyin6-stat6250): All the remaining characters starting from position 2 will be included in the substring.
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- *Question* (xyin6-stat6250): When should we put quotation marks inside the INTNX function?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question* (xyin6-stat6250): Still confused why both first.school_code and last.school_code equals 1 represents there's no duplicates?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question* (xyin6-stat6250): What does best12. represent? Is it a default formatting way?
 
 
