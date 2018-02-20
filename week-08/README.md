@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- *Question* (shatcher4-stat6250): What are the SAS functions that compute sample statistics?
+- *Answer* (shatcher4-stat6250): SUM, MEAN, MIN, MAX, VAR, STD
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- *Question* (shatcher4-stat6250): How do you convert a character variable from character to numeric?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- *Question* (shatcher4-stat6250): When does automatic character to numeric conversion occur?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- *Question* (shatcher4-stat6250): How do you explicitly convert numeric data values to character values?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- *Question* (shatcher4-stat6250): How does SAS store date values, time values, and datetime values?
+- *Answer* (shatcher4-stat6250): A date value is stored as the number of days from January 1, 1960, to a given date. A time value is stored as the number of seconds since midnight. A datetime value is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- *Question* (shatcher4-stat6250): What is the purpose of the SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- *Question* (shatcher4-stat6250): What are the differences between SUBSTR and SCAN?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- *Question* (shatcher4-stat6250): How does the INDEX function work?
+- *Answer* (shatcher4-stat6250): The INDEX function searches a character value for a specified string by searching values from left to right, looking for the first occurance of the string. It will then return the position of the string's first character; however, if the string is not found, it will return a value of 0.
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question* (shatcher4-stat6250): What is the purpose of by-group processing?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question* (shatcher4-stat6250): What does the 'kd' option do?
 
 
