@@ -59,12 +59,12 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
-- Question (ljiang11−stat6250): 
+- Question (ljiang11−stat6250): What does FIRST. and LAST. do?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
-- Question (ljiang11−stat6250): 
+- Question (ljiang11−stat6250): What does CALL statement do? Do we include CALL MISSING to make sure High_Grade is numeric, otherwise make it missing value?
 
 
 
