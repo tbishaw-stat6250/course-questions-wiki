@@ -23,6 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): It is mean(of a-b).
 - Question (aguenane−stat6250): Do we really need to word OF inside the mean function?
 - Answer (aguenane−stat6250): If you omit the word OF, the function argument might not be interpreted as expect
+- *Question* (asharda-stat6250): What does a mean function do?
+- *Answer* (asharda-stat6250): It calculates the mean of the variables that are listed as arguments.
 
 
 
@@ -34,6 +36,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(dfei-stat6250): Sas will convert character to numeric to meet the calculation if possible.
 - Question (aguenane-stat6250): What is the target variables?
 - Answer (aguenane-stat6250): A target variable is the variable to whic the result of a function is assigned.
+- *Question* (asharda-stat6250): What happens when data is automatically converted?
+- *Answer* (asharda-stat6250): Whenever data is automatically converted ,a message is written to the SAS log stating that the conversion has occured.
 
 
 
@@ -45,6 +49,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What is "put" statement mean in SAS programming? How does it work?
 - Question (aguenane−stat6250): Which fuction should we use to convert character value to numeric value?
 - Answer (aguenane−stat6250): we should use INPUT function.
+- *Question* (asharda-stat6250): What is the use of  INPUT function?.
+- *Answer* (asharda-stat6250): INPUT function is used to convert character data values to numeric values. 
 
 
 
@@ -54,6 +60,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What does SiteNum value mean?
 - Answer(dfei-stat6250): It is a numeric character shows the location in computers.
 - Question (aguenane−stat6250): What is the correct format for PUT function?
+- *Question* (asharda-stat6250): Which function do you use to convert numeric values to character values?
+- *Answer* (asharda-stat6250): PUT function is used to convert numeric values to character values. 
 
 
 
@@ -63,6 +71,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What is the meaning of MDY function?
 - Question(dfei-stat6250): What is DMY statement when I want to know the day after 1000 days after special day?
 - Question (aguenane−stat6250): how to write date in correct order in MDY function?
+- *Question* (asharda-stat6250): What does a year function return?
+- *Answer* (asharda-stat6250): A year function returns a four-digit numeric values that represents the year.
 
 
 
@@ -71,6 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When and why should we use the SCAN function?
 - Question(dfei-stat6250): What is the difference between State=scan and State=substr statements?
 - Question (aguenane−stat6250): When can we use the SCAN function?
+- *Question* (asharda-stat6250): What is the use of SCAN function?
 
 
 
@@ -80,6 +91,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What is the SUBSTR function?
 - Question(dfei-stat6250): How to assign MDY character to a new variable?
 - Question (aguenane-stat6250): What is the difference between SCAN and SUBSTR?
+- *Question* (asharda-stat6250): What is the use of SUBSTR function?.
 
 
 
@@ -88,6 +100,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Besides using the INDEX function in a subsetting IF statement, when can we use it?
 - Question(dfei-stat6250): How to create a subset of the data in which the values of Finish contain the string? 
 - Question (aguenane−stat6250): What is the default order when use INDEX function to search values?
+- *Question* (asharda-stat6250): What happens when  SUBSTR function is placed on the right side of an assignment statement?.
 
 
 
@@ -96,6 +109,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):Why should we sort the data with respect to the unique id schema?
 - Question(dfei-stat6250): In the short video, the example show us "if...then..." statement, is "then" necessary or not?
 - Question (aguenane−stat6250): Can we do the doublecate comparision without isolating the rows in a temperory dataset?
+- *Question* (asharda-stat6250): What is the advantage of storing result in an auxiliary dataset?.
 
 
 
@@ -104,5 +118,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):What is the meaning of "business logic"?
 - Question(dfei-stat6250): How many ways can we rename variables in SAS programming?
 - Question (aguenane-stat6250): Why is it necessary to rename High_Grade?
+- *Question* (asharda-stat6250): What is the advantage of using drop= dataset option?.
 
 
