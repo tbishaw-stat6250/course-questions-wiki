@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- *Question* (akrishnamurthy-stat6250): How to specify a range of variables as function argument ?
+- *Answer* (akrishnamurthy-stat6250): Variable list can be used to specify the range of variables for a function argument. The list should be preceded by the keyword OF followed by the starting and ending variables.
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- *Question* (akrishnamurthy-stat6250): Why does SAS handle data conversion for mismatch data type calculation instead of raising an exception?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- *Question* (akrishnamurthy-stat6250): What is the difference between PUT function and INPUT function?
+- *Answer* (akrishnamurthy-stat6250): PUT function is for converting numeric to character datatypes and INPUT function converts character values to numeric.
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- *Question* (akrishnamurthy-stat6250): What is the syntax of PUT function ? How does SAS handle the PUT function, if input format is different from format specified in PUT function ?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- *Question* (akrishnamurthy-stat6250): What is the use of YEARCUTOFF= option?
+- *Answer* (akrishnamurthy-stat6250): The YEARCUTOFF option specifies which 100 year span is used to interpret two-digit year values. The default value of YEARCUTOFF= is 1920 which can also be overriden. 
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- *Question* (akrishnamurthy-stat6250): What is the use of SCAN function in SAS?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- *Question* (akrishnamurthy-stat6250):What is the difference between SCAN and SUBSTR functions?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- *Question* (akrishnamurthy-stat6250): What is the difference between FIND and INDEX functions in SAS ?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question* (akrishnamurthy-stat6250): What are the ways of eliminating duplicates from a dataset in SAS ?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question* (akrishnamurthy-stat6250): How to rename a dataset variable only for the duration of a DATA step?
 
 
