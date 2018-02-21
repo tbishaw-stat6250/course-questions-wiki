@@ -41,6 +41,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(tchan49-stat6250):Yes, but SAS interprets two-digit values according to the 100-year span that is set by the YEARCUTOFF=. 
 
 
+
 [Course Textbook Chapter 13, Problem 6]
 - Question(tchan49-stat6250):When SCAN is used, do you hava to list the delimiters?
 
