@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+Question (lceballos-stat6250): Can you use multiple ranges for the mean function.
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+Question (lceballos-stat6250): What if a payrate includes non-numeric values?
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+Question (lceballos-stat6250): Why is it always best to include INPUT and PUT functions in your programs?
+Answer (lceballos-stat6250): To avoid data type mismatches and circumvent automatic conversion.
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+Question (lceballos-stat6250): How do you convert numbers to characters?
+Answer (lceballos-stat6250): Using the PUT(source,format) statement
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+Question (lceballos-stat6250): How is Datetime stored in SAS?
+Answer (lceballos-stat6250): Is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+Question (lceballos-stat6250): Can you specify the delimiter when using a SCAN function?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+Question (lceballos-stat6250): 
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+Question (lceballos-stat6250):
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+Question (lceballos-stat6250):
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+Question (lceballos-stat6250):
 
 
