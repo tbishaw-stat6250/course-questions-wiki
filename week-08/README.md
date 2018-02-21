@@ -29,6 +29,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): In order to specify a range of values as a function argument in SAS, we need to precede the list of variables with keyword 'OF'. Eg: sum(of va1-var10)
 - *Question* (aamiri2-stat6250): When calculating averages of multiple variables, what happens to the function argument when you omit the word OF?
 - *Answer* (aamiri2-stat6250): The word OF is used when specifying function arguments with a variable list or an array. If the word OF is omitted then the function will be interpreted as a subtraction formulation rather than an average of all variables. Consequently, this gives an incorrect output.
+- Question (tbishaw-stat6250): What steps must be taken before using a SAS function?  
+- Answer (tbishaw-stat6250): We must specify the function name followed by the function argument (enclosed in parentheses). 
 
 
 
@@ -46,6 +48,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): In SAS, numeric variable is converted to numeric variable using PUT function. 
 - *Question* (aamiri2-stat6250): What is the difference between the INPUT and PUT function? In which cases should this functions be used?
 - *Answer* (aamiri2-stat6250): The INPUT function converts character data into numeric values whereas the PUT function works oppositely and converts numeric data values to character values. Usually these functions are used when one of the variables are needed for calculation.
+- Question (tbishaw-stat6250): When can we specify a SAS function? What are the requirements? 
+- Answer (tbishaw-stat6250): We can specify a SAS function anywhere that you would use a SAS expression, as long as the function is part of a SAS statement. 
 
 
 
@@ -62,6 +66,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the use of format in PUT and INPUT function?
 - *Answer* (aacharya4−stat6250): The use of format signifies what format type is to be used on the original variable type. For eg: In case of INPUT function to convert a character value to numeric, the format must be a character format.
 - *Question* (aamiri2-stat6250): When converting character values to numeric values, how are commas and decimals differentiated in the INPUT function.
+- Question (tbishaw-stat6250): When does Automatic character-to-numberic conversion occur?
 
 
 
@@ -76,6 +81,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What function is used to convert character variable to numeric variable? 
 - *Answer* (aacharya4−stat6250): Character variable is converted to numeric variable using INPUT function.
 - *Question* (aamiri2-stat6250): What are some typical errors that can occur with a PUT function?
+- Question (tbishaw-stat6250): What function can we use to convert character data values to numeric values?
 
 
 
@@ -91,6 +97,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The default value of the YEARCUTTOFF system option in SAS is 1920.
 - *Question* (aamiri2-stat6250): When using the MDY function, what is the general format for month, date, and year? What is a typical error that can occur with this function?
 - *Answer* (aamiri2-stat6250): Normally, month is any number from 1-12, day is any number from 1-31, and year is four or two digits. An error that typically occurs is with the formatting the year. It is recommended to use four digits because this will minimize error. MDY function accepts two digit year values but it is based on the 100-year span from YEARCUTOFF=, so it is likely you will get an year that is not desired.
+- Question (tbishaw-stat6250): What happens if you skip the INOUT function or the PUT function when converting data?
+- Answer (tbishaw-stat6250): SAS will detect the mismatched variables and will try an automatic character-to-numeric or numeric-to-character conversion.
 
 
 
@@ -103,6 +111,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the use of SCAN function in SAS?
 - *Answer* (aacharya4−stat6250): The SCAN function returns the nth word from a character string.
 - *Question* (aamiri2-stat6250): What function can be used to separate and store character values into a new variable?
+- Question (tbishaw-stat6250): Can you display SAS date values in a variety of forms? and how can this be accomplished?
+- Answer (tbishaw-stat6250): You can display SAS date values in a variety of forms by associating a SAS format with the values.
 
 
 
@@ -116,6 +126,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the best option to extract a character value when its position is known in a character string?
 - *Answer* (aacharya4−stat6250): SUBSTR is the best option to extract a character value when its position is known in a character string.
 - *Question* (aamiri2-stat6250): What is the difference between SCAN, SUBSTR, and TRIM functions? Do these functions change the data permanently?
+- Question (tbishaw-stat6250): Which SAS function do you use to return the integer portion of a numeric value?
 
 
 
@@ -128,6 +139,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the use of INDEX function in SAS?
 - *Answer* (aacharya4−stat6250): The INDEX function searches for the chaarcter expression in a character string and returns the position of string's first character in its first occurance.
 - *Question* (aamiri2-stat6250): For what reasons are UPCASE and LOWCASE used in an INDEX function?
+- Question (tbishaw-stat6250): When is it appropriate to nest functions?  
+- Answer (tbishaw-stat6250): You can nest any functions as long as the function that is used as the argument meets the requirements for the argument
 
 
 
@@ -140,6 +153,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): What is the difference of between using proc sort with dupout= option and using first and last variable in by-group processing in data step to remove duplicates in a datset?
 - *Answer* (aacharya4−stat6250): In case of using proc sort with dupout= option a new dataset is created with dulpcate rows while using first and last variable in by-group processing outputs all duplicate rows to be isolated for comparison.
 - *Question* (aamiri2-stat6250): Is there an alternative approach to remove duplicate data and still do a comparison?
+- Question (tbishaw-stat6250): What SAS functions can we use to isolate duplicates in a dataset? 
 
 
 
@@ -152,5 +166,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aacharya4−stat6250): what is the default format that is used for in INPUT function with numerical variables having no digits after the decimal place?
 - *Answer* (aacharya4−stat6250): "best12." is the default format that is used for in INPUT function with numerical variables having no digits after the decimal place.
 - *Question* (aamiri2-stat6250): When using the drop and swap technique, why is it useful to use high grade?
+- Question (tbishaw-stat6250): Which SAS functions allows us to perform a character-to-numeric converstion?
+- Answer (tbishaw-stat6250): We use the INPUT function to perform a character-to-numeric conversion, this technique is called swap and drop.
 
 
