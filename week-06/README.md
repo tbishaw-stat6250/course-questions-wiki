@@ -55,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Is there a way to combine 2 datasets using if loop in the proc statement?
 - Question (ljiang11−stat6250): Would the second SET statement rewrite the first SET statement?
 - Answer (ljiang11−stat6250): Yes.
+- *Question* (ldai4-stat6250): How many methods can be used to combine observations from two or more data sets into a new data set?
+- *Answer* (ldai4-stat6250): There are one-to one merging, concatenating, appending, interleaving, and match-merging.
 
 
 
@@ -92,6 +94,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Does SAS automatically sort the variable after "BY"? Or what sequence does it follow?
 - Question (who7-stat6250): Why would SAS use a formatting method to differentiate different combining method instead of using a command word?
 - Question (ljiang11−stat6250): By putting BY statement here, data will read as the BY variable's order instead of SET data order?
+- *Question* (ldai4-stat6250): What is interleaving method for combining observations from two or more data sets?
+- *Answer* (ldai4-stat6250): The interleaving method requires a list of data set names in the SET statement and one or more BY variables in BY statement. Notice that observations in each BY group are read sequentially, in the order in which that data sets and BY variable are listed. The new data set contains all the variable from all the input data sets.
 
 
 
@@ -133,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): Depends on how you merge the datasets.  If you are just appending them, it would just add the 2nd dataset to the 1st dataset.
 - Question (ljiang11−stat6250): Why is there missing values?
 - Answer (ljiang11−stat6250): Because there are no common columns, SAS will generate missing values for the new variables merged into the dataset.
+- *Question* (ldai4-stat6250): In the concatenating append method, does the append statement need to be used?
 
 
 
@@ -169,6 +174,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (who7-stat6250): Yes, you can use the BY statement to merge 2 datasets by using common unique key to combine the datasets horizontally.
 - Question (ljiang11−stat6250): What does concatenate mean?
 - Answer (ljiang11−stat6250): It means to combine two datasets vertically.
+- *Question* (ldai4-stat6250): Does the new data set contain all of the variables and observations from all of the input data sets when a program concatenates data sets?
 
 
 
@@ -209,6 +215,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): If interleaving datasets will overwrite value that is the same, what happens if one is integer and one is decimal?
 - Question (ljiang11−stat6250): Why the value of age in the 2nd dataset overwrite that from the 1st dataset?
 - Answer (ljiang11−stat6250): The order of the datasets after MERGE statement determines the subsequent dataset can overwrite the 1st dataset.
+- *Question* (ldai4-stat6250): What happens if we merge the two data sets which have same name variables?
 
 
 
@@ -244,6 +251,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): If we rename the variable in the output, does the original dataset keep the former name or it will also be changed?
 - Question (who7-stat6250): What is the preferred method to avoid overwriting? using rename or some other way?
 - Question (ljiang11−stat6250): What does RENAME= do?
+- *Question* (ldai4-stat6250): How can we prevent the variables with same names from being overwritten during merging the two datasets?
+- *Answer* (ldai4-stat6250): We can use RENAME=data set option in the MERGE statement to prevent from be overwritten.
 
 
 
@@ -283,6 +292,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (who7-stat6250): Would there be other ways to combine data besides using merge method?
 - Answer (who7-stat6250): Yes, you can merge datasets by useing proc sql.
 - Question (ljiang11−stat6250): What happens to the observations with same ID?
+- *Question* (ldai4-stat6250): During match-merging, can we select the observations that we need?
 
 
 
@@ -318,6 +328,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (xyin6-stat6250): IS it possible to put more than one variable after BY statement?
 - Question (who7-stat6250): Given using proc sql would use less code to achieve the same result, would proc sql be considered advanced SAS programming?
 - Question (ljiang11−stat6250): When combining columns from two datasets, why do we want to convert the varaibles from text to numeric?
+- *Question* (ldai4-stat6250): In using MERGE statement, how can we create the descending order?
 
 
 
@@ -347,6 +358,7 @@ used to fill in the PDV for each row to be included in output.
 - *Question* (xyin6-stat6250): How to specify join condition instead of full join?
 - Question (who7-stat6250): How would the use of inner join and outer join in sql language affect the way the datasets are combined in proc sql?
 - Question (ljiang11−stat6250): Why would renaming data name in PROC SQL can minimize the amount of missing data?
+- *Question* (ldai4-stat6250):  How can we select only observation that match for some specific input data sets in match-merging statement? For example, I want to select some observations which appear in both data files.
 
 
 
