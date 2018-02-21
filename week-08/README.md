@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- Question (ldeng11−stat6250): How many ways you can write for caculating the average of the variable var1, var2, var3, and var4?
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- Question (ldeng11−stat6250): What would happen if you use mathmatic operators connect numeric values with character values?
+- Answer (ldeng11−stat6250): If you omit the INPUT or PUT function to convert the variables, and if the variables can automatic finish the conversion, the SAS will automatically convert the values, and write the message in the log to tell you the conversion has occurred. But if the variables can not automatic finish the conversion, the SAS would stop excute and have error message.
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- Question (ldeng11−stat6250): When there is specific format in the variable like $ or the comma, what you should do to finish the explicit conversion?
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- Question (ldeng11−stat6250): What is the concatenation operator doing here?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- Question (ldeng11−stat6250): Is YEARCUTOFF option affect the date value when you use four digit to indicate the year?
+- Answer (ldeng11−stat6250): No. The YEARCUTOFF option is only working when you use two digit to indicate the year.
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- Question (ldeng11−stat6250): How do you substring the specific charators?
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- Question (ldeng11−stat6250): How do you extract specific charators from the input?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- Question (ldeng11−stat6250): What is lowcase function doing here?
+- Answer (ldeng11−stat6250): It transform all the charators in the input to their lower cases.
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- Question (ldeng11−stat6250): Can you use PROC SQL to write the code doing the same thing?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- Question (ldeng11−stat6250): What is "call missing (High_Grade)" doing here?
 
 
