@@ -48,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): If users omit the word OF, the function returns var1-var4, not the average of the variable var1, var2, var3, var4.
 - Question (ldeng11−stat6250): How many ways you can write for caculating the average of the variable var1, var2, var3, and var4?
 - *Question* (who7-stat6250): How can we show results in table format after using SAS function?
+- Question (ljiang11−stat6250): What does mean(var1-var4) output?
 
 
 
@@ -85,6 +86,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ldeng11−stat6250): If you omit the INPUT or PUT function to convert the variables, and if the variables can automatic finish the conversion, the SAS will automatically convert the values, and write the message in the log to tell you the conversion has occurred. But if the variables can not automatic finish the conversion, the SAS would stop excute and have error message.
 - *Question* (who7-stat6250): Will SAS convert charactor value to numeric value?
 - *Answer* (who7-stat6250): Yes, you can use the Put() function to achieve that. 
+- Question (ljiang11−stat6250): Will a message be written to SAS log everytime an automatic convertion occur?
+- Answer (ljiang11−stat6250): Yes.
 
 
 
@@ -118,6 +121,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): When there is specific format in the variable like $ or the comma, what you should do to finish the explicit conversion?
 - *Question* (who7-stat6250): What is the methodology use when determinging which function to use, put() or input()?
 - *Answer* (who7-stat6250): We can first ask if the final varaible a character or number, then determine if the source variable is a character or a number.  Finally, if source varaible is a character, is the final varaible a character or a number.  This would help determine wether to use put() or input().
+- Question (ljiang11−stat6250): What does INPUT do?
 
 
 
@@ -149,6 +153,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): It will create a character variable whose length is equal to the format width.
 - Question (ldeng11−stat6250): What is the concatenation operator doing here?
 - *Question* (who7-stat6250): In what other instances where we will use "||" in sas?
+- Question (ljiang11−stat6250): What does PUT do?
 
 
 
@@ -182,6 +187,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): Is YEARCUTOFF option affect the date value when you use four digit to indicate the year?
 - Answer (ldeng11−stat6250): No. The YEARCUTOFF option is only working when you use two digit to indicate the year.
 - *Question* (who7-stat6250): How do we figure out when systemcutoff date is?
+- Question (ljiang11−stat6250): Why MDY(1, 3, 20) won't work?
+- Answer (ljiang11−stat6250): Because the YEARCUTOFF= system option is set to 1920, so 20 will be mistaken to 1920.
 
 
 
@@ -215,6 +222,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How do you substring the specific charators?
 - *Question* (who7-stat6250): Is there a methodology to when to use scan or substr function?
 - *Answer* (who7-stat6250): Scan will select a portion of the original string where substr can take out a part of it.  So if the word is seperated by spaces, scan would be great while if it isn't, then substr.
+- Question (ljiang11−stat6250): Why we want to use SCAN instead of SUBSTR?
+- Answer (ljiang11−stat6250): The SCAN function is used to extract words from a character value when you know the order of the words.
 
 
 
@@ -245,6 +254,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The best way to recognize its use is to look at the side of the statement. The function is used to extract a substring if the SUBSTR function is on the right side. And the function is used to replace the contents of the character variable if the SUBSTR function is on the left side.
 - Question (ldeng11−stat6250): How do you extract specific charators from the input?
 - *Question* (who7-stat6250): Is there a limit on how long a substring can be?
+- Question (ljiang11−stat6250): Why do we want to use SUBSTR, not SCAN?
+- Answer (ljiang11−stat6250): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value.
 
 
 
@@ -275,6 +286,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is lowcase function doing here?
 - Answer (ldeng11−stat6250): It transform all the charators in the input to their lower cases.
 - *Question* (who7-stat6250): Can we update exisitng dataset by using SAS function to rewrite the dataset?
+- Question (ljiang11−stat6250): What does INDEX function do?
 
 
 
@@ -301,6 +313,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What happens if first.School_Code*last.School_Code will equal 1?
 - Question (ldeng11−stat6250): Can you use PROC SQL to write the code doing the same thing?
 - *Question* (who7-stat6250): What is the main advantage by using the first and last variable to remove duplicates verse using the proc sort method shown in Week 3?
+- Question (ljiang11−stat6250): What does FIRST. and LAST. do?
 
 
 
@@ -329,5 +342,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): The 'kd' option is used to remove all other characters and keep digits only. And best12. is used to set the default format for numerical variables having no value after the decimal point.
 - Question (ldeng11−stat6250): What is "call missing (High_Grade)" doing here?
 - *Question* (who7-stat6250): What other scenerio would we prefer to sort the data by coverting them to character first?
+- Question (ljiang11−stat6250): What does CALL statement do? Do we include CALL MISSING to make sure High_Grade is numeric, otherwise make it missing value?
 
 
