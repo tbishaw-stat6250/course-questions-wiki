@@ -53,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): How to specify a range of variables as function argument ?
 - *Answer* (akrishnamurthy-stat6250): Variable list can be used to specify the range of variables for a function argument. The list should be preceded by the keyword OF followed by the starting and ending variables.
 - Question (lceballos-stat6250): Can you use multiple ranges for the mean function.
+- *Question* (sbagdi-stat6250): Why should we specify the word OF before a list or array when specifying function arguments?
 
 
 
@@ -96,6 +97,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): The SAS automatically converts the character values of PayRate to numeric values when the DATA step was executed.
 - *Question* (akrishnamurthy-stat6250): Why does SAS handle data conversion for mismatch data type calculation instead of raising an exception?
 - Question (lceballos-stat6250): What if a payrate includes non-numeric values?
+- *Question* (sbagdi-stat6250): How to convert a variable from character to numeric?
 
 
 
@@ -135,6 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): PUT function is for converting numeric to character datatypes and INPUT function converts character values to numeric.
 - Question (lceballos-stat6250): Why is it always best to include INPUT and PUT functions in your programs?
 - Answer (lceballos-stat6250): To avoid data type mismatches and circumvent automatic conversion.
+- *Question* (sbagdi-stat6250): How are functions INPUT and PUT different from each other?
 
 
 
@@ -172,6 +175,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (akrishnamurthy-stat6250): What is the syntax of PUT function ? How does SAS handle the PUT function, if input format is different from format specified in PUT function ?
 - Question (lceballos-stat6250): How do you convert numbers to characters?
 - Answer (lceballos-stat6250): Using the PUT(source,format) statement
+- *Question* (sbagdi-stat6250): How to convert data values from numeric to character values?
 
 
 
@@ -212,6 +216,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (akrishnamurthy-stat6250): The YEARCUTOFF option specifies which 100 year span is used to interpret two-digit year values. The default value of YEARCUTOFF= is 1920 which can also be overriden. 
 - Question (lceballos-stat6250): How is Datetime stored in SAS?
 - Answer (lceballos-stat6250): Is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
+- *Question* (sbagdi-stat6250): What does SCAN function does in SAS?
+- *Answer* (sbagdi-stat6250): To return the nth word in a character string, we make use of SCAN function.
 
 
 
@@ -250,6 +256,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): What is the differnent between the scan function and substr function?
 - *Question* (akrishnamurthy-stat6250): What is the use of SCAN function in SAS?
 - Question (lceballos-stat6250): Can you specify the delimiter when using a SCAN function?
+- *Question* (sbagdi-stat6250): What is INTCK function used for?
+- *Answer* (sbagdi-stat6250): The INTCK function returns the number of time intervals in a time span. It counts intervals from fixed intervals beginnings, not in multiples of interval unit. 
 
 
 
@@ -285,6 +293,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Is there any influence about the capitailize of the idcode?
 - *Question* (akrishnamurthy-stat6250):What is the difference between SCAN and SUBSTR functions?
 - Question (lceballos-stat6250): How can we extract the month and year but not the day?
+- *Question* (sbagdi-stat6250): How are SCAN and SUBSTR different from each other?
 
 
 
@@ -320,6 +329,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (lsun20-stat6250): It shows the only those observations in which function locates the string and returns a value greater than 0 are written to the data set.
 - *Question* (akrishnamurthy-stat6250): What is the difference between FIND and INDEX functions in SAS ?
 - Question (lceballos-stat6250): What's the difference between INDEX and FIND?
+- *Question* (sbagdi-stat6250): What is INTNX function? 
 
 
 
@@ -350,6 +360,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Where the output of this statement will be  in this example?
 - *Question* (akrishnamurthy-stat6250): What are the ways of eliminating duplicates from a dataset in SAS ?
 - Question (lceballos-stat6250): What is the function of first.School_Code*last.School_Code = 0?
+- *Question* (sbagdi-stat6250):  What are FIRST. and LAST. variables in by-group processing?
 
 
 
@@ -382,5 +393,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (lsun20-stat6250): Why we need the end function between the then statement and else statement?
 - *Question* (akrishnamurthy-stat6250): How to rename a dataset variable only for the duration of a DATA step?
 - Question (lceballos-stat6250): Can we use this if the dataset has special characters?
+- *Question* (sbagdi-stat6250): What does the ‘kd’ option in compress function do?
+- *Answer* (sbagdi-stat6250): The ‘kd’ option keeps just the digits and remove all the characters from the values of variables.
 
 
