@@ -47,6 +47,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): When specifying a variable list for mean function, preceding the list with the word OF is required as mean(of var1-var) for example? What happens if users omit the word OF?
 - Answer (ttruong59-stat6250): If users omit the word OF, the function returns var1-var4, not the average of the variable var1, var2, var3, var4.
 - Question (ldeng11−stat6250): How many ways you can write for caculating the average of the variable var1, var2, var3, and var4?
+- *Question* (who7-stat6250): How can we show results in table format after using SAS function?
 
 
 
@@ -82,6 +83,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): When the DATA step is executed, SAS will convert the character values to numeric values so that the calculation can occur.
 - Question (ldeng11−stat6250): What would happen if you use mathmatic operators connect numeric values with character values?
 - Answer (ldeng11−stat6250): If you omit the INPUT or PUT function to convert the variables, and if the variables can automatic finish the conversion, the SAS will automatically convert the values, and write the message in the log to tell you the conversion has occurred. But if the variables can not automatic finish the conversion, the SAS would stop excute and have error message.
+- *Question* (who7-stat6250): Will SAS convert charactor value to numeric value?
+- *Answer* (who7-stat6250): Yes, you can use the Put() function to achieve that. 
 
 
 
@@ -113,6 +116,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a major difference of using INPUT and PUT function when creating the variable?
 - Answer (ttruong59-stat6250): INPUT function used to convert character values to numeric values while PUT function used to convert numeric values to character values.
 - Question (ldeng11−stat6250): When there is specific format in the variable like $ or the comma, what you should do to finish the explicit conversion?
+- *Question* (who7-stat6250): What is the methodology use when determinging which function to use, put() or input()?
+- *Answer* (who7-stat6250): We can first ask if the final varaible a character or number, then determine if the source variable is a character or a number.  Finally, if source varaible is a character, is the final varaible a character or a number.  This would help determine wether to use put() or input().
 
 
 
@@ -143,6 +148,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What happens if we use the PUT function to create a variable that has not been previously identified?
 - Answer (ttruong59-stat6250): It will create a character variable whose length is equal to the format width.
 - Question (ldeng11−stat6250): What is the concatenation operator doing here?
+- *Question* (who7-stat6250): In what other instances where we will use "||" in sas?
 
 
 
@@ -175,6 +181,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): Is it possible to reset the YEARCUTOFF= system option, instead of using 1920 as a default? 
 - Question (ldeng11−stat6250): Is YEARCUTOFF option affect the date value when you use four digit to indicate the year?
 - Answer (ldeng11−stat6250): No. The YEARCUTOFF option is only working when you use two digit to indicate the year.
+- *Question* (who7-stat6250): How do we figure out when systemcutoff date is?
 
 
 
@@ -206,6 +213,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a major difference between SCAN and SUBSTR function?
 - Answer (ttruong59-stat6250): SCAN function is used to return a specified word from a character value while SUBSTR function is used to extract a substring or to replace character values.
 - Question (ldeng11−stat6250): How do you substring the specific charators?
+- *Question* (who7-stat6250): Is there a methodology to when to use scan or substr function?
+- *Answer* (who7-stat6250): Scan will select a portion of the original string where substr can take out a part of it.  So if the word is seperated by spaces, scan would be great while if it isn't, then substr.
 
 
 
@@ -235,6 +244,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): How to distinguish a SUBSTR function which is used to extract a substring or is used to replace character values?
 - Answer (ttruong59-stat6250): The best way to recognize its use is to look at the side of the statement. The function is used to extract a substring if the SUBSTR function is on the right side. And the function is used to replace the contents of the character variable if the SUBSTR function is on the left side.
 - Question (ldeng11−stat6250): How do you extract specific charators from the input?
+- *Question* (who7-stat6250): Is there a limit on how long a substring can be?
 
 
 
@@ -264,6 +274,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ttruong59-stat6250): Yes, INDEX function is case-sensitive. we can use FIND function which is similar to INDEX to complete the search.
 - Question (ldeng11−stat6250): What is lowcase function doing here?
 - Answer (ldeng11−stat6250): It transform all the charators in the input to their lower cases.
+- *Question* (who7-stat6250): Can we update exisitng dataset by using SAS function to rewrite the dataset?
 
 
 
@@ -289,6 +300,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jcanfield3-stat6250): If the data is presorted is the 'by statement' needed when forming the dups dataset?
 - Question (ttruong59-stat6250): What happens if first.School_Code*last.School_Code will equal 1?
 - Question (ldeng11−stat6250): Can you use PROC SQL to write the code doing the same thing?
+- *Question* (who7-stat6250): What is the main advantage by using the first and last variable to remove duplicates verse using the proc sort method shown in Week 3?
 
 
 
@@ -316,5 +328,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ttruong59-stat6250): What is a main purpose of using the ‘kd’ option and the format best12. for this recipe?
 - Answer (ttruong59-stat6250): The 'kd' option is used to remove all other characters and keep digits only. And best12. is used to set the default format for numerical variables having no value after the decimal point.
 - Question (ldeng11−stat6250): What is "call missing (High_Grade)" doing here?
+- *Question* (who7-stat6250): What other scenerio would we prefer to sort the data by coverting them to character first?
 
 
