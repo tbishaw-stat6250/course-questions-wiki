@@ -37,6 +37,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250):  The form of the INPUT function is very similar to the form of the PUT function (which performs numeric-to-character conversions). However, the INPUT function requires an informat, whereas the PUT function requires a format. 
 - *Question* (shatcher4-stat6250): What are the SAS functions that compute sample statistics?
 - *Answer* (shatcher4-stat6250): SUM, MEAN, MIN, MAX, VAR, STD
+- *Question* (cnguyen77-stat6250): How to specify a variable list in MEAN function?
+- *Answer* (cnguyen77-stat6250): When specifying a variable list, be sure to precede the list with the word OF. If you omit the word OF, the function argument might not be interpreted as expected.
 
 
 
@@ -61,6 +63,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (jbettonville-stat6250): Is it possible to permanently convert a character value to a numeric value in the same step as completing a mathematical evaluation with the original character value?
 - Question (nshrivastava2-stat6250): What happens if you skip the INPUT function or the PUT function when converting data? 
 - *Question* (shatcher4-stat6250): How do you convert a character variable from character to numeric?
+- *Question* (cnguyen77-stat6250): What happens when there is a multiplication of character variables and numeric variables in SAS?
+- *Answer* (cnguyen77-stat6250): SAS automatically converts the character values to numeric values so that the calculation can occur. Whenever data is automatically converted, a message is written to the SAS log stating that the conversion has occurred.
 
 
 
@@ -84,6 +88,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): Does SAS performs automatic conversion of character values to numeric values or vice versa?
 - Answer(nshrivastava2-stat6250): Yes, whenever SAS performs automatic data conversion, a message is written to the SAS log stating that the conversion has occurred. 
 - *Question* (shatcher4-stat6250): When does automatic character to numeric conversion occur?
+- *Question* (cnguyen77-stat6250): How to convert character values to numeric values?
+- *Answer* (cnguyen77-stat6250): You explicitly convert character values to numeric values by using the INPUT function. Be sure to select an informat that can read the form of the values.
 
 
 
@@ -105,6 +111,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): In what conditions/cases, does SAS convert a character data type to a numeric data type, and vice-versa, automatically?
 - Answer(nshrivastava2-stat6250): SAS's automatic conversion occurs in the following situations: Assign the character variable to a previously defined numeric variable.2) use it in a math calculation.3) compare it to a numeric operation. 4) use it in a function that requires numeric arguments.
 - *Question* (shatcher4-stat6250): How do you explicitly convert numeric data values to character values?
+- *Question* (cnguyen77-stat6250): How to convert numeric values to character values?
+- *Answer* (cnguyen77-stat6250): You explicitly convert numeric values to character values by using the PUT function. Be sure to select a format that can read the form of the values.
 
 
 
@@ -128,6 +136,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The WHERE statement does not perform automatic conversions in comparisons. Mismatch of character and numeric variables and values prevents the program from processing the WHERE statements. Automatic conversion is not performed. Instead, the program stops, and error messages are written to the SAS log. 
 - *Question* (shatcher4-stat6250): How does SAS store date values, time values, and datetime values?
 - *Answer* (shatcher4-stat6250): A date value is stored as the number of days from January 1, 1960, to a given date. A time value is stored as the number of seconds since midnight. A datetime value is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
+- *Question* (cnguyen77-stat6250): What does the YEAR function do?
+- *Answer* (cnguyen77-stat6250): The YEAR function returns a four-digit numeric value that represents the year (for example, 2002).
 
 
 
@@ -148,6 +158,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): What is the overview of INTCK function?
 - Answer(nshrivastava2-stat6250): The INTCK function returns the number of time intervals that occur in a given time span. It counts intervals from fixed interval beginnings, not in multiples of an interval unit from the from value. Partial intervals are not counted. 
 - *Question* (shatcher4-stat6250): What is the purpose of the SCAN function?
+- *Question* (cnguyen77-stat6250): How to extract words from a character value?
+- *Answer* (cnguyen77-stat6250): The SCAN function is used to extract words from a character value when you know the order of the words, when their position varies, and when the words are marked by some delimiter.
 
 
 
@@ -168,6 +180,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): How INTNX function works?
 - Answer(nshrivastava2-stat6250): The INTNX function is similar to the INTCK function. The INTNX function applies multiples of a given interval to a date, time, or datetime value and returns the resulting value. You can use the INTNX function to identify past or future days, weeks, months, and so on. 
 - *Question* (shatcher4-stat6250): What are the differences between SUBSTR and SCAN?
+- *Question* (cnguyen77-stat6250): When is the best to use SUBSTR function?
+- *Answer* (cnguyen77-stat6250): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value. You specify the position to start from and the number of characters to extract.
 
 
 
@@ -189,6 +203,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): SCAN extracts words within a value that is marked by delimiters and SUBSTR extracts a portion of a value by starting at a specified location.
 - *Question* (shatcher4-stat6250): How does the INDEX function work?
 - *Answer* (shatcher4-stat6250): The INDEX function searches a character value for a specified string by searching values from left to right, looking for the first occurance of the string. It will then return the position of the string's first character; however, if the string is not found, it will return a value of 0.
+- *Question* (cnguyen77-stat6250): When is the INDEX function being used?
 
 
 
@@ -208,6 +223,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): NODUPKEY and DUPOUT= option in sort procedure, how its helpful in getting rid of duplicate records? 
 - Answer(nshrivastava2-stat6250): The new DUPOUT option on the SORT statement provides this without adding program steps. if input data set is not expected to contain duplicates, PROC SORT with NODUPKEY and DUPOUT provides protection against bad duplicate data without adding much overhead when there are no duplicates. Use of NODUP option on PROC SORT to remove records where every variable in this record matches every variable in the last observation. SAS only looks at one previous observation when comparing variables and deciding what records to remove. 
 - *Question* (shatcher4-stat6250): What is the purpose of by-group processing?
+- *Question* (cnguyen77-stat6250): How to isolate duplicate values of records of a SAS data set?
 
 
 
@@ -227,5 +243,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (nshrivastava2-stat6250): How can compress function be use to unravel strings?
 - Answer(nshrivastava2-stat6250): The COMPRESS function is a routine available in the DATA step that allows you to remove unwanted characters. It facilitates the squeezing of information out of the data.
 - *Question* (shatcher4-stat6250): What does the 'kd' option do?
+- *Question* (cnguyen77-stat6250): What is the function of "call missing (variable)"?
 
 
