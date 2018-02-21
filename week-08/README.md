@@ -49,6 +49,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): How many ways you can write for caculating the average of the variable var1, var2, var3, and var4?
 - *Question* (who7-stat6250): How can we show results in table format after using SAS function?
 - Question (ljiang11−stat6250): What does mean(var1-var4) output?
+- Question (lsun20-stat6250): Can we use median(of var1, var4) function to calculate the median number of these variables?
 
 
 
@@ -88,6 +89,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (who7-stat6250): Yes, you can use the Put() function to achieve that. 
 - Question (ljiang11−stat6250): Will a message be written to SAS log everytime an automatic convertion occur?
 - Answer (ljiang11−stat6250): Yes.
+- Question (lsun20-stat6250): Why the SAS will convert the character variable to numeric values in this situation?
+- Answer (lsun20-stat6250): The SAS automatically converts the character values of PayRate to numeric values when the DATA step was executed.
 
 
 
@@ -122,6 +125,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (who7-stat6250): What is the methodology use when determinging which function to use, put() or input()?
 - *Answer* (who7-stat6250): We can first ask if the final varaible a character or number, then determine if the source variable is a character or a number.  Finally, if source varaible is a character, is the final varaible a character or a number.  This would help determine wether to use put() or input().
 - Question (ljiang11−stat6250): What does INPUT do?
+- Question (lsun20-stat6250): Why it is comma7. in this statement that the target 123,456 is 6 number?
 
 
 
@@ -154,6 +158,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is the concatenation operator doing here?
 - *Question* (who7-stat6250): In what other instances where we will use "||" in sas?
 - Question (ljiang11−stat6250): What does PUT do?
+- Question (lsun20-stat6250): How the SAS convert numeric values to character values?
+- Answer (lsun20-stat6250): We can convert numeric values to character values by using the PUT function and select the readable form of the values.
 
 
 
@@ -189,6 +195,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (who7-stat6250): How do we figure out when systemcutoff date is?
 - Question (ljiang11−stat6250): Why MDY(1, 3, 20) won't work?
 - Answer (ljiang11−stat6250): Because the YEARCUTOFF= system option is set to 1920, so 20 will be mistaken to 1920.
+- Question (lsun20-stat6250): Can we use 20 instead of 1920 in this situation if without the YEARCUTOFF= system option is set to 1920?
 
 
 
@@ -224,6 +231,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (who7-stat6250): Scan will select a portion of the original string where substr can take out a part of it.  So if the word is seperated by spaces, scan would be great while if it isn't, then substr.
 - Question (ljiang11−stat6250): Why we want to use SCAN instead of SUBSTR?
 - Answer (ljiang11−stat6250): The SCAN function is used to extract words from a character value when you know the order of the words.
+- Question (lsun20-stat6250): What is the differnent between the scan function and substr function?
 
 
 
@@ -256,6 +264,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (who7-stat6250): Is there a limit on how long a substring can be?
 - Question (ljiang11−stat6250): Why do we want to use SUBSTR, not SCAN?
 - Answer (ljiang11−stat6250): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value.
+- Question (lsun20-stat6250): Is there any influence about the capitailize of the idcode?
 
 
 
@@ -287,6 +296,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (ldeng11−stat6250): It transform all the charators in the input to their lower cases.
 - *Question* (who7-stat6250): Can we update exisitng dataset by using SAS function to rewrite the dataset?
 - Question (ljiang11−stat6250): What does INDEX function do?
+- Question (lsun20-stat6250): What is the usage of >0 in the IF statement?
+- Answer (lsun20-stat6250): It shows the only those observations in which function locates the string and returns a value greater than 0 are written to the data set.
 
 
 
@@ -314,6 +325,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): Can you use PROC SQL to write the code doing the same thing?
 - *Question* (who7-stat6250): What is the main advantage by using the first and last variable to remove duplicates verse using the proc sort method shown in Week 3?
 - Question (ljiang11−stat6250): What does FIRST. and LAST. do?
+- Question (lsun20-stat6250): Where the output of this statement will be  in this example?
 
 
 
@@ -343,5 +355,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (ldeng11−stat6250): What is "call missing (High_Grade)" doing here?
 - *Question* (who7-stat6250): What other scenerio would we prefer to sort the data by coverting them to character first?
 - Question (ljiang11−stat6250): What does CALL statement do? Do we include CALL MISSING to make sure High_Grade is numeric, otherwise make it missing value?
+- Question (lsun20-stat6250): Why we need the end function between the then statement and else statement?
 
 
