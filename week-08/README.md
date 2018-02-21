@@ -145,6 +145,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer*(kamirneni-stat6250): SAS detects the mismatched variables and tries an automatic character to numeric conversion or vice versa. This process is not always successful. It is recommended to include INPUT and PUT function.
 
 
+
 [Course Textbook Chapter 13, Problem 4]
 - Question(tchan49-stat6250):When you want to explicitly covert numeric to character, do you use INPUT statement? 
 - Question(pcheng14-stat6250):When should we use the PUT function?
@@ -407,6 +408,5 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (sbagdi-stat6250): What does the ‘kd’ option in compress function do?
 - *Answer* (sbagdi-stat6250): The ‘kd’ option keeps just the digits and remove all the characters from the values of variables.
 - *Question*(kamirneni-stat6250): What are the implications of removing all characters from values of a variable?
-
 
 
