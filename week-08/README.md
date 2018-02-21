@@ -39,6 +39,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (shatcher4-stat6250): SUM, MEAN, MIN, MAX, VAR, STD
 - *Question* (cnguyen77-stat6250): How to specify a variable list in MEAN function?
 - *Answer* (cnguyen77-stat6250): When specifying a variable list, be sure to precede the list with the word OF. If you omit the word OF, the function argument might not be interpreted as expected.
+- *Question* (ldai4-stat6250): Are function mean(var1,var2,var3, var4) and mean(of var1-var4) same?
+- *Answer* (ldai4-stat6250): Yes. they are same. But the work OF can not be omitted.
 
 
 
@@ -65,6 +67,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How do you convert a character variable from character to numeric?
 - *Question* (cnguyen77-stat6250): What happens when there is a multiplication of character variables and numeric variables in SAS?
 - *Answer* (cnguyen77-stat6250): SAS automatically converts the character values to numeric values so that the calculation can occur. Whenever data is automatically converted, a message is written to the SAS log stating that the conversion has occurred.
+- *Question* (ldai4-stat6250): What happens when DATA step, Salary=PayRate*hours, is executed?
+- *Answer* (ldai4-stat6250): SAS automatically converts the character values of PayRate to numeric values so that the calculation can occur. A message is showed in the SAS log.
 
 
 
@@ -90,6 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): When does automatic character to numeric conversion occur?
 - *Question* (cnguyen77-stat6250): How to convert character values to numeric values?
 - *Answer* (cnguyen77-stat6250): You explicitly convert character values to numeric values by using the INPUT function. Be sure to select an informat that can read the form of the values.
+- *Question* (ldai4-stat6250): SAS can automatically convert character values to numeric values, but why is INPUT function usually used?
 
 
 
@@ -113,6 +118,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How do you explicitly convert numeric data values to character values?
 - *Question* (cnguyen77-stat6250): How to convert numeric values to character values?
 - *Answer* (cnguyen77-stat6250): You explicitly convert numeric values to character values by using the PUT function. Be sure to select a format that can read the form of the values.
+- *Question* (ldai4-stat6250): What is the difference between INPUT function and PUT function?
 
 
 
@@ -138,6 +144,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (shatcher4-stat6250): A date value is stored as the number of days from January 1, 1960, to a given date. A time value is stored as the number of seconds since midnight. A datetime value is stored as the number of seconds between midnight on January 1, 1960, and a given date and time.
 - *Question* (cnguyen77-stat6250): What does the YEAR function do?
 - *Answer* (cnguyen77-stat6250): The YEAR function returns a four-digit numeric value that represents the year (for example, 2002).
+- *Question* (ldai4-stat6250): Does the MDY function accept two-digit value for the year?
+- *Answer* (ldai4-stat6250): Yes, SAS accepts two-digit year. But SAS interprets two_digit values according to the 100-year span that is set by the YEARCUTOFF=system option.
 
 
 
@@ -160,6 +168,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What is the purpose of the SCAN function?
 - *Question* (cnguyen77-stat6250): How to extract words from a character value?
 - *Answer* (cnguyen77-stat6250): The SCAN function is used to extract words from a character value when you know the order of the words, when their position varies, and when the words are marked by some delimiter.
+- *Question* (ldai4-stat6250): How does the SCAN function work?
+- *Answer* (ldai4-stat6250): The SCAN function is used to extract words from a character value when you know the order of the words, when their position varies, and when the words are marked by some delimiter.
 
 
 
@@ -182,6 +192,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): What are the differences between SUBSTR and SCAN?
 - *Question* (cnguyen77-stat6250): When is the best to use SUBSTR function?
 - *Answer* (cnguyen77-stat6250): The SUBSTR function is best used when you know the exact position of the substring to extract from the character value. You specify the position to start from and the number of characters to extract.
+- *Question* (ldai4-stat6250): If we know the exact position of the substring to extract from the character value, what function is best used?
 
 
 
@@ -204,6 +215,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (shatcher4-stat6250): How does the INDEX function work?
 - *Answer* (shatcher4-stat6250): The INDEX function searches a character value for a specified string by searching values from left to right, looking for the first occurance of the string. It will then return the position of the string's first character; however, if the string is not found, it will return a value of 0.
 - *Question* (cnguyen77-stat6250): When is the INDEX function being used?
+- *Question* (ldai4-stat6250): Must the INDEX function be used in a subsetting IF statement?
 
 
 
@@ -224,6 +236,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The new DUPOUT option on the SORT statement provides this without adding program steps. if input data set is not expected to contain duplicates, PROC SORT with NODUPKEY and DUPOUT provides protection against bad duplicate data without adding much overhead when there are no duplicates. Use of NODUP option on PROC SORT to remove records where every variable in this record matches every variable in the last observation. SAS only looks at one previous observation when comparing variables and deciding what records to remove. 
 - *Question* (shatcher4-stat6250): What is the purpose of by-group processing?
 - *Question* (cnguyen77-stat6250): How to isolate duplicate values of records of a SAS data set?
+- *Question* (ldai4-stat6250): How can we remove the duplicates in new data set?
 
 
 
@@ -244,5 +257,6 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(nshrivastava2-stat6250): The COMPRESS function is a routine available in the DATA step that allows you to remove unwanted characters. It facilitates the squeezing of information out of the data.
 - *Question* (shatcher4-stat6250): What does the 'kd' option do?
 - *Question* (cnguyen77-stat6250): What is the function of "call missing (variable)"?
+- *Question* (ldai4-stat6250): When match-merging, if we use DROP= data set option, do the dropped variables still exist in the original data set?
 
 
