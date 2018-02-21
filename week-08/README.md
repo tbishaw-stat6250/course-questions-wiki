@@ -44,6 +44,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Where should we put the word "of" if we want mean value of x1,x2,x4, excluding x3?
 - *Question* (jcanfield3-stat6250): What is another way to calculate this mean?
 - *Answer* (jcanfield3-stat6250): This can be done by writing 'mean(var1, var2, var3, var4);'.
+- Question (ttruong59-stat6250): When specifying a variable list for mean function, preceding the list with the word OF is required as mean(of var1-var) for example? What happens if users omit the word OF?
+- Answer (ttruong59-stat6250): If users omit the word OF, the function returns var1-var4, not the average of the variable var1, var2, var3, var4.
 
 
 
@@ -75,6 +77,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): Is there any restrictions in the automatic character-to-numeric conversion?
 - *Answer* (xyin6-stat6250): It will produce a numeric missing value from any character value that does not conform to standard numeric notation (digits with an optional decimal point, leading sign or scientific notation).
 - *Question* (jcanfield3-stat6250): How does SAS identify variables that can be converted to numeric?
+- Question (ttruong59-stat6250): Under what step that SAS will auto convert the character values to numeric values so that the calculation can occur?
+- Answer (ttruong59-stat6250): When the DATA step is executed, SAS will convert the character values to numeric values so that the calculation can occur.
 
 
 
@@ -103,6 +107,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): SAS can automatically convert character values to numeric values, but why is INPUT function usually used?
 - *Question* (xyin6-stat6250): When choosing the numeric informat in the INPUT function, do we refer to the longest character value?
 - *Question* (jcanfield3-stat6250): Why do we need separate Put and Input functions rather than one that does both? 
+- Question (ttruong59-stat6250): What is a major difference of using INPUT and PUT function when creating the variable?
+- Answer (ttruong59-stat6250): INPUT function used to convert character values to numeric values while PUT function used to convert numeric values to character values.
 
 
 
@@ -130,6 +136,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What happens if we use the PUT function to create a variable that has not been previously identifies?
 - *Answer* (xyin6-stat6250): It will create a character variable whose length is equal to the format width.
 - *Question* (jcanfield3-stat6250): Is there ever a situation where a variable cannot be converted back to its original data type after transformation?  (Ex a numeric converted to char, that cannot be converted back to a numeric)
+- Question (ttruong59-stat6250): What happens if we use the PUT function to create a variable that has not been previously identified?
+- Answer (ttruong59-stat6250): It will create a character variable whose length is equal to the format width.
 
 
 
@@ -159,6 +167,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): Yes, SAS accepts two-digit year. But SAS interprets two_digit values according to the 100-year span that is set by the YEARCUTOFF=system option.
 - *Question* (xyin6-stat6250): What does the format "date9." represent in the date conversion process?
 - *Question* (jcanfield3-stat6250): Is the MDY function capable of handling 5 digit years?
+- Question (ttruong59-stat6250): Is it possible to reset the YEARCUTOFF= system option, instead of using 1920 as a default? 
 
 
 
@@ -187,6 +196,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (xyin6-stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. By contrast, the SCAN function is best used when you know the order of the words in the character value; the starting position of the words varies and the words are marked by some delimiter.
 - *Question* (jcanfield3-stat6250): Why is option d not a valid answer?
 - *Answer* (jcanfield3-stat6250): While option D does produce the correct value for this specific value, it does not provide the correct value for all values of this format. (Ex. Santa Barbara, CA would result in State = 'A,') 
+- Question (ttruong59-stat6250): What is a major difference between SCAN and SUBSTR function?
+- Answer (ttruong59-stat6250): SCAN function is used to return a specified word from a character value while SUBSTR function is used to extract a substring or to replace character values.
 
 
 
@@ -213,6 +224,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): In the SUBSTR function, if position =2 and n is omitted, what will happen to the character value?
 - *Answer* (xyin6-stat6250): All the remaining characters starting from position 2 will be included in the substring.
 - *Question* (jcanfield3-stat6250): What happens when you do not specify the number of values to extract when using substr?
+- Question (ttruong59-stat6250): How to distinguish a SUBSTR function which is used to extract a substring or is used to replace character values?
+- Answer (ttruong59-stat6250): The best way to recognize its use is to look at the side of the statement. The function is used to extract a substring if the SUBSTR function is on the right side. And the function is used to replace the contents of the character variable if the SUBSTR function is on the left side.
 
 
 
@@ -238,6 +251,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Must the INDEX function be used in a subsetting IF statement?
 - *Question* (xyin6-stat6250): When should we put quotation marks inside the INTNX function?
 - *Question* (jcanfield3-stat6250): How would I make sure the function finds the word 'walnut' instead of the string?
+- Question (ttruong59-stat6250): Is INDEX function case-sensitive so the character string we search for must be specified exactly as it is recorded in the dataset? If so, is there any alternative function to search for but it is not case-sensitive?
+- Answer (ttruong59-stat6250): Yes, INDEX function is case-sensitive. we can use FIND function which is similar to INDEX to complete the search.
 
 
 
@@ -261,6 +276,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): How can we remove the duplicates in new data set?
 - *Question* (xyin6-stat6250): Still confused why both first.school_code and last.school_code equals 1 represents there's no duplicates?
 - *Question* (jcanfield3-stat6250): If the data is presorted is the 'by statement' needed when forming the dups dataset?
+- Question (ttruong59-stat6250): What happens if first.School_Code*last.School_Code will equal 1?
 
 
 
@@ -285,5 +301,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (xyin6-stat6250): What does best12. represent? Is it a default formatting way?
 - *Question* (jcanfield3-stat6250): What does the 'kd' option stand for?
 - *Answer* (jcanfield3-stat6250): It is actually two options, k "keeps the characters in the list instead of removing them" and d "adds digits to the list of characters."
+- Question (ttruong59-stat6250): What is a main purpose of using the ‘kd’ option and the format best12. for this recipe?
+- Answer (ttruong59-stat6250): The 'kd' option is used to remove all other characters and keep digits only. And best12. is used to set the default format for numerical variables having no value after the decimal point.
 
 
