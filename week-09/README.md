@@ -108,7 +108,7 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 9]
-- Question(dfei-stat6250):
+- Question(dfei-stat6250): What does array reference mean?
 
 
 
