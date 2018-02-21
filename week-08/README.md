@@ -15,41 +15,54 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 13, Problem 1]
+- *Question* (who7-stat6250): How can we show results in table format after using SAS function?
 
 
 
 [Course Textbook Chapter 13, Problem 2]
+- *Question* (who7-stat6250): Will SAS convert charactor value to numeric value?
+- *Answer* (who7-stat6250): Yes, you can use the Put() function to achieve that. 
 
 
 
 [Course Textbook Chapter 13, Problem 3]
+- *Question* (who7-stat6250): What is the methodology use when determinging which function to use, put() or input()?
+- *Answer* (who7-stat6250): We can first ask if the final varaible a character or number, then determine if the source variable is a character or a number.  Finally, if source varaible is a character, is the final varaible a character or a number.  This would help determine wether to use put() or input().
 
 
 
 [Course Textbook Chapter 13, Problem 4]
+- *Question* (who7-stat6250): In what other instances where we will use "||" in sas?
 
 
 
 [Course Textbook Chapter 13, Problem 5]
+- *Question* (who7-stat6250): How do we figure out when systemcutoff date is?
 
 
 
 [Course Textbook Chapter 13, Problem 6]
+- *Question* (who7-stat6250): Is there a methodology to when to use scan or substr function?
+- *Answer* (who7-stat6250): Scan will select a portion of the original string where substr can take out a part of it.  So if the word is seperated by spaces, scan would be great while if it isn't, then substr.
 
 
 
 [Course Textbook Chapter 13, Problem 7]
+- *Question* (who7-stat6250): Is there a limit on how long a substring can be?
 
 
 
 [Course Textbook Chapter 13, Problem 10]
+- *Question* (who7-stat6250): Can we update exisitng dataset by using SAS function to rewrite the dataset?
 
 
 
 [recipe_for_isolating_all_duplicates Week 8 Recipe]
+- *Question* (who7-stat6250): What is the main advantage by using the first and last variable to remove duplicates verse using the proc sort method shown in Week 3?
 
 
 
 [recipe_for_drop_and_swap Week 8 Recipe]
+- *Question* (who7-stat6250): What other scenerio would we prefer to sort the data by coverting them to character first?
 
 
