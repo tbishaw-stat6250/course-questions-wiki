@@ -487,3 +487,4 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (sbagdi-stat6250)- The three operatos are different from each other in terms of the set-theoretic rules they implement, yet their mechanics is similar.
 
 
+
