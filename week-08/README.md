@@ -42,6 +42,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Are function mean(var1,var2,var3, var4) and mean(of var1-var4) same?
 - *Answer* (ldai4-stat6250): Yes. they are same. But the work OF can not be omitted.
 - *Question* (xyin6-stat6250): Where should we put the word "of" if we want mean value of x1,x2,x4, excluding x3?
+- *Question* (jcanfield3-stat6250): What is another way to calculate this mean?
+- *Answer* (jcanfield3-stat6250): This can be done by writing 'mean(var1, var2, var3, var4);'.
 
 
 
@@ -72,6 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): SAS automatically converts the character values of PayRate to numeric values so that the calculation can occur. A message is showed in the SAS log.
 - *Question* (xyin6-stat6250): Is there any restrictions in the automatic character-to-numeric conversion?
 - *Answer* (xyin6-stat6250): It will produce a numeric missing value from any character value that does not conform to standard numeric notation (digits with an optional decimal point, leading sign or scientific notation).
+- *Question* (jcanfield3-stat6250): How does SAS identify variables that can be converted to numeric?
 
 
 
@@ -99,6 +102,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (cnguyen77-stat6250): You explicitly convert character values to numeric values by using the INPUT function. Be sure to select an informat that can read the form of the values.
 - *Question* (ldai4-stat6250): SAS can automatically convert character values to numeric values, but why is INPUT function usually used?
 - *Question* (xyin6-stat6250): When choosing the numeric informat in the INPUT function, do we refer to the longest character value?
+- *Question* (jcanfield3-stat6250): Why do we need separate Put and Input functions rather than one that does both? 
 
 
 
@@ -125,6 +129,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): What is the difference between INPUT function and PUT function?
 - *Question* (xyin6-stat6250): What happens if we use the PUT function to create a variable that has not been previously identifies?
 - *Answer* (xyin6-stat6250): It will create a character variable whose length is equal to the format width.
+- *Question* (jcanfield3-stat6250): Is there ever a situation where a variable cannot be converted back to its original data type after transformation?  (Ex a numeric converted to char, that cannot be converted back to a numeric)
 
 
 
@@ -153,6 +158,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): Does the MDY function accept two-digit value for the year?
 - *Answer* (ldai4-stat6250): Yes, SAS accepts two-digit year. But SAS interprets two_digit values according to the 100-year span that is set by the YEARCUTOFF=system option.
 - *Question* (xyin6-stat6250): What does the format "date9." represent in the date conversion process?
+- *Question* (jcanfield3-stat6250): Is the MDY function capable of handling 5 digit years?
 
 
 
@@ -179,6 +185,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (ldai4-stat6250): The SCAN function is used to extract words from a character value when you know the order of the words, when their position varies, and when the words are marked by some delimiter.
 - *Question* (xyin6-stat6250): What is the most significant difference between SCAN and SUBSTR function?
 - *Answer* (xyin6-stat6250): The SUBSTR function is best used when you know the exact position of the string that you want to extract from the character value. By contrast, the SCAN function is best used when you know the order of the words in the character value; the starting position of the words varies and the words are marked by some delimiter.
+- *Question* (jcanfield3-stat6250): Why is option d not a valid answer?
+- *Answer* (jcanfield3-stat6250): While option D does produce the correct value for this specific value, it does not provide the correct value for all values of this format. (Ex. Santa Barbara, CA would result in State = 'A,') 
 
 
 
@@ -204,6 +212,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (ldai4-stat6250): If we know the exact position of the substring to extract from the character value, what function is best used?
 - *Question* (xyin6-stat6250): In the SUBSTR function, if position =2 and n is omitted, what will happen to the character value?
 - *Answer* (xyin6-stat6250): All the remaining characters starting from position 2 will be included in the substring.
+- *Question* (jcanfield3-stat6250): What happens when you do not specify the number of values to extract when using substr?
 
 
 
@@ -228,6 +237,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): When is the INDEX function being used?
 - *Question* (ldai4-stat6250): Must the INDEX function be used in a subsetting IF statement?
 - *Question* (xyin6-stat6250): When should we put quotation marks inside the INTNX function?
+- *Question* (jcanfield3-stat6250): How would I make sure the function finds the word 'walnut' instead of the string?
 
 
 
@@ -250,6 +260,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): How to isolate duplicate values of records of a SAS data set?
 - *Question* (ldai4-stat6250): How can we remove the duplicates in new data set?
 - *Question* (xyin6-stat6250): Still confused why both first.school_code and last.school_code equals 1 represents there's no duplicates?
+- *Question* (jcanfield3-stat6250): If the data is presorted is the 'by statement' needed when forming the dups dataset?
 
 
 
@@ -272,5 +283,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (cnguyen77-stat6250): What is the function of "call missing (variable)"?
 - *Question* (ldai4-stat6250): When match-merging, if we use DROP= data set option, do the dropped variables still exist in the original data set?
 - *Question* (xyin6-stat6250): What does best12. represent? Is it a default formatting way?
+- *Question* (jcanfield3-stat6250): What does the 'kd' option stand for?
+- *Answer* (jcanfield3-stat6250): It is actually two options, k "keeps the characters in the list instead of removing them" and d "adds digits to the list of characters."
 
 
