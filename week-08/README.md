@@ -21,6 +21,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):Yes, we do.
 - Question(dfei-stat6250): What is coding format to calculates the average of the variables a, b, c?
 - Answer(dfei-stat6250): It is mean(of a-b).
+- Question (aguenane−stat6250): Do we really need to word OF inside the mean function?
+- Answer (aguenane−stat6250): If you omit the word OF, the function argument might not be interpreted as expect
 
 
 
@@ -30,6 +32,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(pcheng14-stat6250):When this DATA step is executed.
 - Question(dfei-stat6250): What will happen in SAS when a character variable calculate with a numeric one?
 - Answer(dfei-stat6250): Sas will convert character to numeric to meet the calculation if possible.
+- Question (aguenane-stat6250): What is the target variables?
+- Answer (aguenane-stat6250): A target variable is the variable to whic the result of a function is assigned.
 
 
 
@@ -39,6 +43,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When should we use the INPUT function?
 - Answer(pcheng14-stat6250):When we explicitly convert character values to numeric values.
 - Question(dfei-stat6250): What is "put" statement mean in SAS programming? How does it work?
+- Question (aguenane−stat6250): Which fuction should we use to convert character value to numeric value?
+- Answer (aguenane−stat6250): we should use INPUT function.
 
 
 
@@ -47,6 +53,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(pcheng14-stat6250):When should we use the PUT function?
 - Question(dfei-stat6250): What does SiteNum value mean?
 - Answer(dfei-stat6250): It is a numeric character shows the location in computers.
+- Question (aguenane−stat6250): What is the correct format for PUT function?
 
 
 
@@ -55,6 +62,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(tchan49-stat6250):Yes, but SAS interprets two-digit values according to the 100-year span that is set by the YEARCUTOFF=. 
 - Question(pcheng14-stat6250):What is the meaning of MDY function?
 - Question(dfei-stat6250): What is DMY statement when I want to know the day after 1000 days after special day?
+- Question (aguenane−stat6250): how to write date in correct order in MDY function?
 
 
 
@@ -62,6 +70,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):When SCAN is used, do you hava to list the delimiters?
 - Question(pcheng14-stat6250):When and why should we use the SCAN function?
 - Question(dfei-stat6250): What is the difference between State=scan and State=substr statements?
+- Question (aguenane−stat6250): When can we use the SCAN function?
 
 
 
@@ -70,6 +79,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer(tchan49-stat6250):All remaining characters are inclued in the substring.
 - Question(pcheng14-stat6250):What is the SUBSTR function?
 - Question(dfei-stat6250): How to assign MDY character to a new variable?
+- Question (aguenane-stat6250): What is the difference between SCAN and SUBSTR?
 
 
 
@@ -77,6 +87,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):What is the benefit of FIND statement over INDEX statement?
 - Question(pcheng14-stat6250):Besides using the INDEX function in a subsetting IF statement, when can we use it?
 - Question(dfei-stat6250): How to create a subset of the data in which the values of Finish contain the string? 
+- Question (aguenane−stat6250): What is the default order when use INDEX function to search values?
 
 
 
@@ -84,6 +95,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):Why is it important to isolat all deplicated keys? Is this step necessary? 
 - Question(pcheng14-stat6250):Why should we sort the data with respect to the unique id schema?
 - Question(dfei-stat6250): In the short video, the example show us "if...then..." statement, is "then" necessary or not?
+- Question (aguenane−stat6250): Can we do the doublecate comparision without isolating the rows in a temperory dataset?
 
 
 
@@ -91,5 +103,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question(tchan49-stat6250):What is the function kd? What does it do when extracting character variables? 
 - Question(pcheng14-stat6250):What is the meaning of "business logic"?
 - Question(dfei-stat6250): How many ways can we rename variables in SAS programming?
+- Question (aguenane-stat6250): Why is it necessary to rename High_Grade?
 
 
