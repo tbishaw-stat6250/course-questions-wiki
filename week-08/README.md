@@ -25,6 +25,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane−stat6250): If you omit the word OF, the function argument might not be interpreted as expect
 - *Question* (asharda-stat6250): What does a mean function do?
 - *Answer* (asharda-stat6250): It calculates the mean of the variables that are listed as arguments.
+- *Question* (aacharya4−stat6250): How can we specify a range of values as a function argument in SAS?
+- *Answer* (aacharya4−stat6250): In order to specify a range of values as a function argument in SAS, we need to precede the list of variables with keyword 'OF'. Eg: sum(of va1-var10)
 
 
 
@@ -38,6 +40,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane-stat6250): A target variable is the variable to whic the result of a function is assigned.
 - *Question* (asharda-stat6250): What happens when data is automatically converted?
 - *Answer* (asharda-stat6250): Whenever data is automatically converted ,a message is written to the SAS log stating that the conversion has occured.
+- *Question* (aacharya4−stat6250): What function is used to convert numeric variable to character variable? 
+- *Answer* (aacharya4−stat6250): In SAS, numeric variable is converted to numeric variable using PUT function. 
 
 
 
@@ -51,6 +55,8 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (aguenane−stat6250): we should use INPUT function.
 - *Question* (asharda-stat6250): What is the use of  INPUT function?.
 - *Answer* (asharda-stat6250): INPUT function is used to convert character data values to numeric values. 
+- *Question* (aacharya4−stat6250): What is the use of format in PUT and INPUT function?
+- *Answer* (aacharya4−stat6250): The use of format signifies what format type is to be used on the original variable type. For eg: In case of INPUT function to convert a character value to numeric, the format must be a character format.
 
 
 
@@ -62,6 +68,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): What is the correct format for PUT function?
 - *Question* (asharda-stat6250): Which function do you use to convert numeric values to character values?
 - *Answer* (asharda-stat6250): PUT function is used to convert numeric values to character values. 
+- *Question* (aacharya4−stat6250): What function is used to convert character variable to numeric variable? 
+- *Answer* (aacharya4−stat6250): Character variable is converted to numeric variable using INPUT function.
 
 
 
@@ -73,6 +81,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (aguenane−stat6250): how to write date in correct order in MDY function?
 - *Question* (asharda-stat6250): What does a year function return?
 - *Answer* (asharda-stat6250): A year function returns a four-digit numeric values that represents the year.
+- *Question* (aacharya4−stat6250): What is the default value of the YEARCUTTOFF system option in SAS?
+- *Answer* (aacharya4−stat6250): The default value of the YEARCUTTOFF system option in SAS is 1920.
 
 
 
@@ -82,6 +92,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): What is the difference between State=scan and State=substr statements?
 - Question (aguenane−stat6250): When can we use the SCAN function?
 - *Question* (asharda-stat6250): What is the use of SCAN function?
+- *Question* (aacharya4−stat6250): What is the use of SCAN function in SAS?
+- *Answer* (aacharya4−stat6250): The SCAN function returns the nth word from a character string.
 
 
 
@@ -92,6 +104,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How to assign MDY character to a new variable?
 - Question (aguenane-stat6250): What is the difference between SCAN and SUBSTR?
 - *Question* (asharda-stat6250): What is the use of SUBSTR function?.
+- *Question* (aacharya4−stat6250): What is the best option to extract a character value when its position is known in a character string?
+- *Answer* (aacharya4−stat6250): SUBSTR is the best option to extract a character value when its position is known in a character string.
 
 
 
@@ -101,6 +115,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How to create a subset of the data in which the values of Finish contain the string? 
 - Question (aguenane−stat6250): What is the default order when use INDEX function to search values?
 - *Question* (asharda-stat6250): What happens when  SUBSTR function is placed on the right side of an assignment statement?.
+- *Question* (aacharya4−stat6250): What is the use of INDEX function in SAS?
+- *Answer* (aacharya4−stat6250): The INDEX function searches for the chaarcter expression in a character string and returns the position of string's first character in its first occurance.
 
 
 
@@ -110,6 +126,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): In the short video, the example show us "if...then..." statement, is "then" necessary or not?
 - Question (aguenane−stat6250): Can we do the doublecate comparision without isolating the rows in a temperory dataset?
 - *Question* (asharda-stat6250): What is the advantage of storing result in an auxiliary dataset?.
+- *Question* (aacharya4−stat6250): What is the difference of between using proc sort with dupout= option and using first and last variable in by-group processing in data step to remove duplicates in a datset?
+- *Answer* (aacharya4−stat6250): In case of using proc sort with dupout= option a new dataset is created with dulpcate rows while using first and last variable in by-group processing outputs all duplicate rows to be isolated for comparison.
 
 
 
@@ -119,5 +137,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question(dfei-stat6250): How many ways can we rename variables in SAS programming?
 - Question (aguenane-stat6250): Why is it necessary to rename High_Grade?
 - *Question* (asharda-stat6250): What is the advantage of using drop= dataset option?.
+- *Question* (aacharya4−stat6250): what is the default format that is used for in INPUT function with numerical variables having no digits after the decimal place?
+- *Answer* (aacharya4−stat6250): "best12." is the default format that is used for in INPUT function with numerical variables having no digits after the decimal place.
 
 
