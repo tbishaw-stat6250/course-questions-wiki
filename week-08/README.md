@@ -32,6 +32,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What steps must be taken before using a SAS function?  
 - Answer (tbishaw-stat6250): We must specify the function name followed by the function argument (enclosed in parentheses). 
 - *Question* (cli19−stat6250): Can variables be used as a list in functions in a PROC SQL step?
+- *Question* (jbettonville-stat6250): Do the variables included in the list that is created by the minus sign have to be in order within the data set? (i.e. if variables are arranged in a data set ordered as var3, var1, var2, var4, would the statement that generated the mean of all four variables be mean(of var3-var4)?)
 
 
 
@@ -53,6 +54,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): We can specify a SAS function anywhere that you would use a SAS expression, as long as the function is part of a SAS statement. 
 - *Question* (cli19−stat6250): How does SAS convert character variables to numeric values so that a calculation can be completed?
 - *Answer* (cli19−stat6250): A temporary numeric value for each character value is created to complete the calculation. However, the character values of the variable are not replaced.
+- *Question* (jbettonville-stat6250): Is it possible to permanently convert a character value to a numeric value in the same step as completing a mathematical evaluation with the original character value?
 
 
 
@@ -72,6 +74,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): When does Automatic character-to-numberic conversion occur?
 - *Question* (cli19−stat6250): SAS generates a NOTE in the log when characters are converted to numeric values in order to complete calculations. Does SAS display a message in the log when character values are converted to numeric in an INPUT function?
 - *Answer* (cli19−stat6250): No, no conversion messages appear in the SAS log when the INPUT function is used.
+- *Question* (jbettonville-stat6250): When converting character values to numeric values with INPUT, what is the result if the character values contain numeric data that does not consistently conform to a standard informat?
 
 
 
@@ -89,6 +92,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What function can we use to convert character data values to numeric values?
 - *Question* (cli19−stat6250): How can you determine the format of variables?
 - *Answer* (cli19−stat6250): One approach may involve using PROC CONTENTS to see the format of variables in a data set.
+- *Question* (jbettonville-stat6250): Is it possible and/or useful to use regular expressions to do more complex conversions between formats?
 
 
 
@@ -107,6 +111,7 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): What happens if you skip the INOUT function or the PUT function when converting data?
 - Answer (tbishaw-stat6250): SAS will detect the mismatched variables and will try an automatic character-to-numeric or numeric-to-character conversion.
 - *Question* (cli19−stat6250): What is the benefit to using the MDY(MM,DD,YYYY) to set the date rather than explicitly stating it with 'DDMONYYY'dt?
+- *Question* (jbettonville-stat6250): Under what circumstances might we want to alter the YEARCUTOFF= value when starting a SAS session?
 
 
 
@@ -122,6 +127,8 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): Can you display SAS date values in a variety of forms? and how can this be accomplished?
 - Answer (tbishaw-stat6250): You can display SAS date values in a variety of forms by associating a SAS format with the values.
 - *Question* (cli19−stat6250): How does the SCAN function work if a string contains multiple commas, or delimiters?
+- *Question* (jbettonville-stat6250): When might the SUBSTR function be used instead of the SCAN function when parsing character values?
+- *Answer* (jbettonville-stat6250): SUBSTR returns a value of a specified length at a specified position within a string. When a value within a data set is consistently structured, SUBSTR can be used to extract different parts of a specified variable.
 
 
 
@@ -137,6 +144,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): What is the difference between SCAN, SUBSTR, and TRIM functions? Do these functions change the data permanently?
 - Question (tbishaw-stat6250): Which SAS function do you use to return the integer portion of a numeric value?
 - *Question* (cli19−stat6250): The SUBSTR function counts the index from left to right. Is it possible to start the count from right to left to capture the last x values in a string?
+- *Question* (jbettonville-stat6250): What happens if the length of the output substring is not specified when using SUBSTR?
+- *Answer* (jbettonville-stat6250): If the third argument is not included in the SUBSTR function, the resulting substring contains all characters from the original string starting from the specified index.
 
 
 
@@ -153,6 +162,7 @@ The instructor will then review the pull request and make comments should furthe
 - Answer (tbishaw-stat6250): You can nest any functions as long as the function that is used as the argument meets the requirements for the argument
 - *Question* (cli19−stat6250): What value does the INDEX function return if the sough after string is not found?
 - *Answer* (cli19−stat6250): The INDEX function returns the position of the string's first character. If the string is not found it returns a value of 0.
+- *Question* (jbettonville-stat6250): Can multiple INDEX statements be used with additional IF statements to create subsets based on multiple conditions at once?
 
 
 
@@ -167,6 +177,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (aamiri2-stat6250): Is there an alternative approach to remove duplicate data and still do a comparison?
 - Question (tbishaw-stat6250): What SAS functions can we use to isolate duplicates in a dataset? 
 - *Question* (cli19−stat6250): How does the dupout= option in PROC SORT process data differently than using FIRST. and LAST.?
+- *Question* (jbettonville-stat6250): How might we extract only records for which the target variable is not duplicated?
+- *Answer* (jbettonville-stat6250): In the example provided in the recipe, the records containing unique values in the target variable could be selected by setting the contents of the IF statement to FIRST.School_Code * LAST.School_Code = 1, which would only return values for which the FIRST. and LAST. values for a given variable are both 1, which would indicate that the record in question represents the only instance of that value when sorted by the less deeply nested variables.
 
 
 
@@ -182,5 +194,6 @@ The instructor will then review the pull request and make comments should furthe
 - Question (tbishaw-stat6250): Which SAS functions allows us to perform a character-to-numeric converstion?
 - Answer (tbishaw-stat6250): We use the INPUT function to perform a character-to-numeric conversion, this technique is called swap and drop.
 - *Question* (cli19−stat6250): What other options can be specified in the COMPRESS function to remove unwanted characters, numbers, etc. from values of a variable?
+- *Question* (jbettonville-stat6250): When using the COMPRESS function, there does not appear to be an appreciable difference between writing the option characters as 'kd' or as 'dk'; what is reason for selecting the non-alphabetic order option in the recipe example? 
 
 
