@@ -16,8 +16,7 @@ The instructor will then review the pull request and make comments should furthe
 
 [Course Textbook Chapter 14, Problem 1]
 - *Question* (asharda-stat6250): Why do you need a DO loop?
-- *Answer* (asharda-stat6250): You can execute SAS statements repeatedly by placing them in a DO loop. DO loops can execute any
-number of times in a single iteration of the DATA step.
+- *Answer* (asharda-stat6250): You can execute SAS statements repeatedly by placing them in a DO loop. 
 
 
 
