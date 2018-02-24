@@ -82,42 +82,42 @@ The instructor will then review the pull request and make comments should furthe
 
 
 [Course Textbook Chapter 15, Problem 4]
-*Question* (shatcher4-stat6250): How do you specify the elements of an array?
+- *Question* (shatcher4-stat6250): How do you specify the elements of an array?
 
 
 
 [Course Textbook Chapter 15, Problem 5]
-*Question* (shatcher4-stat6250): What is the purpose of the i in the DO loop of an array?
+- *Question* (shatcher4-stat6250): What is the purpose of the i in the DO loop of an array?
 
 
 
 [Course Textbook Chapter 15, Problem 6]
-*Question* (shatcher4-stat6250):  If exisiting variables within an array are not referenced, why does SAS automatically create new variables and assigns them default names?
+- *Question* (shatcher4-stat6250):  If exisiting variables within an array are not referenced, why does SAS automatically create new variables and assigns them default names?
 
 
 
 [Course Textbook Chapter 15, Problem 7]
-*Question* (shatcher4-stat6250): How do you create an array of character variables?
+- *Question* (shatcher4-stat6250): How do you create an array of character variables?
 
 
 
 [Course Textbook Chapter 15, Problem 8]
-*Question* (shatcher4-stat6250): What is the purpose of temporary array elements?
-*Answer* (shatcher4-stat6250): Temporary array elements are useful when the array is needed for calculations, since these temporary arrays can improve performance time.
+- *Question* (shatcher4-stat6250): What is the purpose of temporary array elements?
+- *Answer* (shatcher4-stat6250): Temporary array elements are useful when the array is needed for calculations, since these temporary arrays can improve performance time.
 
 
 
 [Course Textbook Chapter 15, Problem 9]
-*Question* (shatcher4-stat6250): How do assign inital values in an ARRAY statement?What is the purpose of temporary array elements 
+- *Question* (shatcher4-stat6250): How do assign inital values in an ARRAY statement?What is the purpose of temporary array elements 
 
 
 
 [recipe_to_create_unique_record_id Week 9 Recipe]
-*Question* (shatcher4-stat6250): What is the purpose of the double-pipe operator?
+- *Question* (shatcher4-stat6250): What is the purpose of the double-pipe operator?
 
 
 
 [recipe_to_disaggregate_counts_data Week 9 Recipe]
-*Question* (shatcher4-stat6250): Why would you use a retain attribute in a DO loop?
+- *Question* (shatcher4-stat6250): Why would you use a retain attribute in a DO loop?
 
 
