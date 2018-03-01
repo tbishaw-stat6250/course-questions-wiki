@@ -23,6 +23,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250): You can execute SAS statements repeatedly by placing them in a DO loop. 
 - *Question* (shatcher4-stat6250): What can DO loops be used for?
 - *Answer* (shatcher4-stat6250): DO loops can execute any number of times in a single iteration of the DATA step, it can also generate data, conditionally execute statements, and read data.
+- *Question* (ldai4-stat6250): What is DO loops?
+- *Answer* (ldai4-stat6250): The DO loops are DATA step statement and cannot be used in conjunction with PROC steps.
 
 
 
@@ -34,6 +36,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): How are number of iterations determined in a DO step?.
 - *Answer* (asharda-stat6250): The number of iterations is determined by the DO statement's stop value.
 - *Question* (shatcher4-stat6250): What is the purpose of the index variable in a DO loop?
+- *Question* (ldai4-stat6250): Is the number of iterations determined by the DO statement's stop value?
 
 
 
@@ -45,6 +48,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): Using a DO loop how will you perform repetitive calculations starting at 1 and looping 25 times. 
 - *Answer* (asharda-stat6250): do count=1 to 25;
 - *Question* (shatcher4-stat6250): What are the different conditions that execute the DO loop?
+- *Question* (ldai4-stat6250): Can the DO loop statement be used to calculate a balance with a constant interest?
 
 
 
@@ -55,6 +59,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the use of TO clause in DO statement
 - *Answer* (asharda-stat6250): The TO clause specifies the stop value. The stop value is the last index value that executes the DO loop. 
 - *Question* (shatcher4-stat6250): When a DO loop is executed, what does the DATA step do?
+- *Question* (ldai4-stat6250): Why do we need to specify an index variable when creating a DO loop with the iterative DO statement?
+- *Answer* (ldai4-stat6250): The index variable stores the value of the current iteration of the DO loop.
 
 
 
@@ -65,6 +71,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the use of OUTPUT statement ?
 - *Answer* (asharda-stat6250): The OUTPUT statement overrides the automatic output at the end of the DATA step. 
 - *Question* (shatcher4-stat6250): Why does an OUTPUT statement need to be placed inside a DO loop?
+- *Question* (ldai4-stat6250): Does the OUTPUT statement override the automatic output at the end of the dATA step?
 
 
 
@@ -75,6 +82,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What is the numbe rof observations based on ?
 - *Answer* (asharda-stat6250): The number of observations is based on the number of times the OUTPUT statement executes.
 - *Question* (shatcher4-stat6250): How do you specify how many times a DO loop executes with a variable list?
+- *Question* (ldai4-stat6250): What determines the number of observations in DO loop statement?
+- *Answer* (ldai4-stat6250): The number of observation is based on the number of times the OUTPUT statement executes.
 
 
 
@@ -85,6 +94,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): Which statements do you use to loop  when number of iterations is fixed?.
 - *Answer* (asharda-stat6250):  DO WHILE and DO UNTIL statement.
 - *Question* (shatcher4-stat6250): What is the purpose of the DO WHILE and DO UNTIL statements?
+- *Question* (ldai4-stat6250): What is the difference between DO WHILE statement and DO UNTIL statement?
 
 
 
@@ -95,6 +105,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): When is DO UNTIL condition evaluated?.
 - *Answer* (asharda-stat6250):  The DO UNTIL condition is evaluated at the bottom of the loop, so the enclosed statements are always excecuted at least once.
 - *Question* (shatcher4-stat6250): During what part of the loop is the DO UNTIL statemnet evaluated, and what happens if the expression is evaluated as false?
+- *Question* (ldai4-stat6250): In executing DO until statement, are the enclosed statement always executed at least once?
 
 
 
@@ -105,6 +116,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): When is DO WHILE loop evaluated?.
 - *Answer* (asharda-stat6250): DO WHILE loop is evaluated at the top of the loop.
 - *Question* (shatcher4-stat6250): During what part of the loop is the DO WHILE statemnet evaluated, and what happens if the expression is evaluated as true?
+- *Question* (ldai4-stat6250): Why do we need to specify the condition in DO WHILE statement?
 
 
 
@@ -114,6 +126,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): Nested DO loops can be used in SAS where each DO loop has an unique index variable for each DO loop and each of the DO loops has its own terminating END statement.
 - *Question* (asharda-stat6250): What is difference between DO UNTIL and DO WHILE statements?
 - *Question* (shatcher4-stat6250): What occurs when you enclose a SET statement in a DO loop and what occurs when you add a POINT= option to that SET statement?
+- *Question* (ldai4-stat6250): If we want to the DO LOOP to stop executing some condition, should we use the WHILE statement?
 
 
 
@@ -124,6 +137,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What does an ARRAY statement do?.
 - *Answer* (asharda-stat6250):  It merely defines an array.
 - *Question* (shatcher4-stat6250): What is a SAS array?
+- *Question* (ldai4-stat6250): What is ARRAY statement?
+- *Answer* (ldai4-stat6250): The ARRAY statement can be used to create variables, must contain either all numeric or all character elements, and must be used to define an array before the array name can be referenced.
 
 
 
@@ -134,6 +149,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What does the value in parentheses indicate?.
 - *Answer* (asharda-stat6250):  The value in parentheses indicates the number of elements in the array.
 - *Question* (shatcher4-stat6250): What is the purpose of the specification of the dimension of the array?
+- *Question* (ldai4-stat6250): Does the value in parentheses indicate the number of elements in the array?
 
 
 
@@ -145,6 +161,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (asharda-stat6250):  Index variable represents the values of the array elements in the DO statement.
 - *Question* (shatcher4-stat6250): When are arrays used with a DO loop?
 - *Answer* (shatcher4-stat6250): Arrays are generally used with DO loops to process multiple variables and to perform repetitive calculations.
+- *Question* (ldai4-stat6250): How can we specify the index variable that represents the values of the array elements in the DO statement?
+- *Answer* (ldai4-stat6250): We need to specify the start and stop position of the array elements. 
 
 
 
@@ -155,6 +173,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): What does an index value represents .
 - *Answer* (asharda-stat6250):  The index value represents the position of the array element.
 - *Question* (shatcher4-stat6250): How do you specify the elements of an array?
+- *Question* (ldai4-stat6250): What does the index value represent?
 
 
 
@@ -165,6 +184,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): How do you process all the elements in an array?
 - *Answer* (asharda-stat6250):  To process all the elements in an array, you can either specify the array dimension or use the DIM function with the array name as the argument.
 - *Question* (shatcher4-stat6250): What is the purpose of the i in the DO loop of an array?
+- *Question* (ldai4-stat6250): How can we use the DIM function?
 
 
 
@@ -175,6 +195,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): How do you process all the elements in an array?
 - *Answer* (asharda-stat6250):  To process all the elements in an array, you can either specify the array dimension or use the DIM function with the array name as the argument.
 - *Question* (shatcher4-stat6250):  If exisiting variables within an array are not referenced, why does SAS automatically create new variables and assigns them default names?
+- *Question* (ldai4-stat6250): Do we need to specify the array elements in the ARRAY statement?
 
 
 
@@ -185,6 +206,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): Which  variables can be created by an ARRAY statement.
 - *Answer* (asharda-stat6250):  Either numeric or character variables can be created by an ARRAY statement. 
 - *Question* (shatcher4-stat6250): How do you create an array of character variables?
+- *Question* (ldai4-stat6250): Can we give an array the same name as a variqable in the same DATA step?
 
 
 
@@ -195,6 +217,8 @@ The instructor will then review the pull request and make comments should furthe
 - *Question* (asharda-stat6250): How do you reference the elements of an array.
 - *Question* (shatcher4-stat6250): What is the purpose of temporary array elements?
 - *Answer* (shatcher4-stat6250): Temporary array elements are useful when the array is needed for calculations, since these temporary arrays can improve performance time.
+- *Question* (ldai4-stat6250): How temporary array element can be created?
+- *Answer* (ldai4-stat6250): To create temporary array element, specify _TEMPORARY_ after the array name and dimension, specify an inital value for each element, separated by either blanks or commas, and enclose the values in parentheses.
 
 
 
@@ -204,6 +228,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): We can use arrays to rotate datasets (changing variable to observation and vice versa) in SAS.
 - *Question* (asharda-stat6250): How do you create  create temporary array elements?
 - *Question* (shatcher4-stat6250): How do assign inital values in an ARRAY statement?What is the purpose of temporary array elements 
+- *Question* (ldai4-stat6250): How do we specify the array reference in the nested DO loops?
 
 
 
@@ -213,6 +238,7 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): The "z6." format is used to make the converted character value to be exactly of 6 digits, which is one magnitude larger than the number of records of the dataset being used.
 - *Question* (asharda-stat6250): What happens during compilation phase of data step?.
 - *Question* (shatcher4-stat6250): What is the purpose of the double-pipe operator?
+- *Question* (ldai4-stat6250): How can I assign serial numbers to observations in a data set?
 
 
 
@@ -222,5 +248,6 @@ The instructor will then review the pull request and make comments should furthe
 - *Answer* (aacharya4−stat6250): In a DATA step, SAS sets the initial values of variables created by INPUT or assignment system as missing by default. The RETAIN statement overrides this default, so the value of the variable is retained when used with RETAIN statement.
 - *Question* (asharda-stat6250): What is the use of where not statement?.
 - *Question* (shatcher4-stat6250): Why would you use a retain attribute in a DO loop?
+- *Question* (ldai4-stat6250): In using PROC mean statement, how can we calculate disaggregate statistics?
 
 
